@@ -1,0 +1,36 @@
+code,prefecture_code,name,name_kana,name_romaji
+10201,10,前橋市,マエバシシ,MAEBASHI SHI
+10202,10,高崎市,タカサキシ,TAKASAKI SHI
+10203,10,桐生市,キリュウシ,KIRYU SHI
+10204,10,伊勢崎市,イセサキシ,ISESAKI SHI
+10205,10,太田市,オオタシ,OTA SHI
+10206,10,沼田市,ヌマタシ,NUMATA SHI
+10207,10,館林市,タテバヤシシ,TATEBAYASHI SHI
+10208,10,渋川市,シブカワシ,SHIBUKAWA SHI
+10209,10,藤岡市,フジオカシ,FUJIOKA SHI
+10210,10,富岡市,トミオカシ,TOMIOKA SHI
+10211,10,安中市,アンナカシ,ANNAKA SHI
+10212,10,みどり市,ミドリシ,MIDORI SHI
+10344,10,北群馬郡榛東村,キタグンマグンシントウムラ,KITAGUMMA GUN SHINTO MURA
+10345,10,北群馬郡吉岡町,キタグンマグンヨシオカマチ,KITAGUMMA GUN YOSHIOKA MACHI
+10366,10,多野郡上野村,タノグンウエノムラ,TANO GUN UENO MURA
+10367,10,多野郡神流町,タノグンカンナマチ,TANO GUN KANNA MACHI
+10382,10,甘楽郡下仁田町,カンラグンシモニタマチ,KANRA GUN SHIMONITA MACHI
+10383,10,甘楽郡南牧村,カンラグンナンモクムラ,KANRA GUN NAMMOKU MURA
+10384,10,甘楽郡甘楽町,カンラグンカンラマチ,KANRA GUN KANRA MACHI
+10421,10,吾妻郡中之条町,アガツマグンナカノジョウマチ,AGATSUMA GUN NAKANOJO MACHI
+10424,10,吾妻郡長野原町,アガツマグンナガノハラマチ,AGATSUMA GUN NAGANOHARA MACHI
+10425,10,吾妻郡嬬恋村,アガツマグンツマゴイムラ,AGATSUMA GUN TSUMAGOI MURA
+10426,10,吾妻郡草津町,アガツマグンクサツマチ,AGATSUMA GUN KUSATSU MACHI
+10428,10,吾妻郡高山村,アガツマグンタカヤマムラ,AGATSUMA GUN TAKAYAMA MURA
+10429,10,吾妻郡東吾妻町,アガツマグンヒガシアガツママチ,AGATSUMA GUN HIGASHIAGATSUMA MACHI
+10443,10,利根郡片品村,トネグンカタシナムラ,TONE GUN KATASHINA MURA
+10444,10,利根郡川場村,トネグンカワバムラ,TONE GUN KAWABA MURA
+10448,10,利根郡昭和村,トネグンショウワムラ,TONE GUN SHOWA MURA
+10449,10,利根郡みなかみ町,トネグンミナカミマチ,TONE GUN MINAKAMI MACHI
+10464,10,佐波郡玉村町,サワグンタマムラマチ,SAWA GUN TAMAMURA MACHI
+10521,10,邑楽郡板倉町,オウラグンイタクラマチ,ORA GUN ITAKURA MACHI
+10522,10,邑楽郡明和町,オウラグンメイワマチ,ORA GUN MEIWA MACHI
+10523,10,邑楽郡千代田町,オウラグンチヨダマチ,ORA GUN CHIYODA MACHI
+10524,10,邑楽郡大泉町,オウラグンオオイズミマチ,ORA GUN OIZUMI MACHI
+10525,10,邑楽郡邑楽町,オウラグンオウラマチ,ORA GUN ORA MACHI

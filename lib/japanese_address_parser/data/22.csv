@@ -1,0 +1,44 @@
+code,prefecture_code,name,name_kana,name_romaji
+22101,22,静岡市葵区,シズオカシアオイク,SHIZUOKA SHI AOI KU
+22102,22,静岡市駿河区,シズオカシスルガク,SHIZUOKA SHI SURUGA KU
+22103,22,静岡市清水区,シズオカシシミズク,SHIZUOKA SHI SHIMIZU KU
+22131,22,浜松市中区,ハママツシナカク,HAMAMATSU SHI NAKA KU
+22132,22,浜松市東区,ハママツシヒガシク,HAMAMATSU SHI HIGASHI KU
+22133,22,浜松市西区,ハママツシニシク,HAMAMATSU SHI NISHI KU
+22134,22,浜松市南区,ハママツシミナミク,HAMAMATSU SHI MINAMI KU
+22135,22,浜松市北区,ハママツシキタク,HAMAMATSU SHI KITA KU
+22136,22,浜松市浜北区,ハママツシハマキタク,HAMAMATSU SHI HAMAKITA KU
+22137,22,浜松市天竜区,ハママツシテンリュウク,HAMAMATSU SHI TENRYU KU
+22203,22,沼津市,ヌマヅシ,NUMAZU SHI
+22205,22,熱海市,アタミシ,ATAMI SHI
+22206,22,三島市,ミシマシ,MISHIMA SHI
+22207,22,富士宮市,フジノミヤシ,FUJINOMIYA SHI
+22208,22,伊東市,イトウシ,ITO SHI
+22209,22,島田市,シマダシ,SHIMADA SHI
+22210,22,富士市,フジシ,FUJI SHI
+22211,22,磐田市,イワタシ,IWATA SHI
+22212,22,焼津市,ヤイヅシ,YAIZU SHI
+22213,22,掛川市,カケガワシ,KAKEGAWA SHI
+22214,22,藤枝市,フジエダシ,FUJIEDA SHI
+22215,22,御殿場市,ゴテンバシ,GOTEMBA SHI
+22216,22,袋井市,フクロイシ,FUKUROI SHI
+22219,22,下田市,シモダシ,SHIMODA SHI
+22220,22,裾野市,スソノシ,SUSONO SHI
+22221,22,湖西市,コサイシ,KOSAI SHI
+22222,22,伊豆市,イズシ,IZU SHI
+22223,22,御前崎市,オマエザキシ,OMAEZAKI SHI
+22224,22,菊川市,キクガワシ,KIKUGAWA SHI
+22225,22,伊豆の国市,イズノクニシ,IZUNOKUNI SHI
+22226,22,牧之原市,マキノハラシ,MAKINOHARA SHI
+22301,22,賀茂郡東伊豆町,カモグンヒガシイズチョウ,KAMO GUN HIGASHIIZU CHO
+22302,22,賀茂郡河津町,カモグンカワヅチョウ,KAMO GUN KAWAZU CHO
+22304,22,賀茂郡南伊豆町,カモグンミナミイズチョウ,KAMO GUN MINAMIIZU CHO
+22305,22,賀茂郡松崎町,カモグンマツザキチョウ,KAMO GUN MATSUZAKI CHO
+22306,22,賀茂郡西伊豆町,カモグンニシイズチョウ,KAMO GUN NISHIIZU CHO
+22325,22,田方郡函南町,タガタグンカンナミチョウ,TAGATA GUN KANNAMI CHO
+22341,22,駿東郡清水町,スントウグンシミズチョウ,SUNTO GUN SHIMIZU CHO
+22342,22,駿東郡長泉町,スントウグンナガイズミチョウ,SUNTO GUN NAGAIZUMI CHO
+22344,22,駿東郡小山町,スントウグンオヤマチョウ,SUNTO GUN OYAMA CHO
+22424,22,榛原郡吉田町,ハイバラグンヨシダチョウ,HAIBARA GUN YOSHIDA CHO
+22429,22,榛原郡川根本町,ハイバラグンカワネホンチョウ,HAIBARA GUN KAWANEHON CHO
+22461,22,周智郡森町,シュウチグンモリマチ,SHUCHI GUN MORI MACHI

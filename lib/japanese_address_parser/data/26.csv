@@ -1,0 +1,37 @@
+code,prefecture_code,name,name_kana,name_romaji
+26101,26,京都市北区,キョウトシキタク,KYOTO SHI KITA KU
+26102,26,京都市上京区,キョウトシカミギョウク,KYOTO SHI KAMIGYO KU
+26103,26,京都市左京区,キョウトシサキョウク,KYOTO SHI SAKYO KU
+26104,26,京都市中京区,キョウトシナカギョウク,KYOTO SHI NAKAGYO KU
+26105,26,京都市東山区,キョウトシヒガシヤマク,KYOTO SHI HIGASHIYAMA KU
+26106,26,京都市下京区,キョウトシシモギョウク,KYOTO SHI SHIMOGYO KU
+26107,26,京都市南区,キョウトシミナミク,KYOTO SHI MINAMI KU
+26108,26,京都市右京区,キョウトシウキョウク,KYOTO SHI UKYO KU
+26109,26,京都市伏見区,キョウトシフシミク,KYOTO SHI FUSHIMI KU
+26110,26,京都市山科区,キョウトシヤマシナク,KYOTO SHI YAMASHINA KU
+26111,26,京都市西京区,キョウトシニシキョウク,KYOTO SHI NISHIKYO KU
+26201,26,福知山市,フクチヤマシ,FUKUCHIYAMA SHI
+26202,26,舞鶴市,マイヅルシ,MAIZURU SHI
+26203,26,綾部市,アヤベシ,AYABE SHI
+26204,26,宇治市,ウジシ,UJI SHI
+26205,26,宮津市,ミヤヅシ,MIYAZU SHI
+26206,26,亀岡市,カメオカシ,KAMEOKA SHI
+26207,26,城陽市,ジョウヨウシ,JOYO SHI
+26208,26,向日市,ムコウシ,MUKO SHI
+26209,26,長岡京市,ナガオカキョウシ,NAGAOKAKYO SHI
+26210,26,八幡市,ヤワタシ,YAWATA SHI
+26211,26,京田辺市,キョウタナベシ,KYOTANABE SHI
+26212,26,京丹後市,キョウタンゴシ,KYOTANGO SHI
+26213,26,南丹市,ナンタンシ,NANTAN SHI
+26214,26,木津川市,キヅガワシ,KIZUGAWA SHI
+26303,26,乙訓郡大山崎町,オトクニグンオオヤマザキチョウ,OTOKUNI GUN OYAMAZAKI CHO
+26322,26,久世郡久御山町,クセグンクミヤマチョウ,KUSE GUN KUMIYAMA CHO
+26343,26,綴喜郡井手町,ツヅキグンイデチョウ,TSUZUKI GUN IDE CHO
+26344,26,綴喜郡宇治田原町,ツヅキグンウジタワラチョウ,TSUZUKI GUN UJITAWARA CHO
+26364,26,相楽郡笠置町,ソウラクグンカサギチョウ,SORAKU GUN KASAGI CHO
+26365,26,相楽郡和束町,ソウラクグンワヅカチョウ,SORAKU GUN WAZUKA CHO
+26366,26,相楽郡精華町,ソウラクグンセイカチョウ,SORAKU GUN SEIKA CHO
+26367,26,相楽郡南山城村,ソウラクグンミナミヤマシロムラ,SORAKU GUN MINAMIYAMASHIRO MURA
+26407,26,船井郡京丹波町,フナイグンキョウタンバチョウ,FUNAI GUN KYOTAMBA CHO
+26463,26,与謝郡伊根町,ヨサグンイネチョウ,YOSA GUN INE CHO
+26465,26,与謝郡与謝野町,ヨサグンヨサノチョウ,YOSA GUN YOSANO CHO

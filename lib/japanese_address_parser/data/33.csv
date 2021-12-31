@@ -1,0 +1,31 @@
+code,prefecture_code,name,name_kana,name_romaji
+33101,33,岡山市北区,オカヤマシキタク,OKAYAMA SHI KITA KU
+33102,33,岡山市中区,オカヤマシナカク,OKAYAMA SHI NAKA KU
+33103,33,岡山市東区,オカヤマシヒガシク,OKAYAMA SHI HIGASHI KU
+33104,33,岡山市南区,オカヤマシミナミク,OKAYAMA SHI MINAMI KU
+33202,33,倉敷市,クラシキシ,KURASHIKI SHI
+33203,33,津山市,ツヤマシ,TSUYAMA SHI
+33204,33,玉野市,タマノシ,TAMANO SHI
+33205,33,笠岡市,カサオカシ,KASAOKA SHI
+33207,33,井原市,イバラシ,IBARA SHI
+33208,33,総社市,ソウジャシ,SOJA SHI
+33209,33,高梁市,タカハシシ,TAKAHASHI SHI
+33210,33,新見市,ニイミシ,NIIMI SHI
+33211,33,備前市,ビゼンシ,BIZEN SHI
+33212,33,瀬戸内市,セトウチシ,SETOCHI SHI
+33213,33,赤磐市,アカイワシ,AKAIWA SHI
+33214,33,真庭市,マニワシ,MANIWA SHI
+33215,33,美作市,ミマサカシ,MIMASAKA SHI
+33216,33,浅口市,アサクチシ,ASAKUCHI SHI
+33346,33,和気郡和気町,ワケグンワケチョウ,WAKE GUN WAKE CHO
+33423,33,都窪郡早島町,ツクボグンハヤシマチョウ,TSUKUBO GUN HAYASHIMA CHO
+33445,33,浅口郡里庄町,アサクチグンサトショウチョウ,ASAKUCHI GUN SATOSHO CHO
+33461,33,小田郡矢掛町,オダグンヤカゲチョウ,ODA GUN YAKAGE CHO
+33586,33,真庭郡新庄村,マニワグンシンジョウソン,MANIWA GUN SHINJO SON
+33606,33,苫田郡鏡野町,トマタグンカガミノチョウ,TOMATA GUN KAGAMINO CHO
+33622,33,勝田郡勝央町,カツタグンショウオウチョウ,KATSUTA GUN SHOO CHO
+33623,33,勝田郡奈義町,カツタグンナギチョウ,KATSUTA GUN NAGI CHO
+33643,33,英田郡西粟倉村,アイダグンニシアワクラソン,AIDA GUN NISHIAWAKURA SON
+33663,33,久米郡久米南町,クメグンクメナンチョウ,KUME GUN KUMENAN CHO
+33666,33,久米郡美咲町,クメグンミサキチョウ,KUME GUN MISAKI CHO
+33681,33,加賀郡吉備中央町,カガグンキビチュウオウチョウ,KAGA GUN KIBICHUO CHO

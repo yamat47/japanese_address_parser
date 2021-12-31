@@ -1,0 +1,34 @@
+code,prefecture_code,name,name_kana,name_romaji
+01665,03,盛岡市,モリオカシ,MORIOKA SHI
+01666,03,宮古市,ミヤコシ,MIYAKO SHI
+01667,03,大船渡市,オオフナトシ,OFUNATO SHI
+01669,03,花巻市,ハナマキシ,HANAMAKI SHI
+01670,03,北上市,キタカミシ,KITAKAMI SHI
+01671,03,久慈市,クジシ,KUJI SHI
+03208,03,遠野市,トオノシ,TONO SHI
+03209,03,一関市,イチノセキシ,ICHINOSEKI SHI
+01672,03,陸前高田市,リクゼンタカタシ,RIKUZENTAKATA SHI
+01673,03,釜石市,カマイシシ,KAMAISHI SHI
+01675,03,二戸市,ニノヘシ,NINOHE SHI
+01676,03,八幡平市,ハチマンタイシ,HACHIMANTAI SHI
+01677,03,奥州市,オウシュウシ,OSHU SHI
+01678,03,滝沢市,タキザワシ,TAKIZAWA SHI
+01729,03,岩手郡雫石町,イワテグンシズクイシチョウ,IWATE GUN SHIZUKUISHI CHO
+01730,03,岩手郡葛巻町,イワテグンクズマキマチ,IWATE GUN KUZUMAKI MACHI
+01731,03,岩手郡岩手町,イワテグンイワテマチ,IWATE GUN IWATE MACHI
+01745,03,紫波郡紫波町,シワグンシワチョウ,SHIWA GUN SHIWA CHO
+01746,03,紫波郡矢巾町,シワグンヤハバチョウ,SHIWA GUN YAHABA CHO
+01782,03,和賀郡西和賀町,ワガグンニシワガマチ,WAGA GUN NISHIWAGA MACHI
+03381,03,胆沢郡金ケ崎町,イサワグンカネガサキチョウ,ISAWA GUN KANEGASAKI CHO
+01794,03,西磐井郡平泉町,ニシイワイグンヒライズミチョウ,NISHIIWAI GUN HIRAIZUMI CHO
+01825,03,気仙郡住田町,ケセングンスミタチョウ,KESEN GUN SUMITA CHO
+01841,03,上閉伊郡大槌町,カミヘイグンオオツチチョウ,KAMIHEI GUN OTSUCHI CHO
+03482,03,下閉伊郡山田町,シモヘイグンヤマダマチ,SHIMOHEI GUN YAMADA MACHI
+03483,03,下閉伊郡岩泉町,シモヘイグンイワイズミチョウ,SHIMOHEI GUN IWAIZUMI CHO
+03484,03,下閉伊郡田野畑村,シモヘイグンタノハタムラ,SHIMOHEI GUN TANOHATA MURA
+03485,03,下閉伊郡普代村,シモヘイグンフダイムラ,SHIMOHEI GUN FUDAI MURA
+01857,03,九戸郡軽米町,クノヘグンカルマイマチ,KUNOHE GUN KARUMAI MACHI
+01859,03,九戸郡野田村,クノヘグンノダムラ,KUNOHE GUN NODA MURA
+01862,03,九戸郡九戸村,クノヘグンクノヘムラ,KUNOHE GUN KUNOHE MURA
+01863,03,九戸郡洋野町,クノヘグンヒロノチョウ,KUNOHE GUN HIRONO CHO
+01876,03,二戸郡一戸町,ニノヘグンイチノヘマチ,NINOHE GUN ICHINOHE MACHI

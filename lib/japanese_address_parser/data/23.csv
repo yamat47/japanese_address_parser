@@ -1,0 +1,70 @@
+code,prefecture_code,name,name_kana,name_romaji
+23101,23,名古屋市千種区,ナゴヤシチクサク,NAGOYA SHI CHIKUSA KU
+23102,23,名古屋市東区,ナゴヤシヒガシク,NAGOYA SHI HIGASHI KU
+23103,23,名古屋市北区,ナゴヤシキタク,NAGOYA SHI KITA KU
+23104,23,名古屋市西区,ナゴヤシニシク,NAGOYA SHI NISHI KU
+23105,23,名古屋市中村区,ナゴヤシナカムラク,NAGOYA SHI NAKAMURA KU
+23106,23,名古屋市中区,ナゴヤシナカク,NAGOYA SHI NAKA KU
+23107,23,名古屋市昭和区,ナゴヤシショウワク,NAGOYA SHI SHOWA KU
+23108,23,名古屋市瑞穂区,ナゴヤシミズホク,NAGOYA SHI MIZUHO KU
+23109,23,名古屋市熱田区,ナゴヤシアツタク,NAGOYA SHI ATSUTA KU
+23110,23,名古屋市中川区,ナゴヤシナカガワク,NAGOYA SHI NAKAGAWA KU
+23111,23,名古屋市港区,ナゴヤシミナトク,NAGOYA SHI MINATO KU
+23112,23,名古屋市南区,ナゴヤシミナミク,NAGOYA SHI MINAMI KU
+23113,23,名古屋市守山区,ナゴヤシモリヤマク,NAGOYA SHI MORIYAMA KU
+23114,23,名古屋市緑区,ナゴヤシミドリク,NAGOYA SHI MIDORI KU
+23115,23,名古屋市名東区,ナゴヤシメイトウク,NAGOYA SHI MEITO KU
+23116,23,名古屋市天白区,ナゴヤシテンパクク,NAGOYA SHI TEMPAKU KU
+23201,23,豊橋市,トヨハシシ,TOYOHASHI SHI
+23202,23,岡崎市,オカザキシ,OKAZAKI SHI
+23203,23,一宮市,イチノミヤシ,ICHINOMIYA SHI
+23204,23,瀬戸市,セトシ,SETO SHI
+23205,23,半田市,ハンダシ,HANDA SHI
+23206,23,春日井市,カスガイシ,KASUGAI SHI
+23207,23,豊川市,トヨカワシ,TOYOKAWA SHI
+23208,23,津島市,ツシマシ,TSUSHIMA SHI
+23209,23,碧南市,ヘキナンシ,HEKINAN SHI
+23210,23,刈谷市,カリヤシ,KARIYA SHI
+23211,23,豊田市,トヨタシ,TOYOTA SHI
+23212,23,安城市,アンジョウシ,ANJO SHI
+23213,23,西尾市,ニシオシ,NISHIO SHI
+23214,23,蒲郡市,ガマゴオリシ,GAMAGORI SHI
+23215,23,犬山市,イヌヤマシ,INUYAMA SHI
+23216,23,常滑市,トコナメシ,TOKONAME SHI
+23217,23,江南市,コウナンシ,KONAN SHI
+23219,23,小牧市,コマキシ,KOMAKI SHI
+23220,23,稲沢市,イナザワシ,INAZAWA SHI
+23221,23,新城市,シンシロシ,SHINSHIRO SHI
+23222,23,東海市,トウカイシ,TOKAI SHI
+23223,23,大府市,オオブシ,OBU SHI
+23224,23,知多市,チタシ,CHITA SHI
+23225,23,知立市,チリュウシ,CHIRYU SHI
+23226,23,尾張旭市,オワリアサヒシ,OWARIASAHI SHI
+23227,23,高浜市,タカハマシ,TAKAHAMA SHI
+23228,23,岩倉市,イワクラシ,IWAKURA SHI
+23229,23,豊明市,トヨアケシ,TOYOAKE SHI
+23230,23,日進市,ニッシンシ,NISSHIN SHI
+23231,23,田原市,タハラシ,TAHARA SHI
+23232,23,愛西市,アイサイシ,AISAI SHI
+23233,23,清須市,キヨスシ,KIYOSU SHI
+23234,23,北名古屋市,キタナゴヤシ,KITANAGOYA SHI
+23235,23,弥富市,ヤトミシ,YATOMI SHI
+23236,23,みよし市,ミヨシシ,MIYOSHI SHI
+23237,23,あま市,アマシ,AMA SHI
+23238,23,長久手市,ナガクテシ,NAGAKUTE SHI
+23302,23,愛知郡東郷町,アイチグントウゴウチョウ,AICHI GUN TOGO CHO
+23342,23,西春日井郡豊山町,ニシカスガイグントヨヤマチョウ,NISHIKASUGAI GUN TOYOYAMA CHO
+23361,23,丹羽郡大口町,ニワグンオオグチチョウ,NIWA GUN OGUCHI CHO
+23362,23,丹羽郡扶桑町,ニワグンフソウチョウ,NIWA GUN FUSO CHO
+23424,23,海部郡大治町,アマグンオオハルチョウ,AMA GUN OHARU CHO
+23425,23,海部郡蟹江町,アマグンカニエチョウ,AMA GUN KANIE CHO
+23427,23,海部郡飛島村,アマグントビシマムラ,AMA GUN TOBISHIMA MURA
+23441,23,知多郡阿久比町,チタグンアグイチョウ,CHITA GUN AGUI CHO
+23442,23,知多郡東浦町,チタグンヒガシウラチョウ,CHITA GUN HIGASHIURA CHO
+23445,23,知多郡南知多町,チタグンミナミチタチョウ,CHITA GUN MINAMICHITA CHO
+23446,23,知多郡美浜町,チタグンミハマチョウ,CHITA GUN MIHAMA CHO
+23447,23,知多郡武豊町,チタグンタケトヨチョウ,CHITA GUN TAKETOYO CHO
+23501,23,額田郡幸田町,ヌカタグンコウタチョウ,NUKATA GUN KOTA CHO
+23561,23,北設楽郡設楽町,キタシタラグンシタラチョウ,KITASHITARA GUN SHITARA CHO
+23562,23,北設楽郡東栄町,キタシタラグントウエイチョウ,KITASHITARA GUN TOEI CHO
+23563,23,北設楽郡豊根村,キタシタラグントヨネムラ,KITASHITARA GUN TOYONE MURA

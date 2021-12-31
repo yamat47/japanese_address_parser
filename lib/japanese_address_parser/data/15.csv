@@ -1,0 +1,38 @@
+code,prefecture_code,name,name_kana,name_romaji
+15101,15,新潟市北区,ニイガタシキタク,NIIGATA SHI KITA KU
+15102,15,新潟市東区,ニイガタシヒガシク,NIIGATA SHI HIGASHI KU
+15103,15,新潟市中央区,ニイガタシチュウオウク,NIIGATA SHI CHUO KU
+15104,15,新潟市江南区,ニイガタシコウナンク,NIIGATA SHI KONAN KU
+15105,15,新潟市秋葉区,ニイガタシアキハク,NIIGATA SHI AKIHA KU
+15106,15,新潟市南区,ニイガタシミナミク,NIIGATA SHI MINAMI KU
+15107,15,新潟市西区,ニイガタシニシク,NIIGATA SHI NISHI KU
+15108,15,新潟市西蒲区,ニイガタシニシカンク,NIIGATA SHI NISHIKAN KU
+15202,15,長岡市,ナガオカシ,NAGAOKA SHI
+15204,15,三条市,サンジョウシ,SANJO SHI
+15205,15,柏崎市,カシワザキシ,KASHIWAZAKI SHI
+15206,15,新発田市,シバタシ,SHIBATA SHI
+15208,15,小千谷市,オヂヤシ,OJIYA SHI
+15209,15,加茂市,カモシ,KAMO SHI
+15210,15,十日町市,トオカマチシ,TOKAMACHI SHI
+15211,15,見附市,ミツケシ,MITSUKE SHI
+15212,15,村上市,ムラカミシ,MURAKAMI SHI
+15213,15,燕市,ツバメシ,TSUBAME SHI
+15216,15,糸魚川市,イトイガワシ,ITOIGAWA SHI
+15217,15,妙高市,ミョウコウシ,MYOKO SHI
+15218,15,五泉市,ゴセンシ,GOSEN SHI
+15222,15,上越市,ジョウエツシ,JOETSU SHI
+15223,15,阿賀野市,アガノシ,AGANO SHI
+15224,15,佐渡市,サドシ,SADO SHI
+15225,15,魚沼市,ウオヌマシ,UONUMA SHI
+15226,15,南魚沼市,ミナミウオヌマシ,MINAMIUONUMA SHI
+15227,15,胎内市,タイナイシ,TAINAI SHI
+15307,15,北蒲原郡聖籠町,キタカンバラグンセイロウマチ,KITAKAMBARA GUN SEIRO MACHI
+15342,15,西蒲原郡弥彦村,ニシカンバラグンヤヒコムラ,NISHIKAMBARA GUN YAHIKO MURA
+15361,15,南蒲原郡田上町,ミナミカンバラグンタガミマチ,MINAMIKAMBARA GUN TAGAMI MACHI
+15385,15,東蒲原郡阿賀町,ヒガシカンバラグンアガマチ,HIGASHIKAMBARA GUN AGA MACHI
+15405,15,三島郡出雲崎町,サントウグンイズモザキマチ,SANTO GUN IZUMOZAKI MACHI
+15461,15,南魚沼郡湯沢町,ミナミウオヌマグンユザワマチ,MINAMIUONUMA GUN YUZAWA MACHI
+15482,15,中魚沼郡津南町,ナカウオヌマグンツナンマチ,NAKAUONUMA GUN TSUNAN MACHI
+15504,15,刈羽郡刈羽村,カリワグンカリワムラ,KARIWA GUN KARIWA MURA
+15581,15,岩船郡関川村,イワフネグンセキカワムラ,IWAFUNE GUN SEKIKAWA MURA
+15586,15,岩船郡粟島浦村,イワフネグンアワシマウラムラ,IWAFUNE GUN AWASHIMAURA MURA
