@@ -1,17 +1,17 @@
 # frozen_string_literal: true
 
-RSpec.describe JapaneseAddressParser do
+::RSpec.describe(::JapaneseAddressParser) do
   describe '.call' do
-    shared_examples '町丁目まで解析できる' do
-      it { is_expected.to be_a(JapaneseAddressParser::Models::Address) }
-      it { expect(subject.furigana).to eq(furigana) }
-    end
-
     subject { described_class.call(full_address) }
 
+    shared_examples '町丁目まで解析できる' do
+      it { is_expected.to(be_a(::JapaneseAddressParser::Models::Address)) }
+      it { expect(subject.furigana).to(eq(furigana)) }
+    end
+
     context '全角英数字が含まれるとき' do
-      let(:full_address) { '東京都港区芝公園４ー２ー８' }
-      let(:furigana) { 'トウキョウトミナトクシバコウエン 4' }
+      let(:full_address) { '東京都港区芝公園４ー２ー８'      }
+      let(:furigana)     { 'トウキョウトミナトクシバコウエン 4' }
 
       it_behaves_like '町丁目まで解析できる'
     end

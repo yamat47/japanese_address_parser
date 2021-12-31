@@ -8,16 +8,14 @@ module JapaneseAddressParser
     class Prefecture
       attr_reader :code, :name, :name_kana, :name_romaji
 
-      class << self
-        def all
-          CSV.table('lib/japanese_address_parser/data/prefectures.csv').map do |prefecture|
-            new(
-              code: prefecture[:code],
-              name: prefecture[:name],
-              name_kana: prefecture[:name_kana],
-              name_romaji: prefecture[:name_romaji]
-            )
-          end
+      def self.all
+        ::CSV.table('lib/japanese_address_parser/data/prefectures.csv').map do |prefecture|
+          new(
+            code: prefecture[:code],
+            name: prefecture[:name],
+            name_kana: prefecture[:name_kana],
+            name_romaji: prefecture[:name_romaji]
+          )
         end
       end
 
@@ -29,12 +27,12 @@ module JapaneseAddressParser
       end
 
       def formatted_code
-        format("%02<number>d", number: code)
+        format('%02<number>d', number: code)
       end
 
       def cities
-        CSV.table("lib/japanese_address_parser/data/#{formatted_code}.csv").map do |city|
-          City.new(
+        ::CSV.table("lib/japanese_address_parser/data/#{formatted_code}.csv").map do |city|
+          ::JapaneseAddressParser::Models::City.new(
             code: city[:code],
             prefecture_code: city[:prefecture_code],
             name: city[:name],

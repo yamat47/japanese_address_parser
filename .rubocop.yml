@@ -1,2 +1,29 @@
+inherit_from: .rubocop_todo.yml
+
+require:
+  - rubocop-rake
+  - rubocop-rspec
+
 AllCops:
   EnabledByDefault: true
+
+# MITなのでファイルの著作権は記載しない。
+Style/Copyright:
+  Enabled: false
+
+# コメントを日本語で記述するのを許容する。
+Style/AsciiComments:
+  Enabled: false
+
+# contextの記述を日本語で記述するのを許容する。
+RSpec/ContextWording:
+  Enabled: false
+
+# CSVのヘッダーの日本語を解釈するために日本語文字列のハッシュを許容する。
+Style/StringHashKeys:
+  Exclude:
+    - lib/japanese_address_parser/csv_parser.rb
+
+# elseがない場合にはcase文ではなくif文を許容する。
+Style/MissingElse:
+  EnforcedStyle: case
