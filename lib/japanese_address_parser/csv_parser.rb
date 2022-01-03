@@ -27,12 +27,9 @@ module JapaneseAddressParser
     public_constant :HEADER_MAP
 
     def call
-      data = ::CSV.table(
-        'lib/japanese_address_parser/data/japanese-addresses.csv',
-        header_converters: proc { |h|
-          ::JapaneseAddressParser::CsvParser::HEADER_MAP[h]
-        }
-      )
+      filename = 'lib/japanese_address_parser/data/japanese-addresses.csv'
+      header_converters = proc { |h| ::JapaneseAddressParser::CsvParser::HEADER_MAP[h] }
+      data = ::CSV.table(filename, header_converters: header_converters)
 
       prefectures = {}
 
