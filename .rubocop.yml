@@ -7,16 +7,21 @@ require:
 AllCops:
   EnabledByDefault: true
 
+Metrics/BlockLength:
+  Exclude:
+    - japanese_address_parser.gemspec
+    - spec/**/*_spec.rb
+
+# contextの記述を日本語で記述するのを許容する。
+RSpec/ContextWording:
+  Enabled: false
+
 # MITなのでファイルの著作権は記載しない。
 Style/Copyright:
   Enabled: false
 
 # コメントを日本語で記述するのを許容する。
 Style/AsciiComments:
-  Enabled: false
-
-# contextの記述を日本語で記述するのを許容する。
-RSpec/ContextWording:
   Enabled: false
 
 # CSVのヘッダーの日本語を解釈するために日本語文字列のハッシュを許容する。

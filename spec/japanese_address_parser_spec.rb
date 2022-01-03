@@ -29,5 +29,12 @@
 
       it_behaves_like '町丁目まで解析できる'
     end
+
+    context '市の名前が別の都道府県名から始まっているとき' do
+      let(:full_address) { '福島県石川郡石川町字長久保185-4' }
+      let(:furigana)     { 'フクシマケンイシカワグンイシカワマチ' }
+
+      it_behaves_like '町丁目まで解析できる'
+    end
   end
 end
