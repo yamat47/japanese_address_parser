@@ -10,7 +10,14 @@
     end
 
     context '全角英数字が含まれるとき' do
-      let(:full_address) { '東京都港区芝公園４ー２ー８'      }
+      let(:full_address) { '東京都港区芝公園４-２-８'      }
+      let(:furigana)     { 'トウキョウトミナトクシバコウエン 4' }
+
+      it_behaves_like '町丁目まで解析できる'
+    end
+
+    context '長音が含まれるとき' do
+      let(:full_address) { '東京都港区芝公園4ー２ー8'      }
       let(:furigana)     { 'トウキョウトミナトクシバコウエン 4' }
 
       it_behaves_like '町丁目まで解析できる'
