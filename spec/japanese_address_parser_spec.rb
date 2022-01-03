@@ -6,6 +6,9 @@
 
     shared_examples '町丁目まで解析できる' do
       it { is_expected.to(be_a(::JapaneseAddressParser::Models::Address)) }
+      it { expect(subject.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture)) }
+      it { expect(subject.city).to(be_a(::JapaneseAddressParser::Models::City)) }
+      it { expect(subject.town).to(be_a(::JapaneseAddressParser::Models::Town)) }
       it { expect(subject.furigana).to(eq(furigana)) }
     end
 
