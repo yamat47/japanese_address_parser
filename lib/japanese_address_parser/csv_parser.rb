@@ -26,89 +26,121 @@ module JapaneseAddressParser
 
     public_constant :HEADER_MAP
 
-    module_function
-
     def call
-      data = ::CSV.table(
-        'lib/japanese_address_parser/data/japanese-addresses.csv',
-        header_converters: proc { |h|
-          ::JapaneseAddressParser::CsvParser::HEADER_MAP[h]
-        }
-      )
+      filename = 'lib/japanese_address_parser/data/japanese-addresses.csv'
+      header_converters = proc { |h| ::JapaneseAddressParser::CsvParser::HEADER_MAP[h] }
+      data = ::CSV.table(filename, header_converters: header_converters)
 
       prefectures = {}
 
       data.each do |row|
-        current_prefecture = prefectures.keys.find { |prefecture| prefecture.code == row[:prefecture_code] }
+        current_prefecture = _find_or_build_prefecture(prefectures.keys, row)
+        prefectures[current_prefecture] ||= {}
 
-        if current_prefecture.nil?
-          current_prefecture = ::JapaneseAddressParser::Models::Prefecture.new(
-            code: row[:prefecture_code],
-            name: row[:prefecture_name],
-            name_kana: row[:prefecture_name_kana],
-            name_romaji: row[:prefecture_romaji]
-          )
+        current_city = _find_or_build_city(prefectures[current_prefecture].keys, current_prefecture, row)
+        prefectures[current_prefecture][current_city] ||= []
 
-          prefectures[current_prefecture] = {}
-        end
-
-        current_city = prefectures[current_prefecture].keys.find { |city| city.code == row[:city_code] }
-
-        if current_city.nil?
-          current_city = ::JapaneseAddressParser::Models::City.new(
-            code: row[:city_code],
-            prefecture_code: current_prefecture.code,
-            name: row[:city_name],
-            name_kana: row[:city_name_kana],
-            name_romaji: row[:city_romaji]
-          )
-
-          prefectures[current_prefecture][current_city] = []
-        end
-
-        current_town = prefectures[current_prefecture][current_city].find { |town| town.name == row[:town_name] }
-
-        next unless current_town.nil?
-
-        current_town = ::JapaneseAddressParser::Models::Town.new(
-          name: row[:town_name],
-          name_kana: row[:town_name_kana],
-          name_romaji: row[:town_name_romaji],
-          nickname: row[:town_nickname],
-          latitude: row[:latitude],
-          longitude: row[:longitude]
-        )
-
-        prefectures[current_prefecture][current_city] << current_town
+        stored_town = _find_town(prefectures[current_prefecture][current_city], row)
+        stored_town.nil? && (prefectures[current_prefecture][current_city] << _build_town(row))
       end
 
-      ::CSV.open('lib/japanese_address_parser/data/prefectures.csv', 'w') do |csv|
-        csv << %w[code name name_kana name_romaji]
-        prefectures.each_key do |prefecture|
-          csv << [prefecture.formatted_code, prefecture.name, prefecture.name_kana, prefecture.name_romaji]
-        end
-      end
+      _write_csv(prefectures)
+    end
+
+    def _find_or_build_prefecture(prefectures, row)
+      stored_prefecture = prefectures.find { |prefecture| prefecture.code == row[:prefecture_code] }
+      stored_prefecture || ::JapaneseAddressParser::Models::Prefecture.new(
+        code: row[:prefecture_code],
+        name: row[:prefecture_name],
+        name_kana: row[:prefecture_name_kana],
+        name_romaji: row[:prefecture_romaji]
+      )
+    end
+
+    def _find_or_build_city(cities, current_prefecture, row)
+      stored_city = cities.find { |city| city.code == row[:city_code] }
+      stored_city || ::JapaneseAddressParser::Models::City.new(
+        code: row[:city_code],
+        prefecture_code: current_prefecture.code,
+        name: row[:city_name],
+        name_kana: row[:city_name_kana],
+        name_romaji: row[:city_romaji]
+      )
+    end
+
+    def _find_town(towns, row)
+      towns.find { |town| town.name == row[:town_name] }
+    end
+
+    def _build_town(row)
+      ::JapaneseAddressParser::Models::Town.new(
+        name: row[:town_name],
+        name_kana: row[:town_name_kana],
+        name_romaji: row[:town_name_romaji],
+        nickname: row[:town_nickname],
+        latitude: row[:latitude],
+        longitude: row[:longitude]
+      )
+    end
+
+    def _write_csv(prefectures)
+      _write_prefectures_csv(prefectures.keys)
 
       prefectures.each do |prefecture, cities|
-        ::CSV.open("lib/japanese_address_parser/data/#{prefecture.formatted_code}.csv", 'w') do |csv|
-          csv << %w[code prefecture_code name name_kana name_romaji]
-          cities.each_key do |city|
-            csv << [city.formatted_code, prefecture.formatted_code, city.name, city.name_kana, city.name_romaji]
-          end
-        end
+        _write_cities_csv(prefecture, cities.keys)
 
         cities.each do |city, towns|
-          ::CSV.open(
-            "lib/japanese_address_parser/data/#{prefecture.formatted_code}-#{city.formatted_code}.csv",
-            'w'
-          ) do |csv|
-            csv << %w[name name_kana name_romaji nickname latitude longitude]
-            towns.each do |town|
-              csv << [town.name, town.name_kana, town.name_romaji, town.nickname, town.latitude, town.longitude]
-            end
-          end
+          _write_towns_csv(prefecture, city, towns)
         end
       end
     end
+
+    def _write_prefectures_csv(prefectures)
+      filename = 'lib/japanese_address_parser/data/prefectures.csv'
+      ::CSV.open(filename, 'w') do |csv|
+        csv << %w[code name name_kana name_romaji]
+        prefectures.each do |prefecture|
+          csv << [prefecture.formatted_code, prefecture.name, prefecture.name_kana, prefecture.name_romaji]
+        end
+      end
+    end
+
+    def _write_cities_csv(prefecture, cities)
+      filename = "lib/japanese_address_parser/data/#{prefecture.formatted_code}.csv"
+      ::CSV.open(filename, 'w') do |csv|
+        csv << %w[code prefecture_code name name_kana name_romaji]
+        cities.each do |city|
+          csv << [city.formatted_code, prefecture.formatted_code, city.name, city.name_kana, city.name_romaji]
+        end
+      end
+    end
+
+    def _write_towns_csv(prefecture, city, towns)
+      filename = "lib/japanese_address_parser/data/#{prefecture.formatted_code}-#{city.formatted_code}.csv"
+      ::CSV.open(filename, 'w') do |csv|
+        csv << %w[name name_kana name_romaji nickname latitude longitude]
+        towns.each do |town|
+          csv << [town.name, town.name_kana, town.name_romaji, town.nickname, town.latitude, town.longitude]
+        end
+      end
+    end
+
+    module_function :call,
+                    :_find_or_build_prefecture,
+                    :_find_or_build_city,
+                    :_find_town,
+                    :_build_town,
+                    :_write_csv,
+                    :_write_prefectures_csv,
+                    :_write_cities_csv,
+                    :_write_towns_csv
+    private_class_method :_find_or_build_prefecture,
+                         :_find_or_build_city,
+                         :_find_town,
+                         :_build_town,
+                         :_write_csv,
+                         :_write_prefectures_csv,
+                         :_write_cities_csv,
+                         :_write_towns_csv
   end
 end
