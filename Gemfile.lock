@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    japanese_address_parser (0.1.0)
+    japanese_address_parser (1.0.0)
       number_to_kanji
 
 GEM
@@ -21,7 +21,7 @@ GEM
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     minitest (5.15.0)
-    number_to_kanji (1.0.0)
+    number_to_kanji (1.0.1)
     parallel (1.21.0)
     parser (3.0.3.2)
       ast (~> 2.4.1)
