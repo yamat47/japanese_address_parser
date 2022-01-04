@@ -29,7 +29,7 @@ module JapaneseAddressParser
     def call
       filename = 'lib/japanese_address_parser/data/japanese-addresses.csv'
       header_converters = proc { |h| ::JapaneseAddressParser::CsvParser::HEADER_MAP[h] }
-      data = ::CSV.table(filename, header_converters: header_converters)
+      data = ::CSV.table(filename, header_converters: header_converters, converters: nil)
 
       prefectures = {}
 
@@ -58,7 +58,7 @@ module JapaneseAddressParser
     end
 
     def _find_or_build_city(cities, current_prefecture, row)
-      stored_city = cities.find { |city| city.code == row[:city_code] }
+      stored_city = cities.find { |city| city.formatted_code == row[:city_code] }
       stored_city || ::JapaneseAddressParser::Models::City.new(
         code: row[:city_code],
         prefecture_code: current_prefecture.code,
@@ -100,23 +100,23 @@ module JapaneseAddressParser
       ::CSV.open(filename, 'w') do |csv|
         csv << %w[code name name_kana name_romaji]
         prefectures.each do |prefecture|
-          csv << [prefecture.formatted_code, prefecture.name, prefecture.name_kana, prefecture.name_romaji]
+          csv << [prefecture.code, prefecture.name, prefecture.name_kana, prefecture.name_romaji]
         end
       end
     end
 
     def _write_cities_csv(prefecture, cities)
-      filename = "lib/japanese_address_parser/data/#{prefecture.formatted_code}.csv"
+      filename = "lib/japanese_address_parser/data/#{prefecture.code}.csv"
       ::CSV.open(filename, 'w') do |csv|
         csv << %w[code prefecture_code name name_kana name_romaji]
         cities.each do |city|
-          csv << [city.formatted_code, prefecture.formatted_code, city.name, city.name_kana, city.name_romaji]
+          csv << [city.formatted_code, prefecture.code, city.name, city.name_kana, city.name_romaji]
         end
       end
     end
 
     def _write_towns_csv(prefecture, city, towns)
-      filename = "lib/japanese_address_parser/data/#{prefecture.formatted_code}-#{city.formatted_code}.csv"
+      filename = "lib/japanese_address_parser/data/#{prefecture.code}-#{city.formatted_code}.csv"
       ::CSV.open(filename, 'w') do |csv|
         csv << %w[name name_kana name_romaji nickname latitude longitude]
         towns.each do |town|

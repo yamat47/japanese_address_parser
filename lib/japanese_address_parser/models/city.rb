@@ -10,22 +10,22 @@ module JapaneseAddressParser
 
       def initialize(code:, prefecture_code:, name:, name_kana:, name_romaji:)
         @code = code
-        @prefecture_code = format('%02<number>d', number: prefecture_code)
+        @prefecture_code = prefecture_code
         @name = name
         @name_kana = name_kana
         @name_romaji = name_romaji
       end
 
       def formatted_code
-        code.nil? ? 'UNKNOWN' : format('%05<number>d', number: code)
+        code.nil? ? 'UNKNOWN' : code
       end
 
       def prefecture
-        ::JapaneseAddressParser::Models::Prefecture.all.find { |prefecture| prefecture.formatted_code == prefecture_code }
+        ::JapaneseAddressParser::Models::Prefecture.all.find { |prefecture| prefecture.code == prefecture_code }
       end
 
       def towns
-        ::CSV.table("lib/japanese_address_parser/data/#{prefecture_code}-#{formatted_code}.csv").map do |town|
+        ::CSV.table("lib/japanese_address_parser/data/#{prefecture_code}-#{formatted_code}.csv", converters: nil).map do |town|
           ::JapaneseAddressParser::Models::Town.new(
             name: town[:name],
             name_kana: town[:name_kana],

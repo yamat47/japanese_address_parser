@@ -1,66 +1,66 @@
 code,prefecture_code,name,name_kana,name_romaji
-00577,01,札幌市中央区,サッポロシチュウオウク,SAPPORO SHI CHUO KU
-00578,01,札幌市北区,サッポロシキタク,SAPPORO SHI KITA KU
-00579,01,札幌市東区,サッポロシヒガシク,SAPPORO SHI HIGASHI KU
-00580,01,札幌市白石区,サッポロシシロイシク,SAPPORO SHI SHIROISHI KU
-00581,01,札幌市豊平区,サッポロシトヨヒラク,SAPPORO SHI TOYOHIRA KU
-00582,01,札幌市南区,サッポロシミナミク,SAPPORO SHI MINAMI KU
-00583,01,札幌市西区,サッポロシニシク,SAPPORO SHI NISHI KU
+01101,01,札幌市中央区,サッポロシチュウオウク,SAPPORO SHI CHUO KU
+01102,01,札幌市北区,サッポロシキタク,SAPPORO SHI KITA KU
+01103,01,札幌市東区,サッポロシヒガシク,SAPPORO SHI HIGASHI KU
+01104,01,札幌市白石区,サッポロシシロイシク,SAPPORO SHI SHIROISHI KU
+01105,01,札幌市豊平区,サッポロシトヨヒラク,SAPPORO SHI TOYOHIRA KU
+01106,01,札幌市南区,サッポロシミナミク,SAPPORO SHI MINAMI KU
+01107,01,札幌市西区,サッポロシニシク,SAPPORO SHI NISHI KU
 01108,01,札幌市厚別区,サッポロシアツベツク,SAPPORO SHI ATSUBETSU KU
 01109,01,札幌市手稲区,サッポロシテイネク,SAPPORO SHI TEINE KU
-00584,01,札幌市清田区,サッポロシキヨタク,SAPPORO SHI KIYOTA KU
-00642,01,函館市,ハコダテシ,HAKODATE SHI
-00643,01,小樽市,オタルシ,OTARU SHI
-00644,01,旭川市,アサヒカワシ,ASAHIKAWA SHI
-00645,01,室蘭市,ムロランシ,MURORAN SHI
-00646,01,釧路市,クシロシ,KUSHIRO SHI
-00647,01,帯広市,オビヒロシ,OBIHIRO SHI
+01110,01,札幌市清田区,サッポロシキヨタク,SAPPORO SHI KIYOTA KU
+01202,01,函館市,ハコダテシ,HAKODATE SHI
+01203,01,小樽市,オタルシ,OTARU SHI
+01204,01,旭川市,アサヒカワシ,ASAHIKAWA SHI
+01205,01,室蘭市,ムロランシ,MURORAN SHI
+01206,01,釧路市,クシロシ,KUSHIRO SHI
+01207,01,帯広市,オビヒロシ,OBIHIRO SHI
 01208,01,北見市,キタミシ,KITAMI SHI
 01209,01,夕張市,ユウバリシ,YUBARI SHI
-00648,01,岩見沢市,イワミザワシ,IWAMIZAWA SHI
-00649,01,網走市,アバシリシ,ABASHIRI SHI
-00650,01,留萌市,ルモイシ,RUMOI SHI
-00651,01,苫小牧市,トマコマイシ,TOMAKOMAI SHI
-00652,01,稚内市,ワッカナイシ,WAKKANAI SHI
-00653,01,美唄市,ビバイシ,BIBAI SHI
-00654,01,芦別市,アシベツシ,ASHIBETSU SHI
-00655,01,江別市,エベツシ,EBETSU SHI
+01210,01,岩見沢市,イワミザワシ,IWAMIZAWA SHI
+01211,01,網走市,アバシリシ,ABASHIRI SHI
+01212,01,留萌市,ルモイシ,RUMOI SHI
+01213,01,苫小牧市,トマコマイシ,TOMAKOMAI SHI
+01214,01,稚内市,ワッカナイシ,WAKKANAI SHI
+01215,01,美唄市,ビバイシ,BIBAI SHI
+01216,01,芦別市,アシベツシ,ASHIBETSU SHI
+01217,01,江別市,エベツシ,EBETSU SHI
 01218,01,赤平市,アカビラシ,AKABIRA SHI
 01219,01,紋別市,モンベツシ,MOMBETSU SHI
-00656,01,士別市,シベツシ,SHIBETSU SHI
-00657,01,名寄市,ナヨロシ,NAYORO SHI
-00658,01,三笠市,ミカサシ,MIKASA SHI
-00659,01,根室市,ネムロシ,NEMURO SHI
-00660,01,千歳市,チトセシ,CHITOSE SHI
-00661,01,滝川市,タキカワシ,TAKIKAWA SHI
-00662,01,砂川市,スナガワシ,SUNAGAWA SHI
-00663,01,歌志内市,ウタシナイシ,UTASHINAI SHI
+01220,01,士別市,シベツシ,SHIBETSU SHI
+01221,01,名寄市,ナヨロシ,NAYORO SHI
+01222,01,三笠市,ミカサシ,MIKASA SHI
+01223,01,根室市,ネムロシ,NEMURO SHI
+01224,01,千歳市,チトセシ,CHITOSE SHI
+01225,01,滝川市,タキカワシ,TAKIKAWA SHI
+01226,01,砂川市,スナガワシ,SUNAGAWA SHI
+01227,01,歌志内市,ウタシナイシ,UTASHINAI SHI
 01228,01,深川市,フカガワシ,FUKAGAWA SHI
 01229,01,富良野市,フラノシ,FURANO SHI
-00664,01,登別市,ノボリベツシ,NOBORIBETSU SHI
-00665,01,恵庭市,エニワシ,ENIWA SHI
-00667,01,伊達市,ダテシ,DATE SHI
-00668,01,北広島市,キタヒロシマシ,KITAHIROSHIMA SHI
-00669,01,石狩市,イシカリシ,ISHIKARI SHI
-00670,01,北斗市,ホクトシ,HOKUTO SHI
-00707,01,石狩郡当別町,イシカリグントウベツチョウ,ISHIKARI GUN TOBETSU CHO
-00708,01,石狩郡新篠津村,イシカリグンシンシノツムラ,ISHIKARI GUN SHINSHINOTSU MURA
-00729,01,松前郡松前町,マツマエグンマツマエチョウ,MATSUMAE GUN MATSUMAE CHO
-00730,01,松前郡福島町,マツマエグンフクシマチョウ,MATSUMAE GUN FUKUSHIMA CHO
-00731,01,上磯郡知内町,カミイソグンシリウチチョウ,KAMIISO GUN SHIRIUCHI CHO
-00732,01,上磯郡木古内町,カミイソグンキコナイチョウ,KAMIISO GUN KIKONAI CHO
-00735,01,亀田郡七飯町,カメダグンナナエチョウ,KAMEDA GUN NANAE CHO
-00739,01,茅部郡鹿部町,カヤベグンシカベチョウ,KAYABE GUN SHIKABE CHO
-00741,01,茅部郡森町,カヤベグンモリマチ,KAYABE GUN MORI MACHI
-00742,01,二海郡八雲町,フタミグンヤクモチョウ,FUTAMI GUN YAKUMO CHO
-00743,01,山越郡長万部町,ヤマコシグンオシャマンベチョウ,YAMAKOSHI GUN OSHAMAMBE CHO
-00753,01,檜山郡江差町,ヒヤマグンエサシチョウ,HIYAMA GUN ESASHI CHO
-00754,01,檜山郡上ノ国町,ヒヤマグンカミノクニチョウ,HIYAMA GUN KAMINOKUNI CHO
-00755,01,檜山郡厚沢部町,ヒヤマグンアッサブチョウ,HIYAMA GUN ASSABU CHO
-00756,01,爾志郡乙部町,ニシグンオトベチョウ,NISHI GUN OTOBE CHO
-00759,01,奥尻郡奥尻町,オクシリグンオクシリチョウ,OKUSHIRI GUN OKUSHIRI CHO
-00760,01,瀬棚郡今金町,セタナグンイマカネチョウ,SETANA GUN IMAKANE CHO
-00761,01,久遠郡せたな町,クドウグンセタナチョウ,KUDO GUN SETANA CHO
+01230,01,登別市,ノボリベツシ,NOBORIBETSU SHI
+01231,01,恵庭市,エニワシ,ENIWA SHI
+01233,01,伊達市,ダテシ,DATE SHI
+01234,01,北広島市,キタヒロシマシ,KITAHIROSHIMA SHI
+01235,01,石狩市,イシカリシ,ISHIKARI SHI
+01236,01,北斗市,ホクトシ,HOKUTO SHI
+01303,01,石狩郡当別町,イシカリグントウベツチョウ,ISHIKARI GUN TOBETSU CHO
+01304,01,石狩郡新篠津村,イシカリグンシンシノツムラ,ISHIKARI GUN SHINSHINOTSU MURA
+01331,01,松前郡松前町,マツマエグンマツマエチョウ,MATSUMAE GUN MATSUMAE CHO
+01332,01,松前郡福島町,マツマエグンフクシマチョウ,MATSUMAE GUN FUKUSHIMA CHO
+01333,01,上磯郡知内町,カミイソグンシリウチチョウ,KAMIISO GUN SHIRIUCHI CHO
+01334,01,上磯郡木古内町,カミイソグンキコナイチョウ,KAMIISO GUN KIKONAI CHO
+01337,01,亀田郡七飯町,カメダグンナナエチョウ,KAMEDA GUN NANAE CHO
+01343,01,茅部郡鹿部町,カヤベグンシカベチョウ,KAYABE GUN SHIKABE CHO
+01345,01,茅部郡森町,カヤベグンモリマチ,KAYABE GUN MORI MACHI
+01346,01,二海郡八雲町,フタミグンヤクモチョウ,FUTAMI GUN YAKUMO CHO
+01347,01,山越郡長万部町,ヤマコシグンオシャマンベチョウ,YAMAKOSHI GUN OSHAMAMBE CHO
+01361,01,檜山郡江差町,ヒヤマグンエサシチョウ,HIYAMA GUN ESASHI CHO
+01362,01,檜山郡上ノ国町,ヒヤマグンカミノクニチョウ,HIYAMA GUN KAMINOKUNI CHO
+01363,01,檜山郡厚沢部町,ヒヤマグンアッサブチョウ,HIYAMA GUN ASSABU CHO
+01364,01,爾志郡乙部町,ニシグンオトベチョウ,NISHI GUN OTOBE CHO
+01367,01,奥尻郡奥尻町,オクシリグンオクシリチョウ,OKUSHIRI GUN OKUSHIRI CHO
+01370,01,瀬棚郡今金町,セタナグンイマカネチョウ,SETANA GUN IMAKANE CHO
+01371,01,久遠郡せたな町,クドウグンセタナチョウ,KUDO GUN SETANA CHO
 01391,01,島牧郡島牧村,シママキグンシママキムラ,SHIMAMAKI GUN SHIMAMAKI MURA
 01392,01,寿都郡寿都町,スッツグンスッツチョウ,SUTTSU GUN SUTTSU CHO
 01393,01,寿都郡黒松内町,スッツグンクロマツナイチョウ,SUTTSU GUN KUROMATSUNAI CHO
@@ -70,49 +70,49 @@ code,prefecture_code,name,name_kana,name_romaji
 01397,01,虻田郡留寿都村,アブタグンルスツムラ,ABUTA GUN RUSUTSU MURA
 01398,01,虻田郡喜茂別町,アブタグンキモベツチョウ,ABUTA GUN KIMOBETSU CHO
 01399,01,虻田郡京極町,アブタグンキョウゴクチョウ,ABUTA GUN KYOGOKU CHO
-00768,01,虻田郡倶知安町,アブタグンクッチャンチョウ,ABUTA GUN KUTCHAN CHO
-00769,01,岩内郡共和町,イワナイグンキョウワチョウ,IWANAI GUN KYOWA CHO
-00770,01,岩内郡岩内町,イワナイグンイワナイチョウ,IWANAI GUN IWANAI CHO
-00771,01,古宇郡泊村,フルウグントマリムラ,FURU GUN TOMARI MURA
-00772,01,古宇郡神恵内村,フルウグンカモエナイムラ,FURU GUN KAMOENAI MURA
-00773,01,積丹郡積丹町,シャコタングンシャコタンチョウ,SHAKOTAN GUN SHAKOTAN CHO
-00774,01,古平郡古平町,フルビラグンフルビラチョウ,FURUBIRA GUN FURUBIRA CHO
-00775,01,余市郡仁木町,ヨイチグンニキチョウ,YOICHI GUN NIKI CHO
+01400,01,虻田郡倶知安町,アブタグンクッチャンチョウ,ABUTA GUN KUTCHAN CHO
+01401,01,岩内郡共和町,イワナイグンキョウワチョウ,IWANAI GUN KYOWA CHO
+01402,01,岩内郡岩内町,イワナイグンイワナイチョウ,IWANAI GUN IWANAI CHO
+01403,01,古宇郡泊村,フルウグントマリムラ,FURU GUN TOMARI MURA
+01404,01,古宇郡神恵内村,フルウグンカモエナイムラ,FURU GUN KAMOENAI MURA
+01405,01,積丹郡積丹町,シャコタングンシャコタンチョウ,SHAKOTAN GUN SHAKOTAN CHO
+01406,01,古平郡古平町,フルビラグンフルビラチョウ,FURUBIRA GUN FURUBIRA CHO
+01407,01,余市郡仁木町,ヨイチグンニキチョウ,YOICHI GUN NIKI CHO
 01408,01,余市郡余市町,ヨイチグンヨイチチョウ,YOICHI GUN YOICHI CHO
 01409,01,余市郡赤井川村,ヨイチグンアカイガワムラ,YOICHI GUN AKAIGAWA MURA
-00787,01,空知郡南幌町,ソラチグンナンポロチョウ,SORACHI GUN NAMPORO CHO
-00788,01,空知郡奈井江町,ソラチグンナイエチョウ,SORACHI GUN NAIE CHO
-00789,01,空知郡上砂川町,ソラチグンカミスナガワチョウ,SORACHI GUN KAMISUNAGAWA CHO
-00791,01,夕張郡由仁町,ユウバリグンユニチョウ,YUBARI GUN YUNI CHO
+01423,01,空知郡南幌町,ソラチグンナンポロチョウ,SORACHI GUN NAMPORO CHO
+01424,01,空知郡奈井江町,ソラチグンナイエチョウ,SORACHI GUN NAIE CHO
+01425,01,空知郡上砂川町,ソラチグンカミスナガワチョウ,SORACHI GUN KAMISUNAGAWA CHO
+01427,01,夕張郡由仁町,ユウバリグンユニチョウ,YUBARI GUN YUNI CHO
 01428,01,夕張郡長沼町,ユウバリグンナガヌマチョウ,YUBARI GUN NAGANUMA CHO
 01429,01,夕張郡栗山町,ユウバリグンクリヤマチョウ,YUBARI GUN KURIYAMA CHO
-00792,01,樺戸郡月形町,カバトグンツキガタチョウ,KABATO GUN TSUKIGATA CHO
-00793,01,樺戸郡浦臼町,カバトグンウラウスチョウ,KABATO GUN URAUSU CHO
-00794,01,樺戸郡新十津川町,カバトグンシントツカワチョウ,KABATO GUN SHINTOTSUKAWA CHO
-00795,01,雨竜郡妹背牛町,ウリュウグンモセウシチョウ,URYU GUN MOSEUSHI CHO
-00796,01,雨竜郡秩父別町,ウリュウグンチップベツチョウ,URYU GUN CHIPPUBETSU CHO
-00798,01,雨竜郡雨竜町,ウリュウグンウリュウチョウ,URYU GUN URYU CHO
-00799,01,雨竜郡北竜町,ウリュウグンホクリュウチョウ,URYU GUN HOKURYU CHO
+01430,01,樺戸郡月形町,カバトグンツキガタチョウ,KABATO GUN TSUKIGATA CHO
+01431,01,樺戸郡浦臼町,カバトグンウラウスチョウ,KABATO GUN URAUSU CHO
+01432,01,樺戸郡新十津川町,カバトグンシントツカワチョウ,KABATO GUN SHINTOTSUKAWA CHO
+01433,01,雨竜郡妹背牛町,ウリュウグンモセウシチョウ,URYU GUN MOSEUSHI CHO
+01434,01,雨竜郡秩父別町,ウリュウグンチップベツチョウ,URYU GUN CHIPPUBETSU CHO
+01436,01,雨竜郡雨竜町,ウリュウグンウリュウチョウ,URYU GUN URYU CHO
+01437,01,雨竜郡北竜町,ウリュウグンホクリュウチョウ,URYU GUN HOKURYU CHO
 01438,01,雨竜郡沼田町,ウリュウグンヌマタチョウ,URYU GUN NUMATA CHO
-00810,01,上川郡鷹栖町,カミカワグンタカスチョウ,KAMIKAWA GUN TAKASU CHO
-00811,01,上川郡東神楽町,カミカワグンヒガシカグラチョウ,KAMIKAWA GUN HIGASHIKAGURA CHO
-00812,01,上川郡当麻町,カミカワグントウマチョウ,KAMIKAWA GUN TOMA CHO
-00813,01,上川郡比布町,カミカワグンピップチョウ,KAMIKAWA GUN PIPPU CHO
-00814,01,上川郡愛別町,カミカワグンアイベツチョウ,KAMIKAWA GUN AIBETSU CHO
-00815,01,上川郡上川町,カミカワグンカミカワチョウ,KAMIKAWA GUN KAMIKAWA CHO
+01452,01,上川郡鷹栖町,カミカワグンタカスチョウ,KAMIKAWA GUN TAKASU CHO
+01453,01,上川郡東神楽町,カミカワグンヒガシカグラチョウ,KAMIKAWA GUN HIGASHIKAGURA CHO
+01454,01,上川郡当麻町,カミカワグントウマチョウ,KAMIKAWA GUN TOMA CHO
+01455,01,上川郡比布町,カミカワグンピップチョウ,KAMIKAWA GUN PIPPU CHO
+01456,01,上川郡愛別町,カミカワグンアイベツチョウ,KAMIKAWA GUN AIBETSU CHO
+01457,01,上川郡上川町,カミカワグンカミカワチョウ,KAMIKAWA GUN KAMIKAWA CHO
 01458,01,上川郡東川町,カミカワグンヒガシカワチョウ,KAMIKAWA GUN HIGASHIKAWA CHO
 01459,01,上川郡美瑛町,カミカワグンビエイチョウ,KAMIKAWA GUN BIEI CHO
-00816,01,空知郡上富良野町,ソラチグンカミフラノチョウ,SORACHI GUN KAMIFURANO CHO
-00817,01,空知郡中富良野町,ソラチグンナカフラノチョウ,SORACHI GUN NAKAFURANO CHO
-00818,01,空知郡南富良野町,ソラチグンミナミフラノチョウ,SORACHI GUN MINAMIFURANO CHO
-00819,01,勇払郡占冠村,ユウフツグンシムカップムラ,YUFUTSU GUN SHIMUKAPPU MURA
-00820,01,上川郡和寒町,カミカワグンワッサムチョウ,KAMIKAWA GUN WASSAMU CHO
-00821,01,上川郡剣淵町,カミカワグンケンブチチョウ,KAMIKAWA GUN KEMBUCHI CHO
+01460,01,空知郡上富良野町,ソラチグンカミフラノチョウ,SORACHI GUN KAMIFURANO CHO
+01461,01,空知郡中富良野町,ソラチグンナカフラノチョウ,SORACHI GUN NAKAFURANO CHO
+01462,01,空知郡南富良野町,ソラチグンミナミフラノチョウ,SORACHI GUN MINAMIFURANO CHO
+01463,01,勇払郡占冠村,ユウフツグンシムカップムラ,YUFUTSU GUN SHIMUKAPPU MURA
+01464,01,上川郡和寒町,カミカワグンワッサムチョウ,KAMIKAWA GUN WASSAMU CHO
+01465,01,上川郡剣淵町,カミカワグンケンブチチョウ,KAMIKAWA GUN KEMBUCHI CHO
 01468,01,上川郡下川町,カミカワグンシモカワチョウ,KAMIKAWA GUN SHIMOKAWA CHO
 01469,01,中川郡美深町,ナカガワグンビフカチョウ,NAKAGAWA GUN BIFUKA CHO
-00824,01,中川郡音威子府村,ナカガワグンオトイネップムラ,NAKAGAWA GUN OTOINEPPU MURA
-00825,01,中川郡中川町,ナカガワグンナカガワチョウ,NAKAGAWA GUN NAKAGAWA CHO
-00826,01,雨竜郡幌加内町,ウリュウグンホロカナイチョウ,URYU GUN HOROKANAI CHO
+01470,01,中川郡音威子府村,ナカガワグンオトイネップムラ,NAKAGAWA GUN OTOINEPPU MURA
+01471,01,中川郡中川町,ナカガワグンナカガワチョウ,NAKAGAWA GUN NAKAGAWA CHO
+01472,01,雨竜郡幌加内町,ウリュウグンホロカナイチョウ,URYU GUN HOROKANAI CHO
 01481,01,増毛郡増毛町,マシケグンマシケチョウ,MASHIKE GUN MASHIKE CHO
 01482,01,留萌郡小平町,ルモイグンオビラチョウ,RUMOI GUN OBIRA CHO
 01483,01,苫前郡苫前町,トママエグントママエチョウ,TOMAMAE GUN TOMAMAE CHO
@@ -120,68 +120,68 @@ code,prefecture_code,name,name_kana,name_romaji
 01485,01,苫前郡初山別村,トママエグンショサンベツムラ,TOMAMAE GUN SHOSAMBETSU MURA
 01486,01,天塩郡遠別町,テシオグンエンベツチョウ,TESHIO GUN EMBETSU CHO
 01487,01,天塩郡天塩町,テシオグンテシオチョウ,TESHIO GUN TESHIO CHO
-00841,01,宗谷郡猿払村,ソウヤグンサルフツムラ,SOYA GUN SARUFUTSU MURA
-00842,01,枝幸郡浜頓別町,エサシグンハマトンベツチョウ,ESASHI GUN HAMATOMBETSU CHO
-00843,01,枝幸郡中頓別町,エサシグンナカトンベツチョウ,ESASHI GUN NAKATOMBETSU CHO
-00844,01,枝幸郡枝幸町,エサシグンエサシチョウ,ESASHI GUN ESASHI CHO
-00846,01,天塩郡豊富町,テシオグントヨトミチョウ,TESHIO GUN TOYOTOMI CHO
-00847,01,礼文郡礼文町,レブングンレブンチョウ,REBUN GUN REBUN CHO
+01511,01,宗谷郡猿払村,ソウヤグンサルフツムラ,SOYA GUN SARUFUTSU MURA
+01512,01,枝幸郡浜頓別町,エサシグンハマトンベツチョウ,ESASHI GUN HAMATOMBETSU CHO
+01513,01,枝幸郡中頓別町,エサシグンナカトンベツチョウ,ESASHI GUN NAKATOMBETSU CHO
+01514,01,枝幸郡枝幸町,エサシグンエサシチョウ,ESASHI GUN ESASHI CHO
+01516,01,天塩郡豊富町,テシオグントヨトミチョウ,TESHIO GUN TOYOTOMI CHO
+01517,01,礼文郡礼文町,レブングンレブンチョウ,REBUN GUN REBUN CHO
 01518,01,利尻郡利尻町,リシリグンリシリチョウ,RISHIRI GUN RISHIRI CHO
 01519,01,利尻郡利尻富士町,リシリグンリシリフジチョウ,RISHIRI GUN RISHIRIFUJI CHO
-00848,01,天塩郡幌延町,テシオグンホロノベチョウ,TESHIO GUN HORONOBE CHO
-00867,01,網走郡美幌町,アバシリグンビホロチョウ,ABASHIRI GUN BIHORO CHO
-00868,01,網走郡津別町,アバシリグンツベツチョウ,ABASHIRI GUN TSUBETSU CHO
-00869,01,斜里郡斜里町,シャリグンシャリチョウ,SHARI GUN SHARI CHO
-00870,01,斜里郡清里町,シャリグンキヨサトチョウ,SHARI GUN KIYOSATO CHO
-00871,01,斜里郡小清水町,シャリグンコシミズチョウ,SHARI GUN KOSHIMIZU CHO
+01520,01,天塩郡幌延町,テシオグンホロノベチョウ,TESHIO GUN HORONOBE CHO
+01543,01,網走郡美幌町,アバシリグンビホロチョウ,ABASHIRI GUN BIHORO CHO
+01544,01,網走郡津別町,アバシリグンツベツチョウ,ABASHIRI GUN TSUBETSU CHO
+01545,01,斜里郡斜里町,シャリグンシャリチョウ,SHARI GUN SHARI CHO
+01546,01,斜里郡清里町,シャリグンキヨサトチョウ,SHARI GUN KIYOSATO CHO
+01547,01,斜里郡小清水町,シャリグンコシミズチョウ,SHARI GUN KOSHIMIZU CHO
 01549,01,常呂郡訓子府町,トコログンクンネップチョウ,TOKORO GUN KUNNEPPU CHO
-00872,01,常呂郡置戸町,トコログンオケトチョウ,TOKORO GUN OKETO CHO
-00874,01,常呂郡佐呂間町,トコログンサロマチョウ,TOKORO GUN SAROMA CHO
-00877,01,紋別郡遠軽町,モンベツグンエンガルチョウ,MOMBETSU GUN ENGARU CHO
+01550,01,常呂郡置戸町,トコログンオケトチョウ,TOKORO GUN OKETO CHO
+01552,01,常呂郡佐呂間町,トコログンサロマチョウ,TOKORO GUN SAROMA CHO
+01555,01,紋別郡遠軽町,モンベツグンエンガルチョウ,MOMBETSU GUN ENGARU CHO
 01559,01,紋別郡湧別町,モンベツグンユウベツチョウ,MOMBETSU GUN YUBETSU CHO
-00880,01,紋別郡滝上町,モンベツグンタキノウエチョウ,MOMBETSU GUN TAKINOE CHO
-00881,01,紋別郡興部町,モンベツグンオコッペチョウ,MOMBETSU GUN OKOPPE CHO
-00882,01,紋別郡西興部村,モンベツグンニシオコッペムラ,MOMBETSU GUN NISHIOKOPPE MURA
-00883,01,紋別郡雄武町,モンベツグンオウムチョウ,MOMBETSU GUN OMU CHO
-00884,01,網走郡大空町,アバシリグンオオゾラチョウ,ABASHIRI GUN OZORA CHO
-00889,01,虻田郡豊浦町,アブタグントヨウラチョウ,ABUTA GUN TOYORA CHO
-00893,01,有珠郡壮瞥町,ウスグンソウベツチョウ,USU GUN SOBETSU CHO
+01560,01,紋別郡滝上町,モンベツグンタキノウエチョウ,MOMBETSU GUN TAKINOE CHO
+01561,01,紋別郡興部町,モンベツグンオコッペチョウ,MOMBETSU GUN OKOPPE CHO
+01562,01,紋別郡西興部村,モンベツグンニシオコッペムラ,MOMBETSU GUN NISHIOKOPPE MURA
+01563,01,紋別郡雄武町,モンベツグンオウムチョウ,MOMBETSU GUN OMU CHO
+01564,01,網走郡大空町,アバシリグンオオゾラチョウ,ABASHIRI GUN OZORA CHO
+01571,01,虻田郡豊浦町,アブタグントヨウラチョウ,ABUTA GUN TOYORA CHO
+01575,01,有珠郡壮瞥町,ウスグンソウベツチョウ,USU GUN SOBETSU CHO
 01578,01,白老郡白老町,シラオイグンシラオイチョウ,SHIRAOI GUN SHIRAOI CHO
 01581,01,勇払郡厚真町,ユウフツグンアツマチョウ,YUFUTSU GUN ATSUMA CHO
 01584,01,虻田郡洞爺湖町,アブタグントウヤコチョウ,ABUTA GUN TOYAKO CHO
 01585,01,勇払郡安平町,ユウフツグンアビラチョウ,YUFUTSU GUN ABIRA CHO
 01586,01,勇払郡むかわ町,ユウフツグンムカワチョウ,YUFUTSU GUN MUKAWA CHO
-00897,01,沙流郡日高町,サルグンヒダカチョウ,SARU GUN HIDAKA CHO
-00898,01,沙流郡平取町,サルグンビラトリチョウ,SARU GUN BIRATORI CHO
-00900,01,新冠郡新冠町,ニイカップグンニイカップチョウ,NIIKAPPU GUN NIIKAPPU CHO
-00903,01,浦河郡浦河町,ウラカワグンウラカワチョウ,URAKAWA GUN URAKAWA CHO
+01601,01,沙流郡日高町,サルグンヒダカチョウ,SARU GUN HIDAKA CHO
+01602,01,沙流郡平取町,サルグンビラトリチョウ,SARU GUN BIRATORI CHO
+01604,01,新冠郡新冠町,ニイカップグンニイカップチョウ,NIIKAPPU GUN NIIKAPPU CHO
+01607,01,浦河郡浦河町,ウラカワグンウラカワチョウ,URAKAWA GUN URAKAWA CHO
 01608,01,様似郡様似町,サマニグンサマニチョウ,SAMANI GUN SAMANI CHO
 01609,01,幌泉郡えりも町,ホロイズミグンエリモチョウ,HOROIZUMI GUN ERIMO CHO
-00904,01,日高郡新ひだか町,ヒダカグンシンヒダカチョウ,HIDAKA GUN SHINHIDAKA CHO
-00921,01,河東郡音更町,カトウグンオトフケチョウ,KATO GUN OTOFUKE CHO
-00922,01,河東郡士幌町,カトウグンシホロチョウ,KATO GUN SHIHORO CHO
-00923,01,河東郡上士幌町,カトウグンカミシホロチョウ,KATO GUN KAMISHIHORO CHO
-00924,01,河東郡鹿追町,カトウグンシカオイチョウ,KATO GUN SHIKAOI CHO
-00925,01,上川郡新得町,カミカワグンシントクチョウ,KAMIKAWA GUN SHINTOKU CHO
-00926,01,上川郡清水町,カミカワグンシミズチョウ,KAMIKAWA GUN SHIMIZU CHO
-00927,01,河西郡芽室町,カサイグンメムロチョウ,KASAI GUN MEMURO CHO
+01610,01,日高郡新ひだか町,ヒダカグンシンヒダカチョウ,HIDAKA GUN SHINHIDAKA CHO
+01631,01,河東郡音更町,カトウグンオトフケチョウ,KATO GUN OTOFUKE CHO
+01632,01,河東郡士幌町,カトウグンシホロチョウ,KATO GUN SHIHORO CHO
+01633,01,河東郡上士幌町,カトウグンカミシホロチョウ,KATO GUN KAMISHIHORO CHO
+01634,01,河東郡鹿追町,カトウグンシカオイチョウ,KATO GUN SHIKAOI CHO
+01635,01,上川郡新得町,カミカワグンシントクチョウ,KAMIKAWA GUN SHINTOKU CHO
+01636,01,上川郡清水町,カミカワグンシミズチョウ,KAMIKAWA GUN SHIMIZU CHO
+01637,01,河西郡芽室町,カサイグンメムロチョウ,KASAI GUN MEMURO CHO
 01638,01,河西郡中札内村,カサイグンナカサツナイムラ,KASAI GUN NAKASATSUNAI MURA
 01639,01,河西郡更別村,カサイグンサラベツムラ,KASAI GUN SARABETSU MURA
-00929,01,広尾郡大樹町,ヒロオグンタイキチョウ,HIRO GUN TAIKI CHO
-00930,01,広尾郡広尾町,ヒロオグンヒロオチョウ,HIRO GUN HIRO CHO
-00931,01,中川郡幕別町,ナカガワグンマクベツチョウ,NAKAGAWA GUN MAKUBETSU CHO
-00932,01,中川郡池田町,ナカガワグンイケダチョウ,NAKAGAWA GUN IKEDA CHO
-00933,01,中川郡豊頃町,ナカガワグントヨコロチョウ,NAKAGAWA GUN TOYOKORO CHO
-00934,01,中川郡本別町,ナカガワグンホンベツチョウ,NAKAGAWA GUN HOMBETSU CHO
-00935,01,足寄郡足寄町,アショログンアショロチョウ,ASHORO GUN ASHORO CHO
+01641,01,広尾郡大樹町,ヒロオグンタイキチョウ,HIRO GUN TAIKI CHO
+01642,01,広尾郡広尾町,ヒロオグンヒロオチョウ,HIRO GUN HIRO CHO
+01643,01,中川郡幕別町,ナカガワグンマクベツチョウ,NAKAGAWA GUN MAKUBETSU CHO
+01644,01,中川郡池田町,ナカガワグンイケダチョウ,NAKAGAWA GUN IKEDA CHO
+01645,01,中川郡豊頃町,ナカガワグントヨコロチョウ,NAKAGAWA GUN TOYOKORO CHO
+01646,01,中川郡本別町,ナカガワグンホンベツチョウ,NAKAGAWA GUN HOMBETSU CHO
+01647,01,足寄郡足寄町,アショログンアショロチョウ,ASHORO GUN ASHORO CHO
 01648,01,足寄郡陸別町,アショログンリクベツチョウ,ASHORO GUN RIKUBETSU CHO
 01649,01,十勝郡浦幌町,トカチグンウラホロチョウ,TOKACHI GUN URAHORO CHO
-00945,01,釧路郡釧路町,クシログンクシロチョウ,KUSHIRO GUN KUSHIRO CHO
-00946,01,厚岸郡厚岸町,アッケシグンアッケシチョウ,AKKESHI GUN AKKESHI CHO
-00947,01,厚岸郡浜中町,アッケシグンハマナカチョウ,AKKESHI GUN HAMANAKA CHO
-00948,01,川上郡標茶町,カワカミグンシベチャチョウ,KAWAKAMI GUN SHIBECHA CHO
-00949,01,川上郡弟子屈町,カワカミグンテシカガチョウ,KAWAKAMI GUN TESHIKAGA CHO
-00951,01,阿寒郡鶴居村,アカングンツルイムラ,AKAN GUN TSURUI MURA
+01661,01,釧路郡釧路町,クシログンクシロチョウ,KUSHIRO GUN KUSHIRO CHO
+01662,01,厚岸郡厚岸町,アッケシグンアッケシチョウ,AKKESHI GUN AKKESHI CHO
+01663,01,厚岸郡浜中町,アッケシグンハマナカチョウ,AKKESHI GUN HAMANAKA CHO
+01664,01,川上郡標茶町,カワカミグンシベチャチョウ,KAWAKAMI GUN SHIBECHA CHO
+01665,01,川上郡弟子屈町,カワカミグンテシカガチョウ,KAWAKAMI GUN TESHIKAGA CHO
+01667,01,阿寒郡鶴居村,アカングンツルイムラ,AKAN GUN TSURUI MURA
 01668,01,白糠郡白糠町,シラヌカグンシラヌカチョウ,SHIRANUKA GUN SHIRANUKA CHO
 01691,01,野付郡別海町,ノツケグンベツカイチョウ,NOTSUKE GUN BETSUKAI CHO
 01692,01,標津郡中標津町,シベツグンナカシベツチョウ,SHIBETSU GUN NAKASHIBETSU CHO
