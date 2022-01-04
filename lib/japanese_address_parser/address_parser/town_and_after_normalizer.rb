@@ -25,24 +25,13 @@ module JapaneseAddressParser
 
         # 「3条」のような表記に含まれる英数字を漢数字に変換する。
         normalized =
-          normalized.gsub(/(\D*)(\d*)([条].*)/) do
+          normalized.gsub(/(\D*)(\d*)([条|丁目].*)/) do
             if ::Regexp.last_match(2).empty?
               normalized
             else
               "#{::Regexp.last_match(1)}#{::NumberToKanji.call(Integer(::Regexp.last_match(2), 10))}#{::Regexp.last_match(3)}"
             end
           end
-
-        # 「2丁目」のような表記に含まれる英数字を漢数字に変換する。
-        normalized =
-          normalized.gsub(/(\D*)(\d*)丁目.*/) do
-            "#{::Regexp.last_match(1)}#{::NumberToKanji.call(Integer(::Regexp.last_match(2), 10))}丁目"
-          end
-
-        # 「1-2-3」のような表記を「一丁目」に変換する。
-        normalized = normalized.gsub(/(\D*)(\d*)-.*$/) do
-          "#{::Regexp.last_match(1)}#{::NumberToKanji.call(Integer(::Regexp.last_match(2), 10))}丁目"
-        end
 
         normalized
       end
