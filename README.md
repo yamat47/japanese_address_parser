@@ -1,43 +1,130 @@
 # JapaneseAddressParser
+JapaneseAddressParser は日本の住所をパースすることができる Ruby gem です。
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/japanese_address_parser`. To experiment with that code, run `bin/console` for an interactive prompt.
+住所のパースに使っているのは [geolonia/japanese-addresses](https://github.com/geolonia/japanese-addresses) が提供しているデータです。
+[data/latest.csv](https://github.com/geolonia/japanese-addresses/blob/develop/data/latest.csv) を用いて、与えられた住所から当てはまる「都道府県」「市区町村」「町域」を探します。
 
-TODO: Delete this and the text above, and describe your gem
+## インストール
 
-## Installation
-
-Add this line to your application's Gemfile:
+`Gemfile` にこの行を追加してください：
 
 ```ruby
 gem 'japanese_address_parser'
 ```
 
-And then execute:
+次にこのコマンドを実行してください：
 
-    $ bundle install
+```
+$ bundle install
+```
 
-Or install it yourself as:
+もしくは gem install をして直接インストールすることもできます：
 
-    $ gem install japanese_address_parser
+```
+$ gem install japanese_address_parser
+```
 
-## Usage
+## 使い方
+```ruby
+address = JapaneseAddressParser.call('東京都港区芝公園4-2-8')
 
-TODO: Write usage instructions here
+address.class #=> JapaneseAddressParser::Models::Address
 
-## Development
+prefecture = address.prefecture
+prefecture.attributes #=> {:code=>"13", :name=>"東京都", :name_kana=>"トウキョウト", :name_romaji=>"TOKYO TO"}
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+city = address.city
+city.attributes #=> {:code=>"13103", :formatted_code=>"13103", :prefecture_code=>"13", :name=>"港区", :name_kana=>"ミナトク", :name_romaji=>"MINATO KU"}
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+town = address.town
+town.attributes #=> {:name=>"芝公園四丁目", :name_kana=>"シバコウエン 4", :name_romaji=>"SHIBAKOEN 4", :nickname=>nil, :latitude=>"35.656459", :longitude=>"139.74764"}
 
-## Contributing
+address.full_address #=> "東京都港区芝公園4-2-8"
+address.furigana #=> "トウキョウトミナトクシバコウエン 4"
+```
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/japanese_address_parser. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/japanese_address_parser/blob/main/CODE_OF_CONDUCT.md).
+<details>
+<summary>都道府県データの属性</summary>
 
-## License
+クラス：`JapaneseAddressParser::Models::Prefecture`
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+| 属性 | 説明 | 例 |
+| --- | --- | --- |
+| `code` | 都道府県コード | `"01"` |
+| `name` | 名前 | `"北海道"` |
+| `name_kana` | ふりがな | `"ホッカイドウ"` |
+| `name_romaji` | ローマ字 | `"HOKKAIDO"` |
+</details>
 
-## Code of Conduct
+<details>
+<summary>市区町村データの属性</summary>
 
-Everyone interacting in the JapaneseAddressParser project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/japanese_address_parser/blob/main/CODE_OF_CONDUCT.md).
+クラス：`JapaneseAddressParser::Models::City`
+
+| 属性 | 説明 | 例 |
+| --- | --- | --- |
+| `code` | 市区町村コード | `"01101"` |
+| `formatted_code` | 整形された市区町村コード<br>市区町村コードがない場合に `"UNKNOWN"` が入っています。 | `"01101"` / `"UNKNOWN"` |
+| `prefecture_code` | 都道府県コード | `"01"` |
+| `name` | 名前 | `"札幌市中央区"` |
+| `name_kana` | ふりがな | `"サッポロシチュウオウク"` |
+| `name_romaji` | ローマ字 | `"SAPPORO SHI CHUO KU"` |
+</details>
+
+<details>
+<summary>町域データの属性</summary>
+
+クラス：`JapaneseAddressParser::Models::Town`
+
+| 属性 | 説明 | 例 |
+| --- | --- | --- |
+| `name` | 名前 | `"旭ケ丘一丁目"` |
+| `name_kana` | ふりがな | `"アサヒガオカ 1"` |
+| `name_romaji` | ローマ字 | `"ASAHIGAOKA 1"` |
+| `nickname` | 小字・通称名 |  |
+| `latitude` | 緯度 | `"43.04223"` |
+| `longitude` | 経度 | `"141.319722"` |
+</details>
+
+都道府県や市区町村、町域のそれぞれの属性の値は geolonia/japanese-addresses が提供している CSV ファイルの値そのままです。
+
+与えられた住所からうまく地名が見つけられないときはそれ以降の探索を中止します。
+見つけられた地名のデータだけを含んだデータを返します。
+
+```ruby
+musashi = JapaneseAddressParser.call('武蔵国港区芝公園4-2-8')
+musashi.prefecture #=> nil
+musashi.city #=> nil
+musashi.town #=> nil
+
+kounan = JapaneseAddressParser.call('東京都港南区芝公園4-2-8')
+kounan.prefecture.name #=> "東京都"
+kounan.city #=> nil
+kounan.town #=> nil
+kounan.furigana #=> "トウキョウト"
+```
+
+## 開発
+開発に必要なライブラリをインストールするには、このコマンドを実行してください：
+
+```
+bin/setup
+```
+
+自動テストやリンターを実行するには、このコマンドを実行してください：
+
+```
+rake
+```
+
+## 貢献方法
+イシューやプルリクエストは随時お待ちしています。
+
+特に住所の正規化については漏れているケースがまだまだ数多くありそうです。
+「この住所だとうまくパースできないよ」くらいの気軽なもので結構ですので、イシューでのご報告をお願いします。
+
+## ライセンス
+この gem は [MIT ライセンス](https://opensource.org/licenses/MIT) の下でオープンソースとして利用可能です。
+
+## 行動規範
+JapaneseAddressParser に関してコードを書いたりイシューを追加したりする際は [行動規範](https://github.com/yamat47/number_to_kanji/blob/main/CODE_OF_CONDUCT.md) に従ってください。
