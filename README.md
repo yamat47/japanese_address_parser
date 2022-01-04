@@ -4,6 +4,8 @@ JapaneseAddressParser は日本の住所をパースすることができる Rub
 住所のパースに使っているのは [geolonia/japanese-addresses](https://github.com/geolonia/japanese-addresses) が提供しているデータです。
 [data/latest.csv](https://github.com/geolonia/japanese-addresses/blob/develop/data/latest.csv) を用いて、与えられた住所から当てはまる「都道府県」「市区町村」「町域」を探します。
 
+こちらのページで機能を試すことができます：[デモンストレーション | JapaneseAddressParser](https://japanese-address-parser-demo.herokuapp.com/)
+
 ## インストール
 
 `Gemfile` にこの行を追加してください：
