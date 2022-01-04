@@ -20,6 +20,10 @@ module JapaneseAddressParser
         code.nil? ? 'UNKNOWN' : code
       end
 
+      def attributes
+        { code: code, formatted_code: formatted_code, prefecture_code: prefecture_code, name: name, name_kana: name_kana, name_romaji: name_romaji }
+      end
+
       def prefecture
         ::JapaneseAddressParser::Models::Prefecture.all.find { |prefecture| prefecture.code == prefecture_code }
       end

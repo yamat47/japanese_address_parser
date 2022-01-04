@@ -26,6 +26,10 @@ module JapaneseAddressParser
         @name_romaji = name_romaji
       end
 
+      def attributes
+        { code: code, name: name, name_kana: name_kana, name_romaji: name_romaji }
+      end
+
       def cities
         ::CSV.table("lib/japanese_address_parser/data/#{code}.csv", converters: nil).map do |city|
           ::JapaneseAddressParser::Models::City.new(

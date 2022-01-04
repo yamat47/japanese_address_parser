@@ -13,6 +13,10 @@ module JapaneseAddressParser
         @latitude = latitude
         @longitude = longitude
       end
+
+      def attributes
+        { name: name, name_kana: name_kana, name_romaji: name_romaji, nickname: nickname, latitude: latitude, longitude: longitude }
+      end
     end
   end
 end
