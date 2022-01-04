@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'csv'
+require 'pathname'
 require_relative './town'
 
 module JapaneseAddressParser
@@ -29,7 +30,8 @@ module JapaneseAddressParser
       end
 
       def towns
-        ::CSV.table("lib/japanese_address_parser/data/#{prefecture_code}-#{formatted_code}.csv", converters: nil).map do |town|
+        filepath = Pathname(__FILE__).dirname.join("../data/#{prefecture_code}-#{formatted_code}.csv")
+        ::CSV.table(filepath, converters: nil).map do |town|
           ::JapaneseAddressParser::Models::Town.new(
             name: town[:name],
             name_kana: town[:name_kana],
