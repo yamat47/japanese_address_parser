@@ -34,14 +34,16 @@ module JapaneseAddressParser
                                 .gsub(/市|巿/, '(市|巿)')
 
         # 「日本大通1」のように丁目を含みそうな地名のとき、含む・含まないの両方のケースを作る。
-        address_regexp = address_regexp.gsub(/(\D*)(\d+)$/) do
-          "#{::Regexp.last_match(1)}(|#{::NumberToKanji.call(Integer(::Regexp.last_match(2), 10))}丁目)$"
-        end
+        address_regexp =
+          address_regexp.gsub(/(\D*)(\d+)$/) do
+            "#{::Regexp.last_match(1)}(|#{::NumberToKanji.call(Integer(::Regexp.last_match(2), 10))}丁目)$"
+          end
 
         # 「1-2-3」のように丁目を含みそうな地名のとき、含む・含まないの両方のケースを作る。
-        address_regexp = address_regexp.gsub(/(\D*)(\d*)-.*$/) do
-          "#{::Regexp.last_match(1)}(|#{::NumberToKanji.call(Integer(::Regexp.last_match(2), 10))}丁目)$"
-        end
+        address_regexp =
+          address_regexp.gsub(/(\D*)(\d*)-.*$/) do
+            "#{::Regexp.last_match(1)}(|#{::NumberToKanji.call(Integer(::Regexp.last_match(2), 10))}丁目)$"
+          end
 
         ::Regexp.compile(address_regexp)
       end
