@@ -11,8 +11,12 @@ module JapaneseAddressParser
     def call(full_address)
       prefecture = ::JapaneseAddressParser::Models::Prefecture.all.find { |candidate| full_address.start_with?(candidate.name) }
 
+      return _build_address(full_address: full_address) if prefecture.nil?
+
       city_and_after = full_address.delete_prefix(prefecture.name)
       city = prefecture.cities.find { |candidate| city_and_after.start_with?(candidate.name) }
+
+      return _build_address(full_address: full_address, prefecture: prefecture) if city.nil?
 
       town_and_after = city_and_after.delete_prefix(city.name)
       normalized_town_and_after = ::JapaneseAddressParser::AddressParser::TownAndAfterNormalizer.call(town_and_after)
@@ -23,9 +27,14 @@ module JapaneseAddressParser
       town = city.towns.find { |candidate| town_and_after_pattern.match?(candidate.name) }
       town ||= city.towns.find { |candidate| normalized_town_and_after.start_with?(candidate.name) }
 
+      _build_address(full_address: full_address, prefecture: prefecture, city: city, town: town)
+    end
+
+    def _build_address(full_address:, prefecture: nil, city: nil, town: nil)
       ::JapaneseAddressParser::Models::Address.new(full_address: full_address, prefecture: prefecture, city: city, town: town)
     end
 
-    module_function :call
+    module_function :call, :_build_address
+    private_class_method :_build_address
   end
 end

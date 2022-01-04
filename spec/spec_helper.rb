@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'japanese_address_parser'
+require_relative 'support/factory_bot'
 
 ::RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

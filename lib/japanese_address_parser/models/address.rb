@@ -13,7 +13,7 @@ module JapaneseAddressParser
       end
 
       def furigana
-        "#{prefecture.name_kana}#{city.name_kana}#{town.name_kana}"
+        "#{prefecture&.name_kana}#{city&.name_kana}#{town&.name_kana}"
       end
     end
   end
