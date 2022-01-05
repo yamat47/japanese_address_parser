@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    japanese_address_parser (1.0.1)
+    japanese_address_parser (1.0.2)
       number_to_kanji
 
 GEM
