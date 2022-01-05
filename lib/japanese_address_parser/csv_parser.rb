@@ -27,9 +27,9 @@ module JapaneseAddressParser
     public_constant :HEADER_MAP
 
     def call
-      filename = 'lib/japanese_address_parser/data/japanese-addresses.csv'
+      filepath = Pathname(__FILE__).dirname.join('../../geolonia-japanese-addresses/data/latest.csv')
       header_converters = proc { |h| ::JapaneseAddressParser::CsvParser::HEADER_MAP[h] }
-      data = ::CSV.table(filename, header_converters: header_converters, converters: nil)
+      data = ::CSV.table(filepath, header_converters: header_converters, converters: nil)
 
       prefectures = {}
 
