@@ -6,6 +6,8 @@ require_relative '../../../lib/japanese_address_parser/address_parser/pattern_cr
   describe '.call' do
     context '表記揺れを含みそうな地名のとき' do
       it 'どの表記でも一致する正規表現を作る' do
+        expect(described_class.call('大字南長野字幅下')).to(match('大字南長野'))
+
         expect(described_class.call('三栄町')).to(match('三栄町'))
         expect(described_class.call('三栄町')).to(match('四谷三栄町'))
         expect(described_class.call('四谷三栄町')).to(match('三栄町'))
