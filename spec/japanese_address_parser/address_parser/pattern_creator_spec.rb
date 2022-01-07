@@ -7,8 +7,8 @@ require_relative '../../../lib/japanese_address_parser/address_parser/pattern_cr
     context '表記揺れを含みそうな地名のとき' do
       it 'どの表記でも一致する正規表現を作る' do
         expect(described_class.call('三栄町')).to(match('三栄町'))
-        expect(described_class.call('三栄町')).to(match('三栄町'))
-        expect(described_class.call('四谷三栄町')).to(match('四谷三栄町'))
+        expect(described_class.call('三栄町')).to(match('四谷三栄町'))
+        expect(described_class.call('四谷三栄町')).to(match('三栄町'))
         expect(described_class.call('四谷三栄町')).to(match('四谷三栄町'))
 
         expect(described_class.call('鬮野川')).to(match('鬮野川'))
@@ -104,6 +104,18 @@ require_relative '../../../lib/japanese_address_parser/address_parser/pattern_cr
         expect(described_class.call('ッ')).to(match('ツ'))
         expect(described_class.call('ッ')).to(match('っ'))
         expect(described_class.call('ッ')).to(match('つ'))
+        expect(described_class.call('ツ')).to(match('ッ'))
+        expect(described_class.call('ツ')).to(match('ツ'))
+        expect(described_class.call('ツ')).to(match('っ'))
+        expect(described_class.call('ツ')).to(match('つ'))
+        expect(described_class.call('っ')).to(match('ッ'))
+        expect(described_class.call('っ')).to(match('ツ'))
+        expect(described_class.call('っ')).to(match('っ'))
+        expect(described_class.call('っ')).to(match('つ'))
+        expect(described_class.call('つ')).to(match('ッ'))
+        expect(described_class.call('つ')).to(match('ツ'))
+        expect(described_class.call('つ')).to(match('っ'))
+        expect(described_class.call('つ')).to(match('つ'))
 
         expect(described_class.call('ニ')).to(match('ニ'))
         expect(described_class.call('ニ')).to(match('二'))
