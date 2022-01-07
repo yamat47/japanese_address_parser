@@ -6,7 +6,8 @@ module JapaneseAddressParser
       # geolonia/normalize-japanese-addressesの実装を参考にしている。
       # https://github.com/geolonia/normalize-japanese-addresses/blob/6ca49c3b21cd40d2cb3118b6f38006bcf93ee10f/src/lib/dict.ts#L25
       def call(address)
-        address_regexp = address.gsub(/三栄町|四谷三栄町/, '(三栄町|四谷三栄町)')
+        address_regexp = address.gsub(/大字南長野字幅下/, '(大字南長野|大字南長野字幅下)')
+                                .gsub(/三栄町|四谷三栄町/, '(三栄町|四谷三栄町)')
                                 .gsub(/鬮野川|くじ野川|くじの川/, '(鬮野川|くじ野川|くじの川)')
                                 .gsub(/通り|とおり/, '(通り|とおり)')
                                 .gsub(/埠頭|ふ頭/, '(埠頭|ふ頭)')
