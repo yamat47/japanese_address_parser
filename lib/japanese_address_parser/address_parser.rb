@@ -19,6 +19,9 @@ module JapaneseAddressParser
       return _build_address(full_address: full_address, prefecture: prefecture) if city.nil?
 
       town_and_after = city_and_after.delete_prefix(city.name)
+
+      return _build_address(full_address: full_address, prefecture: prefecture, city: city) if town_and_after.empty?
+
       normalized_town_and_after = ::JapaneseAddressParser::AddressParser::TownAndAfterNormalizer.call(town_and_after)
       town_and_after_pattern = ::JapaneseAddressParser::AddressParser::PatternCreator.call(normalized_town_and_after)
 
