@@ -69,7 +69,7 @@ module JapaneseAddressParser
     end
 
     def _find_town(towns, row)
-      towns.find { |town| town.name == row[:town_name] }
+      towns.find { |town| town.name == row[:town_name] && town.nickname == row[:town_nickname] }
     end
 
     def _build_town(row)
