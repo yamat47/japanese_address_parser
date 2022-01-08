@@ -7,6 +7,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ## [Unreleased]
 ### Added
 
+- [#27](https://github.com/yamat47/japanese_address_parser/pull/27) 町域を探索するときに小字・通称名も使うようにした。([@yamat47](https://github.com/yamat47))
+
 ### Changed
 
 ### Deprecated
@@ -14,8 +16,6 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ### Removed
 
 ### Fixed
-
-- [#25](https://github.com/yamat47/japanese_address_parser/pull/25) 町域が含まれていないときに市区町村に含まれる最初の町域がヒットしてしまっていた不具合を解消した。([@yamat47](https://github.com/yamat47))
 
 ### Security
 

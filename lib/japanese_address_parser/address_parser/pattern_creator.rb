@@ -46,7 +46,7 @@ module JapaneseAddressParser
             "#{::Regexp.last_match(1)}(|#{::NumberToKanji.call(Integer(::Regexp.last_match(2), 10))}丁目)$"
           end
 
-        ::Regexp.compile(address_regexp)
+        ::Regexp.compile("^#{address_regexp}")
       end
 
       module_function :call
