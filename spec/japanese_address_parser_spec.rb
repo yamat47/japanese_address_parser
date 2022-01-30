@@ -18,12 +18,42 @@ require 'yaml'
       end
     end
 
-    ::YAML.load_file('spec/addresses.yml').each do |address|
+    ::YAML.load_file('spec/japanese_address_parser_spec/parsable_to_prefecture_addresses.yml').each do |address|
       context "#{address['full_address']}のとき" do
         let(:full_address) { address['full_address'] }
         let(:furigana)     { address['furigana']     }
 
-        it '町名まで解析できる' do
+        it '都道府県まで解析できる' do
+          expect(parsed_address).to(be_a(::JapaneseAddressParser::Models::Address))
+          expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
+          expect(parsed_address.city).to(be_nil)
+          expect(parsed_address.town).to(be_nil)
+          expect(parsed_address.furigana).to(eq(furigana))
+        end
+      end
+    end
+
+    ::YAML.load_file('spec/japanese_address_parser_spec/parsable_to_city_addresses.yml').each do |address|
+      context "#{address['full_address']}のとき" do
+        let(:full_address) { address['full_address'] }
+        let(:furigana)     { address['furigana']     }
+
+        it '市区町村まで解析できる' do
+          expect(parsed_address).to(be_a(::JapaneseAddressParser::Models::Address))
+          expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
+          expect(parsed_address.city).to(be_a(::JapaneseAddressParser::Models::City))
+          expect(parsed_address.town).to(be_nil)
+          expect(parsed_address.furigana).to(eq(furigana))
+        end
+      end
+    end
+
+    ::YAML.load_file('spec/japanese_address_parser_spec/addresses.yml').each do |address|
+      context "#{address['full_address']}のとき" do
+        let(:full_address) { address['full_address'] }
+        let(:furigana)     { address['furigana']     }
+
+        it '町域まで解析できる' do
           expect(parsed_address).to(be_a(::JapaneseAddressParser::Models::Address))
           expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
           expect(parsed_address.city).to(be_a(::JapaneseAddressParser::Models::City))
