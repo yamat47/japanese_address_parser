@@ -7,20 +7,25 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ## [Unreleased]
 ### Added
 
-- [#27](https://github.com/yamat47/japanese_address_parser/pull/27) 町域を探索するときに小字・通称名も使うようにした。([@yamat47](https://github.com/yamat47))
-- [#30](https://github.com/yamat47/japanese_address_parser/pull/30) https://github.com/geolonia/normalize-japanese-addresses を使って住所を正規化する ([@champierre](https://github.com/champierre))
-
 ### Changed
 
 ### Deprecated
 
 ### Removed
 
-- [#34](https://github.com/yamat47/japanese_address_parser/pull/34) 使わなくなったコード・依存関係を整理整頓した。([@yamat47](https://github.com/yamat47))
-
 ### Fixed
 
 ### Security
+
+## [2.0.0] - 2022-01-31
+### Added
+
+- [#27](https://github.com/yamat47/japanese_address_parser/pull/27) 町域を探索するときに小字・通称名も使うようにした。([@yamat47](https://github.com/yamat47))
+- [#30](https://github.com/yamat47/japanese_address_parser/pull/30) https://github.com/geolonia/normalize-japanese-addresses を使って住所を正規化する ([@champierre](https://github.com/champierre))
+
+### Removed
+
+- [#34](https://github.com/yamat47/japanese_address_parser/pull/34) 使わなくなったコード・依存関係を整理整頓した。([@yamat47](https://github.com/yamat47))
 
 ## [1.1.1] - 2022-01-08
 
