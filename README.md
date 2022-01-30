@@ -1,8 +1,8 @@
 # JapaneseAddressParser
 JapaneseAddressParser は日本の住所をパースすることができる Ruby gem です。
 
-住所のパースに使っているのは [geolonia/japanese-addresses](https://github.com/geolonia/japanese-addresses) が提供しているデータです。
-[data/latest.csv](https://github.com/geolonia/japanese-addresses/blob/develop/data/latest.csv) を用いて、与えられた住所から当てはまる「都道府県」「市区町村」「町域」を探します。
+住所のパースに使っているのは [geolonia/normalize-japanese-addresses](https://github.com/geolonia/normalize-japanese-addresses) です。
+npm のライブラリを Ruby のランタイムから呼び出しているため、Node が実行できる環境でしか動作しません。
 
 こちらのページで機能を試すことができます：[デモンストレーション | JapaneseAddressParser](https://japanese-address-parser-demo.herokuapp.com/)
 
