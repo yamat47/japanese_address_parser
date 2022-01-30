@@ -129,4 +129,4 @@ rake
 この gem は [MIT ライセンス](https://opensource.org/licenses/MIT) の下でオープンソースとして利用可能です。
 
 ## 行動規範
-JapaneseAddressParser に関してコードを書いたりイシューを追加したりする際は [行動規範](https://github.com/yamat47/number_to_kanji/blob/main/CODE_OF_CONDUCT.md) に従ってください。
+JapaneseAddressParser に関してコードを書いたりイシューを追加したりする際は [行動規範](https://github.com/yamat47/japanese_address_parser/blob/main/CODE_OF_CONDUCT.md) に従ってください。
