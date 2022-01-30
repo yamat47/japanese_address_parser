@@ -3,6 +3,7 @@ PATH
   specs:
     japanese_address_parser (1.1.1)
       number_to_kanji
+      schmooze
 
 GEM
   remote: https://rubygems.org/
@@ -58,6 +59,7 @@ GEM
     rubocop-rspec (2.7.0)
       rubocop (~> 1.19)
     ruby-progressbar (1.11.0)
+    schmooze (0.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.1.0)
