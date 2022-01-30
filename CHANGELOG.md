@@ -8,6 +8,7 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ### Added
 
 - [#27](https://github.com/yamat47/japanese_address_parser/pull/27) 町域を探索するときに小字・通称名も使うようにした。([@yamat47](https://github.com/yamat47))
+- [#30](https://github.com/yamat47/japanese_address_parser/pull/30) https://github.com/geolonia/normalize-japanese-addresses を使って住所を正規化する ([@champierre](https://github.com/champierre))
 
 ### Changed
 
