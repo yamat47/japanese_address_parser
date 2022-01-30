@@ -1,0 +1,3815 @@
+- full_address: 北海道札幌市中央区北3条西6-1
+  furigana: ホッカイドウサッポロシチュウオウクキタ3ジョウニシ 6
+- full_address: 青森県青森市長島1-1-1
+  furigana: アオモリケンアオモリシナガシマ 1
+- full_address: 岩手県盛岡市内丸10-1
+  furigana: イワテケンモリオカシウチマル
+- full_address: 宮城県仙台市青葉区本町3-8-1
+  furigana: ミヤギケンセンダイシアオバクホンチョウ 3
+- full_address: 秋田県秋田市山王4-1-1
+  furigana: アキタケンアキタシサンノウ 4
+- full_address: 山形県山形市松波2-8-1
+  furigana: ヤマガタケンヤマガタシマツナミ 2
+- full_address: 福島県福島市杉妻町2-16
+  furigana: フクシマケンフクシマシスギツマチョウ
+- full_address: 茨城県水戸市笠原町978-6
+  furigana: イバラキケンミトシカサハラチョウ
+- full_address: 栃木県宇都宮市塙田1-1-20
+  furigana: トチギケンウツノミヤシハナワダ 1
+- full_address: 群馬県前橋市大手町1-1-1
+  furigana: グンマケンマエバシシオオテマチ 1
+- full_address: 埼玉県さいたま市浦和区高砂3-15-1
+  furigana: サイタマケンサイタマシウラワクタカサゴ 3
+- full_address: 千葉県千葉市中央区市場町1-1
+  furigana: チバケンチバシチュウオウクイチバチョウ
+- full_address: 東京都新宿区西新宿2-8-1
+  furigana: トウキョウトシンジュククニシシンジュク 2
+- full_address: 神奈川県横浜市中区日本大通1
+  furigana: カナガワケンヨコハマシナカクニホンオオドオリ
+- full_address: 新潟県新潟市中央区新光町4-1
+  furigana: ニイガタケンニイガタシチュウオウクシンコウチョウ
+- full_address: 富山県富山市新総曲輪1-7
+  furigana: トヤマケントヤマシシンソウガワ
+- full_address: 石川県金沢市鞍月1-1
+  furigana: イシカワケンカナザワシクラツキ 1
+- full_address: 福井県福井市大手3-17-1
+  furigana: フクイケンフクイシオオテ 3
+- full_address: 山梨県甲府市丸の内1-6-1
+  furigana: ヤマナシケンコウフシマルノウチ 1
+- full_address: 長野県長野市大字南長野字幅下692-2
+  furigana: ナガノケンナガノシ
+- full_address: 岐阜県岐阜市藪田南2-1-1
+  furigana: ギフケンギフシヤブタミナミ 2
+- full_address: 静岡県静岡市葵区追手町9-6
+  furigana: シズオカケンシズオカシアオイクオウテマチ
+- full_address: 愛知県名古屋市中区三の丸3-1-2
+  furigana: アイチケンナゴヤシナカクサンノマル 3
+- full_address: 三重県津市広明町13
+  furigana: ミエケンツシコウメイチョウ
+- full_address: 滋賀県大津市京町4-1-1
+  furigana: シガケンオオツシキョウマチ 4
+- full_address: 京都府京都市上京区薮ノ内町
+  furigana: キョウトフキョウトシカミギョウクヤブノウチチョウ
+- full_address: 大阪府大阪市中央区大手前2-1-22
+  furigana: オオサカフオオサカシチュウオウクオオテマエ 2
+- full_address: 兵庫県神戸市中央区下山手通5-10-1
+  furigana: ヒョウゴケンコウベシチュウオウクシモヤマテドオリ 5
+- full_address: 奈良県奈良市登大路町30
+  furigana: ナラケンナラシノボリオオジチョウ
+- full_address: 和歌山県和歌山市小松原通1-1
+  furigana: ワカヤマケンワカヤマシコマツバラドオリ 1
+- full_address: 鳥取県鳥取市東町1-220
+  furigana: トットリケントットリシヒガシマチ 1
+- full_address: 島根県松江市殿町1
+  furigana: シマネケンマツエシトノマチ
+- full_address: 岡山県岡山市北区内山下2-4-6
+  furigana: オカヤマケンオカヤマシキタクウチサンゲ 2
+- full_address: 広島県広島市中区基町10-52
+  furigana: ヒロシマケンヒロシマシナカクモトマチ
+- full_address: 山口県山口市滝町1-1
+  furigana: ヤマグチケンヤマグチシタキマチ
+- full_address: 徳島県徳島市万代町1-1
+  furigana: トクシマケントクシマシバンダイチョウ 1
+- full_address: 香川県高松市番町4-1-10
+  furigana: カガワケンタカマツシバンチョウ 4
+- full_address: 愛媛県松山市一番町4-4-2
+  furigana: エヒメケンマツヤマシイチバンチョウ 4
+- full_address: 高知県高知市丸ノ内1-2-20
+  furigana: コウチケンコウチシマルノウチ 1
+- full_address: 福岡県福岡市博多区東公園7-7
+  furigana: フクオカケンフクオカシハカタクヒガシコウエン
+- full_address: 佐賀県佐賀市城内1-1-59
+  furigana: サガケンサガシジョウナイ 1
+- full_address: 長崎県長崎市尾上町3-1
+  furigana: ナガサキケンナガサキシオノウエマチ
+- full_address: 熊本県熊本市中央区水前寺6-18-1
+  furigana: クマモトケンクマモトシチュウオウクスイゼンジ 6
+- full_address: 大分県大分市大手町3-1-1
+  furigana: オオイタケンオオイタシオオテマチ 3
+- full_address: 宮崎県宮崎市橘通東2-10-1
+  furigana: ミヤザキケンミヤザキシタチバナドオリヒガシ 2
+- full_address: 鹿児島県鹿児島市鴨池新町10-1
+  furigana: カゴシマケンカゴシマシカモイケシンマチ
+- full_address: 沖縄県那覇市泉崎1-2-2
+  furigana: オキナワケンナハシイズミザキ 1
+
+- full_address: 北海道札幌市中央区北1条西2丁目
+  furigana: ホッカイドウサッポロシチュウオウクキタ1ジョウニシ 2
+- full_address: 北海道札幌市中央区南3条西11丁目330-2
+  furigana: ホッカイドウサッポロシチュウオウクミナミ3ジョウニシ 11
+- full_address: 北海道札幌市北区北24条西6丁目1-1
+  furigana: ホッカイドウサッポロシキタクキタ24ジョウニシ 6
+- full_address: 北海道札幌市東区北11条東7丁目1-1
+  furigana: ホッカイドウサッポロシヒガシクキタ11ジョウヒガシ 7
+- full_address: 北海道札幌市豊平区平岸6条10丁目1-1
+  furigana: ホッカイドウサッポロシトヨヒラクヒラギシ6ジョウ 10
+- full_address: 北海道札幌市南区真駒内幸町2丁目2-1
+  furigana: ホッカイドウサッポロシミナミクマコマナイサイワイマチ 2
+- full_address: 北海道札幌市西区琴似2条7丁目1-1
+  furigana: ホッカイドウサッポロシニシクコトニ2ジョウ 7
+- full_address: 北海道札幌市厚別区厚別中央1条5丁目3-2
+  furigana: ホッカイドウサッポロシアツベツクアツベツチュウオウ1ジョウ 5
+- full_address: 北海道札幌市手稲区前田1条11丁目1-10
+  furigana: ホッカイドウサッポロシテイネクマエダ1ジョウ 11
+- full_address: 北海道札幌市清田区平岡1条1丁目2-1
+  furigana: ホッカイドウサッポロシキヨタクヒラオカ1ジョウ 1
+- full_address: 北海道函館市東雲町4-13
+  furigana: ホッカイドウハコダテシシノノメチョウ
+- full_address: 北海道小樽市花園2-12-1
+  furigana: ホッカイドウオタルシハナゾノ 2
+- full_address: 北海道旭川市6条通9丁目
+  furigana: ホッカイドウアサヒカワシ 9
+- full_address: 北海道室蘭市幸町1-2
+  furigana: ホッカイドウムロランシサイワイチョウ
+- full_address: 北海道釧路市黒金町7-5
+  furigana: ホッカイドウクシロシクロガネチョウ 7
+- full_address: 北海道帯広市西5条南7-1
+  furigana: ホッカイドウオビヒロシニシ5ジョウミナミ 7
+- full_address: 北海道北見市大通西3丁目1番地1
+  furigana: ホッカイドウキタミシオオドオリニシ 3
+- full_address: 北海道夕張市本町4-2
+  furigana: ホッカイドウユウバリシホンチョウ 4
+- full_address: 北海道岩見沢市鳩が丘1-1-1
+  furigana: ホッカイドウイワミザワシハトガオカ 1
+- full_address: 北海道網走市南6条東4丁目
+  furigana: ホッカイドウアバシリシミナミ6ジョウヒガシ 4
+- full_address: 北海道留萌市幸町1-11
+  furigana: ホッカイドウルモイシサイワイチョウ 1
+- full_address: 北海道苫小牧市旭町4-5-6
+  furigana: ホッカイドウトマコマイシアサヒマチ 4
+- full_address: 北海道稚内市中央3-13-15
+  furigana: ホッカイドウワッカナイシチュウオウ 3
+- full_address: 北海道美唄市西3条南1-1-1
+  furigana: ホッカイドウビバイシニシ3ジョウミナミ 1
+- full_address: 北海道芦別市北1条東1-3
+  furigana: ホッカイドウアシベツシキタ1ジョウヒガシ 1
+- full_address: 北海道江別市高砂町6
+  furigana: ホッカイドウエベツシタカサゴチョウ
+- full_address: 北海道赤平市泉町4-1
+  furigana: ホッカイドウアカビラシイズミマチ 4
+- full_address: 北海道紋別市幸町2-1-18
+  furigana: ホッカイドウモンベツシサイワイチョウ 2
+- full_address: 北海道士別市東6条4-1
+  furigana: ホッカイドウシベツシヒガシ6ジョウ 4
+- full_address: 北海道名寄市大通南1-1
+  furigana: ホッカイドウナヨロシオオドオリミナミ 1
+- full_address: 北海道三笠市幸町2
+  furigana: ホッカイドウミカサシサイワイチョウ
+- full_address: 北海道根室市常盤町2-27
+  furigana: ホッカイドウネムロシトキワチョウ 2
+- full_address: 北海道千歳市東雲町2-34
+  furigana: ホッカイドウチトセシシノノメチョウ 2
+- full_address: 北海道滝川市大町1-2-15
+  furigana: ホッカイドウタキカワシオオマチ 1
+- full_address: 北海道砂川市西6条北3-1-1
+  furigana: ホッカイドウスナガワシニシ6ジョウキタ 3
+- full_address: 北海道歌志内市字本町5
+  furigana: ホッカイドウウタシナイシ
+- full_address: 北海道深川市2条17-17
+  furigana: ホッカイドウフカガワシ2ジョウ
+- full_address: 北海道富良野市弥生町1-1
+  furigana: ホッカイドウフラノシヤヨイチョウ
+- full_address: 北海道登別市中央町6-11
+  furigana: ホッカイドウノボリベツシチュウオウチョウ 6
+- full_address: 北海道恵庭市京町1
+  furigana: ホッカイドウエニワシキョウマチ
+- full_address: 北海道伊達市鹿島町20-1
+  furigana: ホッカイドウダテシカシマチョウ
+- full_address: 北海道北広島市中央4-2-1
+  furigana: ホッカイドウキタヒロシマシチュウオウ 4
+- full_address: 北海道石狩市花川北6条1-30-2
+  furigana: ホッカイドウイシカリシハナカワキタ6ジョウ 1
+- full_address: 北海道北斗市中央1-3-10
+  furigana: ホッカイドウホクトシチュウオウ 1
+- full_address: 北海道石狩郡当別町白樺町58-9
+  furigana: ホッカイドウイシカリグントウベツチョウシラカバチョウ
+- full_address: 北海道石狩郡新篠津村第47線北13
+  furigana: ホッカイドウイシカリグンシンシノツムラ
+- full_address: 北海道松前郡松前町字福山248番地1
+  furigana: ホッカイドウマツマエグンマツマエチョウ
+- full_address: 北海道松前郡福島町字福島820
+  furigana: ホッカイドウマツマエグンフクシマチョウ
+- full_address: 北海道上磯郡知内町字重内21-1
+  furigana: ホッカイドウカミイソグンシリウチチョウ
+- full_address: 北海道上磯郡木古内町字本町218
+  furigana: ホッカイドウカミイソグンキコナイチョウ
+- full_address: 北海道亀田郡七飯町本町6丁目1-1
+  furigana: ホッカイドウカメダグンナナエチョウホンチョウ 6
+- full_address: 北海道茅部郡鹿部町字宮浜299
+  furigana: ホッカイドウカヤベグンシカベチョウ
+- full_address: 北海道茅部郡森町字御幸町144-1
+  furigana: ホッカイドウカヤベグンモリマチ
+- full_address: 北海道二海郡八雲町住初町138
+  furigana: ホッカイドウフタミグンヤクモチョウスミゾメチョウ
+- full_address: 北海道山越郡長万部町字長万部453-1
+  furigana: ホッカイドウヤマコシグンオシャマンベチョウ
+- full_address: 北海道檜山郡江差町字中歌町193-1
+  furigana: ホッカイドウヒヤマグンエサシチョウ
+- full_address: 北海道檜山郡上ノ国町字大留100
+  furigana: ホッカイドウヒヤマグンカミノクニチョウ
+- full_address: 北海道檜山郡厚沢部町新町207
+  furigana: ホッカイドウヒヤマグンアッサブチョウシンマチ
+- full_address: 北海道爾志郡乙部町字緑町388
+  furigana: ホッカイドウニシグンオトベチョウ
+- full_address: 北海道奥尻郡奥尻町字奥尻806
+  furigana: ホッカイドウオクシリグンオクシリチョウ
+- full_address: 北海道瀬棚郡今金町字今金48-1
+  furigana: ホッカイドウセタナグンイマカネチョウ
+- full_address: 北海道久遠郡せたな町北檜山区徳島63-1
+  furigana: ホッカイドウクドウグンセタナチョウキタヒヤマクトクシマ
+- full_address: 北海道島牧郡島牧村字泊83-1
+  furigana: ホッカイドウシママキグンシママキムラ
+- full_address: 北海道寿都郡寿都町字渡島町140-1
+  furigana: ホッカイドウスッツグンスッツチョウ
+- full_address: 北海道寿都郡黒松内町字黒松内302-1
+  furigana: ホッカイドウスッツグンクロマツナイチョウ
+- full_address: 北海道磯谷郡蘭越町蘭越町258-5
+  furigana: ホッカイドウイソヤグンランコシチョウランコシマチ
+- full_address: 北海道虻田郡ニセコ町字富士見55番地
+  furigana: ホッカイドウアブタグンニセコチョウ
+- full_address: 北海道虻田郡真狩村字真狩118
+  furigana: ホッカイドウアブタグンマッカリムラ
+- full_address: 北海道虻田郡留寿都村字留寿都175
+  furigana: ホッカイドウアブタグンルスツムラ
+- full_address: 北海道虻田郡喜茂別町字喜茂別123
+  furigana: ホッカイドウアブタグンキモベツチョウ
+- full_address: 北海道虻田郡京極町字京極527
+  furigana: ホッカイドウアブタグンキョウゴクチョウ
+- full_address: 北海道虻田郡倶知安町北1条東3-3
+  furigana: ホッカイドウアブタグンクッチャンチョウキタ1ジョウヒガシ 3
+- full_address: 北海道岩内郡共和町南幌似38-2
+  furigana: ホッカイドウイワナイグンキョウワチョウミナミホロニ
+- full_address: 北海道岩内郡岩内町字高台134-1
+  furigana: ホッカイドウイワナイグンイワナイチョウ
+- full_address: 北海道古宇郡泊村大字茅沼村字臼別191-7
+  furigana: ホッカイドウフルウグントマリムラ
+- full_address: 北海道古宇郡神恵内村大字神恵内村81-4
+  furigana: ホッカイドウフルウグンカモエナイムラ
+- full_address: 北海道積丹郡積丹町大字美国町字船澗48-5
+  furigana: ホッカイドウシャコタングンシャコタンチョウ
+- full_address: 北海道古平郡古平町大字浜町40-4
+  furigana: ホッカイドウフルビラグンフルビラチョウ
+- full_address: 北海道余市郡仁木町西町1-36-1
+  furigana: ホッカイドウヨイチグンニキチョウニシマチ 1
+- full_address: 北海道余市郡余市町朝日町26
+  furigana: ホッカイドウヨイチグンヨイチチョウアサヒチョウ
+- full_address: 北海道余市郡赤井川村字赤井川74-2
+  furigana: ホッカイドウヨイチグンアカイガワムラ
+- full_address: 北海道空知郡南幌町栄町3-2-1
+  furigana: ホッカイドウソラチグンナンポロチョウサカエマチ 3
+- full_address: 北海道空知郡奈井江町字奈井江11
+  furigana: ホッカイドウソラチグンナイエチョウ
+- full_address: 北海道空知郡上砂川町字上砂川町40-10
+  furigana: ホッカイドウソラチグンカミスナガワチョウ
+- full_address: 北海道夕張郡由仁町新光200
+  furigana: ホッカイドウユウバリグンユニチョウシンコウ
+- full_address: 北海道夕張郡長沼町中央北1-1-1
+  furigana: ホッカイドウユウバリグンナガヌマチョウ 1
+- full_address: 北海道夕張郡栗山町松風3-252
+  furigana: ホッカイドウユウバリグンクリヤマチョウマツカゼ 3
+- full_address: 北海道樺戸郡浦臼町字浦臼内183-15
+  furigana: ホッカイドウカバトグンウラウスチョウ
+- full_address: 北海道樺戸郡新十津川町字中央301-1
+  furigana: ホッカイドウカバトグンシントツカワチョウ
+- full_address: 北海道雨竜郡妹背牛町字妹背牛5200
+  furigana: ホッカイドウウリュウグンモセウシチョウ
+- full_address: 北海道雨竜郡雨竜町字フシコウリウ104
+  furigana: ホッカイドウウリュウグンウリュウチョウ
+- full_address: 北海道雨竜郡北竜町字和11-1
+  furigana: ホッカイドウウリュウグンホクリュウチョウ
+- full_address: 北海道雨竜郡沼田町南1条3-6-53
+  furigana: ホッカイドウウリュウグンヌマタチョウミナミ1ジョウ 3
+- full_address: 北海道上川郡鷹栖町南1条3丁目5番1号
+  furigana: ホッカイドウカミカワグンタカスチョウミナミ1ジョウ 3
+- full_address: 北海道上川郡東神楽町南1条西1丁目3-2
+  furigana: ホッカイドウカミカワグンヒガシカグラチョウミナミ1ジョウニシ 1
+- full_address: 北海道上川郡当麻町3条東2丁目11-1
+  furigana: ホッカイドウカミカワグントウマチョウ3ジョウヒガシ 2
+- full_address: 北海道上川郡比布町北町1-2-1
+  furigana: ホッカイドウカミカワグンピップチョウキタマチ 1
+- full_address: 北海道上川郡愛別町字本町179
+  furigana: ホッカイドウカミカワグンアイベツチョウ
+- full_address: 北海道上川郡上川町南町180
+  furigana: ホッカイドウカミカワグンカミカワチョウミナミマチ
+- full_address: 北海道上川郡東川町東町1-16-1
+  furigana: ホッカイドウカミカワグンヒガシカワチョウヒガシマチ 1
+- full_address: 北海道上川郡美瑛町本町4-6-1
+  furigana: ホッカイドウカミカワグンビエイチョウモトマチ 4
+- full_address: 北海道空知郡上富良野町大町2-2-11
+  furigana: ホッカイドウソラチグンカミフラノチョウオオマチ 2
+- full_address: 北海道空知郡中富良野町本町9-1
+  furigana: ホッカイドウソラチグンナカフラノチョウモトマチ
+- full_address: 北海道空知郡南富良野町字幾寅867
+  furigana: ホッカイドウソラチグンミナミフラノチョウ
+- full_address: 北海道勇払郡占冠村字中央
+  furigana: ホッカイドウユウフツグンシムカップムラ
+- full_address: 北海道上川郡和寒町字西町120
+  furigana: ホッカイドウカミカワグンワッサムチョウ
+- full_address: 北海道上川郡剣淵町仲町37-1
+  furigana: ホッカイドウカミカワグンケンブチチョウナカマチ
+- full_address: 北海道上川郡下川町幸町63
+  furigana: ホッカイドウカミカワグンシモカワチョウサイワイマチ
+- full_address: 北海道中川郡美深町字西町18
+  furigana: ホッカイドウナカガワグンビフカチョウ
+- full_address: 北海道中川郡音威子府村字音威子府444-1
+  furigana: ホッカイドウナカガワグンオトイネップムラ
+- full_address: 北海道中川郡中川町字中川337
+  furigana: ホッカイドウナカガワグンナカガワチョウ
+- full_address: 北海道雨竜郡幌加内町字幌加内4699
+  furigana: ホッカイドウウリュウグンホロカナイチョウ
+- full_address: 北海道増毛郡増毛町弁天町3-61
+  furigana: ホッカイドウマシケグンマシケチョウベンテンチョウ 3
+- full_address: 北海道留萌郡小平町字小平町216
+  furigana: ホッカイドウルモイグンオビラチョウ
+- full_address: 北海道苫前郡苫前町字旭37-1
+  furigana: ホッカイドウトママエグントママエチョウ
+- full_address: 北海道苫前郡羽幌町南町1-1
+  furigana: ホッカイドウトママエグンハボロチョウミナミマチ
+- full_address: 北海道苫前郡初山別村字初山別96-1
+  furigana: ホッカイドウトママエグンショサンベツムラ
+- full_address: 北海道天塩郡遠別町字本町3-37
+  furigana: ホッカイドウテシオグンエンベツチョウ 3
+- full_address: 北海道天塩郡天塩町新栄通8丁目
+  furigana: ホッカイドウテシオグンテシオチョウシンエイドオリ 8
+- full_address: 北海道宗谷郡猿払村鬼志別西町172-1
+  furigana: ホッカイドウソウヤグンサルフツムラオニシベツニシマチ
+- full_address: 北海道枝幸郡浜頓別町中央南1
+  furigana: ホッカイドウエサシグンハマトンベツチョウチュウオウミナミ
+- full_address: 北海道枝幸郡中頓別町字中頓別172-6
+  furigana: ホッカイドウエサシグンナカトンベツチョウ
+- full_address: 北海道枝幸郡枝幸町本町916
+  furigana: ホッカイドウエサシグンエサシチョウホンチョウ
+- full_address: 北海道礼文郡礼文町大字香深村字トンナイ558-5
+  furigana: ホッカイドウレブングンレブンチョウ
+- full_address: 北海道利尻郡利尻町沓形字緑町14-1
+  furigana: ホッカイドウリシリグンリシリチョウクツガタ
+- full_address: 北海道利尻郡利尻富士町鴛泊字富士野6
+  furigana: ホッカイドウリシリグンリシリフジチョウオシドマリ
+- full_address: 北海道天塩郡幌延町宮園町1番地1
+  furigana: ホッカイドウテシオグンホロノベチョウミヤゾノマチ
+- full_address: 北海道網走郡美幌町字東2条北2-25
+  furigana: ホッカイドウアバシリグンビホロチョウ 2
+- full_address: 北海道網走郡津別町字幸町41
+  furigana: ホッカイドウアバシリグンツベツチョウ
+- full_address: 北海道斜里郡斜里町本町12
+  furigana: ホッカイドウシャリグンシャリチョウホンマチ
+- full_address: 北海道斜里郡清里町羽衣町13
+  furigana: ホッカイドウシャリグンキヨサトチョウハゴロモマチ
+- full_address: 北海道斜里郡小清水町元町2-1-1
+  furigana: ホッカイドウシャリグンコシミズチョウモトマチ 2
+- full_address: 北海道常呂郡訓子府町東町398
+  furigana: ホッカイドウトコログンクンネップチョウヒガシマチ
+- full_address: 北海道常呂郡置戸町字置戸181
+  furigana: ホッカイドウトコログンオケトチョウ
+- full_address: 北海道常呂郡佐呂間町字永代町3-1
+  furigana: ホッカイドウトコログンサロマチョウ
+- full_address: 北海道紋別郡遠軽町1条通北3-1-1
+  furigana: ホッカイドウモンベツグンエンガルチョウ1ジョウドオリキタ 3
+- full_address: 北海道紋別郡湧別町上湧別屯田市街地318
+  furigana: ホッカイドウモンベツグンユウベツチョウカミユウベツトンデンシガイチ
+- full_address: 北海道紋別郡滝上町字滝ノ上市街地4条通2-1
+  furigana: ホッカイドウモンベツグンタキノウエチョウ 2
+- full_address: 北海道紋別郡興部町字興部710
+  furigana: ホッカイドウモンベツグンオコッペチョウ
+- full_address: 北海道紋別郡西興部村字西興部100
+  furigana: ホッカイドウモンベツグンニシオコッペムラ
+- full_address: 北海道網走郡大空町女満別西3条4丁目1-1
+  furigana: ホッカイドウアバシリグンオオゾラチョウメマンベツニシ3ジョウ 4
+- full_address: 北海道虻田郡豊浦町字船見町10
+  furigana: ホッカイドウアブタグントヨウラチョウ
+- full_address: 北海道有珠郡壮瞥町字滝之町287-7
+  furigana: ホッカイドウウスグンソウベツチョウ
+- full_address: 北海道白老郡白老町大町1-1-1
+  furigana: ホッカイドウシラオイグンシラオイチョウオオマチ 1
+- full_address: 北海道勇払郡厚真町京町120
+  furigana: ホッカイドウユウフツグンアツマチョウキョウマチ
+- full_address: 北海道虻田郡洞爺湖町栄町58
+  furigana: ホッカイドウアブタグントウヤコチョウサカエチョウ
+- full_address: 北海道勇払郡安平町早来大町95
+  furigana: ホッカイドウユウフツグンアビラチョウハヤキタオオマチ
+- full_address: 北海道勇払郡むかわ町美幸2-88
+  furigana: ホッカイドウユウフツグンムカワチョウミユキ 2
+- full_address: 北海道沙流郡日高町門別本町210-1
+  furigana: ホッカイドウサルグンヒダカチョウモンベツホンチョウ
+- full_address: 北海道沙流郡平取町本町28
+  furigana: ホッカイドウサルグンビラトリチョウホンチョウ
+- full_address: 北海道新冠郡新冠町字北星町3-2
+  furigana: ホッカイドウニイカップグンニイカップチョウ
+- full_address: 北海道浦河郡浦河町築地1-3-1
+  furigana: ホッカイドウウラカワグンウラカワチョウツキジ 1
+- full_address: 北海道様似郡様似町大通1-21
+  furigana: ホッカイドウサマニグンサマニチョウオオドオリ 1
+- full_address: 北海道幌泉郡えりも町字本町206
+  furigana: ホッカイドウホロイズミグンエリモチョウ
+- full_address: 北海道日高郡新ひだか町静内御幸町3丁目2-50
+  furigana: ホッカイドウヒダカグンシンヒダカチョウシズナイミユキチョウ 3
+- full_address: 北海道河東郡音更町元町2
+  furigana: ホッカイドウカトウグンオトフケチョウモトマチ
+- full_address: 北海道河東郡士幌町字士幌225
+  furigana: ホッカイドウカトウグンシホロチョウ
+- full_address: 北海道河東郡上士幌町字上士幌東3線238
+  furigana: ホッカイドウカトウグンカミシホロチョウ
+- full_address: 北海道河東郡鹿追町東町1-15-1
+  furigana: ホッカイドウカトウグンシカオイチョウヒガシマチ 1
+- full_address: 北海道上川郡新得町3条南4-26
+  furigana: ホッカイドウカミカワグンシントクチョウ3ジョウミナミ 4
+- full_address: 北海道上川郡清水町南4条2-2
+  furigana: ホッカイドウカミカワグンシミズチョウミナミ4ジョウ 2
+- full_address: 北海道河西郡芽室町東2条2-14
+  furigana: ホッカイドウカサイグンメムロチョウヒガシ2ジョウ 2
+- full_address: 北海道河西郡中札内村東１条南１丁目２番地１
+  furigana: ホッカイドウカサイグンナカサツナイムラヒガシ1ジョウミナミ 1
+- full_address: 北海道広尾郡大樹町東本通33
+  furigana: ホッカイドウヒロオグンタイキチョウヒガシホンドオリ
+- full_address: 北海道広尾郡広尾町西4条7-1
+  furigana: ホッカイドウヒロオグンヒロオチョウニシ4ジョウ 7
+- full_address: 北海道中川郡幕別町本町130-1
+  furigana: ホッカイドウナカガワグンマクベツチョウモトマチ
+- full_address: 北海道中川郡池田町西1条7-11
+  furigana: ホッカイドウナカガワグンイケダチョウ 7
+- full_address: 北海道中川郡豊頃町茂岩本町125
+  furigana: ホッカイドウナカガワグントヨコロチョウモイワホンマチ
+- full_address: 北海道中川郡本別町北2-4-1
+  furigana: ホッカイドウナカガワグンホンベツチョウキタ 2
+- full_address: 北海道足寄郡足寄町北1条4-48-1
+  furigana: ホッカイドウアショログンアショロチョウキタ1ジョウ 4
+- full_address: 北海道足寄郡陸別町字陸別東1条3-1
+  furigana: ホッカイドウアショログンリクベツチョウ 3
+- full_address: 北海道十勝郡浦幌町字桜町15-6
+  furigana: ホッカイドウトカチグンウラホロチョウ
+- full_address: 北海道釧路郡釧路町別保1-1
+  furigana: ホッカイドウクシログンクシロチョウベッポ 1
+- full_address: 北海道厚岸郡厚岸町真栄3丁目1番地
+  furigana: ホッカイドウアッケシグンアッケシチョウシンエイ 3
+- full_address: 北海道厚岸郡浜中町湯沸445番地
+  furigana: ホッカイドウアッケシグンハマナカチョウトウフツ
+- full_address: 北海道川上郡標茶町川上4-2
+  furigana: ホッカイドウカワカミグンシベチャチョウカワカミ 4
+- full_address: 北海道川上郡弟子屈町中央2-3-1
+  furigana: ホッカイドウカワカミグンテシカガチョウチュウオウ 2
+- full_address: 北海道阿寒郡鶴居村鶴居西1-1
+  furigana: ホッカイドウアカングンツルイムラツルイニシ 1
+- full_address: 北海道白糠郡白糠町西1条南1-1-1
+  furigana: ホッカイドウシラヌカグンシラヌカチョウニシ1ジョウミナミ 1
+- full_address: 北海道野付郡別海町別海常盤町280
+  furigana: ホッカイドウノツケグンベツカイチョウベツカイトキワチョウ
+- full_address: 北海道標津郡中標津町丸山2-22
+  furigana: ホッカイドウシベツグンナカシベツチョウマルヤマ 2
+- full_address: 北海道標津郡標津町北2条西1-1-3
+  furigana: ホッカイドウシベツグンシベツチョウ 1
+- full_address: 北海道目梨郡羅臼町栄町100-83
+  furigana: ホッカイドウメナシグンラウスチョウサカエチョウ
+- full_address: 北海道河西郡更別村字更別南1線93
+  furigana: ホッカイドウカサイグンサラベツムラ
+- full_address: 北海道札幌市白石区南郷通1丁目南8-1
+  furigana: ホッカイドウサッポロシシロイシク
+- full_address: 青森県青森市中央1-22-5
+  furigana: アオモリケンアオモリシチュウオウ 1
+- full_address: 青森県弘前市大字上白銀町1-1
+  furigana: アオモリケンヒロサキシ
+- full_address: 青森県八戸市内丸1-1-1
+  furigana: アオモリケンハチノヘシウチマル 1
+- full_address: 青森県黒石市大字市ノ町11-1
+  furigana: アオモリケンクロイシシ
+- full_address: 青森県五所川原市字布屋町41-1
+  furigana: アオモリケンゴショガワラシ
+- full_address: 青森県十和田市西十二番町6-1
+  furigana: アオモリケントワダシニシ12バンチョウ
+- full_address: 青森県三沢市桜町1-1-38
+  furigana: アオモリケンミサワシサクラチョウ 1
+- full_address: 青森県むつ市中央1丁目8-1
+  furigana: アオモリケンムツシチュウオウ 1
+- full_address: 青森県つがる市木造若緑61-1
+  furigana: アオモリケンツガルシキヅクリワカミドリ
+- full_address: 青森県平川市柏木町藤山25-6
+  furigana: アオモリケンヒラカワシカシワギマチヒガシダ
+- full_address: 青森県東津軽郡平内町大字小湊字小湊63
+  furigana: アオモリケンヒガシツガルグンヒラナイマチ
+- full_address: 青森県東津軽郡今別町大字今別字今別167
+  furigana: アオモリケンヒガシツガルグンイマベツマチ
+- full_address: 青森県東津軽郡蓬田村大字蓬田字汐越1-3
+  furigana: アオモリケンヒガシツガルグンヨモギタムラ
+- full_address: 青森県東津軽郡外ケ浜町字蟹田高銅屋44-2
+  furigana: アオモリケンヒガシツガルグンソトガハママチ
+- full_address: 青森県西津軽郡鰺ヶ沢町大字舞戸町字鳴戸321番地
+  furigana: アオモリケンニシツガルグンアジガサワマチ
+- full_address: 青森県西津軽郡深浦町大字深浦字苗代沢84-2
+  furigana: アオモリケンニシツガルグンフカウラマチ
+- full_address: 青森県中津軽郡西目屋村大字田代字神田57番地
+  furigana: アオモリケンナカツガルグンニシメヤムラ
+- full_address: 青森県南津軽郡藤崎町大字西豊田1-1
+  furigana: アオモリケンミナミツガルグンフジサキマチ 1
+- full_address: 青森県南津軽郡大鰐町大字大鰐字羽黒館5-3
+  furigana: アオモリケンミナミツガルグンオオワニマチ
+- full_address: 青森県北津軽郡板柳町大字板柳字土井239-3
+  furigana: アオモリケンキタツガルグンイタヤナギマチ
+- full_address: 青森県北津軽郡鶴田町大字鶴田字早瀬200-1
+  furigana: アオモリケンキタツガルグンツルタマチ
+- full_address: 青森県北津軽郡中泊町大字中里字紅葉坂209
+  furigana: アオモリケンキタツガルグンナカドマリマチ
+- full_address: 青森県上北郡野辺地町字野辺地123-1
+  furigana: アオモリケンカミキタグンノヘジマチ
+- full_address: 青森県上北郡七戸町字森ノ上131-4
+  furigana: アオモリケンカミキタグンシチノヘマチ
+- full_address: 青森県上北郡六戸町大字犬落瀬字前谷地60
+  furigana: アオモリケンカミキタグンロクノヘマチ
+- full_address: 青森県上北郡横浜町字寺下35
+  furigana: アオモリケンカミキタグンヨコハママチ
+- full_address: 青森県上北郡東北町上北南4-32-484
+  furigana: アオモリケンカミキタグントウホクマチカミキタミナミ 4
+- full_address: 青森県上北郡六ヶ所村大字尾駮字野附475
+  furigana: アオモリケンカミキタグンロッカショムラ
+- full_address: 青森県上北郡おいらせ町中下田135-2
+  furigana: アオモリケンカミキタグンオイラセチョウナカシモダ
+- full_address: 青森県下北郡大間町大字大間字奥戸下道20-4
+  furigana: アオモリケンシモキタグンオオママチ
+- full_address: 青森県下北郡東通村大字砂子又字沢内5-34
+  furigana: アオモリケンシモキタグンヒガシドオリムラ
+- full_address: 青森県下北郡風間浦村大字易国間字大川目28-5
+  furigana: アオモリケンシモキタグンカザマウラムラ
+- full_address: 青森県下北郡佐井村大字佐井字糠森20
+  furigana: アオモリケンシモキタグンサイムラ
+- full_address: 青森県三戸郡三戸町大字在府小路町43
+  furigana: アオモリケンサンノヘグンサンノヘマチ
+- full_address: 青森県三戸郡五戸町字古舘21-1
+  furigana: アオモリケンサンノヘグンゴノヘマチ
+- full_address: 青森県三戸郡田子町大字田子字天神堂平81
+  furigana: アオモリケンサンノヘグンタッコマチ
+- full_address: 青森県三戸郡南部町大字平字広場28-1
+  furigana: アオモリケンサンノヘグンナンブチョウ
+- full_address: 青森県三戸郡階上町大字道仏字天当平1-87
+  furigana: アオモリケンサンノヘグンハシカミチョウ
+- full_address: 青森県三戸郡新郷村大字戸来字風呂前10
+  furigana: アオモリケンサンノヘグンシンゴウムラ
+- full_address: 岩手県盛岡市内丸12-2
+  furigana: イワテケンモリオカシウチマル
+- full_address: 岩手県宮古市宮町1-1-30
+  furigana: イワテケンミヤコシミヤマチ 1
+- full_address: 岩手県大船渡市盛町字宇津野沢15
+  furigana: イワテケンオオフナトシサカリチョウ
+- full_address: 岩手県花巻市花城町9-30
+  furigana: イワテケンハナマキシカジョウマチ
+- full_address: 岩手県北上市芳町1-1
+  furigana: イワテケンキタカミシヨシチョウ
+- full_address: 岩手県久慈市川崎町1-1
+  furigana: イワテケンクジシカワサキチョウ
+- full_address: 岩手県遠野市中央通り9-1
+  furigana: イワテケントオノシチュウオウドオリ
+- full_address: 岩手県一関市竹山町7-2
+  furigana: イワテケンイチノセキシタケヤマチョウ
+- full_address: 岩手県陸前高田市高田町字鳴石42-5
+  furigana: イワテケンリクゼンタカタシタカタチョウ
+- full_address: 岩手県釜石市只越町3-9-13
+  furigana: イワテケンカマイシシタダコエチョウ 3
+- full_address: 岩手県二戸市福岡字川又47
+  furigana: イワテケンニノヘシフクオカ
+- full_address: 岩手県八幡平市野駄21-170
+  furigana: イワテケンハチマンタイシノダ
+- full_address: 岩手県奥州市水沢大手町1-1
+  furigana: イワテケンオウシュウシミズサワオオテマチ 1
+- full_address: 岩手県滝沢市中鵜飼55
+  furigana: イワテケンタキザワシナカウカイ
+- full_address: 岩手県岩手郡雫石町千刈田5-1
+  furigana: イワテケンイワテグンシズクイシチョウセンガリダ
+- full_address: 岩手県岩手郡葛巻町葛巻16-1-1
+  furigana: イワテケンイワテグンクズマキマチクズマキ
+- full_address: 岩手県岩手郡岩手町大字五日市10-44
+  furigana: イワテケンイワテグンイワテマチ
+- full_address: 岩手県紫波郡紫波町紫波中央駅前2-3-1
+  furigana: イワテケンシワグンシワチョウシワチュウオウエキマエ 2
+- full_address: 岩手県紫波郡矢巾町大字南矢幅第13地割123番地
+  furigana: イワテケンシワグンヤハバチョウ
+- full_address: 岩手県胆沢郡金ケ崎町西根南町22-1
+  furigana: イワテケンイサワグンカネガサキチョウニシネ
+- full_address: 岩手県気仙郡住田町世田米字川向88-1
+  furigana: イワテケンケセングンスミタチョウセタマイ
+- full_address: 岩手県上閉伊郡大槌町上町1番3号
+  furigana: イワテケンカミヘイグンオオツチチョウカミチョウ
+- full_address: 岩手県下閉伊郡山田町八幡町3-20
+  furigana: イワテケンシモヘイグンヤマダマチハチマンチョウ
+- full_address: 岩手県下閉伊郡岩泉町岩泉字惣畑59-5
+  furigana: イワテケンシモヘイグンイワイズミチョウイワイズミ
+- full_address: 岩手県下閉伊郡田野畑村田野畑143-1
+  furigana: イワテケンシモヘイグンタノハタムラタノハタ
+- full_address: 岩手県下閉伊郡普代村第9地割字銅屋13-2
+  furigana: イワテケンシモヘイグンフダイムラ
+- full_address: 岩手県九戸郡軽米町大字軽米10-85
+  furigana: イワテケンクノヘグンカルマイマチ
+- full_address: 岩手県九戸郡野田村大字野田第20地割14
+  furigana: イワテケンクノヘグンノダムラ
+- full_address: 岩手県九戸郡洋野町種市23-27
+  furigana: イワテケンクノヘグンヒロノチョウタネイチダイ15チワリ-ダイ21チワリ
+- full_address: 岩手県二戸郡一戸町高善寺字大川鉢24-9
+  furigana: イワテケンニノヘグンイチノヘマチコウゼンジ
+- full_address: 岩手県和賀郡西和賀町川尻40地割40番地71
+  furigana: イワテケンワガグンニシワガマチカワシリ40チワリ、カワシリ41チワリ
+- full_address: 岩手県九戸郡九戸村大字伊保内第10地割11番地6
+  furigana: イワテケンクノヘグンクノヘムラ
+- full_address: 宮城県仙台市青葉区国分町3-7-1
+  furigana: ミヤギケンセンダイシアオバクコクブンチョウ 3
+- full_address: 宮城県仙台市青葉区上杉1-5-1
+  furigana: ミヤギケンセンダイシアオバクカミスギ 1
+- full_address: 宮城県仙台市宮城野区五輪2-12-35
+  furigana: ミヤギケンセンダイシミヤギノクゴリン 2
+- full_address: 宮城県仙台市若林区保春院前丁3-1
+  furigana: ミヤギケンセンダイシワカバヤシクホシュンインマエチョウ
+- full_address: 宮城県仙台市太白区長町南3-1-15
+  furigana: ミヤギケンセンダイシタイハククナガマチミナミ 3
+- full_address: 宮城県仙台市泉区泉中央2-1-1
+  furigana: ミヤギケンセンダイシイズミクイズミチュウオウ 2
+- full_address: 宮城県石巻市穀町14-1
+  furigana: ミヤギケンイシノマキシコクチョウ
+- full_address: 宮城県塩竈市旭町1-1
+  furigana: ミヤギケンシオガマシアサヒチョウ
+- full_address: 宮城県気仙沼市八日町1-1-1
+  furigana: ミヤギケンケセンヌマシヨウカマチ 1
+- full_address: 宮城県白石市大手町1-1
+  furigana: ミヤギケンシロイシシオオテマチ
+- full_address: 宮城県名取市増田字柳田80
+  furigana: ミヤギケンナトリシマスダ
+- full_address: 宮城県角田市角田字大坊41
+  furigana: ミヤギケンカクダシカクダ
+- full_address: 宮城県多賀城市中央2-1-1
+  furigana: ミヤギケンタガジョウシチュウオウ 2
+- full_address: 宮城県岩沼市桜1-6-20
+  furigana: ミヤギケンイワヌマシサクラ 1
+- full_address: 宮城県登米市迫町佐沼字中江2-6-1
+  furigana: ミヤギケントメシハサマチョウサヌマ
+- full_address: 宮城県栗原市築館薬師1-7-1
+  furigana: ミヤギケンクリハラシツキダテヤクシ 1
+- full_address: 宮城県東松島市矢本字上河戸36-1
+  furigana: ミヤギケンヒガシマツシマシヤモト
+- full_address: 宮城県大崎市古川七日町1-1
+  furigana: ミヤギケンオオサキシフルカワナノカマチ
+- full_address: 宮城県富谷市富谷坂松田30
+  furigana: ミヤギケントミヤシトミヤ
+- full_address: 宮城県刈田郡蔵王町大字円田字西浦北10
+  furigana: ミヤギケンカッタグンザオウマチ
+- full_address: 宮城県刈田郡七ヶ宿町字関126
+  furigana: ミヤギケンカッタグンシチカシュクマチ
+- full_address: 宮城県柴田郡大河原町字新南19
+  furigana: ミヤギケンシバタグンオオガワラマチ
+- full_address: 宮城県柴田郡村田町大字村田字迫6
+  furigana: ミヤギケンシバタグンムラタマチ
+- full_address: 宮城県柴田郡柴田町船岡中央2-3-45
+  furigana: ミヤギケンシバタグンシバタマチフナオカチュウオウ 2
+- full_address: 宮城県柴田郡川崎町大字前川字裏丁175-1
+  furigana: ミヤギケンシバタグンカワサキマチ
+- full_address: 宮城県伊具郡丸森町字鳥屋120
+  furigana: ミヤギケンイググンマルモリマチ
+- full_address: 宮城県亘理郡亘理町字悠里1
+  furigana: ミヤギケンワタリグンワタリチョウ
+- full_address: 宮城県亘理郡山元町浅生原字作田山32
+  furigana: ミヤギケンワタリグンヤマモトチョウアソウハラ
+- full_address: 宮城県宮城郡松島町高城字帰命院下一19-1
+  furigana: ミヤギケンミヤギグンマツシママチタカギ
+- full_address: 宮城県宮城郡七ヶ浜町東宮浜字丑谷辺5-1
+  furigana: ミヤギケンミヤギグンシチガハママチトウグウハマ
+- full_address: 宮城県宮城郡利府町利府字新並松4
+  furigana: ミヤギケンミヤギグンリフチョウリフ
+- full_address: 宮城県黒川郡大和町吉岡まほろば1-1-1
+  furigana: ミヤギケンクロカワグンタイワチョウヨシオカマホロバ 1
+- full_address: 宮城県黒川郡大郷町粕川字西長崎5-8
+  furigana: ミヤギケンクロカワグンオオサトチョウカスカワ
+- full_address: 宮城県黒川郡大衡村大衡字平林62
+  furigana: ミヤギケンクロカワグンオオヒラムラオオヒラ
+- full_address: 宮城県加美郡色麻町四竃字北谷地41
+  furigana: ミヤギケンカミグンシカマチョウシカマ
+- full_address: 宮城県遠田郡涌谷町字新町裏153-2
+  furigana: ミヤギケントオダグンワクヤチョウ
+- full_address: 宮城県遠田郡美里町北浦字駒米13
+  furigana: ミヤギケントオダグンミサトマチキタウラ
+- full_address: 宮城県本吉郡南三陸町志津川字沼田101
+  furigana: ミヤギケンモトヨシグンミナミサンリクチョウシヅガワアキメガワ
+- full_address: 秋田県秋田市山王1-1-1
+  furigana: アキタケンアキタシサンノウ 1
+- full_address: 秋田県能代市上町1-3
+  furigana: アキタケンノシロシカンマチ
+- full_address: 秋田県横手市中央町8-2
+  furigana: アキタケンヨコテシチュウオウマチ
+- full_address: 秋田県大館市字中城20
+  furigana: アキタケンオオダテシ
+- full_address: 秋田県男鹿市船川港船川字泉台66-1
+  furigana: アキタケンオガシフナガワミナトフナガワ
+- full_address: 秋田県湯沢市佐竹町1-1
+  furigana: アキタケンユザワシサタケチョウ
+- full_address: 秋田県鹿角市花輪字荒田4-1
+  furigana: アキタケンカヅノシハナワ
+- full_address: 秋田県由利本荘市尾崎17
+  furigana: アキタケンユリホンジョウシオザキ
+- full_address: 秋田県潟上市天王字棒沼台226-1
+  furigana: アキタケンカタガミシテンノウオオサキ
+- full_address: 秋田県大仙市大曲花園町1-1
+  furigana: アキタケンダイセンシオオマガリハナゾノチョウ
+- full_address: 秋田県北秋田市花園町19-1
+  furigana: アキタケンキタアキタシハナゾノチョウ
+- full_address: 秋田県にかほ市象潟町字浜ノ田1
+  furigana: アキタケンニカホシキサカタマチ1チョウメシオコシ
+- full_address: 秋田県仙北市田沢湖生保内字宮ノ後30
+  furigana: アキタケンセンボクシタザワコオボナイ
+- full_address: 秋田県鹿角郡小坂町小坂字上谷地41-1
+  furigana: アキタケンカヅノグンコサカマチコサカ
+- full_address: 秋田県北秋田郡上小阿仁村小沢田字向川原118
+  furigana: アキタケンキタアキタグンカミコアニムラコサワダ
+- full_address: 秋田県山本郡藤里町藤琴字藤琴8
+  furigana: アキタケンヤマモトグンフジサトマチフジコト
+- full_address: 秋田県山本郡三種町鵜川字岩谷子8
+  furigana: アキタケンヤマモトグンミタネチョウウカワ
+- full_address: 秋田県山本郡八峰町峰浜目名潟字目長田118
+  furigana: アキタケンヤマモトグンハッポウチョウミネハマメナガタ
+- full_address: 秋田県南秋田郡五城目町西磯ノ目1-1-1
+  furigana: アキタケンミナミアキタグンゴジョウメマチニシイソノメ 1
+- full_address: 秋田県南秋田郡八郎潟町字大道80
+  furigana: アキタケンミナミアキタグンハチロウガタマチ
+- full_address: 秋田県南秋田郡井川町北川尻字海老沢樋ノ口78-1
+  furigana: アキタケンミナミアキタグンイカワマチキタカワシリ
+- full_address: 秋田県南秋田郡大潟村字中央1-1
+  furigana: アキタケンミナミアキタグンオオガタムラ
+- full_address: 秋田県仙北郡美郷町土崎字上野乙170-10
+  furigana: アキタケンセンボクグンミサトチョウツチザキ
+- full_address: 秋田県雄勝郡羽後町西馬音内字中野177
+  furigana: アキタケンオガチグンウゴマチ
+- full_address: 秋田県雄勝郡東成瀬村田子内字仙人下30-1
+  furigana: アキタケンオガチグンヒガシナルセムラタゴナイ
+- full_address: 山形県山形市旅篭町2-3-25
+  furigana: ヤマガタケンヤマガタシハタゴマチ 2
+- full_address: 山形県米沢市金池5-2-25
+  furigana: ヤマガタケンヨネザワシカナイケ 5
+- full_address: 山形県鶴岡市馬場町9-25
+  furigana: ヤマガタケンツルオカシババチョウ
+- full_address: 山形県酒田市本町2-2-45
+  furigana: ヤマガタケンサカタシホンチョウ 2
+- full_address: 山形県新庄市沖の町10-37
+  furigana: ヤマガタケンシンジョウシオキノマチ
+- full_address: 山形県寒河江市中央1-9-45
+  furigana: ヤマガタケンサガエシチュウオウ 1
+- full_address: 山形県上山市河崎1-1-10
+  furigana: ヤマガタケンカミノヤマシカワサキ 1
+- full_address: 山形県村山市中央1-3-6
+  furigana: ヤマガタケンムラヤマシチュウオウ 1
+- full_address: 山形県長井市ままの上5-1
+  furigana: ヤマガタケンナガイシママノウエ
+- full_address: 山形県天童市老野森1-1-1
+  furigana: ヤマガタケンテンドウシオイノモリ 1
+- full_address: 山形県東根市中央1-1-1
+  furigana: ヤマガタケンヒガシネシチュウオウ 1
+- full_address: 山形県尾花沢市若葉町1-2-3
+  furigana: ヤマガタケンオバナザワシワカバチョウ 1
+- full_address: 山形県南陽市三間通436-1
+  furigana: ヤマガタケンナンヨウシミツマドオリ
+- full_address: 山形県東村山郡山辺町緑ヶ丘5
+  furigana: ヤマガタケンヒガシムラヤマグンヤマノベマチミドリガオカ
+- full_address: 山形県東村山郡中山町長崎120
+  furigana: ヤマガタケンヒガシムラヤマグンナカヤママチ
+- full_address: 山形県西村山郡河北町谷地戊81
+  furigana: ヤマガタケンニシムラヤマグンカホクチョウヤチ
+- full_address: 山形県西村山郡西川町大字海味510
+  furigana: ヤマガタケンニシムラヤマグンニシカワマチ
+- full_address: 山形県西村山郡朝日町大字宮宿1115
+  furigana: ヤマガタケンニシムラヤマグンアサヒマチ
+- full_address: 山形県西村山郡大江町大字左沢882-1
+  furigana: ヤマガタケンニシムラヤマグンオオエマチ
+- full_address: 山形県北村山郡大石田町緑町1
+  furigana: ヤマガタケンキタムラヤマグンオオイシダマチミドリチョウ
+- full_address: 山形県最上郡金山町大字金山324-1
+  furigana: ヤマガタケンモガミグンカネヤママチ
+- full_address: 山形県最上郡最上町向町644
+  furigana: ヤマガタケンモガミグンモガミマチ
+- full_address: 山形県最上郡舟形町舟形263
+  furigana: ヤマガタケンモガミグンフナガタマチフナガタ
+- full_address: 山形県最上郡真室川町大字新町124番4
+  furigana: ヤマガタケンモガミグンマムロガワマチ
+- full_address: 山形県最上郡大蔵村大字清水2528
+  furigana: ヤマガタケンモガミグンオオクラムラ
+- full_address: 山形県最上郡鮭川村大字佐渡2003-7
+  furigana: ヤマガタケンモガミグンサケガワムラ
+- full_address: 山形県最上郡戸沢村大字古口270
+  furigana: ヤマガタケンモガミグントザワムラ
+- full_address: 山形県東置賜郡高畠町大字高畠436
+  furigana: ヤマガタケンヒガシオキタマグンタカハタマチ
+- full_address: 山形県東置賜郡川西町大字上小松1567
+  furigana: ヤマガタケンヒガシオキタマグンカワニシマチ
+- full_address: 山形県西置賜郡小国町大字小国小坂町2-70
+  furigana: ヤマガタケンニシオキタマグンオグニマチ 2
+- full_address: 山形県西置賜郡白鷹町大字荒砥甲833
+  furigana: ヤマガタケンニシオキタマグンシラタカマチ
+- full_address: 山形県西置賜郡飯豊町大字椿2888
+  furigana: ヤマガタケンニシオキタマグンイイデマチ
+- full_address: 山形県東田川郡三川町大字横山字西田85
+  furigana: ヤマガタケンヒガシタガワグンミカワマチ
+- full_address: 山形県東田川郡庄内町余目字町132-1
+  furigana: ヤマガタケンヒガシタガワグンショウナイマチアマルメ
+- full_address: 山形県飽海郡遊佐町遊佐字舞鶴211
+  furigana: ヤマガタケンアクミグンユザマチユザ
+- full_address: 福島県福島市五老内町3-1
+  furigana: フクシマケンフクシマシゴロウウチマチ
+- full_address: 福島県会津若松市東栄町3-46
+  furigana: フクシマケンアイヅワカマツシヒガシサカエマチ
+- full_address: 福島県郡山市朝日1-23-7
+  furigana: フクシマケンコオリヤマシアサヒ 1
+- full_address: 福島県いわき市平字梅本21
+  furigana: フクシマケンイワキシタイラ
+- full_address: 福島県白河市八幡小路7-1
+  furigana: フクシマケンシラカワシハチマンコウジ
+- full_address: 福島県須賀川市八幡町135
+  furigana: フクシマケンスカガワシハチマンマチ
+- full_address: 福島県喜多方市字御清水東7244-2
+  furigana: フクシマケンキタカタシ
+- full_address: 福島県相馬市中村字北町63-3
+  furigana: フクシマケンソウマシナカムラ
+- full_address: 福島県二本松市金色403-1
+  furigana: フクシマケンニホンマツシカナイロ
+- full_address: 福島県田村市船引町船引字畑添76-2
+  furigana: フクシマケンタムラシフネヒキマチフネヒキ
+- full_address: 福島県南相馬市原町区本町2-27
+  furigana: フクシマケンミナミソウマシハラマチクモトマチ 2
+- full_address: 福島県伊達市保原町字舟橋180
+  furigana: フクシマケンダテシホバラマチ1チョウメ
+- full_address: 福島県本宮市本宮字万世212
+  furigana: フクシマケンモトミヤシモトミヤアカサカ
+- full_address: 福島県伊達郡桑折町大字谷地字道下22番地7
+  furigana: フクシマケンダテグンコオリマチ
+- full_address: 福島県伊達郡国見町大字藤田字一丁田二1-7
+  furigana: フクシマケンダテグンクニミマチ
+- full_address: 福島県伊達郡川俣町字五百田30
+  furigana: フクシマケンダテグンカワマタマチ
+- full_address: 福島県安達郡大玉村玉井字星内70
+  furigana: フクシマケンアダチグンオオタマムラタマノイ
+- full_address: 福島県岩瀬郡鏡石町不時沼345
+  furigana: フクシマケンイワセグンカガミイシマチフジヌマ
+- full_address: 福島県岩瀬郡天栄村大字下松本字原畑78
+  furigana: フクシマケンイワセグンテンエイムラ
+- full_address: 福島県南会津郡下郷町大字塩生字大石1000
+  furigana: フクシマケンミナミアイヅグンシモゴウマチ
+- full_address: 福島県南会津郡檜枝岐村字下ノ原880
+  furigana: フクシマケンミナミアイヅグンヒノエマタムラ
+- full_address: 福島県南会津郡只見町大字只見字雨堤1039
+  furigana: フクシマケンミナミアイヅグンタダミマチ
+- full_address: 福島県南会津郡南会津町田島字後原甲3531-1
+  furigana: フクシマケンミナミアイヅグンミナミアイヅマチタジマ
+- full_address: 福島県耶麻郡北塩原村大字北山字姥ヶ作3151
+  furigana: フクシマケンヤマグンキタシオバラムラ
+- full_address: 福島県耶麻郡西会津町野沢字下小屋上乙3308
+  furigana: フクシマケンヤマグンニシアイヅマチノザワ
+- full_address: 福島県耶麻郡磐梯町大字磐梯字中ノ橋1855
+  furigana: フクシマケンヤマグンバンダイマチ
+- full_address: 福島県耶麻郡猪苗代町字城南100
+  furigana: フクシマケンヤマグンイナワシロマチ
+- full_address: 福島県河沼郡会津坂下町字市中三番甲3662
+  furigana: フクシマケンカワヌマグンアイヅバンゲマチ
+- full_address: 福島県河沼郡湯川村大字清水田字長瀞18
+  furigana: フクシマケンカワヌマグンユガワムラ
+- full_address: 福島県河沼郡柳津町大字柳津字下平乙234
+  furigana: フクシマケンカワヌマグンヤナイヅマチ
+- full_address: 福島県大沼郡三島町大字宮下字宮下350
+  furigana: フクシマケンオオヌマグンミシママチ
+- full_address: 福島県大沼郡金山町大字川口字谷地393
+  furigana: フクシマケンオオヌマグンカネヤママチ
+- full_address: 福島県大沼郡昭和村大字下中津川字中島652
+  furigana: フクシマケンオオヌマグンショウワムラ
+- full_address: 福島県西白河郡西郷村大字熊倉字折口原40
+  furigana: フクシマケンニシシラカワグンニシゴウムラ
+- full_address: 福島県西白河郡泉崎村大字泉崎字八丸145
+  furigana: フクシマケンニシシラカワグンイズミザキムラ
+- full_address: 福島県西白河郡中島村大字滑津字中島西11-1
+  furigana: フクシマケンニシシラカワグンナカジマムラ
+- full_address: 福島県西白河郡矢吹町一本木101
+  furigana: フクシマケンニシシラカワグンヤブキマチイッポンギ
+- full_address: 福島県東白川郡棚倉町大字棚倉字中居野33
+  furigana: フクシマケンヒガシシラカワグンタナグラマチ
+- full_address: 福島県東白川郡矢祭町大字東舘字舘本66
+  furigana: フクシマケンヒガシシラカワグンヤマツリマチ
+- full_address: 福島県東白川郡塙町大字塙字大町3-21
+  furigana: フクシマケンヒガシシラカワグンハナワマチ
+- full_address: 福島県東白川郡鮫川村大字赤坂中野字新宿39-5
+  furigana: フクシマケンヒガシシラカワグンサメガワムラ
+- full_address: 福島県石川郡石川町字長久保185-4
+  furigana: フクシマケンイシカワグンイシカワマチ
+- full_address: 福島県石川郡玉川村大字小高字中畷9
+  furigana: フクシマケンイシカワグンタマカワムラ
+- full_address: 福島県石川郡平田村大字永田字切田116
+  furigana: フクシマケンイシカワグンヒラタムラ
+- full_address: 福島県石川郡浅川町大字浅川字背戸谷地112-15
+  furigana: フクシマケンイシカワグンアサカワマチ
+- full_address: 福島県石川郡古殿町大字松川字新桑原31
+  furigana: フクシマケンイシカワグンフルドノマチ
+- full_address: 福島県田村郡三春町字大町1-2
+  furigana: フクシマケンタムラグンミハルマチ
+- full_address: 福島県田村郡小野町大字小野新町字舘廻92
+  furigana: フクシマケンタムラグンオノマチ
+- full_address: 福島県双葉郡広野町大字下北迫字苗代替35
+  furigana: フクシマケンフタバグンヒロノマチ
+- full_address: 福島県双葉郡楢葉町大字北田字鐘突堂5-6
+  furigana: フクシマケンフタバグンナラハマチ
+- full_address: 福島県双葉郡富岡町大字本岡字王塚622-1
+  furigana: フクシマケンフタバグントミオカマチ
+- full_address: 福島県双葉郡川内村大字上川内字早渡11-24
+  furigana: フクシマケンフタバグンカワウチムラ
+- full_address: 福島県双葉郡大熊町大字大川原字南平1717
+  furigana: フクシマケンフタバグンオオクママチ
+- full_address: 福島県いわき市東田町二丁目19-4
+  furigana: フクシマケンイワキシアズマダマチ 2
+- full_address: 福島県双葉郡浪江町大字幾世橋字六反田7-2
+  furigana: フクシマケンフタバグンナミエマチ
+- full_address: 福島県双葉郡葛尾村大字落合字落合16
+  furigana: フクシマケンフタバグンカツラオムラ
+- full_address: 福島県相馬郡新地町谷地小屋字樋掛田30
+  furigana: フクシマケンソウマグンシンチマチヤチゴヤ
+- full_address: 福島県相馬郡飯舘村伊丹沢字伊丹沢580-1
+  furigana: フクシマケンソウマグンイイタテムライタミザワ
+- full_address: 茨城県水戸市中央1-4-1
+  furigana: イバラキケンミトシチュウオウ 1
+- full_address: 茨城県日立市助川町1-1-1
+  furigana: イバラキケンヒタチシスケガワチョウ 1
+- full_address: 茨城県土浦市大和町9-1
+  furigana: イバラキケンツチウラシヤマトチョウ
+- full_address: 茨城県古河市下大野2248
+  furigana: イバラキケンコガシシモオオノ
+- full_address: 茨城県石岡市石岡1-1-1
+  furigana: イバラキケンイシオカシイシオカ 1
+- full_address: 茨城県結城市中央町2丁目3番地
+  furigana: イバラキケンユウキシチュウオウチョウ 2
+- full_address: 茨城県下妻市大字本城町2-22
+  furigana: イバラキケンシモツマシモトシロチョウ 2
+- full_address: 茨城県常総市水海道諏訪町3222-3
+  furigana: イバラキケンジョウソウシミツカイドウスワマチ
+- full_address: 茨城県常陸太田市金井町3690
+  furigana: イバラキケンヒタチオオタシカナイチョウ
+- full_address: 茨城県高萩市本町1-100-1
+  furigana: イバラキケンタカハギシホンチョウ 1
+- full_address: 茨城県北茨城市磯原町磯原1630
+  furigana: イバラキケンキタイバラキシイソハラチョウイソハラ
+- full_address: 茨城県笠間市中央3-2-1
+  furigana: イバラキケンカサマシチュウオウ 3
+- full_address: 茨城県取手市寺田5139
+  furigana: イバラキケントリデシテラダ
+- full_address: 茨城県牛久市中央3-15-1
+  furigana: イバラキケンウシクシチュウオウ 3
+- full_address: 茨城県つくば市研究学園1-1-1
+  furigana: イバラキケンツクバシケンキュウガクエン 1
+- full_address: 茨城県ひたちなか市東石川2-10-1
+  furigana: イバラキケンヒタチナカシヒガシイシカワ 2
+- full_address: 茨城県鹿嶋市大字平井1187-1
+  furigana: イバラキケンカシマシ
+- full_address: 茨城県潮来市辻626
+  furigana: イバラキケンイタコシツジ
+- full_address: 茨城県守谷市大柏950-1
+  furigana: イバラキケンモリヤシオオガシワ
+- full_address: 茨城県常陸大宮市中富町3135-6
+  furigana: イバラキケンヒタチオオミヤシナカトミチョウ
+- full_address: 茨城県那珂市福田1819-5
+  furigana: イバラキケンナカシフクダ
+- full_address: 茨城県筑西市丙360
+  furigana: イバラキケンチクセイシヘイ
+- full_address: 茨城県坂東市岩井4365
+  furigana: イバラキケンバンドウシイワイ
+- full_address: 茨城県稲敷市犬塚1570-1
+  furigana: イバラキケンイナシキシイヌヅカ
+- full_address: 茨城県かすみがうら市上土田461
+  furigana: イバラキケンカスミガウラシカミツチダ
+- full_address: 茨城県桜川市羽田1023
+  furigana: イバラキケンサクラガワシハネタ
+- full_address: 茨城県神栖市溝口4991-5
+  furigana: イバラキケンカミスシミゾグチ
+- full_address: 茨城県行方市麻生1561-9
+  furigana: イバラキケンナメガタシアソウ
+- full_address: 茨城県鉾田市鉾田1444-1
+  furigana: イバラキケンホコタシホコタ
+- full_address: 茨城県つくばみらい市福田195
+  furigana: イバラキケンツクバミライシフクダ
+- full_address: 茨城県小美玉市堅倉835
+  furigana: イバラキケンオミタマシカタクラ
+- full_address: 茨城県東茨城郡茨城町大字小堤1080
+  furigana: イバラキケンヒガシイバラキグンイバラキマチ
+- full_address: 茨城県東茨城郡大洗町磯浜町6881-275
+  furigana: イバラキケンヒガシイバラキグンオオアライマチイソハマチョウ
+- full_address: 茨城県東茨城郡城里町大字石塚1428-25
+  furigana: イバラキケンヒガシイバラキグンシロサトマチ
+- full_address: 茨城県那珂郡東海村東海3-7-1
+  furigana: イバラキケンナカグントウカイムラトウカイ 3
+- full_address: 茨城県久慈郡大子町大字大子866
+  furigana: イバラキケンクジグンダイゴマチ
+- full_address: 茨城県稲敷郡美浦村大字受領1515
+  furigana: イバラキケンイナシキグンミホムラ
+- full_address: 茨城県稲敷郡阿見町中央1-1-1
+  furigana: イバラキケンイナシキグンアミマチチュウオウ 1
+- full_address: 茨城県稲敷郡河内町源清田1183
+  furigana: イバラキケンイナシキグンカワチマチゲンセイダ
+- full_address: 茨城県結城郡八千代町大字菅谷1170
+  furigana: イバラキケンユウキグンヤチヨマチ
+- full_address: 茨城県猿島郡五霞町大字小福田1162-1
+  furigana: イバラキケンサシマグンゴカマチ
+- full_address: 茨城県北相馬郡利根町布川841-1
+  furigana: イバラキケンキタソウマグントネマチ
+- full_address: 栃木県宇都宮市旭1-1-5
+  furigana: トチギケンウツノミヤシアサヒ 1
+- full_address: 栃木県足利市本城3-2145
+  furigana: トチギケンアシカガシホンジョウ 3
+- full_address: 栃木県栃木市万町9-25
+  furigana: トチギケントチギシヨロズチョウ
+- full_address: 栃木県佐野市高砂町1
+  furigana: トチギケンサノシタカサゴチョウ
+- full_address: 栃木県鹿沼市今宮町1688-1
+  furigana: トチギケンカヌマシイマミヤチョウ
+- full_address: 栃木県日光市今市本町1
+  furigana: トチギケンニッコウシイマイチホンチョウ
+- full_address: 栃木県小山市中央町1-1-1
+  furigana: トチギケンオヤマシチュウオウチョウ 1
+- full_address: 栃木県真岡市荒町5191
+  furigana: トチギケンモオカシアラマチ
+- full_address: 栃木県大田原市本町1-4-1
+  furigana: トチギケンオオタワラシホンチョウ 1
+- full_address: 栃木県矢板市本町5-4
+  furigana: トチギケンヤイタシホンチョウ
+- full_address: 栃木県那須塩原市共墾社108-2
+  furigana: トチギケンナスシオバラシキョウコンシャ
+- full_address: 栃木県さくら市氏家2771
+  furigana: トチギケンサクラシウジイエ
+- full_address: 栃木県那須烏山市中央1-1-1
+  furigana: トチギケンナスカラスヤマシチュウオウ 1
+- full_address: 栃木県下野市笹原26
+  furigana: トチギケンシモツケシササハラ
+- full_address: 栃木県河内郡上三川町しらさぎ1-1
+  furigana: トチギケンカワチグンカミノカワマチシラサギ 1
+- full_address: 栃木県芳賀郡益子町大字益子2030
+  furigana: トチギケンハガグンマシコマチ
+- full_address: 栃木県芳賀郡茂木町大字茂木155
+  furigana: トチギケンハガグンモテギマチ
+- full_address: 栃木県芳賀郡市貝町大字市塙1280
+  furigana: トチギケンハガグンイチカイマチ
+- full_address: 栃木県芳賀郡芳賀町祖母井1020
+  furigana: トチギケンハガグンハガマチ
+- full_address: 栃木県下都賀郡壬生町通町12-22
+  furigana: トチギケンシモツガグンミブマチトオリマチ
+- full_address: 栃木県下都賀郡野木町大字丸林571
+  furigana: トチギケンシモツガグンノギマチ
+- full_address: 栃木県塩谷郡塩谷町大字玉生741
+  furigana: トチギケンシオヤグンシオヤマチ
+- full_address: 栃木県塩谷郡高根沢町大字石末2053
+  furigana: トチギケンシオヤグンタカネザワマチ
+- full_address: 栃木県那須郡那須町大字寺子丙3-13
+  furigana: トチギケンナスグンナスマチ
+- full_address: 栃木県那須郡那珂川町馬頭555
+  furigana: トチギケンナスグンナカガワマチバトウ
+- full_address: 群馬県前橋市大手町2-12-1
+  furigana: グンマケンマエバシシオオテマチ 2
+- full_address: 群馬県高崎市高松町35-1
+  furigana: グンマケンタカサキシタカマツチョウ
+- full_address: 群馬県桐生市織姫町1-1
+  furigana: グンマケンキリュウシオリヒメチョウ
+- full_address: 群馬県伊勢崎市今泉町2-410
+  furigana: グンマケンイセサキシイマイズミチョウ 2
+- full_address: 群馬県太田市浜町2-35
+  furigana: グンマケンオオタシハマチョウ
+- full_address: 群馬県沼田市下之町888
+  furigana: グンマケンヌマタシシモノチョウ
+- full_address: 群馬県館林市城町1-1
+  furigana: グンマケンタテバヤシシシロマチ
+- full_address: 群馬県渋川市石原80
+  furigana: グンマケンシブカワシイシハラ
+- full_address: 群馬県藤岡市中栗須327
+  furigana: グンマケンフジオカシナカクリス
+- full_address: 群馬県富岡市富岡1460-1
+  furigana: グンマケントミオカシトミオカ
+- full_address: 群馬県安中市安中1-23-13
+  furigana: グンマケンアンナカシアンナカ 1
+- full_address: 群馬県みどり市笠懸町鹿2952
+  furigana: グンマケンミドリシカサカケチョウシカ
+- full_address: 群馬県北群馬郡榛東村大字新井790番地1
+  furigana: グンマケンキタグンマグンシントウムラ
+- full_address: 群馬県北群馬郡吉岡町大字下野田560
+  furigana: グンマケンキタグンマグンヨシオカマチ
+- full_address: 群馬県多野郡上野村大字川和11
+  furigana: グンマケンタノグンウエノムラ
+- full_address: 群馬県多野郡神流町万場90-6
+  furigana: グンマケンタノグンカンナマチ
+- full_address: 群馬県甘楽郡下仁田町大字下仁田682
+  furigana: グンマケンカンラグンシモニタマチ
+- full_address: 群馬県甘楽郡南牧村大字大日向1098
+  furigana: グンマケンカンラグンナンモクムラ
+- full_address: 群馬県甘楽郡甘楽町大字小幡161-1
+  furigana: グンマケンカンラグンカンラマチ
+- full_address: 群馬県吾妻郡中之条町大字中之条町1091
+  furigana: グンマケンアガツマグンナカノジョウマチ
+- full_address: 群馬県吾妻郡長野原町大字長野原1340番地1
+  furigana: グンマケンアガツマグンナガノハラマチ
+- full_address: 群馬県吾妻郡嬬恋村大字大前110
+  furigana: グンマケンアガツマグンツマゴイムラ
+- full_address: 群馬県吾妻郡草津町大字草津28
+  furigana: グンマケンアガツマグンクサツマチ
+- full_address: 群馬県吾妻郡高山村大字中山2856-1
+  furigana: グンマケンアガツマグンタカヤマムラ
+- full_address: 群馬県吾妻郡東吾妻町大字原町1046
+  furigana: グンマケンアガツマグンヒガシアガツママチ
+- full_address: 群馬県利根郡片品村大字鎌田3967-3
+  furigana: グンマケントネグンカタシナムラ
+- full_address: 群馬県利根郡川場村大字谷地2390-2
+  furigana: グンマケントネグンカワバムラ
+- full_address: 群馬県利根郡昭和村大字糸井388
+  furigana: グンマケントネグンショウワムラ
+- full_address: 群馬県利根郡みなかみ町後閑318
+  furigana: グンマケントネグンミナカミマチゴカン
+- full_address: 群馬県佐波郡玉村町大字下新田201
+  furigana: グンマケンサワグンタマムラマチ
+- full_address: 群馬県邑楽郡板倉町大字板倉2682-1
+  furigana: グンマケンオウラグンイタクラマチ
+- full_address: 群馬県邑楽郡明和町新里250-1
+  furigana: グンマケンオウラグンメイワマチニッサト
+- full_address: 群馬県邑楽郡千代田町大字赤岩1895-1
+  furigana: グンマケンオウラグンチヨダマチ
+- full_address: 群馬県邑楽郡大泉町日の出55-1
+  furigana: グンマケンオウラグンオオイズミマチヒノデ
+- full_address: 群馬県邑楽郡邑楽町大字中野2570番地1
+  furigana: グンマケンオウラグンオウラマチ
+- full_address: 埼玉県さいたま市浦和区常盤6-4-4
+  furigana: サイタマケンサイタマシウラワクトキワ 6
+- full_address: 埼玉県さいたま市西区西大宮3-4-2
+  furigana: サイタマケンサイタマシニシクニシオオミヤ 3
+- full_address: 埼玉県さいたま市北区宮原町1丁目852番地1
+  furigana: サイタマケンサイタマシキタクミヤハラチョウ 1
+- full_address: 埼玉県さいたま市大宮区吉敷町1-124-1
+  furigana: サイタマケンサイタマシオオミヤクキシキチョウ 1
+- full_address: 埼玉県さいたま市見沼区堀崎町12-36
+  furigana: サイタマケンサイタマシミヌマクホリサキチョウ
+- full_address: 埼玉県さいたま市中央区下落合5-7-10
+  furigana: サイタマケンサイタマシチュウオウクシモオチアイ 5
+- full_address: 埼玉県さいたま市桜区道場4-3-1
+  furigana: サイタマケンサイタマシサクラクドウジョウ 4
+- full_address: 埼玉県さいたま市浦和区常盤6-4-4
+  furigana: サイタマケンサイタマシウラワクトキワ 6
+- full_address: 埼玉県さいたま市南区別所7-20-1
+  furigana: サイタマケンサイタマシミナミクベッショ 7
+- full_address: 埼玉県さいたま市緑区大字中尾975-1
+  furigana: サイタマケンサイタマシミドリク
+- full_address: 埼玉県さいたま市岩槻区本町3-2-5
+  furigana: サイタマケンサイタマシイワツキクホンチョウ 3
+- full_address: 埼玉県川越市元町1-3-1
+  furigana: サイタマケンカワゴエシモトマチ 1
+- full_address: 埼玉県熊谷市宮町2-47-1
+  furigana: サイタマケンクマガヤシミヤチョウ 2
+- full_address: 埼玉県川口市青木2-1-1
+  furigana: サイタマケンカワグチシアオキ 2
+- full_address: 埼玉県行田市本丸2-5
+  furigana: サイタマケンギョウダシホンマル
+- full_address: 埼玉県秩父市熊木町8-15
+  furigana: サイタマケンチチブシクマギマチ
+- full_address: 埼玉県所沢市並木1-1-1
+  furigana: サイタマケントコロザワシナミキ 1
+- full_address: 埼玉県飯能市大字双柳1-1
+  furigana: サイタマケンハンノウシ
+- full_address: 埼玉県加須市三俣2-1-1
+  furigana: サイタマケンカゾシミツマタ 2
+- full_address: 埼玉県本庄市本庄3-5-3
+  furigana: サイタマケンホンジョウシホンジョウ 3
+- full_address: 埼玉県東松山市松葉町1-1-58
+  furigana: サイタマケンヒガシマツヤマシマツバチョウ 1
+- full_address: 埼玉県春日部市中央6-2
+  furigana: サイタマケンカスカベシチュウオウ 6
+- full_address: 埼玉県狭山市入間川1-23-5
+  furigana: サイタマケンサヤマシイルマガワ 1
+- full_address: 埼玉県羽生市東6-15
+  furigana: サイタマケンハニュウシヒガシ 6
+- full_address: 埼玉県鴻巣市中央1-1
+  furigana: サイタマケンコウノスシチュウオウ
+- full_address: 埼玉県深谷市仲町11-1
+  furigana: サイタマケンフカヤシナカチョウ
+- full_address: 埼玉県上尾市本町3-1-1
+  furigana: サイタマケンアゲオシホンチョウ 3
+- full_address: 埼玉県草加市高砂1-1-1
+  furigana: サイタマケンソウカシタカサゴ 1
+- full_address: 埼玉県越谷市越ヶ谷4-2-1
+  furigana: サイタマケンコシガヤシ 4
+- full_address: 埼玉県蕨市中央5-14-15
+  furigana: サイタマケンワラビシチュウオウ 5
+- full_address: 埼玉県戸田市上戸田1-18-1
+  furigana: サイタマケントダシカミトダ 1
+- full_address: 埼玉県入間市豊岡1-16-1
+  furigana: サイタマケンイルマシトヨオカ 1
+- full_address: 埼玉県朝霞市本町1-1-1
+  furigana: サイタマケンアサカシホンチョウ 1
+- full_address: 埼玉県志木市中宗岡1-1-1
+  furigana: サイタマケンシキシナカムネオカ 1
+- full_address: 埼玉県和光市広沢1-5
+  furigana: サイタマケンワコウシヒロサワ
+- full_address: 埼玉県新座市野火止1-1-1
+  furigana: サイタマケンニイザシノビトメ 1
+- full_address: 埼玉県桶川市泉1-3-28
+  furigana: サイタマケンオケガワシイズミ 1
+- full_address: 埼玉県久喜市大字下早見85-3
+  furigana: サイタマケンクキシシモハヤミ
+- full_address: 埼玉県北本市本町1-111
+  furigana: サイタマケンキタモトシホンチョウ 1
+- full_address: 埼玉県八潮市中央1-2-1
+  furigana: サイタマケンヤシオシチュウオウ 1
+- full_address: 埼玉県富士見市大字鶴馬1800-1
+  furigana: サイタマケンフジミシ
+- full_address: 埼玉県三郷市花和田648-1
+  furigana: サイタマケンミサトシハナワダ
+- full_address: 埼玉県蓮田市大字黒浜2799-1
+  furigana: サイタマケンハスダシ
+- full_address: 埼玉県坂戸市千代田1-1-1
+  furigana: サイタマケンサカドシチヨダ 1
+- full_address: 埼玉県幸手市東4-6-8
+  furigana: サイタマケンサッテシヒガシ 4
+- full_address: 埼玉県鶴ヶ島市大字三ツ木16-1
+  furigana: サイタマケンツルガシマシ
+- full_address: 埼玉県日高市大字南平沢1020
+  furigana: サイタマケンヒダカシ
+- full_address: 埼玉県吉川市きよみ野1-1
+  furigana: サイタマケンヨシカワシキヨミノ 1
+- full_address: 埼玉県ふじみ野市福岡1-1-1
+  furigana: サイタマケンフジミノシフクオカ 1
+- full_address: 埼玉県白岡市千駄野432
+  furigana: サイタマケンシラオカシセンダノ
+- full_address: 埼玉県入間郡三芳町大字藤久保1100-1
+  furigana: サイタマケンイルマグンミヨシマチ
+- full_address: 埼玉県入間郡毛呂山町中央2-1
+  furigana: サイタマケンイルマグンモロヤママチチュウオウ 2
+- full_address: 埼玉県入間郡越生町大字越生900-2
+  furigana: サイタマケンイルマグンオゴセマチ
+- full_address: 埼玉県比企郡滑川町大字福田750-1
+  furigana: サイタマケンヒキグンナメガワマチ
+- full_address: 埼玉県比企郡嵐山町大字杉山1030-1
+  furigana: サイタマケンヒキグンランザンマチ
+- full_address: 埼玉県比企郡小川町大字大塚55
+  furigana: サイタマケンヒキグンオガワマチ
+- full_address: 埼玉県比企郡川島町大字下八ツ林870-1
+  furigana: サイタマケンヒキグンカワジママチ
+- full_address: 埼玉県比企郡吉見町大字下細谷411
+  furigana: サイタマケンヒキグンヨシミマチ
+- full_address: 埼玉県比企郡鳩山町大字大豆戸184-16
+  furigana: サイタマケンヒキグンハトヤママチ
+- full_address: 埼玉県比企郡ときがわ町大字玉川2490
+  furigana: サイタマケンヒキグントキガワマチ
+- full_address: 埼玉県秩父郡横瀬町大字横瀬4545
+  furigana: サイタマケンチチブグンヨコゼマチ
+- full_address: 埼玉県秩父郡皆野町大字皆野1420-1
+  furigana: サイタマケンチチブグンミナノマチ
+- full_address: 埼玉県秩父郡長瀞町大字本野上1035-1
+  furigana: サイタマケンチチブグンナガトロマチ
+- full_address: 埼玉県秩父郡小鹿野町小鹿野89
+  furigana: サイタマケンチチブグンオガノマチオガノ
+- full_address: 埼玉県秩父郡東秩父村大字御堂634
+  furigana: サイタマケンチチブグンヒガシチチブムラ
+- full_address: 埼玉県児玉郡美里町大字木部323-1
+  furigana: サイタマケンコダマグンミサトマチ
+- full_address: 埼玉県児玉郡神川町大字植竹909
+  furigana: サイタマケンコダマグンカミカワマチ
+- full_address: 埼玉県児玉郡上里町大字七本木5518
+  furigana: サイタマケンコダマグンカミサトマチ
+- full_address: 埼玉県大里郡寄居町大字寄居1180-1
+  furigana: サイタマケンオオサトグンヨリイマチ
+- full_address: 埼玉県南埼玉郡宮代町笠原1-4-1
+  furigana: サイタマケンミナミサイタマグンミヤシロマチカサハラ 1
+- full_address: 埼玉県北葛飾郡杉戸町清地2-9-29
+  furigana: サイタマケンキタカツシカグンスギトマチセイジ 2
+- full_address: 埼玉県北葛飾郡松伏町大字松伏2424
+  furigana: サイタマケンキタカツシカグンマツブシマチ
+- full_address: 千葉県千葉市中央区千葉港1-1
+  furigana: チバケンチバシチュウオウクチバミナト
+- full_address: 千葉県千葉市中央区中央4-5-1
+  furigana: チバケンチバシチュウオウクチュウオウ 4
+- full_address: 千葉県千葉市花見川区瑞穂1-1
+  furigana: チバケンチバシハナミガワクミズホ 1
+- full_address: 千葉県千葉市稲毛区穴川4-12-1
+  furigana: チバケンチバシイナゲクアナガワ 4
+- full_address: 千葉県千葉市若葉区桜木北2-1-1
+  furigana: チバケンチバシワカバクサクラギキタ 2
+- full_address: 千葉県千葉市緑区おゆみ野3-15-3
+  furigana: チバケンチバシミドリクオユミノ 3
+- full_address: 千葉県千葉市美浜区真砂5-15-1
+  furigana: チバケンチバシミハマクマサゴ 5
+- full_address: 千葉県銚子市若宮町1-1
+  furigana: チバケンチョウシシワカミヤチョウ
+- full_address: 千葉県市川市南八幡2-20-2
+  furigana: チバケンイチカワシミナミヤワタ 2
+- full_address: 千葉県船橋市湊町2-10-25
+  furigana: チバケンフナバシシミナトチョウ 2
+- full_address: 千葉県館山市北条1145-1
+  furigana: チバケンタテヤマシホウジョウ
+- full_address: 千葉県木更津市富士見1-2-1
+  furigana: チバケンキサラヅシフジミ 1
+- full_address: 千葉県松戸市根本387-5
+  furigana: チバケンマツドシネモト
+- full_address: 千葉県野田市鶴奉7-1
+  furigana: チバケンノダシツルホウ
+- full_address: 千葉県茂原市道表1
+  furigana: チバケンモバラシドウビョウ
+- full_address: 千葉県成田市花崎町760
+  furigana: チバケンナリタシハナザキチョウ
+- full_address: 千葉県佐倉市海隣寺町97
+  furigana: チバケンサクラシカイリンジマチ
+- full_address: 千葉県東金市東岩崎1番地1
+  furigana: チバケントウガネシヒガシイワサキ
+- full_address: 千葉県習志野市鷺沼2-1-1
+  furigana: チバケンナラシノシサギヌマ 2
+- full_address: 千葉県柏市柏5-10-1
+  furigana: チバケンカシワシカシワ 5
+- full_address: 千葉県勝浦市新官1343-1
+  furigana: チバケンカツウラシシンカン
+- full_address: 千葉県市原市国分寺台中央1-1-1
+  furigana: チバケンイチハラシコクブンジダイチュウオウ 1
+- full_address: 千葉県流山市平和台1-1-1
+  furigana: チバケンナガレヤマシヘイワダイ 1
+- full_address: 千葉県八千代市大和田新田312-5
+  furigana: チバケンヤチヨシオオワダシンデン
+- full_address: 千葉県我孫子市我孫子1858
+  furigana: チバケンアビコシアビコ
+- full_address: 千葉県鴨川市横渚1450
+  furigana: チバケンカモガワシヨコスカ
+- full_address: 千葉県君津市久保2-13-1
+  furigana: チバケンキミツシクボ 2
+- full_address: 千葉県富津市下飯野2443
+  furigana: チバケンフッツシシモイイノ
+- full_address: 千葉県浦安市猫実1-1-1
+  furigana: チバケンウラヤスシネコザネ 1
+- full_address: 千葉県四街道市鹿渡無番地
+  furigana: チバケンヨツカイドウシシカワタシ
+- full_address: 千葉県八街市八街ほ35-29
+  furigana: チバケンヤチマタシヤチマタホ
+- full_address: 千葉県印西市大森2364-2
+  furigana: チバケンインザイシオオモリ
+- full_address: 千葉県白井市復1123
+  furigana: チバケンシロイシフク
+- full_address: 千葉県富里市七栄652-1
+  furigana: チバケントミサトシナナエ
+- full_address: 千葉県南房総市富浦町青木28
+  furigana: チバケンミナミボウソウシトミウラチョウアオキ
+- full_address: 千葉県匝瑳市八日市場ハ793番地2
+  furigana: チバケンソウサシヨウカイチバハ
+- full_address: 千葉県香取市佐原ロ2127
+  furigana: チバケンカトリシサワラロ
+- full_address: 千葉県山武市殿台296
+  furigana: チバケンサンムシトノダイ
+- full_address: 千葉県いすみ市大原7400-1
+  furigana: チバケンイスミシオオハラ
+- full_address: 千葉県大網白里市大網115-2
+  furigana: チバケンオオアミシラサトシオオアミ
+- full_address: 千葉県印旛郡酒々井町中央台4-11
+  furigana: チバケンインバグンシスイマチチュウオウダイ 4
+- full_address: 千葉県印旛郡栄町安食台1-2
+  furigana: チバケンインバグンサカエマチアジキダイ 1
+- full_address: 千葉県香取郡神崎町神崎本宿163
+  furigana: チバケンカトリグンコウザキマチコウザキホンシュク
+- full_address: 千葉県香取郡多古町多古584
+  furigana: チバケンカトリグンタコマチタコ
+- full_address: 千葉県香取郡東庄町笹川い4713-131
+  furigana: チバケンカトリグントウノショウマチササガワイ
+- full_address: 千葉県山武郡九十九里町片貝4099
+  furigana: チバケンサンブグンクジュウクリマチカタカイ
+- full_address: 千葉県山武郡芝山町小池992
+  furigana: チバケンサンブグンシバヤママチコイケ
+- full_address: 千葉県山武郡横芝光町宮川11902
+  furigana: チバケンサンブグンヨコシバヒカリマチミヤガワ
+- full_address: 千葉県長生郡一宮町一宮2457
+  furigana: チバケンチョウセイグンイチノミヤマチイチノミヤ
+- full_address: 千葉県長生郡睦沢町下之郷1650-1
+  furigana: チバケンチョウセイグンムツザワマチシモノゴウ
+- full_address: 千葉県長生郡長生村本郷1-77
+  furigana: チバケンチョウセイグンチョウセイムラホンゴウ
+- full_address: 千葉県長生郡白子町関5074-2
+  furigana: チバケンチョウセイグンシラコマチセキ
+- full_address: 千葉県長生郡長柄町桜谷712
+  furigana: チバケンチョウセイグンナガラマチサクラヤ
+- full_address: 千葉県長生郡長南町長南2110
+  furigana: チバケンチョウセイグンチョウナンマチチョウナン
+- full_address: 千葉県夷隅郡大多喜町大多喜93
+  furigana: チバケンイスミグンオオタキマチオオタキ
+- full_address: 千葉県夷隅郡御宿町須賀1522
+  furigana: チバケンイスミグンオンジュクマチスカ
+- full_address: 千葉県安房郡鋸南町下佐久間3458
+  furigana: チバケンアワグンキョナンマチシモサクマ
+- full_address: 千葉県鎌ケ谷市新鎌ケ谷2-6-1
+  furigana: チバケンカマガヤシシンカマガヤ 2
+- full_address: 千葉県袖ケ浦市坂戸市場1-1
+  furigana: チバケンソデガウラシサカドイチバ
+- full_address: 千葉県旭市ニの1920
+  furigana: チバケンアサヒシニ
+- full_address: 東京都千代田区九段南1-2-1
+  furigana: トウキョウトチヨダククダンミナミ 1
+- full_address: 東京都中央区築地1-1-1
+  furigana: トウキョウトチュウオウクツキジ 1
+- full_address: 東京都港区芝公園1-5-25
+  furigana: トウキョウトミナトクシバコウエン 1
+- full_address: 東京都新宿区歌舞伎町1-4-1
+  furigana: トウキョウトシンジュククカブキチョウ 1
+- full_address: 東京都文京区春日1-16-21
+  furigana: トウキョウトブンキョウクカスガ 1
+- full_address: 東京都台東区東上野4-5-6
+  furigana: トウキョウトタイトウクヒガシウエノ 4
+- full_address: 東京都墨田区吾妻橋1-23-20
+  furigana: トウキョウトスミダクアヅマバシ 1
+- full_address: 東京都江東区東陽4-11-28
+  furigana: トウキョウトコウトウクトウヨウ 4
+- full_address: 東京都品川区広町2-1-36
+  furigana: トウキョウトシナガワクヒロマチ 2
+- full_address: 東京都目黒区上目黒2-19-15
+  furigana: トウキョウトメグロクカミメグロ 2
+- full_address: 東京都大田区蒲田5-13-14
+  furigana: トウキョウトオオタクカマタ 5
+- full_address: 東京都世田谷区世田谷4-21-27
+  furigana: トウキョウトセタガヤクセタガヤ 4
+- full_address: 東京都渋谷区宇田川町1-1
+  furigana: トウキョウトシブヤクウダガワチョウ
+- full_address: 東京都中野区中野4-8-1
+  furigana: トウキョウトナカノクナカノ 4
+- full_address: 東京都杉並区阿佐谷南1-15-1
+  furigana: トウキョウトスギナミクアサガヤミナミ 1
+- full_address: 東京都豊島区南池袋2-45-1
+  furigana: トウキョウトトシマクミナミイケブクロ 2
+- full_address: 東京都北区王子本町1-15-22
+  furigana: トウキョウトキタクオウジホンチョウ 1
+- full_address: 東京都荒川区荒川2-2-3
+  furigana: トウキョウトアラカワクアラカワ 2
+- full_address: 東京都板橋区板橋2-66-1
+  furigana: トウキョウトイタバシクイタバシ 2
+- full_address: 東京都練馬区豊玉北6-12-1
+  furigana: トウキョウトネリマクトヨタマキタ 6
+- full_address: 東京都足立区中央本町1-17-1
+  furigana: トウキョウトアダチクチュウオウホンチョウ 1
+- full_address: 東京都葛飾区立石5-13-1
+  furigana: トウキョウトカツシカクタテイシ 5
+- full_address: 東京都江戸川区中央1-4-1
+  furigana: トウキョウトエドガワクチュウオウ 1
+- full_address: 東京都八王子市元本郷町3-24-1
+  furigana: トウキョウトハチオウジシモトホンゴウチョウ 3
+- full_address: 東京都立川市泉町1156-9
+  furigana: トウキョウトタチカワシイズミチョウ
+- full_address: 東京都武蔵野市緑町2-2-28
+  furigana: トウキョウトムサシノシミドリチョウ 2
+- full_address: 東京都三鷹市野崎1-1-1
+  furigana: トウキョウトミタカシノザキ 1
+- full_address: 東京都青梅市東青梅1-11-1
+  furigana: トウキョウトオウメシヒガシオウメ 1
+- full_address: 東京都府中市宮西町2-24
+  furigana: トウキョウトフチュウシミヤニシチョウ 2
+- full_address: 東京都昭島市田中町1-17-1
+  furigana: トウキョウトアキシマシタナカチョウ 1
+- full_address: 東京都調布市小島町2-35-1
+  furigana: トウキョウトチョウフシコジマチョウ 2
+- full_address: 東京都町田市森野2-2-22
+  furigana: トウキョウトマチダシモリノ 2
+- full_address: 東京都小金井市本町6-6-3
+  furigana: トウキョウトコガネイシホンチョウ 6
+- full_address: 東京都小平市小川町2-1333
+  furigana: トウキョウトコダイラシオガワチョウ 2
+- full_address: 東京都日野市神明1-12-1
+  furigana: トウキョウトヒノシシンメイ 1
+- full_address: 東京都東村山市本町1-2-3
+  furigana: トウキョウトヒガシムラヤマシホンチョウ 1
+- full_address: 東京都国分寺市戸倉1-6-1
+  furigana: トウキョウトコクブンジシトクラ 1
+- full_address: 東京都国立市富士見台2-47-1
+  furigana: トウキョウトクニタチシフジミダイ 2
+- full_address: 東京都福生市本町5
+  furigana: トウキョウトフッサシホンチョウ
+- full_address: 東京都狛江市和泉本町1-1-5
+  furigana: トウキョウトコマエシイズミホンチョウ 1
+- full_address: 東京都東大和市中央3-930
+  furigana: トウキョウトヒガシヤマトシチュウオウ 3
+- full_address: 東京都清瀬市中里5-842
+  furigana: トウキョウトキヨセシナカザト 5
+- full_address: 東京都東久留米市本町3-3-1
+  furigana: トウキョウトヒガシクルメシホンチョウ 3
+- full_address: 東京都武蔵村山市本町1-1-1
+  furigana: トウキョウトムサシムラヤマシホンマチ 1
+- full_address: 東京都多摩市関戸6-12-1
+  furigana: トウキョウトタマシセキド 6
+- full_address: 東京都稲城市東長沼2111
+  furigana: トウキョウトイナギシヒガシナガヌマ
+- full_address: 東京都羽村市緑ヶ丘5-2-1
+  furigana: トウキョウトハムラシ 5
+- full_address: 東京都あきる野市二宮350
+  furigana: トウキョウトアキルノシニノミヤ
+- full_address: 東京都西東京市南町5-6-13
+  furigana: トウキョウトニシトウキョウシミナミチョウ 5
+- full_address: 東京都西多摩郡瑞穂町大字箱根ヶ崎2335
+  furigana: トウキョウトニシタマグンミズホマチ
+- full_address: 東京都西多摩郡日の出町平井2780
+  furigana: トウキョウトニシタマグンヒノデマチ
+- full_address: 東京都西多摩郡奥多摩町氷川215-6
+  furigana: トウキョウトニシタマグンオクタママチヒカワ
+- full_address: 東京都大島町元町1-1-14
+  furigana: トウキョウトオオシママチモトマチ 1
+- full_address: 東京都新島村本村1-1-1
+  furigana: トウキョウトニイジマムラホンソン 1
+- full_address: 東京都小笠原村父島字西町
+  furigana: トウキョウトオガサワラムラチチジマ
+- full_address: 神奈川県横浜市中区本町6－50-10
+  furigana: カナガワケンヨコハマシナカクホンチョウ 6
+- full_address: 神奈川県横浜市鶴見区鶴見中央3－20－1
+  furigana: カナガワケンヨコハマシツルミクツルミチュウオウ 3
+- full_address: 神奈川県横浜市神奈川区広台太田町3－8
+  furigana: カナガワケンヨコハマシカナガワクヒロダイオオタマチ
+- full_address: 神奈川県横浜市西区中央1－5－10
+  furigana: カナガワケンヨコハマシニシクチュウオウ 1
+- full_address: 神奈川県横浜市中区日本大通35
+  furigana: カナガワケンヨコハマシナカクニホンオオドオリ
+- full_address: 神奈川県横浜市南区浦舟町2-33
+  furigana: カナガワケンヨコハマシミナミクウラフネチョウ 2
+- full_address: 神奈川県横浜市保土ケ谷区川辺町2－9
+  furigana: カナガワケンヨコハマシホドガヤクカワベチョウ
+- full_address: 神奈川県横浜市磯子区磯子3－5－1
+  furigana: カナガワケンヨコハマシイソゴクイソゴ 3
+- full_address: 神奈川県横浜市金沢区泥亀2－9－1
+  furigana: カナガワケンヨコハマシカナザワクデイキ 2
+- full_address: 神奈川県横浜市港北区大豆戸町26－1
+  furigana: カナガワケンヨコハマシコウホククマメドチョウ
+- full_address: 神奈川県横浜市戸塚区戸塚町16－17
+  furigana: カナガワケンヨコハマシトツカクトツカチョウ
+- full_address: 神奈川県横浜市港南区港南4－2－10
+  furigana: カナガワケンヨコハマシコウナンクコウナン 4
+- full_address: 神奈川県横浜市旭区鶴ヶ峰1－4－12
+  furigana: カナガワケンヨコハマシアサヒクツルガミネ 1
+- full_address: 神奈川県横浜市緑区寺山町118
+  furigana: カナガワケンヨコハマシミドリクテラヤマチョウ
+- full_address: 神奈川県横浜市瀬谷区二ツ橋町190
+  furigana: カナガワケンヨコハマシセヤクフタツバシチョウ
+- full_address: 神奈川県横浜市栄区桂町303－19
+  furigana: カナガワケンヨコハマシサカエクカツラチョウ
+- full_address: 神奈川県横浜市泉区和泉町4636－2
+  furigana: カナガワケンヨコハマシイズミクイズミチョウ
+- full_address: 神奈川県横浜市青葉区市ヶ尾町31－4
+  furigana: カナガワケンヨコハマシアオバクイチガオチョウ
+- full_address: 神奈川県横浜市都筑区茅ヶ崎中央32－1
+  furigana: カナガワケンヨコハマシツヅキクチガサキチュウオウ
+- full_address: 神奈川県川崎市川崎区宮本町1
+  furigana: カナガワケンカワサキシカワサキクミヤモトチョウ
+- full_address: 神奈川県川崎市川崎区東田町8
+  furigana: カナガワケンカワサキシカワサキクヒガシダチョウ
+- full_address: 神奈川県川崎市幸区戸手本町1－11－1
+  furigana: カナガワケンカワサキシサイワイクトテホンマチ 1
+- full_address: 神奈川県川崎市中原区小杉町3－245
+  furigana: カナガワケンカワサキシナカハラクコスギマチ 3
+- full_address: 神奈川県川崎市高津区下作延2－8－1
+  furigana: カナガワケンカワサキシタカツクシモサクノベ 2
+- full_address: 神奈川県川崎市多摩区登戸1775－1
+  furigana: カナガワケンカワサキシタマクノボリト
+- full_address: 神奈川県川崎市宮前区宮前平2－20－5
+  furigana: カナガワケンカワサキシミヤマエクミヤマエダイラ 2
+- full_address: 神奈川県川崎市麻生区万福寺1－5－1
+  furigana: カナガワケンカワサキシアサオクマンプクジ 1
+- full_address: 神奈川県相模原市中央区中央2－11－15
+  furigana: カナガワケンサガミハラシチュウオウクチュウオウ 2
+- full_address: 神奈川県相模原市緑区西橋本5－3－21
+  furigana: カナガワケンサガミハラシミドリクニシハシモト 5
+- full_address: 神奈川県相模原市中央区中央2－11－15
+  furigana: カナガワケンサガミハラシチュウオウクチュウオウ 2
+- full_address: 神奈川県相模原市南区相模大野5－31－1
+  furigana: カナガワケンサガミハラシミナミクサガミオオノ 5
+- full_address: 神奈川県横須賀市小川町11
+  furigana: カナガワケンヨコスカシオガワチョウ
+- full_address: 神奈川県平塚市浅間町9－1
+  furigana: カナガワケンヒラツカシセンゲンチョウ
+- full_address: 神奈川県鎌倉市御成町18－10
+  furigana: カナガワケンカマクラシオナリマチ
+- full_address: 神奈川県藤沢市朝日町1－1
+  furigana: カナガワケンフジサワシアサヒチョウ
+- full_address: 神奈川県小田原市荻窪300
+  furigana: カナガワケンオダワラシオギクボ
+- full_address: 神奈川県茅ヶ崎市茅ヶ崎1－1－1
+  furigana: カナガワケンチガサキシチガサキ 1
+- full_address: 神奈川県逗子市逗子5－2－16
+  furigana: カナガワケンズシシズシ 5
+- full_address: 神奈川県三浦市城山町1－1
+  furigana: カナガワケンミウラシシロヤマチョウ
+- full_address: 神奈川県秦野市桜町1－3－2
+  furigana: カナガワケンハダノシサクラチョウ 1
+- full_address: 神奈川県厚木市中町3－17－17
+  furigana: カナガワケンアツギシナカチョウ 3
+- full_address: 神奈川県大和市下鶴間1－1－1
+  furigana: カナガワケンヤマトシシモツルマ 1
+- full_address: 神奈川県伊勢原市田中348
+  furigana: カナガワケンイセハラシタナカ
+- full_address: 神奈川県海老名市勝瀬175－1
+  furigana: カナガワケンエビナシカツセ
+- full_address: 神奈川県座間市緑ヶ丘1－1－1
+  furigana: カナガワケンザマシミドリガオカ 1
+- full_address: 神奈川県南足柄市関本440
+  furigana: カナガワケンミナミアシガラシセキモト
+- full_address: 神奈川県綾瀬市早川550
+  furigana: カナガワケンアヤセシハヤカワ
+- full_address: 神奈川県三浦郡葉山町堀内2135
+  furigana: カナガワケンミウラグンハヤママチホリウチ
+- full_address: 神奈川県高座郡寒川町宮山165
+  furigana: カナガワケンコウザグンサムカワマチミヤヤマ
+- full_address: 神奈川県中郡大磯町東小磯183
+  furigana: カナガワケンナカグンオオイソマチヒガシコイソ
+- full_address: 神奈川県中郡二宮町二宮961
+  furigana: カナガワケンナカグンニノミヤマチニノミヤ
+- full_address: 神奈川県足柄上郡中井町比奈窪56
+  furigana: カナガワケンアシガラカミグンナカイマチヒナクボ
+- full_address: 神奈川県足柄上郡大井町金子1995
+  furigana: カナガワケンアシガラカミグンオオイマチカネコ
+- full_address: 神奈川県足柄上郡松田町松田惣領2037
+  furigana: カナガワケンアシガラカミグンマツダマチマツダソウリョウ
+- full_address: 神奈川県足柄上郡山北町山北1301－4
+  furigana: カナガワケンアシガラカミグンヤマキタマチヤマキタ
+- full_address: 神奈川県足柄上郡開成町延沢773
+  furigana: カナガワケンアシガラカミグンカイセイマチノブサワ
+- full_address: 神奈川県足柄下郡箱根町湯本256
+  furigana: カナガワケンアシガラシモグンハコネマチユモト
+- full_address: 神奈川県足柄下郡真鶴町岩244－1
+  furigana: カナガワケンアシガラシモグンマナヅルマチイワ
+- full_address: 神奈川県足柄下郡湯河原町中央2－2－1
+  furigana: カナガワケンアシガラシモグンユガワラマチチュウオウ 2
+- full_address: 神奈川県愛甲郡愛川町角田251－1
+  furigana: カナガワケンアイコウグンアイカワマチスミダ
+- full_address: 神奈川県愛甲郡清川村煤ヶ谷2216
+  furigana: カナガワケンアイコウグンキヨカワムラ
+- full_address: 新潟県新潟市中央区学校町通1番町602-1
+  furigana: ニイガタケンニイガタシチュウオウク
+- full_address: 新潟県新潟市北区東栄町1丁目1番14号
+  furigana: ニイガタケンニイガタシキタクトウエイチョウ 1
+- full_address: 新潟県新潟市東区下木戸1-4-1
+  furigana: ニイガタケンニイガタシヒガシクシモキド 1
+- full_address: 新潟県新潟市中央区西堀通6番町866
+  furigana: ニイガタケンニイガタシチュウオウク
+- full_address: 新潟県新潟市江南区泉町3-4-5
+  furigana: ニイガタケンニイガタシコウナンクイズミチョウ 3
+- full_address: 新潟県新潟市秋葉区程島2009
+  furigana: ニイガタケンニイガタシアキハクホドジマ
+- full_address: 新潟県新潟市南区白根1235
+  furigana: ニイガタケンニイガタシミナミクシロネ
+- full_address: 新潟県新潟市西区寺尾東3-14-41
+  furigana: ニイガタケンニイガタシニシクテラオヒガシ 3
+- full_address: 新潟県新潟市西蒲区巻甲2690-1
+  furigana: ニイガタケンニイガタシニシカンクマキアズマチョウ
+- full_address: 新潟県長岡市大手通1-4-10
+  furigana: ニイガタケンナガオカシオオテドオリ 1
+- full_address: 新潟県三条市旭町2-3-1
+  furigana: ニイガタケンサンジョウシアサヒチョウ 2
+- full_address: 新潟県柏崎市日石町2-1
+  furigana: ニイガタケンカシワザキシニツセキチョウ
+- full_address: 新潟県新発田市中央町3-3-3
+  furigana: ニイガタケンシバタシチュウオウチョウ 3
+- full_address: 新潟県小千谷市城内2-7-5
+  furigana: ニイガタケンオヂヤシジョウナイ 2
+- full_address: 新潟県加茂市幸町2-3-5
+  furigana: ニイガタケンカモシサイワイチョウ 2
+- full_address: 新潟県十日町市千歳町3-3
+  furigana: ニイガタケントオカマチシチトセチョウ 3
+- full_address: 新潟県見附市昭和町2-1-1
+  furigana: ニイガタケンミツケシショウワマチ 2
+- full_address: 新潟県村上市三之町1-1
+  furigana: ニイガタケンムラカミシサンノチョウ
+- full_address: 新潟県燕市吉田西太田1934
+  furigana: ニイガタケンツバメシヨシダニシオオタ
+- full_address: 新潟県糸魚川市一の宮1-2-5
+  furigana: ニイガタケンイトイガワシイチノミヤ 1
+- full_address: 新潟県妙高市栄町5-1
+  furigana: ニイガタケンミョウコウシサカエチョウ
+- full_address: 新潟県五泉市太田1094-1
+  furigana: ニイガタケンゴセンシオオタ
+- full_address: 新潟県上越市木田1丁目1-3
+  furigana: ニイガタケンジョウエツシキダ 1
+- full_address: 新潟県阿賀野市岡山町10-15
+  furigana: ニイガタケンアガノシオカヤマチョウ
+- full_address: 新潟県佐渡市千種232
+  furigana: ニイガタケンサドシチグサ
+- full_address: 新潟県魚沼市小出島910
+  furigana: ニイガタケンウオヌマシコイデジマ
+- full_address: 新潟県南魚沼市六日町180-1
+  furigana: ニイガタケンミナミウオヌマシムイカマチ
+- full_address: 新潟県胎内市新和町2-10
+  furigana: ニイガタケンタイナイシシンワチョウ
+- full_address: 新潟県北蒲原郡聖籠町大字諏訪山1635-4
+  furigana: ニイガタケンキタカンバラグンセイロウマチ
+- full_address: 新潟県西蒲原郡弥彦村大字矢作402
+  furigana: ニイガタケンニシカンバラグンヤヒコムラ
+- full_address: 新潟県南蒲原郡田上町原ヶ崎新田3070
+  furigana: ニイガタケンミナミカンバラグンタガミマチ
+- full_address: 新潟県東蒲原郡阿賀町津川580
+  furigana: ニイガタケンヒガシカンバラグンアガマチツガワ
+- full_address: 新潟県三島郡出雲崎町大字川西140
+  furigana: ニイガタケンサントウグンイズモザキマチ
+- full_address: 新潟県南魚沼郡湯沢町大字神立300
+  furigana: ニイガタケンミナミウオヌマグンユザワマチ
+- full_address: 新潟県刈羽郡刈羽村大字割町新田215-1
+  furigana: ニイガタケンカリワグンカリワムラ
+- full_address: 新潟県岩船郡関川村大字下関912
+  furigana: ニイガタケンイワフネグンセキカワムラ
+- full_address: 新潟県岩船郡粟島浦村字日ノ見山1513-11
+  furigana: ニイガタケンイワフネグンアワシマウラムラ
+- full_address: 新潟県中魚沼郡津南町大字下船渡戊585
+  furigana: ニイガタケンナカウオヌマグンツナンマチ
+- full_address: 富山県富山市新桜町7-38
+  furigana: トヤマケントヤマシシンサクラマチ
+- full_address: 富山県高岡市広小路7-50
+  furigana: トヤマケンタカオカシヒロコウジ
+- full_address: 富山県魚津市釈迦堂1-10-1
+  furigana: トヤマケンウオヅシシャカドウ 1
+- full_address: 富山県氷見市鞍川1060番地
+  furigana: トヤマケンヒミシクラカワ
+- full_address: 富山県滑川市寺家町104
+  furigana: トヤマケンナメリカワシジケイマチ
+- full_address: 富山県黒部市三日市1301
+  furigana: トヤマケンクロベシミッカイチ
+- full_address: 富山県砺波市栄町7-3
+  furigana: トヤマケントナミシサカエマチ
+- full_address: 富山県小矢部市本町1-1
+  furigana: トヤマケンオヤベシホンマチ
+- full_address: 富山県南砺市苗島4880
+  furigana: トヤマケンナントシノジマ
+- full_address: 富山県射水市新開発410-1
+  furigana: トヤマケンイミズシシンカイホツ
+- full_address: 富山県中新川郡舟橋村仏生寺55
+  furigana: トヤマケンナカニイカワグンフナハシムラ
+- full_address: 富山県中新川郡上市町法音寺1
+  furigana: トヤマケンナカニイカワグンカミイチマチホウオンジ
+- full_address: 富山県中新川郡立山町前沢2440
+  furigana: トヤマケンナカニイカワグンタテヤママチマエザワ
+- full_address: 富山県下新川郡入善町入膳3255
+  furigana: トヤマケンシモニイカワグンニュウゼンマチニュウゼン
+- full_address: 富山県下新川郡朝日町道下1133
+  furigana: トヤマケンシモニイカワグンアサヒマチドウゲ
+- full_address: 石川県金沢市広坂1-1-1
+  furigana: イシカワケンカナザワシヒロサカ 1
+- full_address: 石川県七尾市袖ヶ江町イ部25
+  furigana: イシカワケンナナオシソデガエチョウ
+- full_address: 石川県小松市小馬出町91
+  furigana: イシカワケンコマツシコンマデマチ
+- full_address: 石川県輪島市二ツ屋町2字29
+  furigana: イシカワケンワジマシフタツヤマチ
+- full_address: 石川県珠洲市上戸町北方1の6の2
+  furigana: イシカワケンスズシウエドマチキタガタ
+- full_address: 石川県加賀市大聖寺南町ニ41
+  furigana: イシカワケンカガシダイショウジミナミチョウ
+- full_address: 石川県羽咋市旭町ア200
+  furigana: イシカワケンハクイシアサヒマチ
+- full_address: 石川県かほく市宇野気ニ81
+  furigana: イシカワケンカホクシウノケ
+- full_address: 石川県白山市倉光2-1
+  furigana: イシカワケンハクサンシクラミツ 2
+- full_address: 石川県能美市来丸町1110
+  furigana: イシカワケンノミシライマルマチ
+- full_address: 石川県野々市市三納1-1
+  furigana: イシカワケンノノイチシサンノ 1
+- full_address: 石川県能美郡川北町壱ツ屋174
+  furigana: イシカワケンノミグンカワキタマチ
+- full_address: 石川県河北郡津幡町加賀爪ニ3
+  furigana: イシカワケンカホクグンツバタマチ
+- full_address: 石川県河北郡内灘町字大学1-2-1
+  furigana: イシカワケンカホクグンウチナダマチ 1
+- full_address: 石川県羽咋郡志賀町末吉千古1-1
+  furigana: イシカワケンハクイグンシカマチスエヨシ
+- full_address: 石川県羽咋郡宝達志水町子浦そ18-1
+  furigana: イシカワケンハクイグンホウダツシミズチョウシオ
+- full_address: 石川県鹿島郡中能登町末坂9部46番地
+  furigana: イシカワケンカシマグンナカノトマチスエザカ
+- full_address: 石川県鳳珠郡穴水町字川島ラ174
+  furigana: イシカワケンホウスグンアナミズマチ
+- full_address: 石川県鳳珠郡能登町字宇出津ト字50番地1
+  furigana: イシカワケンホウスグンノトチョウ
+- full_address: 福井県福井市大手3-10-1
+  furigana: フクイケンフクイシオオテ 3
+- full_address: 福井県敦賀市中央町2-1-1
+  furigana: フクイケンツルガシチュウオウチョウ 2
+- full_address: 福井県小浜市大手町6-3
+  furigana: フクイケンオバマシオオテチョウ
+- full_address: 福井県大野市天神町1-1
+  furigana: フクイケンオオノシテンジンチョウ
+- full_address: 福井県勝山市元町1-1-1
+  furigana: フクイケンカツヤマシモトマチ 1
+- full_address: 福井県鯖江市西山町13-1
+  furigana: フクイケンサバエシニシヤマチョウ
+- full_address: 福井県あわら市市姫3-1-1
+  furigana: フクイケンアワラシイチヒメ 3
+- full_address: 福井県越前市府中1-13-7
+  furigana: フクイケンエチゼンシフチュウ 1
+- full_address: 福井県坂井市坂井町下新庄1-1
+  furigana: フクイケンサカイシサカイチョウシモシンジョウ
+- full_address: 福井県吉田郡永平寺町松岡春日1-4
+  furigana: フクイケンヨシダグンエイヘイジチョウマツオカカスガ 1
+- full_address: 福井県今立郡池田町稲荷35-4
+  furigana: フクイケンイマダテグンイケダチョウイナリ
+- full_address: 福井県南条郡南越前町東大道29-1
+  furigana: フクイケンナンジョウグンミナミエチゼンチョウヒガシダイドウ
+- full_address: 福井県丹生郡越前町西田中13-5-1
+  furigana: フクイケンニュウグンエチゼンチョウニシタナカ
+- full_address: 福井県三方郡美浜町郷市25-25
+  furigana: フクイケンミカタグンミハマチョウゴイチ
+- full_address: 福井県大飯郡高浜町宮崎86-23-2
+  furigana: フクイケンオオイグンタカハマチョウミヤザキ
+- full_address: 福井県大飯郡おおい町本郷136-1-1
+  furigana: フクイケンオオイグンオオイチョウホンゴウ
+- full_address: 福井県三方上中郡若狭町中央1-1
+  furigana: フクイケンミカタカミナカグンワカサチョウチュウオウ
+- full_address: 山梨県甲府市丸の内1-18-1
+  furigana: ヤマナシケンコウフシマルノウチ 1
+- full_address: 山梨県富士吉田市下吉田6-1-1
+  furigana: ヤマナシケンフジヨシダシシモヨシダ 6
+- full_address: 山梨県都留市上谷1-1-1
+  furigana: ヤマナシケンツルシカミヤ 1
+- full_address: 山梨県山梨市小原西843
+  furigana: ヤマナシケンヤマナシシコバラニシ
+- full_address: 山梨県大月市大月2-6-20
+  furigana: ヤマナシケンオオツキシオオツキ 2
+- full_address: 山梨県韮崎市水神1-3-1
+  furigana: ヤマナシケンニラサキシスイジン 1
+- full_address: 山梨県南アルプス市小笠原376
+  furigana: ヤマナシケンミナミアルプスシオガサハラ
+- full_address: 山梨県北杜市須玉町大豆生田961-1
+  furigana: ヤマナシケンホクトシスタマチョウマミョウダ
+- full_address: 山梨県甲斐市篠原2610
+  furigana: ヤマナシケンカイシシノハラ
+- full_address: 山梨県笛吹市石和町市部777
+  furigana: ヤマナシケンフエフキシイサワチョウイチベ
+- full_address: 山梨県上野原市上野原3832
+  furigana: ヤマナシケンウエノハラシウエノハラ
+- full_address: 山梨県甲州市塩山上於曽1085番地1
+  furigana: ヤマナシケンコウシュウシエンザンカミオゾ
+- full_address: 山梨県中央市臼井阿原301-1
+  furigana: ヤマナシケンチュウオウシウスイアワラ
+- full_address: 山梨県西八代郡市川三郷町市川大門1790-3
+  furigana: ヤマナシケンニシヤツシログンイチカワミサトチョウイチカワダイモン
+- full_address: 山梨県南巨摩郡早川町高住758
+  furigana: ヤマナシケンミナミコマグンハヤカワチョウコウジュウ
+- full_address: 山梨県南巨摩郡身延町切石350
+  furigana: ヤマナシケンミナミコマグンミノブチョウキリイシ
+- full_address: 山梨県南巨摩郡南部町福士28505-2
+  furigana: ヤマナシケンミナミコマグンナンブチョウフクシ
+- full_address: 山梨県南巨摩郡富士川町天神中条1134
+  furigana: ヤマナシケンミナミコマグンフジカワチョウテンジンナカジョウ
+- full_address: 山梨県中巨摩郡昭和町押越542-2
+  furigana: ヤマナシケンナカコマグンショウワチョウオシコシ
+- full_address: 山梨県南都留郡西桂町小沼1501-1
+  furigana: ヤマナシケンミナミツルグンニシカツラチョウオヌマ
+- full_address: 山梨県南都留郡忍野村忍草1514
+  furigana: ヤマナシケンミナミツルグンオシノムラシボクサ
+- full_address: 山梨県南都留郡山中湖村山中237-1
+  furigana: ヤマナシケンミナミツルグンヤマナカコムラヤマナカ
+- full_address: 山梨県南都留郡富士河口湖町船津1700
+  furigana: ヤマナシケンミナミツルグンフジカワグチコマチフナツ
+- full_address: 長野県長野市大字鶴賀緑町1613
+  furigana: ナガノケンナガノシ
+- full_address: 長野県松本市丸の内3-7
+  furigana: ナガノケンマツモトシマルノウチ
+- full_address: 長野県上田市大手1-11-16
+  furigana: ナガノケンウエダシオオテ 1
+- full_address: 長野県岡谷市幸町8-1
+  furigana: ナガノケンオカヤシサイワイチョウ
+- full_address: 長野県飯田市大久保町2534
+  furigana: ナガノケンイイダシオオクボチョウ
+- full_address: 長野県諏訪市高島1-22-30
+  furigana: ナガノケンスワシタカシマ 1
+- full_address: 長野県須坂市大字須坂1528-1
+  furigana: ナガノケンスザカシ
+- full_address: 長野県小諸市相生町3-3-3
+  furigana: ナガノケンコモロシアイオイチョウ 3
+- full_address: 長野県伊那市下新田3050
+  furigana: ナガノケンイナシシモシンデン
+- full_address: 長野県駒ヶ根市赤須町20-1
+  furigana: ナガノケンコマガネシアカズマチ
+- full_address: 長野県中野市三好町1-3-19
+  furigana: ナガノケンナカノシミヨシチョウ 1
+- full_address: 長野県大町市大町3887
+  furigana: ナガノケンオオマチシオオマチ
+- full_address: 長野県飯山市大字飯山1110-1
+  furigana: ナガノケンイイヤマシ
+- full_address: 長野県茅野市塚原2-6-1
+  furigana: ナガノケンチノシツカハラ 2
+- full_address: 長野県塩尻市大門7番町3-3
+  furigana: ナガノケンシオジリシダイモン7バンチョウ
+- full_address: 長野県佐久市中込3056
+  furigana: ナガノケンサクシナカゴミ
+- full_address: 長野県千曲市杭瀬下2丁目1番地
+  furigana: ナガノケンチクマシクイセケ 2
+- full_address: 長野県東御市県281-2
+  furigana: ナガノケントウミシアガタ
+- full_address: 長野県安曇野市豊科6000
+  furigana: ナガノケンアヅミノシトヨシナ
+- full_address: 長野県南佐久郡小海町大字豊里57-1
+  furigana: ナガノケンミナミサクグンコウミマチ
+- full_address: 長野県南佐久郡川上村大字大深山525
+  furigana: ナガノケンミナミサクグンカワカミムラ
+- full_address: 長野県南佐久郡南牧村大字海ノ口1051
+  furigana: ナガノケンミナミサクグンミナミマキムラ
+- full_address: 長野県南佐久郡佐久穂町大字高野町569
+  furigana: ナガノケンミナミサクグンサクホマチ
+- full_address: 長野県北佐久郡軽井沢町大字長倉2381-1
+  furigana: ナガノケンキタサクグンカルイザワマチ
+- full_address: 長野県北佐久郡御代田町大字馬瀬口1794-6
+  furigana: ナガノケンキタサクグンミヨタマチ
+- full_address: 長野県北佐久郡立科町大字芦田2532
+  furigana: ナガノケンキタサクグンタテシナマチ
+- full_address: 長野県小県郡青木村大字田沢111
+  furigana: ナガノケンチイサガタグンアオキムラ
+- full_address: 長野県小県郡長和町古町4247-1
+  furigana: ナガノケンチイサガタグンナガワマチフルマチ
+- full_address: 長野県諏訪郡富士見町落合10777
+  furigana: ナガノケンスワグンフジミマチオチアイ
+- full_address: 長野県上伊那郡辰野町中央1
+  furigana: ナガノケンカミイナグンタツノマチチュウオウ
+- full_address: 長野県上伊那郡箕輪町大字中箕輪10298
+  furigana: ナガノケンカミイナグンミノワマチ
+- full_address: 長野県上伊那郡飯島町飯島2537
+  furigana: ナガノケンカミイナグンイイジママチイイジマ
+- full_address: 長野県上伊那郡中川村大草4045-1
+  furigana: ナガノケンカミイナグンナカガワムラオオクサ
+- full_address: 長野県下伊那郡松川町元大島3823
+  furigana: ナガノケンシモイナグンマツカワマチモトオオジマ
+- full_address: 長野県下伊那郡高森町下市田2183-1
+  furigana: ナガノケンシモイナグンタカモリマチシモイチダ
+- full_address: 長野県下伊那郡阿南町東條58-1
+  furigana: ナガノケンシモイナグンアナンチョウヒガシジョウ
+- full_address: 長野県下伊那郡阿智村駒場483
+  furigana: ナガノケンシモイナグンアチムラコマバ
+- full_address: 長野県下伊那郡下條村睦沢8801-1
+  furigana: ナガノケンシモイナグンシモジョウムラムツザワ
+- full_address: 長野県下伊那郡天龍村平岡878
+  furigana: ナガノケンシモイナグンテンリュウムラヒラオカ
+- full_address: 長野県下伊那郡豊丘村大字神稲3120
+  furigana: ナガノケンシモイナグントヨオカムラ
+- full_address: 長野県下伊那郡大鹿村大字大河原354
+  furigana: ナガノケンシモイナグンオオシカムラ
+- full_address: 長野県木曽郡上松町駅前通り2-13
+  furigana: ナガノケンキソグンアゲマツマチエキマエドオリ 2
+- full_address: 長野県木曽郡南木曽町大字読書3668-1
+  furigana: ナガノケンキソグンナギソマチヨミカキ
+- full_address: 長野県木曽郡木祖村薮原1191-1
+  furigana: ナガノケンキソグンキソムラ
+- full_address: 長野県木曽郡大桑村大字長野2778
+  furigana: ナガノケンキソグンオオクワムラ
+- full_address: 長野県木曽郡木曽町福島2326-6
+  furigana: ナガノケンキソグンキソマチフクシマ
+- full_address: 長野県東筑摩郡麻績村麻3837
+  furigana: ナガノケンヒガシチクマグンオミムラオ
+- full_address: 長野県東筑摩郡朝日村大字古見1555-1
+  furigana: ナガノケンヒガシチクマグンアサヒムラ
+- full_address: 長野県東筑摩郡筑北村西条4195
+  furigana: ナガノケンヒガシチクマグンチクホクムラニシジョウ
+- full_address: 長野県北安曇郡池田町大字池田3203-6
+  furigana: ナガノケンキタアヅミグンイケダマチ
+- full_address: 長野県北安曇郡白馬村大字北城7025
+  furigana: ナガノケンキタアヅミグンハクバムラ
+- full_address: 長野県北安曇郡小谷村大字中小谷丙131
+  furigana: ナガノケンキタアヅミグンオタリムラ
+- full_address: 長野県埴科郡坂城町大字坂城10050
+  furigana: ナガノケンハニシナグンサカキマチ
+- full_address: 長野県上高井郡小布施町大字小布施1491-2
+  furigana: ナガノケンカミタカイグンオブセマチ
+- full_address: 長野県上高井郡高山村大字高井4972
+  furigana: ナガノケンカミタカイグンタカヤマムラ
+- full_address: 長野県下高井郡山ノ内町大字平穏3352-1
+  furigana: ナガノケンシモタカイグンヤマノウチマチ
+- full_address: 長野県下高井郡木島平村大字往郷914-6
+  furigana: ナガノケンシモタカイグンキジマダイラムラ
+- full_address: 長野県下高井郡野沢温泉村大字豊郷9817
+  furigana: ナガノケンシモタカイグンノザワオンセンムラ
+- full_address: 長野県上水内郡信濃町大字柏原428-2
+  furigana: ナガノケンカミミノチグンシナノマチ
+- full_address: 長野県上水内郡小川村大字高府8800-8
+  furigana: ナガノケンカミミノチグンオガワムラ
+- full_address: 長野県上水内郡飯綱町大字牟礼2795-1
+  furigana: ナガノケンカミミノチグンイイヅナマチ
+- full_address: 長野県下水内郡栄村大字北信3433
+  furigana: ナガノケンシモミノチグンサカエムラ
+- full_address: 岐阜県岐阜市司町40番地1
+  furigana: ギフケンギフシツカサマチ
+- full_address: 岐阜県大垣市丸の内2-29
+  furigana: ギフケンオオガキシマルノウチ 2
+- full_address: 岐阜県高山市花岡町2-18
+  furigana: ギフケンタカヤマシハナオカマチ 2
+- full_address: 岐阜県多治見市日ノ出町2-15
+  furigana: ギフケンタジミシヒノデマチ 2
+- full_address: 岐阜県関市若草通3-1
+  furigana: ギフケンセキシワカクサドオリ 3
+- full_address: 岐阜県中津川市かやの木町2-1
+  furigana: ギフケンナカツガワシカヤノキチョウ
+- full_address: 岐阜県瑞浪市上平町1-1
+  furigana: ギフケンミズナミシウエダイラチョウ 1
+- full_address: 岐阜県羽島市竹鼻町55
+  furigana: ギフケンハシマシタケハナチョウ
+- full_address: 岐阜県恵那市長島町正家1-1-1
+  furigana: ギフケンエナシオサシマチョウショウゲ 1
+- full_address: 岐阜県美濃加茂市太田町3431-1
+  furigana: ギフケンミノカモシオオタチョウ
+- full_address: 岐阜県土岐市土岐津町土岐口2101
+  furigana: ギフケントキシトキツチョウトキグチ
+- full_address: 岐阜県各務原市那加桜町1-69
+  furigana: ギフケンカカミガハラシナカサクラマチ 1
+- full_address: 岐阜県可児市広見1-1
+  furigana: ギフケンカニシヒロミ 1
+- full_address: 岐阜県山県市高木1000-1
+  furigana: ギフケンヤマガタシタカキ
+- full_address: 岐阜県瑞穂市別府1288
+  furigana: ギフケンミズホシベップ
+- full_address: 岐阜県飛騨市古川町本町2-22
+  furigana: ギフケンヒダシフルカワチョウホンマチ
+- full_address: 岐阜県本巣市文殊324
+  furigana: ギフケンモトスシモンジュ
+- full_address: 岐阜県郡上市八幡町島谷228
+  furigana: ギフケングジョウシハチマンチョウシマダニ
+- full_address: 岐阜県下呂市森960
+  furigana: ギフケンゲロシモリ
+- full_address: 岐阜県海津市海津町高須515
+  furigana: ギフケンカイヅシカイヅチョウタカス
+- full_address: 岐阜県羽島郡岐南町八剣7-107
+  furigana: ギフケンハシマグンギナンチョウヤツルギ 7
+- full_address: 岐阜県羽島郡笠松町司町1
+  furigana: ギフケンハシマグンカサマツチョウツカサマチ
+- full_address: 岐阜県養老郡養老町高田798
+  furigana: ギフケンヨウロウグンヨウロウチョウタカダ
+- full_address: 岐阜県不破郡垂井町宮代2957-11
+  furigana: ギフケンフワグンタルイチョウミヤシロ
+- full_address: 岐阜県不破郡関ケ原町大字関ケ原894-58
+  furigana: ギフケンフワグンセキガハラチョウ
+- full_address: 岐阜県安八郡神戸町大字神戸1111
+  furigana: ギフケンアンパチグンゴウドチョウ
+- full_address: 岐阜県安八郡輪之内町四郷2530-1
+  furigana: ギフケンアンパチグンワノウチチョウヨゴウ
+- full_address: 岐阜県安八郡安八町氷取161
+  furigana: ギフケンアンパチグンアンパチチョウコオリトリ
+- full_address: 岐阜県揖斐郡揖斐川町三輪133
+  furigana: ギフケンイビグンイビガワチョウミワ
+- full_address: 岐阜県揖斐郡大野町大字大野80
+  furigana: ギフケンイビグンオオノチョウ
+- full_address: 岐阜県揖斐郡池田町六之井1468-1
+  furigana: ギフケンイビグンイケダチョウロクノイ
+- full_address: 岐阜県本巣郡北方町長谷川1-1
+  furigana: ギフケンモトスグンキタガタチョウハセガワ 1
+- full_address: 岐阜県加茂郡坂祝町取組46-18
+  furigana: ギフケンカモグンサカホギチョウトリクミ
+- full_address: 岐阜県加茂郡富加町滝田1511
+  furigana: ギフケンカモグントミカチョウタキダ
+- full_address: 岐阜県加茂郡川辺町中川辺1518-4
+  furigana: ギフケンカモグンカワベチョウナカカワベ
+- full_address: 岐阜県加茂郡七宗町上麻生2442-3
+  furigana: ギフケンカモグンヒチソウチョウカミアソウ
+- full_address: 岐阜県加茂郡八百津町八百津3903-2
+  furigana: ギフケンカモグンヤオツチョウヤオツ
+- full_address: 岐阜県加茂郡白川町河岐715
+  furigana: ギフケンカモグンシラカワチョウカワマタ
+- full_address: 岐阜県加茂郡東白川村神土548
+  furigana: ギフケンカモグンヒガシシラカワムラカンド
+- full_address: 岐阜県可児郡御嵩町御嵩1239-1
+  furigana: ギフケンカニグンミタケチョウミタケ
+- full_address: 岐阜県大野郡白川村鳩谷517
+  furigana: ギフケンオオノグンシラカワムラ
+- full_address: 静岡県静岡市葵区追手町5-1
+  furigana: シズオカケンシズオカシアオイクオウテマチ
+- full_address: 静岡県静岡市葵区追手町5-1
+  furigana: シズオカケンシズオカシアオイクオウテマチ
+- full_address: 静岡県静岡市駿河区南八幡町10-40
+  furigana: シズオカケンシズオカシスルガクミナミヤハタチョウ
+- full_address: 静岡県静岡市清水区旭町6-8
+  furigana: シズオカケンシズオカシシミズクアサヒチョウ
+- full_address: 静岡県浜松市中区元城町103-2
+  furigana: シズオカケンハママツシナカクモトシロチョウ
+- full_address: 静岡県浜松市中区元城町103-2
+  furigana: シズオカケンハママツシナカクモトシロチョウ
+- full_address: 静岡県浜松市東区流通元町20-3
+  furigana: シズオカケンハママツシヒガシクリュウツウモトマチ
+- full_address: 静岡県浜松市西区雄踏1-31-1
+  furigana: シズオカケンハママツシニシクユウトウ 1
+- full_address: 静岡県浜松市南区江之島町600-1
+  furigana: シズオカケンハママツシミナミクエノシマチョウ
+- full_address: 静岡県浜松市北区細江町気賀305
+  furigana: シズオカケンハママツシキタクホソエチョウキガ
+- full_address: 静岡県浜松市浜北区貴布祢3000
+  furigana: シズオカケンハママツシハマキタクキブネ
+- full_address: 静岡県浜松市天竜区二俣町二俣481
+  furigana: シズオカケンハママツシテンリュウクフタマタチョウフタマタ
+- full_address: 静岡県沼津市御幸町16-1
+  furigana: シズオカケンヌマヅシミユキチョウ
+- full_address: 静岡県熱海市中央町1-1
+  furigana: シズオカケンアタミシチュウオウチョウ
+- full_address: 静岡県三島市北田町4-47
+  furigana: シズオカケンミシマシキタタマチ
+- full_address: 静岡県富士宮市弓沢町150
+  furigana: シズオカケンフジノミヤシユミザワチョウ
+- full_address: 静岡県伊東市大原二丁目1-1
+  furigana: シズオカケンイトウシオオハラ 2
+- full_address: 静岡県島田市中央町1-1
+  furigana: シズオカケンシマダシチュウオウチョウ
+- full_address: 静岡県富士市永田町1-100
+  furigana: シズオカケンフジシナガタチョウ 1
+- full_address: 静岡県磐田市国府台3-1
+  furigana: シズオカケンイワタシコウノダイ
+- full_address: 静岡県焼津市本町2-16-32
+  furigana: シズオカケンヤイヅシホンマチ 2
+- full_address: 静岡県掛川市長谷一丁目1番地の1
+  furigana: シズオカケンカケガワシナガヤ 1
+- full_address: 静岡県藤枝市岡出山1-11-1
+  furigana: シズオカケンフジエダシオカデヤマ 1
+- full_address: 静岡県御殿場市萩原483
+  furigana: シズオカケンゴテンバシハギワラ
+- full_address: 静岡県袋井市新屋1-1-1
+  furigana: シズオカケンフクロイシアラヤ 1
+- full_address: 静岡県下田市東本郷1-5-18
+  furigana: シズオカケンシモダシヒガシホンゴウ 1
+- full_address: 静岡県裾野市佐野1059
+  furigana: シズオカケンスソノシサノ
+- full_address: 静岡県湖西市吉美3268
+  furigana: シズオカケンコサイシキビ
+- full_address: 静岡県伊豆市小立野38-2
+  furigana: シズオカケンイズシコダチノ
+- full_address: 静岡県御前崎市池新田5585
+  furigana: シズオカケンオマエザキシイケシンデン
+- full_address: 静岡県菊川市堀之内61
+  furigana: シズオカケンキクガワシホリノウチ
+- full_address: 静岡県伊豆の国市長岡340-1
+  furigana: シズオカケンイズノクニシナガオカ
+- full_address: 静岡県牧之原市静波447-1
+  furigana: シズオカケンマキノハラシシズナミ
+- full_address: 静岡県賀茂郡東伊豆町稲取3354
+  furigana: シズオカケンカモグンヒガシイズチョウイナトリ
+- full_address: 静岡県賀茂郡河津町田中212-2
+  furigana: シズオカケンカモグンカワヅチョウタナカ
+- full_address: 静岡県賀茂郡南伊豆町下賀茂315-1
+  furigana: シズオカケンカモグンミナミイズチョウシモガモ
+- full_address: 静岡県賀茂郡松崎町宮内301-1
+  furigana: シズオカケンカモグンマツザキチョウミヤウチ
+- full_address: 静岡県賀茂郡西伊豆町仁科401-1
+  furigana: シズオカケンカモグンニシイズチョウニシナ
+- full_address: 静岡県田方郡函南町平井717-13
+  furigana: シズオカケンタガタグンカンナミチョウヒライ
+- full_address: 静岡県駿東郡清水町堂庭210-1
+  furigana: シズオカケンスントウグンシミズチョウドウニワ
+- full_address: 静岡県駿東郡長泉町中土狩828
+  furigana: シズオカケンスントウグンナガイズミチョウナカトガリ
+- full_address: 静岡県駿東郡小山町藤曲57-2
+  furigana: シズオカケンスントウグンオヤマチョウフジマガリ
+- full_address: 静岡県榛原郡吉田町住吉87
+  furigana: シズオカケンハイバラグンヨシダチョウスミヨシ
+- full_address: 静岡県榛原郡川根本町上長尾627
+  furigana: シズオカケンハイバラグンカワネホンチョウカミナガオ
+- full_address: 静岡県周智郡森町森2101-1
+  furigana: シズオカケンシュウチグンモリマチモリ
+- full_address: 愛知県名古屋市中区三の丸3-1-1
+  furigana: アイチケンナゴヤシナカクサンノマル 3
+- full_address: 愛知県名古屋市千種区覚王山通8-37
+  furigana: アイチケンナゴヤシチクサクカクオウザントオリ 8
+- full_address: 愛知県名古屋市東区筒井1-7-74
+  furigana: アイチケンナゴヤシヒガシクツツイ 1
+- full_address: 愛知県名古屋市北区清水4-17-1
+  furigana: アイチケンナゴヤシキタクシミズ 4
+- full_address: 愛知県名古屋市西区花の木二丁目18-1
+  furigana: アイチケンナゴヤシニシクハナノキ 2
+- full_address: 愛知県名古屋市中村区竹橋町36-31
+  furigana: アイチケンナゴヤシナカムラクタケバシチョウ
+- full_address: 愛知県名古屋市中区栄4-1-8
+  furigana: アイチケンナゴヤシナカクサカエ 4
+- full_address: 愛知県名古屋市昭和区阿由知通3-19
+  furigana: アイチケンナゴヤシショウワクアユチトオリ 3
+- full_address: 愛知県名古屋市瑞穂区瑞穂通3-32
+  furigana: アイチケンナゴヤシミズホクミズホトオリ 3
+- full_address: 愛知県名古屋市熱田区神宮3-1-15
+  furigana: アイチケンナゴヤシアツタクジングウ 3
+- full_address: 愛知県名古屋市中川区高畑1-223
+  furigana: アイチケンナゴヤシナカガワクタカバタ 1
+- full_address: 愛知県名古屋市港区港明1-12-20
+  furigana: アイチケンナゴヤシミナトクコウメイ 1
+- full_address: 愛知県名古屋市南区前浜通3-10
+  furigana: アイチケンナゴヤシミナミクマエハマドオリ 3
+- full_address: 愛知県名古屋市守山区小幡1-3-1
+  furigana: アイチケンナゴヤシモリヤマクオバタ 1
+- full_address: 愛知県名古屋市緑区青山2-15
+  furigana: アイチケンナゴヤシミドリクアオヤマ 2
+- full_address: 愛知県名古屋市名東区上社2-50
+  furigana: アイチケンナゴヤシメイトウクカミヤシロ 2
+- full_address: 愛知県名古屋市天白区島田2-201
+  furigana: アイチケンナゴヤシテンパククシマダ 2
+- full_address: 愛知県豊橋市今橋町1
+  furigana: アイチケントヨハシシイマハシチョウ
+- full_address: 愛知県岡崎市十王町2-9
+  furigana: アイチケンオカザキシジュウオウチョウ
+- full_address: 愛知県一宮市本町2-5-6
+  furigana: アイチケンイチノミヤシホンマチ 2
+- full_address: 愛知県瀬戸市追分町64-1
+  furigana: アイチケンセトシオイワケチョウ
+- full_address: 愛知県半田市東洋町2-1
+  furigana: アイチケンハンダシトウヨウチョウ 2
+- full_address: 愛知県春日井市鳥居松町5-44
+  furigana: アイチケンカスガイシトリイマツチョウ 5
+- full_address: 愛知県豊川市諏訪1-1
+  furigana: アイチケントヨカワシスワ 1
+- full_address: 愛知県津島市立込町2-21
+  furigana: アイチケンツシマシタテコミチョウ 2
+- full_address: 愛知県碧南市松本町28
+  furigana: アイチケンヘキナンシマツモトマチ
+- full_address: 愛知県刈谷市東陽町1-1
+  furigana: アイチケンカリヤシトウヨウチョウ 1
+- full_address: 愛知県豊田市西町3-60
+  furigana: アイチケントヨタシニシマチ 3
+- full_address: 愛知県安城市桜町18-23
+  furigana: アイチケンアンジョウシサクラマチ
+- full_address: 愛知県西尾市寄住町下田22
+  furigana: アイチケンニシオシヨリズミチョウ
+- full_address: 愛知県蒲郡市旭町17-1
+  furigana: アイチケンガマゴオリシアサヒマチ
+- full_address: 愛知県犬山市大字犬山字東畑36
+  furigana: アイチケンイヌヤマシ
+- full_address: 愛知県常滑市新開町4-1
+  furigana: アイチケントコナメシシンカイチョウ 4
+- full_address: 愛知県江南市赤童子町大堀90
+  furigana: アイチケンコウナンシアカドウジチョウオオボリ
+- full_address: 愛知県小牧市堀の内3-1
+  furigana: アイチケンコマキシホリノウチ 3
+- full_address: 愛知県稲沢市稲府町1
+  furigana: アイチケンイナザワシイナブチョウ
+- full_address: 愛知県新城市字東入船115
+  furigana: アイチケンシンシロシ
+- full_address: 愛知県東海市中央町1-1
+  furigana: アイチケントウカイシチュウオウマチ 1
+- full_address: 愛知県大府市中央町5-70
+  furigana: アイチケンオオブシチュウオウチョウ 5
+- full_address: 愛知県知多市緑町1
+  furigana: アイチケンチタシミドリマチ
+- full_address: 愛知県知立市広見3-1
+  furigana: アイチケンチリュウシヒロミ 3
+- full_address: 愛知県尾張旭市東大道町原田2600-1
+  furigana: アイチケンオワリアサヒシヒガシダイドウチョウハラタ
+- full_address: 愛知県高浜市青木町4-1-2
+  furigana: アイチケンタカハマシアオキチョウ 4
+- full_address: 愛知県岩倉市栄町1-66
+  furigana: アイチケンイワクラシサカエマチ 1
+- full_address: 愛知県豊明市新田町子持松1-1
+  furigana: アイチケントヨアケシシンデンチョウ
+- full_address: 愛知県日進市蟹甲町池下268
+  furigana: アイチケンニッシンシカニコウチョウ
+- full_address: 愛知県田原市田原町南番場30-1
+  furigana: アイチケンタハラシタハラチョウ
+- full_address: 愛知県愛西市稲葉町米野308
+  furigana: アイチケンアイサイシイナバチョウ
+- full_address: 愛知県清須市須ケ口1238
+  furigana: アイチケンキヨスシスカグチ
+- full_address: 愛知県北名古屋市西之保清水田15
+  furigana: アイチケンキタナゴヤシニシノホウ
+- full_address: 愛知県弥富市前ケ須町南本田335
+  furigana: アイチケンヤトミシマエガスチョウ
+- full_address: 愛知県みよし市三好町小坂50
+  furigana: アイチケンミヨシシミヨシチョウ
+- full_address: 愛知県あま市木田戌亥18-1
+  furigana: アイチケンアマシキダ
+- full_address: 愛知県長久手市岩作城の内60番地1
+  furigana: アイチケンナガクテシヤザコシロノウチ
+- full_address: 愛知県愛知郡東郷町大字春木字羽根穴1
+  furigana: アイチケンアイチグントウゴウチョウ
+- full_address: 愛知県西春日井郡豊山町大字豊場字新栄260
+  furigana: アイチケンニシカスガイグントヨヤマチョウ
+- full_address: 愛知県丹羽郡大口町下小口七丁目155
+  furigana: アイチケンニワグンオオグチチョウシモオグチ 7
+- full_address: 愛知県丹羽郡扶桑町大字高雄字天道330
+  furigana: アイチケンニワグンフソウチョウ
+- full_address: 愛知県海部郡大治町大字馬島字大門西1-1
+  furigana: アイチケンアマグンオオハルチョウ
+- full_address: 愛知県海部郡蟹江町学戸3-1
+  furigana: アイチケンアマグンカニエチョウガクト 3
+- full_address: 愛知県海部郡飛島村竹之郷3-1
+  furigana: アイチケンアマグントビシマムラタケノゴウ 3
+- full_address: 愛知県知多郡阿久比町大字卯坂字殿越50
+  furigana: アイチケンチタグンアグイチョウ
+- full_address: 愛知県知多郡東浦町大字緒川字政所20
+  furigana: アイチケンチタグンヒガシウラチョウ
+- full_address: 愛知県知多郡南知多町大字豊浜字貝ヶ坪18
+  furigana: アイチケンチタグンミナミチタチョウ
+- full_address: 愛知県知多郡美浜町大字河和字北田面106
+  furigana: アイチケンチタグンミハマチョウ
+- full_address: 愛知県知多郡武豊町字長尾山2
+  furigana: アイチケンチタグンタケトヨチョウ
+- full_address: 愛知県額田郡幸田町大字菱池字元林1-1
+  furigana: アイチケンヌカタグンコウタチョウ
+- full_address: 愛知県北設楽郡設楽町田口字辻前14
+  furigana: アイチケンキタシタラグンシタラチョウタグチ
+- full_address: 愛知県北設楽郡東栄町大字本郷字上前畑25
+  furigana: アイチケンキタシタラグントウエイチョウ
+- full_address: 愛知県北設楽郡豊根村下黒川字蕨平2
+  furigana: アイチケンキタシタラグントヨネムラシモクロガワ
+- full_address: 三重県津市西丸之内23-1
+  furigana: ミエケンツシニシマルノウチ
+- full_address: 三重県四日市市諏訪町1-5
+  furigana: ミエケンヨッカイチシスワチョウ
+- full_address: 三重県伊勢市岩渕1-7-29
+  furigana: ミエケンイセシイワブチ 1
+- full_address: 三重県松阪市殿町1340-1
+  furigana: ミエケンマツサカシトノマチ
+- full_address: 三重県桑名市中央町2-37
+  furigana: ミエケンクワナシチュウオウチョウ 2
+- full_address: 三重県鈴鹿市神戸1-18-18
+  furigana: ミエケンスズカシカンベ 1
+- full_address: 三重県名張市鴻之台1番町1番地
+  furigana: ミエケンナバリシ
+- full_address: 三重県尾鷲市中央町10-43
+  furigana: ミエケンオワセシチュウオウチョウ
+- full_address: 三重県亀山市本丸町577
+  furigana: ミエケンカメヤマシホンマルチョウ
+- full_address: 三重県鳥羽市鳥羽三丁目1番1号
+  furigana: ミエケントバシトバ 3
+- full_address: 三重県熊野市井戸町796
+  furigana: ミエケンクマノシイドチョウ
+- full_address: 三重県いなべ市北勢町阿下喜31
+  furigana: ミエケンイナベシホクセイチョウアゲキ
+- full_address: 三重県志摩市阿児町鵜方3098-22
+  furigana: ミエケンシマシアゴチョウウガタ
+- full_address: 三重県伊賀市四十九町3184
+  furigana: ミエケンイガシシジュクチョウ
+- full_address: 三重県桑名郡木曽岬町大字西対海地251
+  furigana: ミエケンクワナグンキソサキチョウ
+- full_address: 三重県員弁郡東員町大字山田1600
+  furigana: ミエケンイナベグントウインチョウ
+- full_address: 三重県三重郡菰野町大字潤田1250
+  furigana: ミエケンミエグンコモノチョウ
+- full_address: 三重県三重郡朝日町大字小向893
+  furigana: ミエケンミエグンアサヒチョウ
+- full_address: 三重県三重郡川越町大字豊田一色280
+  furigana: ミエケンミエグンカワゴエチョウ
+- full_address: 三重県多気郡多気町相可1600
+  furigana: ミエケンタキグンタキチョウオウカ
+- full_address: 三重県多気郡明和町大字馬之上945
+  furigana: ミエケンタキグンメイワチョウ
+- full_address: 三重県多気郡大台町佐原750
+  furigana: ミエケンタキグンオオダイチョウサワラ
+- full_address: 三重県度会郡玉城町田丸114-2
+  furigana: ミエケンワタライグンタマキチョウタマル
+- full_address: 三重県度会郡度会町棚橋1215-1
+  furigana: ミエケンワタライグンワタライチョウタナハシ
+- full_address: 三重県度会郡大紀町滝原1610-1
+  furigana: ミエケンワタライグンタイキチョウタキハラ
+- full_address: 三重県度会郡南伊勢町五ヶ所浦3057
+  furigana: ミエケンワタライグンミナミイセチョウ
+- full_address: 三重県北牟婁郡紀北町東長島769番地1
+  furigana: ミエケンキタムログンキホクチョウヒガシナガシマ
+- full_address: 三重県南牟婁郡御浜町大字阿田和6120-1
+  furigana: ミエケンミナミムログンミハマチョウ
+- full_address: 三重県南牟婁郡紀宝町鵜殿324
+  furigana: ミエケンミナミムログンキホウチョウウドノ
+- full_address: 滋賀県大津市御陵町3-1
+  furigana: シガケンオオツシゴリョウチョウ
+- full_address: 滋賀県彦根市元町4-2
+  furigana: シガケンヒコネシモトマチ
+- full_address: 滋賀県長浜市八幡東町632
+  furigana: シガケンナガハマシヤワタヒガシチョウ
+- full_address: 滋賀県近江八幡市桜宮町236
+  furigana: シガケンオウミハチマンシサクラミヤチョウ
+- full_address: 滋賀県草津市草津3-13-30
+  furigana: シガケンクサツシクサツ 3
+- full_address: 滋賀県守山市吉身2-5-22
+  furigana: シガケンモリヤマシヨシミ 2
+- full_address: 滋賀県栗東市安養寺1-13-33
+  furigana: シガケンリットウシアンヨウジ 1
+- full_address: 滋賀県甲賀市水口町水口6053
+  furigana: シガケンコウカシミナクチチョウミナクチ
+- full_address: 滋賀県野洲市小篠原2100-1
+  furigana: シガケンヤスシコシノハラ
+- full_address: 滋賀県湖南市中央1-1
+  furigana: シガケンコナンシチュウオウ 1
+- full_address: 滋賀県高島市新旭町北畑565
+  furigana: シガケンタカシマシシンアサヒチョウキタバタ
+- full_address: 滋賀県東近江市八日市緑町10-5
+  furigana: シガケンヒガシオウミシヨウカイチミドリマチ
+- full_address: 滋賀県米原市米原1016
+  furigana: シガケンマイバラシマイハラ
+- full_address: 滋賀県蒲生郡日野町河原1-1
+  furigana: シガケンガモウグンヒノチョウカワラ 1
+- full_address: 滋賀県蒲生郡竜王町大字小口3
+  furigana: シガケンガモウグンリュウオウチョウ
+- full_address: 滋賀県愛知郡愛荘町愛知川72
+  furigana: シガケンエチグンアイショウチョウエチガワ
+- full_address: 滋賀県犬上郡豊郷町石畑375
+  furigana: シガケンイヌカミグントヨサトチョウ
+- full_address: 滋賀県犬上郡甲良町大字在士353-1
+  furigana: シガケンイヌカミグンコウラチョウ
+- full_address: 滋賀県犬上郡多賀町大字多賀324
+  furigana: シガケンイヌカミグンタガチョウ
+- full_address: 京都府京都市中京区寺町通御池上る上本能寺前町488
+  furigana: キョウトフキョウトシナカギョウクカミホンノウジマエチョウ
+- full_address: 京都府京都市北区紫野東御所田町33-1
+  furigana: キョウトフキョウトシキタクムラサキノヒガシゴショデンチョウ
+- full_address: 京都府京都市上京区今出川通室町西入堀出シ町285
+  furigana: キョウトフキョウトシカミギョウクホリダシチョウ
+- full_address: 京都府京都市左京区松ケ崎堂ノ上町7-2
+  furigana: キョウトフキョウトシサキョウクマツガサキドウノウエチョウ
+- full_address: 京都府京都市中京区西堀川通御池下る西三坊堀川町521
+  furigana: キョウトフキョウトシナカギョウクニシサンボウホリカワチョウ
+- full_address: 京都府京都市東山区清水5-130-6
+  furigana: キョウトフキョウトシヒガシヤマクキヨミズ 5
+- full_address: 京都府京都市下京区西洞院通塩小路上る東塩小路町608-8
+  furigana: キョウトフキョウトシシモギョウクヒガシシオコウジチョウ
+- full_address: 京都府京都市南区西九条南田町1-3
+  furigana: キョウトフキョウトシミナミクニシクジョウナンデンチョウ
+- full_address: 京都府京都市右京区太秦下刑部町12
+  furigana: キョウトフキョウトシウキョウクウズマサシモケイブチョウ
+- full_address: 京都府京都市伏見区鷹匠町39-2
+  furigana: キョウトフキョウトシフシミクタカジョウチョウ
+- full_address: 京都府京都市山科区椥辻池尻町14-2
+  furigana: キョウトフキョウトシヤマシナクナギツジイケジリチョウ
+- full_address: 京都府京都市西京区上桂森下町25-1
+  furigana: キョウトフキョウトシニシキョウクカミカツラモリシタチョウ
+- full_address: 京都府福知山市字内記13-1
+  furigana: キョウトフフクチヤマシ
+- full_address: 京都府舞鶴市字北吸1044
+  furigana: キョウトフマイヅルシ
+- full_address: 京都府綾部市若竹町8-1
+  furigana: キョウトフアヤベシワカタケチョウ
+- full_address: 京都府宇治市宇治琵琶33
+  furigana: キョウトフウジシウジ
+- full_address: 京都府宮津市字柳繩手345-1
+  furigana: キョウトフミヤヅシ
+- full_address: 京都府亀岡市安町野々神8
+  furigana: キョウトフカメオカシヤスマチ
+- full_address: 京都府城陽市寺田東ノ口16・17
+  furigana: キョウトフジョウヨウシテラダ
+- full_address: 京都府向日市寺戸町中野20
+  furigana: キョウトフムコウシテラドチョウ
+- full_address: 京都府長岡京市開田1-1-1
+  furigana: キョウトフナガオカキョウシカイデン 1
+- full_address: 京都府八幡市八幡園内75
+  furigana: キョウトフヤワタシヤワタソノウチ
+- full_address: 京都府京田辺市田辺80
+  furigana: キョウトフキョウタナベシタナベ
+- full_address: 京都府京丹後市峰山町杉谷889
+  furigana: キョウトフキョウタンゴシミネヤマチョウスギタニ
+- full_address: 京都府南丹市園部町小桜町47
+  furigana: キョウトフナンタンシソノベチョウコザクラマチ
+- full_address: 京都府木津川市木津南垣外110-9
+  furigana: キョウトフキヅガワシキヅ
+- full_address: 京都府乙訓郡大山崎町字円明寺小字夏目3
+  furigana: キョウトフオトクニグンオオヤマザキチョウ
+- full_address: 京都府久世郡久御山町島田ミスノ38
+  furigana: キョウトフクセグンクミヤマチョウシマタ
+- full_address: 京都府綴喜郡井手町大字井手小字南玉水67
+  furigana: キョウトフツヅキグンイデチョウ
+- full_address: 京都府綴喜郡宇治田原町大字立川小字坂口18-1
+  furigana: キョウトフツヅキグンウジタワラチョウ
+- full_address: 京都府相楽郡笠置町大字笠置小字西通90-1
+  furigana: キョウトフソウラクグンカサギチョウ
+- full_address: 京都府相楽郡和束町大字釜塚小字生水14-2
+  furigana: キョウトフソウラクグンワヅカチョウ
+- full_address: 京都府相楽郡精華町南稲八妻北尻70
+  furigana: キョウトフソウラクグンセイカチョウ
+- full_address: 京都府相楽郡南山城村北大河原小字久保14-1
+  furigana: キョウトフソウラクグンミナミヤマシロムラ
+- full_address: 京都府船井郡京丹波町蒲生八ッ谷62-6
+  furigana: キョウトフフナイグンキョウタンバチョウコモ
+- full_address: 京都府与謝郡伊根町字日出651
+  furigana: キョウトフヨサグンイネチョウ
+- full_address: 京都府与謝郡与謝野町字岩滝1798-1
+  furigana: キョウトフヨサグンヨサノチョウ
+- full_address: 大阪府大阪市北区中之島1-3-20
+  furigana: オオサカフオオサカシキタクナカノシマ 1
+- full_address: 大阪府大阪市都島区中野町2-16-20
+  furigana: オオサカフオオサカシミヤコジマクナカノチョウ 2
+- full_address: 大阪府大阪市福島区大開1-8-1
+  furigana: オオサカフオオサカシフクシマクオオヒラキ 1
+- full_address: 大阪府大阪市此花区春日出北1-8-4
+  furigana: オオサカフオオサカシコノハナクカスガデキタ 1
+- full_address: 大阪府大阪市西区新町4-5-14
+  furigana: オオサカフオオサカシニシクシンマチ 4
+- full_address: 大阪府大阪市港区市岡1-15-25
+  furigana: オオサカフオオサカシミナトクイチオカ 1
+- full_address: 大阪府大阪市大正区千島2-7-95
+  furigana: オオサカフオオサカシタイショウクチシマ 2
+- full_address: 大阪府大阪市天王寺区真法院町20-33
+  furigana: オオサカフオオサカシテンノウジクシンポウインチョウ
+- full_address: 大阪府大阪市浪速区敷津東1-4-20
+  furigana: オオサカフオオサカシナニワクシキツヒガシ 1
+- full_address: 大阪府大阪市西淀川区御幣島1丁目2-10
+  furigana: オオサカフオオサカシニシヨドガワクミテジマ 1
+- full_address: 大阪府大阪市東淀川区豊新2-1-4
+  furigana: オオサカフオオサカシヒガシヨドガワクホウシン 2
+- full_address: 大阪府大阪市東成区大今里西2-8-4
+  furigana: オオサカフオオサカシヒガシナリクオオイマザトニシ 2
+- full_address: 大阪府大阪市生野区勝山南3-1-19
+  furigana: オオサカフオオサカシイクノクカツヤマミナミ 3
+- full_address: 大阪府大阪市旭区大宮1-1-17
+  furigana: オオサカフオオサカシアサヒクオオミヤ 1
+- full_address: 大阪府大阪市城東区中央3-5-45
+  furigana: オオサカフオオサカシジョウトウクチュウオウ 3
+- full_address: 大阪府大阪市阿倍野区文の里1-1-40
+  furigana: オオサカフオオサカシアベノクフミノサト 1
+- full_address: 大阪府大阪市住吉区南住吉3-15-55
+  furigana: オオサカフオオサカシスミヨシクミナミスミヨシ 3
+- full_address: 大阪府大阪市東住吉区東田辺1-13-4
+  furigana: オオサカフオオサカシヒガシスミヨシクヒガシタナベ 1
+- full_address: 大阪府大阪市西成区岸里1-5-20
+  furigana: オオサカフオオサカシニシナリクキシノサト 1
+- full_address: 大阪府大阪市淀川区十三東2-3-3
+  furigana: オオサカフオオサカシヨドガワクジュウソウヒガシ 2
+- full_address: 大阪府大阪市鶴見区横堤5-4-19
+  furigana: オオサカフオオサカシツルミクヨコヅツミ 5
+- full_address: 大阪府大阪市住之江区御崎3-1-17
+  furigana: オオサカフオオサカシスミノエクミサキ 3
+- full_address: 大阪府大阪市平野区背戸口3-8-19
+  furigana: オオサカフオオサカシヒラノクセトグチ 3
+- full_address: 大阪府大阪市北区扇町2-1-27
+  furigana: オオサカフオオサカシキタクオウギマチ 2
+- full_address: 大阪府大阪市中央区久太郎町1-2-27
+  furigana: オオサカフオオサカシチュウオウクキュウタロウマチ 1
+- full_address: 大阪府堺市堺区南瓦町3-1
+  furigana: オオサカフサカイシサカイクミナミカワラマチ
+- full_address: 大阪府堺市堺区南瓦町3-1
+  furigana: オオサカフサカイシサカイクミナミカワラマチ
+- full_address: 大阪府堺市中区深井沢町2470-7
+  furigana: オオサカフサカイシナカクフカイサワマチ
+- full_address: 大阪府堺市東区日置荘原寺町195-1
+  furigana: オオサカフサカイシヒガシクヒキショウハラデラマチ
+- full_address: 大阪府堺市西区鳳東町6丁600
+  furigana: オオサカフサカイシニシクオオトリヒガシマチ 6
+- full_address: 大阪府堺市南区桃山台1丁1-1
+  furigana: オオサカフサカイシミナミクモモヤマダイ 1
+- full_address: 大阪府堺市北区新金岡町5丁1-4
+  furigana: オオサカフサカイシキタクシンカナオカチョウ 5
+- full_address: 大阪府堺市美原区黒山167-1
+  furigana: オオサカフサカイシミハラククロヤマ
+- full_address: 大阪府岸和田市岸城町7-1
+  furigana: オオサカフキシワダシキシキチョウ
+- full_address: 大阪府豊中市中桜塚3-1-1
+  furigana: オオサカフトヨナカシナカサクラヅカ 3
+- full_address: 大阪府池田市城南1-1-1
+  furigana: オオサカフイケダシジョウナン 1
+- full_address: 大阪府吹田市泉町1-3-40
+  furigana: オオサカフスイタシイズミチョウ 1
+- full_address: 大阪府泉大津市東雲町9-12
+  furigana: オオサカフイズミオオツシシノノメチョウ
+- full_address: 大阪府高槻市桃園町2-1
+  furigana: オオサカフタカツキシトウエンチョウ
+- full_address: 大阪府貝塚市畠中1-17-1
+  furigana: オオサカフカイヅカシハタケナカ 1
+- full_address: 大阪府守口市京阪本通2-5-5
+  furigana: オオサカフモリグチシケイハンホンドオリ 2
+- full_address: 大阪府枚方市大垣内町2-1-20
+  furigana: オオサカフヒラカタシオオガイトチョウ 2
+- full_address: 大阪府茨木市駅前3-8-13
+  furigana: オオサカフイバラキシエキマエ 3
+- full_address: 大阪府八尾市本町1-1-1
+  furigana: オオサカフヤオシホンマチ 1
+- full_address: 大阪府泉佐野市市場東1-295-3
+  furigana: オオサカフイズミサノシイチバヒガシ 1
+- full_address: 大阪府富田林市常盤町1-1
+  furigana: オオサカフトンダバヤシシトキワチョウ
+- full_address: 大阪府寝屋川市本町1-1
+  furigana: オオサカフネヤガワシホンマチ
+- full_address: 大阪府河内長野市原町1-1-1
+  furigana: オオサカフカワチナガノシハラチョウ 1
+- full_address: 大阪府松原市阿保1-1-1
+  furigana: オオサカフマツバラシアオ 1
+- full_address: 大阪府大東市谷川1-1-1
+  furigana: オオサカフダイトウシタニガワ 1
+- full_address: 大阪府和泉市府中町2-7-5
+  furigana: オオサカフイズミシフチュウチョウ 2
+- full_address: 大阪府箕面市西小路4-6-1
+  furigana: オオサカフミノオシニシショウジ 4
+- full_address: 大阪府柏原市安堂町1-55
+  furigana: オオサカフカシワラシアンドウチョウ
+- full_address: 大阪府羽曳野市誉田4-1-1
+  furigana: オオサカフハビキノシコンダ 4
+- full_address: 大阪府門真市中町1-1
+  furigana: オオサカフカドマシナカマチ
+- full_address: 大阪府摂津市三島1-1-1
+  furigana: オオサカフセッツシミシマ 1
+- full_address: 大阪府高石市加茂4-1-1
+  furigana: オオサカフタカイシシカモ 4
+- full_address: 大阪府藤井寺市岡1-1-1
+  furigana: オオサカフフジイデラシオカ 1
+- full_address: 大阪府東大阪市荒本北1-1-1
+  furigana: オオサカフヒガシオオサカシアラモトキタ 1
+- full_address: 大阪府泉南市樽井1-1-1
+  furigana: オオサカフセンナンシタルイ 1
+- full_address: 大阪府四條畷市中野本町1-1
+  furigana: オオサカフシジョウナワテシナカノホンマチ
+- full_address: 大阪府交野市私部1-1-1
+  furigana: オオサカフカタノシキサベ 1
+- full_address: 大阪府大阪狭山市狭山1-2384-1
+  furigana: オオサカフオオサカサヤマシサヤマ 1
+- full_address: 大阪府阪南市尾崎町35-1
+  furigana: オオサカフハンナンシオザキチョウ
+- full_address: 大阪府三島郡島本町桜井2-1-1
+  furigana: オオサカフミシマグンシマモトチョウサクライ 2
+- full_address: 大阪府豊能郡豊能町余野414-1
+  furigana: オオサカフトヨノグントヨノチョウヨノ
+- full_address: 大阪府豊能郡能勢町宿野28
+  furigana: オオサカフトヨノグンノセチョウシュクノ
+- full_address: 大阪府泉北郡忠岡町忠岡東1-34-1
+  furigana: オオサカフセンボクグンタダオカチョウタダオカヒガシ 1
+- full_address: 大阪府泉南郡熊取町野田1-1-1
+  furigana: オオサカフセンナングンクマトリチョウノダ 1
+- full_address: 大阪府泉南郡田尻町大字嘉祥寺375-1
+  furigana: オオサカフセンナングンタジリチョウカショウジ
+- full_address: 大阪府泉南郡岬町深日2000-1
+  furigana: オオサカフセンナングンミサキチョウフケ
+- full_address: 大阪府南河内郡太子町大字山田88
+  furigana: オオサカフミナミカワチグンタイシチョウ
+- full_address: 大阪府南河内郡河南町大字白木1359-6
+  furigana: オオサカフミナミカワチグンカナンチョウ
+- full_address: 大阪府南河内郡千早赤阪村大字水分180
+  furigana: オオサカフミナミカワチグンチハヤアカサカムラ
+- full_address: 兵庫県神戸市中央区加納町6-5-1
+  furigana: ヒョウゴケンコウベシチュウオウクカノウチョウ 6
+- full_address: 兵庫県神戸市東灘区住吉東町5-2-1
+  furigana: ヒョウゴケンコウベシヒガシナダクスミヨシヒガシマチ 5
+- full_address: 兵庫県神戸市灘区桜口町4-2-1
+  furigana: ヒョウゴケンコウベシナダクサクラグチチョウ 4
+- full_address: 兵庫県神戸市兵庫区荒田町1-21-1
+  furigana: ヒョウゴケンコウベシヒョウゴクアラタチョウ 1
+- full_address: 兵庫県神戸市長田区北町3-4-3
+  furigana: ヒョウゴケンコウベシナガタクキタマチ 3
+- full_address: 兵庫県神戸市須磨区大黒町4-1-1
+  furigana: ヒョウゴケンコウベシスマクダイコクチョウ 4
+- full_address: 兵庫県神戸市垂水区日向1-5-1
+  furigana: ヒョウゴケンコウベシタルミクヒュウガ 1
+- full_address: 兵庫県神戸市北区鈴蘭台北町1-9-1
+  furigana: ヒョウゴケンコウベシキタクスズランダイキタマチ 1
+- full_address: 兵庫県神戸市中央区雲井通5-1-1
+  furigana: ヒョウゴケンコウベシチュウオウククモイドオリ 5
+- full_address: 兵庫県神戸市西区玉津町小山180-3
+  furigana: ヒョウゴケンコウベシニシクタマツチョウコヤマ
+- full_address: 兵庫県姫路市安田4-1
+  furigana: ヒョウゴケンヒメジシヤスダ 4
+- full_address: 兵庫県尼崎市東七松町1-23-1
+  furigana: ヒョウゴケンアマガサキシヒガシナナマツチョウ 1
+- full_address: 兵庫県明石市中崎1-5-1
+  furigana: ヒョウゴケンアカシシナカサキ 1
+- full_address: 兵庫県西宮市六湛寺町10-3
+  furigana: ヒョウゴケンニシノミヤシロクタンジチョウ
+- full_address: 兵庫県洲本市本町3-4-10
+  furigana: ヒョウゴケンスモトシホンマチ 3
+- full_address: 兵庫県芦屋市精道町7-6
+  furigana: ヒョウゴケンアシヤシセイドウチョウ
+- full_address: 兵庫県伊丹市千僧1-1
+  furigana: ヒョウゴケンイタミシセンゾ 1
+- full_address: 兵庫県相生市旭1-1-3
+  furigana: ヒョウゴケンアイオイシアサヒ 1
+- full_address: 兵庫県豊岡市中央町2-4
+  furigana: ヒョウゴケントヨオカシチュウオウマチ
+- full_address: 兵庫県加古川市加古川町北在家2000
+  furigana: ヒョウゴケンカコガワシカコガワチョウキタザイケ
+- full_address: 兵庫県赤穂市加里屋81
+  furigana: ヒョウゴケンアコウシカリヤ
+- full_address: 兵庫県西脇市下戸田128番地の１
+  furigana: ヒョウゴケンニシワキシシモトダ
+- full_address: 兵庫県宝塚市東洋町1-1
+  furigana: ヒョウゴケンタカラヅカシトウヨウチョウ
+- full_address: 兵庫県三木市上の丸町10番30号
+  furigana: ヒョウゴケンミキシウエノマルチョウ
+- full_address: 兵庫県高砂市荒井町千鳥1-1-1
+  furigana: ヒョウゴケンタカサゴシアライチョウチドリ 1
+- full_address: 兵庫県川西市中央町12-1
+  furigana: ヒョウゴケンカワニシシチュウオウチョウ
+- full_address: 兵庫県小野市中島町531
+  furigana: ヒョウゴケンオノシナカシマチョウ
+- full_address: 兵庫県三田市三輪2-1-1
+  furigana: ヒョウゴケンサンダシミワ 2
+- full_address: 兵庫県加西市北条町横尾1000
+  furigana: ヒョウゴケンカサイシホウジョウチョウヨコオ
+- full_address: 兵庫県丹波篠山市北新町41
+  furigana: ヒョウゴケンタンバササヤマシキタシンマチ
+- full_address: 兵庫県養父市八鹿町八鹿1675
+  furigana: ヒョウゴケンヤブシヨウカチョウヨウカ
+- full_address: 兵庫県丹波市氷上町成松字甲賀1
+  furigana: ヒョウゴケンタンバシヒカミチョウナリマツ
+- full_address: 兵庫県南あわじ市市善光寺22番地1
+  furigana: ヒョウゴケンミナミアワジシイチゼンコウジ
+- full_address: 兵庫県朝来市和田山町東谷213-1
+  furigana: ヒョウゴケンアサゴシワダヤマチョウヒガシダニ
+- full_address: 兵庫県淡路市生穂新島8
+  furigana: ヒョウゴケンアワジシイクホニイジマ
+- full_address: 兵庫県宍粟市山崎町中広瀬133番地6
+  furigana: ヒョウゴケンシソウシヤマサキチョウナカビロセ
+- full_address: 兵庫県加東市社50
+  furigana: ヒョウゴケンカトウシヤシロ
+- full_address: 兵庫県たつの市龍野町富永1005-1
+  furigana: ヒョウゴケンタツノシタツノチョウトミナガ
+- full_address: 兵庫県川辺郡猪名川町上野字北畑11-1
+  furigana: ヒョウゴケンカワベグンイナガワチョウウエノ
+- full_address: 兵庫県多可郡多可町中区中村町123
+  furigana: ヒョウゴケンタカグンタカチョウナカクナカムラマチ
+- full_address: 兵庫県加古郡稲美町国岡1-1
+  furigana: ヒョウゴケンカコグンイナミチョウクニオカ 1
+- full_address: 兵庫県加古郡播磨町東本荘1-5-30
+  furigana: ヒョウゴケンカコグンハリマチョウヒガシホンジョウ 1
+- full_address: 兵庫県神崎郡市川町西川辺165-3
+  furigana: ヒョウゴケンカンザキグンイチカワチョウニシカワナベ
+- full_address: 兵庫県神崎郡福崎町南田原3116-1
+  furigana: ヒョウゴケンカンザキグンフクサキチョウミナミタワラ
+- full_address: 兵庫県神崎郡神河町寺前64
+  furigana: ヒョウゴケンカンザキグンカミカワチョウテラマエ
+- full_address: 兵庫県揖保郡太子町鵤280-1
+  furigana: ヒョウゴケンイボグンタイシチョウイカルガ
+- full_address: 兵庫県赤穂郡上郡町大持278
+  furigana: ヒョウゴケンアコウグンカミゴオリチョウダイモチ
+- full_address: 兵庫県佐用郡佐用町佐用2611-1
+  furigana: ヒョウゴケンサヨウグンサヨウチョウサヨウ
+- full_address: 兵庫県美方郡香美町香住区香住870-1
+  furigana: ヒョウゴケンミカタグンカミチョウカスミクカスミ
+- full_address: 兵庫県美方郡新温泉町浜坂2673-1
+  furigana: ヒョウゴケンミカタグンシンオンセンチョウハマサカ
+- full_address: 奈良県奈良市二条大路南一丁目1-1
+  furigana: ナラケンナラシニジョウオオジミナミ 1
+- full_address: 奈良県大和高田市大字大中98番地4
+  furigana: ナラケンヤマトタカダシ
+- full_address: 奈良県大和郡山市北郡山町248-4
+  furigana: ナラケンヤマトコオリヤマシキタコオリヤマチョウ
+- full_address: 奈良県天理市川原城町605
+  furigana: ナラケンテンリシカワハラジョウチョウ
+- full_address: 奈良県橿原市八木町1-1-18
+  furigana: ナラケンカシハラシヤギチョウ 1
+- full_address: 奈良県桜井市大字粟殿432-1
+  furigana: ナラケンサクライシ
+- full_address: 奈良県五條市本町1-1-1
+  furigana: ナラケンゴジョウシホンマチ 1
+- full_address: 奈良県生駒市東新町8-38
+  furigana: ナラケンイコマシヒガシシンマチ
+- full_address: 奈良県香芝市本町1397
+  furigana: ナラケンカシバシホンマチ
+- full_address: 奈良県葛城市柿本166
+  furigana: ナラケンカツラギシカキノモト
+- full_address: 奈良県宇陀市榛原下井足17-3
+  furigana: ナラケンウダシハイバラシモイダニ
+- full_address: 奈良県山辺郡山添村大字大西151
+  furigana: ナラケンヤマベグンヤマゾエムラ
+- full_address: 奈良県生駒郡平群町吉新1-1-1
+  furigana: ナラケンイコマグンヘグリチョウヨシシン 1
+- full_address: 奈良県生駒郡三郷町勢野西1-1-1
+  furigana: ナラケンイコマグンサンゴウチョウセヤニシ 1
+- full_address: 奈良県生駒郡斑鳩町法隆寺西3-7-12
+  furigana: ナラケンイコマグンイカルガチョウホウリュウジニシ 3
+- full_address: 奈良県生駒郡安堵町大字東安堵958
+  furigana: ナラケンイコマグンアンドチョウ
+- full_address: 奈良県磯城郡川西町大字結崎28-1
+  furigana: ナラケンシキグンカワニシチョウ
+- full_address: 奈良県磯城郡三宅町大字伴堂689
+  furigana: ナラケンシキグンミヤケチョウ
+- full_address: 奈良県宇陀郡曽爾村大字今井495-1
+  furigana: ナラケンウダグンソニムラ
+- full_address: 奈良県宇陀郡御杖村大字菅野368
+  furigana: ナラケンウダグンミツエムラ
+- full_address: 奈良県高市郡高取町大字観覚寺990-1
+  furigana: ナラケンタカイチグンタカトリチョウ
+- full_address: 奈良県高市郡明日香村大字岡55
+  furigana: ナラケンタカイチグンアスカムラ
+- full_address: 奈良県北葛城郡上牧町大字上牧3350
+  furigana: ナラケンキタカツラギグンカンマキチョウ
+- full_address: 奈良県北葛城郡王寺町王寺2-1-23
+  furigana: ナラケンキタカツラギグンオウジチョウオウジ 2
+- full_address: 奈良県北葛城郡広陵町大字南郷583-1
+  furigana: ナラケンキタカツラギグンコウリョウチョウ
+- full_address: 奈良県北葛城郡河合町池部1-1-1
+  furigana: ナラケンキタカツラギグンカワイチョウイケベ 1
+- full_address: 奈良県吉野郡吉野町大字上市80-1
+  furigana: ナラケンヨシノグンヨシノチョウ
+- full_address: 奈良県吉野郡大淀町大字桧垣本2090
+  furigana: ナラケンヨシノグンオオヨドチョウ
+- full_address: 奈良県吉野郡下市町大字下市1960
+  furigana: ナラケンヨシノグンシモイチチョウ
+- full_address: 奈良県吉野郡黒滝村大字寺戸77
+  furigana: ナラケンヨシノグンクロタキムラ
+- full_address: 奈良県吉野郡天川村大字沢谷60
+  furigana: ナラケンヨシノグンテンカワムラ
+- full_address: 奈良県吉野郡野迫川村大字北股84
+  furigana: ナラケンヨシノグンノセガワムラ
+- full_address: 奈良県吉野郡十津川村大字小原225-1
+  furigana: ナラケンヨシノグントツカワムラ
+- full_address: 奈良県吉野郡下北山村大字寺垣内983
+  furigana: ナラケンヨシノグンシモキタヤマムラ
+- full_address: 奈良県吉野郡上北山村大字河合330
+  furigana: ナラケンヨシノグンカミキタヤマムラ
+- full_address: 奈良県吉野郡川上村大字迫1335-7
+  furigana: ナラケンヨシノグンカワカミムラ
+- full_address: 奈良県吉野郡東吉野村大字小川99
+  furigana: ナラケンヨシノグンヒガシヨシノムラ
+- full_address: 和歌山県和歌山市七番丁23
+  furigana: ワカヤマケンワカヤマシシチバンチョウ
+- full_address: 和歌山県海南市南赤坂11
+  furigana: ワカヤマケンカイナンシミナミアカサカ
+- full_address: 和歌山県橋本市東家1-1-1
+  furigana: ワカヤマケンハシモトシトウゲ 1
+- full_address: 和歌山県有田市箕島50
+  furigana: ワカヤマケンアリダシミノシマ
+- full_address: 和歌山県御坊市薗350
+  furigana: ワカヤマケンゴボウシソノ
+- full_address: 和歌山県田辺市新屋敷町1
+  furigana: ワカヤマケンタナベシシンヤシキマチ
+- full_address: 和歌山県新宮市春日1-1
+  furigana: ワカヤマケンシングウシカスガ
+- full_address: 和歌山県紀の川市西大井338
+  furigana: ワカヤマケンキノカワシニシオオイ
+- full_address: 和歌山県岩出市西野209
+  furigana: ワカヤマケンイワデシニシノ
+- full_address: 和歌山県海草郡紀美野町動木287
+  furigana: ワカヤマケンカイソウグンキミノチョウトドロキ
+- full_address: 和歌山県伊都郡かつらぎ町大字丁ノ町2160
+  furigana: ワカヤマケンイトグンカツラギチョウ
+- full_address: 和歌山県伊都郡九度山町大字九度山1190
+  furigana: ワカヤマケンイトグンクドヤマチョウ
+- full_address: 和歌山県伊都郡高野町大字高野山636
+  furigana: ワカヤマケンイトグンコウヤチョウ
+- full_address: 和歌山県有田郡湯浅町大字青木668-1
+  furigana: ワカヤマケンアリダグンユアサチョウ
+- full_address: 和歌山県有田郡広川町大字広1500
+  furigana: ワカヤマケンアリダグンヒロガワチョウ
+- full_address: 和歌山県有田郡有田川町下津野2018-4
+  furigana: ワカヤマケンアリダグンアリダガワチョウ
+- full_address: 和歌山県日高郡美浜町大字和田1138-278
+  furigana: ワカヤマケンヒダカグンミハマチョウ
+- full_address: 和歌山県日高郡日高町大字高家626
+  furigana: ワカヤマケンヒダカグンヒダカチョウ
+- full_address: 和歌山県日高郡由良町大字里1220-1
+  furigana: ワカヤマケンヒダカグンユラチョウ
+- full_address: 和歌山県日高郡印南町大字印南2570
+  furigana: ワカヤマケンヒダカグンイナミチョウ
+- full_address: 和歌山県日高郡みなべ町芝742
+  furigana: ワカヤマケンヒダカグンミナベチョウシバ
+- full_address: 和歌山県日高郡日高川町大字土生160
+  furigana: ワカヤマケンヒダカグンヒダカガワチョウ
+- full_address: 和歌山県西牟婁郡上富田町朝来763
+  furigana: ワカヤマケンニシムログンカミトンダチョウアッソ
+- full_address: 和歌山県西牟婁郡すさみ町周参見4089
+  furigana: ワカヤマケンニシムログンスサミチョウスサミ
+- full_address: 和歌山県東牟婁郡那智勝浦町大字築地7-1-1
+  furigana: ワカヤマケンヒガシムログンナチカツウラチョウ 7
+- full_address: 和歌山県東牟婁郡太地町大字太地3767-1
+  furigana: ワカヤマケンヒガシムログンタイジチョウ
+- full_address: 和歌山県東牟婁郡古座川町大字高池673-2
+  furigana: ワカヤマケンヒガシムログンコザガワチョウタカイケ
+- full_address: 和歌山県東牟婁郡北山村大字大沼42
+  furigana: ワカヤマケンヒガシムログンキタヤマムラ
+- full_address: 和歌山県東牟婁郡串本町サンゴ台690番地5
+  furigana: ワカヤマケンヒガシムログンクシモトチョウサンゴダイ
+- full_address: 鳥取県鳥取市幸町71番地
+  furigana: トットリケントットリシサイワイチョウ
+- full_address: 鳥取県米子市加茂町1-1
+  furigana: トットリケンヨナゴシカモチョウ 1
+- full_address: 鳥取県倉吉市葵町722
+  furigana: トットリケンクラヨシシアオイマチ
+- full_address: 鳥取県境港市上道町3000
+  furigana: トットリケンサカイミナトシアガリミチチョウ
+- full_address: 鳥取県岩美郡岩美町大字浦富675-1
+  furigana: トットリケンイワミグンイワミチョウ
+- full_address: 鳥取県八頭郡若桜町大字若桜801-5
+  furigana: トットリケンヤズグンワカサチョウ
+- full_address: 鳥取県八頭郡智頭町大字智頭2072-1
+  furigana: トットリケンヤズグンチヅチョウ
+- full_address: 鳥取県八頭郡八頭町郡家493
+  furigana: トットリケンヤズグンヤズチョウコウゲトノ
+- full_address: 鳥取県東伯郡三朝町大字大瀬999-2
+  furigana: トットリケントウハクグンミササチョウ
+- full_address: 鳥取県東伯郡湯梨浜町大字久留19-1
+  furigana: トットリケントウハクグンユリハマチョウ
+- full_address: 鳥取県東伯郡琴浦町大字徳万591-2
+  furigana: トットリケントウハクグンコトウラチョウ
+- full_address: 鳥取県東伯郡北栄町由良宿423-1
+  furigana: トットリケントウハクグンホクエイチョウユラシュク
+- full_address: 鳥取県西伯郡日吉津村大字日吉津872-15
+  furigana: トットリケンサイハクグンヒエヅソン
+- full_address: 鳥取県西伯郡大山町御来屋328
+  furigana: トットリケンサイハクグンダイセンチョウミクリヤ
+- full_address: 鳥取県西伯郡南部町法勝寺377-1
+  furigana: トットリケンサイハクグンナンブチョウホッショウジ
+- full_address: 鳥取県西伯郡伯耆町吉長37-3
+  furigana: トットリケンサイハクグンホウキチョウヨシナガ
+- full_address: 鳥取県日野郡日南町霞800
+  furigana: トットリケンヒノグンニチナンチョウカスミ
+- full_address: 鳥取県日野郡日野町根雨101
+  furigana: トットリケンヒノグンヒノチョウネウ
+- full_address: 鳥取県日野郡江府町大字江尾1717番地1
+  furigana: トットリケンヒノグンコウフチョウ
+- full_address: 島根県松江市末次町86
+  furigana: シマネケンマツエシスエツグチョウ
+- full_address: 島根県浜田市殿町1
+  furigana: シマネケンハマダシトノマチ
+- full_address: 島根県出雲市今市町70
+  furigana: シマネケンイズモシイマイチチョウ
+- full_address: 島根県益田市常盤町1-1
+  furigana: シマネケンマスダシトキワチョウ
+- full_address: 島根県大田市大田町大田ロ1111
+  furigana: シマネケンオオダシオオダチョウオオダ
+- full_address: 島根県安来市安来町878-2
+  furigana: シマネケンヤスギシヤスギチョウ
+- full_address: 島根県江津市江津町1525
+  furigana: シマネケンゴウツシゴウツチョウ
+- full_address: 島根県雲南市木次町里方521-1
+  furigana: シマネケンウンナンシキスキチョウサトガタ
+- full_address: 島根県仁多郡奥出雲町三成358-1
+  furigana: シマネケンニタグンオクイズモチョウミナリ
+- full_address: 島根県飯石郡飯南町下赤名880
+  furigana: シマネケンイイシグンイイナンチョウシモアカナ
+- full_address: 島根県邑智郡川本町大字川本271-3
+  furigana: シマネケンオオチグンカワモトマチ
+- full_address: 島根県邑智郡美郷町粕渕168
+  furigana: シマネケンオオチグンミサトチョウカスブチ
+- full_address: 島根県邑智郡邑南町矢上6000
+  furigana: シマネケンオオチグンオオナンチョウヤカミ
+- full_address: 島根県鹿足郡津和野町日原54-25
+  furigana: シマネケンカノアシグンツワノチョウニチハラ
+- full_address: 島根県鹿足郡吉賀町六日市750
+  furigana: シマネケンカノアシグンヨシカチョウムイカイチ
+- full_address: 島根県隠岐郡海士町大字海士1490
+  furigana: シマネケンオキグンアマチョウ
+- full_address: 島根県隠岐郡西ノ島町大字浦郷534
+  furigana: シマネケンオキグンニシノシマチョウ
+- full_address: 島根県隠岐郡隠岐の島町下西78番地2
+  furigana: シマネケンオキグンオキノシマチョウシモニシ
+- full_address: 岡山県岡山市北区大供1-1-1
+  furigana: オカヤマケンオカヤマシキタクダイク 1
+- full_address: 岡山県岡山市北区大供1-1-1
+  furigana: オカヤマケンオカヤマシキタクダイク 1
+- full_address: 岡山県岡山市中区浜3-7-15
+  furigana: オカヤマケンオカヤマシナカクハマ 3
+- full_address: 岡山県岡山市東区西大寺南1-2-4
+  furigana: オカヤマケンオカヤマシヒガシクサイダイジミナミ 1
+- full_address: 岡山県岡山市南区浦安南町495-5
+  furigana: オカヤマケンオカヤマシミナミクウラヤスミナミマチ
+- full_address: 岡山県倉敷市西中新田640
+  furigana: オカヤマケンクラシキシニシナカシンデン
+- full_address: 岡山県津山市山北520
+  furigana: オカヤマケンツヤマシヤマキタ
+- full_address: 岡山県玉野市宇野1-27-1
+  furigana: オカヤマケンタマノシウノ 1
+- full_address: 岡山県笠岡市中央町1-1
+  furigana: オカヤマケンカサオカシチュウオウチョウ
+- full_address: 岡山県井原市井原町311-1
+  furigana: オカヤマケンイバラシイバラチョウ
+- full_address: 岡山県総社市中央1-1-1
+  furigana: オカヤマケンソウジャシチュウオウ 1
+- full_address: 岡山県高梁市松原通2043
+  furigana: オカヤマケンタカハシシマツバラドオリ
+- full_address: 岡山県新見市新見310-3
+  furigana: オカヤマケンニイミシニイミ
+- full_address: 岡山県備前市東片上126
+  furigana: オカヤマケンビゼンシヒガシカタカミ
+- full_address: 岡山県瀬戸内市邑久町尾張300-1
+  furigana: オカヤマケンセトウチシオクチョウオワリ
+- full_address: 岡山県赤磐市下市344
+  furigana: オカヤマケンアカイワシシモイチ
+- full_address: 岡山県真庭市久世2927-2
+  furigana: オカヤマケンマニワシクセ
+- full_address: 岡山県美作市栄町38-2
+  furigana: オカヤマケンミマサカシサカエマチ
+- full_address: 岡山県浅口市鴨方町六条院中3050
+  furigana: オカヤマケンアサクチシカモガタチョウロクジョウインナカ
+- full_address: 岡山県和気郡和気町尺所555
+  furigana: オカヤマケンワケグンワケチョウシャクソ
+- full_address: 岡山県都窪郡早島町大字前潟360-1
+  furigana: オカヤマケンツクボグンハヤシマチョウマエガタ
+- full_address: 岡山県浅口郡里庄町大字里見1107-2
+  furigana: オカヤマケンアサクチグンサトショウチョウ
+- full_address: 岡山県小田郡矢掛町矢掛3018
+  furigana: オカヤマケンオダグンヤカゲチョウヤカゲ
+- full_address: 岡山県苫田郡鏡野町竹田660
+  furigana: オカヤマケントマタグンカガミノチョウタケダ
+- full_address: 岡山県勝田郡勝央町勝間田201
+  furigana: オカヤマケンカツタグンショウオウチョウカツマダ
+- full_address: 岡山県勝田郡奈義町豊沢306-1
+  furigana: オカヤマケンカツタグンナギチョウトヨサワ
+- full_address: 岡山県英田郡西粟倉村大字影石2
+  furigana: オカヤマケンアイダグンニシアワクラソン
+- full_address: 岡山県久米郡久米南町下弓削502-1
+  furigana: オカヤマケンクメグンクメナンチョウシモユゲ
+- full_address: 岡山県久米郡美咲町原田1735
+  furigana: オカヤマケンクメグンミサキチョウハラダ
+- full_address: 岡山県加賀郡吉備中央町豊野1-2
+  furigana: オカヤマケンカガグンキビチュウオウチョウトヨノ
+- full_address: 広島県広島市中区国泰寺町1-6-34
+  furigana: ヒロシマケンヒロシマシナカクコクタイジマチ 1
+- full_address: 広島県広島市中区国泰寺町1-4-21
+  furigana: ヒロシマケンヒロシマシナカクコクタイジマチ 1
+- full_address: 広島県広島市東区東蟹屋町9-38
+  furigana: ヒロシマケンヒロシマシヒガシクヒガシカニヤチョウ
+- full_address: 広島県広島市南区皆実町1-5-44
+  furigana: ヒロシマケンヒロシマシミナミクミナミマチ 1
+- full_address: 広島県広島市西区福島町2-2-1
+  furigana: ヒロシマケンヒロシマシニシクフクシマチョウ 2
+- full_address: 広島県広島市安佐南区古市1-33-14
+  furigana: ヒロシマケンヒロシマシアサミナミクフルイチ 1
+- full_address: 広島県広島市安佐北区可部4-13-13
+  furigana: ヒロシマケンヒロシマシアサキタクカベ 4
+- full_address: 広島県広島市安芸区船越南3-4-36
+  furigana: ヒロシマケンヒロシマシアキクフナコシミナミ 3
+- full_address: 広島県広島市佐伯区海老園2-5-28
+  furigana: ヒロシマケンヒロシマシサエキクカイロウエン 2
+- full_address: 広島県呉市中央4-1-6
+  furigana: ヒロシマケンクレシチュウオウ 4
+- full_address: 広島県竹原市中央5-1-35
+  furigana: ヒロシマケンタケハラシチュウオウ 5
+- full_address: 広島県三原市港町3-5-1
+  furigana: ヒロシマケンミハラシミナトマチ 3
+- full_address: 広島県尾道市久保1-15-1
+  furigana: ヒロシマケンオノミチシクボ 1
+- full_address: 広島県福山市東桜町3-5
+  furigana: ヒロシマケンフクヤマシヒガシサクラマチ
+- full_address: 広島県府中市府川町315
+  furigana: ヒロシマケンフチュウシフカワチョウ
+- full_address: 広島県三次市十日市中2-8-1
+  furigana: ヒロシマケンミヨシシトオカイチナカ 2
+- full_address: 広島県庄原市中本町1-10-1
+  furigana: ヒロシマケンショウバラシナカホンマチ 1
+- full_address: 広島県大竹市小方1-11-1
+  furigana: ヒロシマケンオオタケシオガタ 1
+- full_address: 広島県東広島市西条栄町8-29
+  furigana: ヒロシマケンヒガシヒロシマシサイジョウサカエマチ
+- full_address: 広島県廿日市市下平良1-11-1
+  furigana: ヒロシマケンハツカイチシシモヘラ 1
+- full_address: 広島県安芸高田市吉田町吉田791
+  furigana: ヒロシマケンアキタカタシヨシダチョウヨシダ
+- full_address: 広島県江田島市大柿町大原505
+  furigana: ヒロシマケンエタジマシオオガキチョウオオバラ
+- full_address: 広島県安芸郡府中町大通3-5-1
+  furigana: ヒロシマケンアキグンフチュウチョウオオドオリ 3
+- full_address: 広島県安芸郡海田町上市14-18
+  furigana: ヒロシマケンアキグンカイタチョウカミイチ
+- full_address: 広島県安芸郡熊野町中溝1-1-1
+  furigana: ヒロシマケンアキグンクマノチョウナカミゾ 1
+- full_address: 広島県安芸郡坂町平成ヶ浜1-1-1
+  furigana: ヒロシマケンアキグンサカチョウ 1
+- full_address: 広島県山県郡安芸太田町戸河内784-1
+  furigana: ヒロシマケンヤマガタグンアキオオタチョウ
+- full_address: 広島県山県郡北広島町有田1234
+  furigana: ヒロシマケンヤマガタグンキタヒロシマチョウアリダ
+- full_address: 広島県豊田郡大崎上島町東野6625-1
+  furigana: ヒロシマケントヨタグンオオサキカミジマチョウヒガシノ
+- full_address: 広島県世羅郡世羅町西上原123-1
+  furigana: ヒロシマケンセラグンセラチョウ
+- full_address: 広島県神石郡神石高原町小畠2025
+  furigana: ヒロシマケンジンセキグンジンセキコウゲンチョウコバタケ
+- full_address: 山口県下関市南部町1-1
+  furigana: ヤマグチケンシモノセキシナベチョウ
+- full_address: 山口県宇部市常盤町1-7-1
+  furigana: ヤマグチケンウベシトキワチョウ 1
+- full_address: 山口県山口市亀山町2-1
+  furigana: ヤマグチケンヤマグチシカメヤマチョウ
+- full_address: 山口県萩市江向510
+  furigana: ヤマグチケンハギシ
+- full_address: 山口県防府市寿町7-1
+  furigana: ヤマグチケンホウフシコトブキチョウ
+- full_address: 山口県下松市大手町3-3-3
+  furigana: ヤマグチケンクダマツシオオテマチ 3
+- full_address: 山口県岩国市今津町1-14-51
+  furigana: ヤマグチケンイワクニシイマヅマチ 1
+- full_address: 山口県光市中央6-1-1
+  furigana: ヤマグチケンヒカリシチュウオウ 6
+- full_address: 山口県長門市東深川1339-2
+  furigana: ヤマグチケンナガトシヒガシフカワ
+- full_address: 山口県柳井市南町1-10-2
+  furigana: ヤマグチケンヤナイシミナミマチ 1
+- full_address: 山口県美祢市大嶺町東分326-1
+  furigana: ヤマグチケンミネシオオミネチョウヒガシブン
+- full_address: 山口県周南市岐山通1-1
+  furigana: ヤマグチケンシュウナンシキサンドオリ 1
+- full_address: 山口県山陽小野田市日の出1-1-1
+  furigana: ヤマグチケンサンヨウオノダシヒノデ 1
+- full_address: 山口県大島郡周防大島町大字小松126-2
+  furigana: ヤマグチケンオオシマグンスオウオオシマチョウ
+- full_address: 山口県玖珂郡和木町和木1-1-1
+  furigana: ヤマグチケンクガグンワキチョウワキ 1
+- full_address: 山口県熊毛郡上関町大字長島503
+  furigana: ヤマグチケンクマゲグンカミノセキチョウ
+- full_address: 山口県熊毛郡田布施町大字下田布施3440-1
+  furigana: ヤマグチケンクマゲグンタブセチョウ
+- full_address: 山口県熊毛郡平生町大字平生町210-1
+  furigana: ヤマグチケンクマゲグンヒラオチョウ
+- full_address: 山口県阿武郡阿武町大字奈古2636
+  furigana: ヤマグチケンアブグンアブチョウ
+- full_address: 徳島県徳島市幸町2-5
+  furigana: トクシマケントクシマシサイワイチョウ 2
+- full_address: 徳島県鳴門市撫養町南浜字東浜170
+  furigana: トクシマケンナルトシムヤチョウミナミハマ
+- full_address: 徳島県小松島市横須町1-1
+  furigana: トクシマケンコマツシマシヨコスチョウ
+- full_address: 徳島県阿南市富岡町トノ町12-3
+  furigana: トクシマケンアナンシトミオカチョウ
+- full_address: 徳島県吉野川市鴨島町鴨島115-1
+  furigana: トクシマケンヨシノガワシカモジマチョウカモジマ
+- full_address: 徳島県阿波市市場町切幡字古田201-1
+  furigana: トクシマケンアワシイチバチョウキリハタ
+- full_address: 徳島県美馬市穴吹町穴吹字九反地5
+  furigana: トクシマケンミマシアナブキチョウアナブキ
+- full_address: 徳島県三好市池田町シンマチ1500-2
+  furigana: トクシマケンミヨシシイケダチョウシンマチ
+- full_address: 徳島県勝浦郡勝浦町大字久国字久保田3
+  furigana: トクシマケンカツウラグンカツウラチョウ
+- full_address: 徳島県勝浦郡上勝町大字福原字下横峯3-1
+  furigana: トクシマケンカツウラグンカミカツチョウ
+- full_address: 徳島県名東郡佐那河内村下字中辺71-1
+  furigana: トクシマケンミョウドウグンサナゴウチソンシモ
+- full_address: 徳島県名西郡石井町高川原字高川原121-1
+  furigana: トクシマケンミョウザイグンイシイチョウタカガワラ
+- full_address: 徳島県名西郡神山町神領字本野間100
+  furigana: トクシマケンミョウザイグンカミヤマチョウジンリョウ
+- full_address: 徳島県那賀郡那賀町和食郷字南川104-1
+  furigana: トクシマケンナカグンナカチョウワジキゴウ
+- full_address: 徳島県海部郡牟岐町大字中村字本村7-4
+  furigana: トクシマケンカイフグンムギチョウ
+- full_address: 徳島県海部郡美波町奥河内字本村18-1
+  furigana: トクシマケンカイフグンミナミチョウオクガワウチ
+- full_address: 徳島県海部郡海陽町大里字上中須128
+  furigana: トクシマケンカイフグンカイヨウチョウオオザト
+- full_address: 徳島県板野郡松茂町広島字東裏30
+  furigana: トクシマケンイタノグンマツシゲチョウヒロシマ
+- full_address: 徳島県板野郡北島町中村字上地23-1
+  furigana: トクシマケンイタノグンキタジマチョウナカムラ
+- full_address: 徳島県板野郡藍住町奥野字矢上前52-1
+  furigana: トクシマケンイタノグンアイズミチョウオクノ
+- full_address: 徳島県板野郡板野町吹田字町南22-2
+  furigana: トクシマケンイタノグンイタノチョウフキタ
+- full_address: 徳島県板野郡上板町七條字経塚42
+  furigana: トクシマケンイタノグンカミイタチョウシチジョウ
+- full_address: 徳島県美馬郡つるぎ町貞光字東浦1-3
+  furigana: トクシマケンミマグンツルギチョウサダミツ
+- full_address: 徳島県三好郡東みよし町加茂3360
+  furigana: トクシマケンミヨシグンヒガシミヨシチョウカモ
+- full_address: 香川県高松市番町1-8-15
+  furigana: カガワケンタカマツシバンチョウ 1
+- full_address: 香川県丸亀市大手町二丁目4番21号
+  furigana: カガワケンマルガメシオオテチョウ 2
+- full_address: 香川県坂出市室町2-3-5
+  furigana: カガワケンサカイデシムロマチ 2
+- full_address: 香川県善通寺市文京町2-1-1
+  furigana: カガワケンゼンツウジシブンキョウチョウ 2
+- full_address: 香川県観音寺市坂本町一丁目1-1
+  furigana: カガワケンカンオンジシサカモトチョウ 1
+- full_address: 香川県さぬき市志度5385-8
+  furigana: カガワケンサヌキシシド
+- full_address: 香川県東かがわ市湊1847-1
+  furigana: カガワケンヒガシカガワシミナト
+- full_address: 香川県三豊市高瀬町下勝間2373-1
+  furigana: カガワケンミトヨシタカセチョウシモカツマ
+- full_address: 香川県小豆郡土庄町甲559-2
+  furigana: カガワケンショウズグントノショウチョウコウ、オツ
+- full_address: 香川県小豆郡小豆島町片城甲44番地95
+  furigana: カガワケンショウズグンショウドシマチョウカタジョウ
+- full_address: 香川県木田郡三木町大字氷上310
+  furigana: カガワケンキタグンミキチョウ
+- full_address: 香川県綾歌郡綾川町滝宮299
+  furigana: カガワケンアヤウタグンアヤガワチョウタキノミヤ
+- full_address: 香川県仲多度郡琴平町榎井817-10
+  furigana: カガワケンナカタドグンコトヒラチョウエナイ
+- full_address: 香川県仲多度郡多度津町栄町1-1-91
+  furigana: カガワケンナカタドグンタドツチョウサカエマチ 1
+- full_address: 香川県仲多度郡まんのう町吉野下430
+  furigana: カガワケンナカタドグンマンノウチョウヨシノシモ
+- full_address: 愛媛県松山市二番町4-7-2
+  furigana: エヒメケンマツヤマシニバンチョウ 4
+- full_address: 愛媛県今治市別宮町1-4-1
+  furigana: エヒメケンイマバリシベックチョウ 1
+- full_address: 愛媛県宇和島市曙町1
+  furigana: エヒメケンウワジマシアケボノチョウ
+- full_address: 愛媛県八幡浜市北浜1-1-1
+  furigana: エヒメケンヤワタハマシキタハマ 1
+- full_address: 愛媛県新居浜市一宮町1-5-1
+  furigana: エヒメケンニイハマシイックチョウ 1
+- full_address: 愛媛県西条市明屋敷164
+  furigana: エヒメケンサイジョウシアケヤシキ
+- full_address: 愛媛県大洲市大洲690-1
+  furigana: エヒメケンオオズシオオズ
+- full_address: 愛媛県伊予市米湊820
+  furigana: エヒメケンイヨシコミナト
+- full_address: 愛媛県四国中央市三島宮川4-6-55
+  furigana: エヒメケンシコクチュウオウシミシマミヤガワ 4
+- full_address: 愛媛県西予市宇和町卯之町3-434-1
+  furigana: エヒメケンセイヨシウワチョウウノマチ 3
+- full_address: 愛媛県東温市見奈良530-1
+  furigana: エヒメケントウオンシミナラ
+- full_address: 愛媛県越智郡上島町弓削下弓削210
+  furigana: エヒメケンオチグンカミジマチョウユゲシモユゲ
+- full_address: 愛媛県上浮穴郡久万高原町久万212
+  furigana: エヒメケンカミウケナグンクマコウゲンチョウクマ
+- full_address: 愛媛県伊予郡松前町大字筒井631
+  furigana: エヒメケンイヨグンマサキチョウ
+- full_address: 愛媛県伊予郡砥部町宮内1392
+  furigana: エヒメケンイヨグントベチョウミヤウチ
+- full_address: 愛媛県喜多郡内子町平岡甲168
+  furigana: エヒメケンキタグンウチコチョウヒラオカ
+- full_address: 愛媛県西宇和郡伊方町湊浦1993-1
+  furigana: エヒメケンニシウワグンイカタチョウミナトウラ
+- full_address: 愛媛県北宇和郡松野町大字松丸343
+  furigana: エヒメケンキタウワグンマツノチョウ
+- full_address: 愛媛県北宇和郡鬼北町大字近永800-1
+  furigana: エヒメケンキタウワグンキホクチョウ
+- full_address: 愛媛県南宇和郡愛南町城辺甲2420
+  furigana: エヒメケンミナミウワグンアイナンチョウジョウヘンコウ
+- full_address: 高知県高知市本町5-1-45
+  furigana: コウチケンコウチシホンマチ 5
+- full_address: 高知県室戸市浮津25-1
+  furigana: コウチケンムロトシウキツ
+- full_address: 高知県安芸市矢ノ丸1-4-40
+  furigana: コウチケンアキシヤノマル 1
+- full_address: 高知県土佐市高岡町甲2017-1
+  furigana: コウチケントサシタカオカチョウコウ
+- full_address: 高知県須崎市山手町1-7
+  furigana: コウチケンスサキシヤマテマチ
+- full_address: 高知県宿毛市桜町2-1
+  furigana: コウチケンスクモシサクラマチ
+- full_address: 高知県土佐清水市天神町11-2
+  furigana: コウチケントサシミズシテンジンマチ
+- full_address: 高知県四万十市中村大橋通4-10
+  furigana: コウチケンシマントシナカムラオオハシドオリ 4
+- full_address: 高知県香南市野市町西野2706
+  furigana: コウチケンコウナンシノイチチョウニシノ
+- full_address: 高知県香美市土佐山田町宝町1-2-1
+  furigana: コウチケンカミシトサヤマダチョウタカラマチ 1
+- full_address: 高知県安芸郡東洋町大字生見758-3
+  furigana: コウチケンアキグントウヨウチョウ
+- full_address: 高知県安芸郡奈半利町乙1659-1
+  furigana: コウチケンアキグンナハリチョウオツ
+- full_address: 高知県安芸郡安田町大字安田1850
+  furigana: コウチケンアキグンヤスダチョウ
+- full_address: 高知県安芸郡北川村野友甲1530
+  furigana: コウチケンアキグンキタガワムラ
+- full_address: 高知県安芸郡馬路村馬路443
+  furigana: コウチケンアキグンウマジムラ
+- full_address: 高知県安芸郡芸西村和食甲1262
+  furigana: コウチケンアキグンゲイセイムラワジキコウ
+- full_address: 高知県長岡郡本山町本山504
+  furigana: コウチケンナガオカグンモトヤマチョウモトヤマ
+- full_address: 高知県長岡郡大豊町津家1626
+  furigana: コウチケンナガオカグンオオトヨチョウツゲ
+- full_address: 高知県土佐郡土佐町土居194
+  furigana: コウチケントサグントサチョウドイ
+- full_address: 高知県土佐郡大川村小松27-1
+  furigana: コウチケントサグンオオカワムラコマツ
+- full_address: 高知県吾川郡仁淀川町大崎200
+  furigana: コウチケンアガワグンニヨドガワチョウオオサキ
+- full_address: 高知県高岡郡中土佐町久礼6602-2
+  furigana: コウチケンタカオカグンナカトサチョウクレ
+- full_address: 高知県高岡郡佐川町甲1650-2
+  furigana: コウチケンタカオカグンサカワチョウコウ
+- full_address: 高知県高岡郡越知町越知甲1970
+  furigana: コウチケンタカオカグンオチチョウオチコウ
+- full_address: 高知県高岡郡梼原町梼原1444-1
+  furigana: コウチケンタカオカグンユスハラチョウ
+- full_address: 高知県高岡郡日高村本郷61-1
+  furigana: コウチケンタカオカグンヒダカムラホンゴウ
+- full_address: 高知県高岡郡津野町永野471-1
+  furigana: コウチケンタカオカグンツノチョウナガノ
+- full_address: 高知県高岡郡四万十町琴平町16-17
+  furigana: コウチケンタカオカグンシマントチョウコトヒラマチ
+- full_address: 高知県幡多郡大月町弘見2230
+  furigana: コウチケンハタグンオオツキチョウ
+- full_address: 高知県幡多郡三原村来栖野346
+  furigana: コウチケンハタグンミハラムラ
+- full_address: 高知県幡多郡黒潮町入野5893
+  furigana: コウチケンハタグンクロシオチョウイリノ
+- full_address: 福岡県北九州市小倉北区城内1-1
+  furigana: フクオカケンキタキュウシュウシコクラキタクジョウナイ
+- full_address: 福岡県北九州市門司区清滝1-1-1
+  furigana: フクオカケンキタキュウシュウシモジクキヨタキ 1
+- full_address: 福岡県北九州市若松区浜町1-1-1
+  furigana: フクオカケンキタキュウシュウシワカマツクハママチ 1
+- full_address: 福岡県北九州市戸畑区千防1-1-1
+  furigana: フクオカケンキタキュウシュウシトバタクセンボウ 1
+- full_address: 福岡県北九州市小倉北区大手町1-1
+  furigana: フクオカケンキタキュウシュウシコクラキタクオオテマチ
+- full_address: 福岡県北九州市小倉南区若園5-1-2
+  furigana: フクオカケンキタキュウシュウシコクラミナミクワカゾノ 5
+- full_address: 福岡県北九州市八幡東区中央1-1-1
+  furigana: フクオカケンキタキュウシュウシヤハタヒガシクチュウオウ 1
+- full_address: 福岡県北九州市八幡西区黒崎3-15-3
+  furigana: フクオカケンキタキュウシュウシヤハタニシククロサキ 3
+- full_address: 福岡県福岡市中央区天神1-8-1
+  furigana: フクオカケンフクオカシチュウオウクテンジン 1
+- full_address: 福岡県福岡市東区箱崎2-54-1
+  furigana: フクオカケンフクオカシヒガシクハコザキ 2
+- full_address: 福岡県福岡市博多区博多駅前2-9-3
+  furigana: フクオカケンフクオカシハカタクハカタエキマエ 2
+- full_address: 福岡県福岡市中央区大名2-5-31
+  furigana: フクオカケンフクオカシチュウオウクダイミョウ 2
+- full_address: 福岡県福岡市南区塩原3-25-1
+  furigana: フクオカケンフクオカシミナミクシオバル 3
+- full_address: 福岡県福岡市西区内浜1-4-1
+  furigana: フクオカケンフクオカシニシクウチハマ 1
+- full_address: 福岡県福岡市城南区鳥飼6-1-1
+  furigana: フクオカケンフクオカシジョウナンクトリカイ 6
+- full_address: 福岡県福岡市早良区百道2-1-1
+  furigana: フクオカケンフクオカシサワラクモモチ 2
+- full_address: 福岡県大牟田市有明町2-3
+  furigana: フクオカケンオオムタシユウメイマチ 2
+- full_address: 福岡県久留米市城南町15-3
+  furigana: フクオカケンクルメシジョウナンマチ
+- full_address: 福岡県直方市殿町7-1
+  furigana: フクオカケンノオガタシトノマチ
+- full_address: 福岡県飯塚市新立岩5-5
+  furigana: フクオカケンイイヅカシシンタテイワ
+- full_address: 福岡県田川市中央町1-1
+  furigana: フクオカケンタガワシチュウオウマチ
+- full_address: 福岡県柳川市本町87-1
+  furigana: フクオカケンヤナガワシホンマチ
+- full_address: 福岡県八女市本町647
+  furigana: フクオカケンヤメシモトマチ
+- full_address: 福岡県筑後市大字山ノ井898
+  furigana: フクオカケンチクゴシ
+- full_address: 福岡県大川市大字酒見256-1
+  furigana: フクオカケンオオカワシ
+- full_address: 福岡県行橋市中央1-1-1
+  furigana: フクオカケンユクハシシチュウオウ 1
+- full_address: 福岡県豊前市大字吉木955
+  furigana: フクオカケンブゼンシ
+- full_address: 福岡県中間市中間1-1-1
+  furigana: フクオカケンナカマシナカマ 1
+- full_address: 福岡県小郡市小郡255-1
+  furigana: フクオカケンオゴオリシオゴオリ
+- full_address: 福岡県筑紫野市石崎1-1-1
+  furigana: フクオカケンチクシノシイシザキ 1
+- full_address: 福岡県春日市原町3-1-5
+  furigana: フクオカケンカスガシハラマチ 3
+- full_address: 福岡県大野城市曙町2-2-1
+  furigana: フクオカケンオオノジョウシアケボノマチ 2
+- full_address: 福岡県宗像市東郷1-1-1
+  furigana: フクオカケンムナカタシトウゴウ 1
+- full_address: 福岡県太宰府市観世音寺1-1-1
+  furigana: フクオカケンダザイフシカンゼオンジ 1
+- full_address: 福岡県古賀市駅東1-1-1
+  furigana: フクオカケンコガシエキヒガシ 1
+- full_address: 福岡県福津市中央1-1-1
+  furigana: フクオカケンフクツシチュウオウ 1
+- full_address: 福岡県うきは市吉井町新治316
+  furigana: フクオカケンウキハシヨシイマチニイハル
+- full_address: 福岡県宮若市宮田29-1
+  furigana: フクオカケンミヤワカシミヤタ
+- full_address: 福岡県嘉麻市岩崎1180-1
+  furigana: フクオカケンカマシイワサキ
+- full_address: 福岡県朝倉市菩提寺412-2
+  furigana: フクオカケンアサクラシボダイジ
+- full_address: 福岡県みやま市瀬高町小川5
+  furigana: フクオカケンミヤマシセタカマチオガワ
+- full_address: 福岡県糸島市前原西一丁目1番1号
+  furigana: フクオカケンイトシマシマエバルニシ 1
+- full_address: 福岡県那珂川市西隈1-1-1
+  furigana: フクオカケンナカガワシニシグマ 1
+- full_address: 福岡県糟屋郡宇美町宇美5-1-1
+  furigana: フクオカケンカスヤグンウミマチウミ 5
+- full_address: 福岡県糟屋郡志免町志免中央1-1-1
+  furigana: フクオカケンカスヤグンシメマチシメチュウオウ 1
+- full_address: 福岡県糟屋郡須恵町大字須恵771
+  furigana: フクオカケンカスヤグンスエマチ
+- full_address: 福岡県糟屋郡新宮町緑ヶ浜1-1-1
+  furigana: フクオカケンカスヤグンシングウマチミドリガハマ 1
+- full_address: 福岡県糟屋郡久山町大字久原3632
+  furigana: フクオカケンカスヤグンヒサヤママチ
+- full_address: 福岡県糟屋郡粕屋町駕与丁一丁目1-1
+  furigana: フクオカケンカスヤグンカスヤマチカヨイチョウ 1
+- full_address: 福岡県遠賀郡芦屋町幸町2-20
+  furigana: フクオカケンオンガグンアシヤマチサイワイマチ
+- full_address: 福岡県遠賀郡水巻町頃末北1-1-1
+  furigana: フクオカケンオンガグンミズマキマチコロスエキタ 1
+- full_address: 福岡県遠賀郡岡垣町野間1-1-1
+  furigana: フクオカケンオンガグンオカガキマチノマ 1
+- full_address: 福岡県遠賀郡遠賀町大字今古賀513
+  furigana: フクオカケンオンガグンオンガチョウ
+- full_address: 福岡県鞍手郡小竹町大字勝野3167-1
+  furigana: フクオカケンクラテグンコタケマチ
+- full_address: 福岡県鞍手郡鞍手町大字中山3705
+  furigana: フクオカケンクラテグンクラテマチ
+- full_address: 福岡県嘉穂郡桂川町大字土居424-1
+  furigana: フクオカケンカホグンケイセンマチ
+- full_address: 福岡県朝倉郡筑前町篠隈373
+  furigana: フクオカケンアサクラグンチクゼンマチシノクマ
+- full_address: 福岡県朝倉郡東峰村大字宝珠山6425
+  furigana: フクオカケンアサクラグントウホウムラ
+- full_address: 福岡県三井郡大刀洗町大字冨多819
+  furigana: フクオカケンミイグンタチアライマチ
+- full_address: 福岡県三潴郡大木町大字八町牟田255-1
+  furigana: フクオカケンミズマグンオオキマチ
+- full_address: 福岡県八女郡広川町大字新代1804-1
+  furigana: フクオカケンヤメグンヒロカワマチ
+- full_address: 福岡県田川郡香春町大字高野994
+  furigana: フクオカケンタガワグンカワラマチ
+- full_address: 福岡県田川郡添田町大字添田2151
+  furigana: フクオカケンタガワグンソエダマチ
+- full_address: 福岡県田川郡川崎町大字田原789-2
+  furigana: フクオカケンタガワグンカワサキマチ
+- full_address: 福岡県田川郡大任町大字大行事3067
+  furigana: フクオカケンタガワグンオオトウマチ
+- full_address: 福岡県田川郡赤村大字内田1188
+  furigana: フクオカケンタガワグンアカムラ
+- full_address: 福岡県田川郡福智町金田937-2
+  furigana: フクオカケンタガワグンフクチマチカナダ
+- full_address: 福岡県京都郡苅田町富久町1-19-1
+  furigana: フクオカケンミヤコグンカンダマチトミヒサチョウ 1
+- full_address: 福岡県京都郡みやこ町勝山上田960
+  furigana: フクオカケンミヤコグンミヤコマチカツヤマウエダ
+- full_address: 福岡県築上郡吉富町大字広津226-1
+  furigana: フクオカケンチクジョウグンヨシトミマチ
+- full_address: 福岡県築上郡上毛町大字垂水1321-1
+  furigana: フクオカケンチクジョウグンコウゲマチ
+- full_address: 福岡県築上郡築上町大字椎田891-2
+  furigana: フクオカケンチクジョウグンチクジョウマチ
+- full_address: 佐賀県佐賀市栄町1-1
+  furigana: サガケンサガシサカエマチ
+- full_address: 佐賀県唐津市西城内1-1
+  furigana: サガケンカラツシニシジョウナイ
+- full_address: 佐賀県鳥栖市宿町1118
+  furigana: サガケントスシシュクマチ
+- full_address: 佐賀県多久市北多久町大字小侍7-1
+  furigana: サガケンタクシ
+- full_address: 佐賀県伊万里市立花町1355-1
+  furigana: サガケンイマリシタチバナチョウ
+- full_address: 佐賀県武雄市武雄町大字昭和12-10
+  furigana: サガケンタケオシ
+- full_address: 佐賀県鹿島市大字納富分2643-1
+  furigana: サガケンカシマシ
+- full_address: 佐賀県小城市三日月町長神田2312-2
+  furigana: サガケンオギシミカツキチョウチョウカンダ
+- full_address: 佐賀県嬉野市塩田町大字馬場下甲1769
+  furigana: サガケンウレシノシ
+- full_address: 佐賀県神埼市神埼町鶴3542-1
+  furigana: サガケンカンザキシカンザキマチツル
+- full_address: 佐賀県神埼郡吉野ヶ里町吉田321-2
+  furigana: サガケンカンザキグンヨシノガリチョウヨシダ
+- full_address: 佐賀県三養基郡基山町大字宮浦666
+  furigana: サガケンミヤキグンキヤマチョウ
+- full_address: 佐賀県三養基郡上峰町大字坊所383-1
+  furigana: サガケンミヤキグンカミミネチョウ
+- full_address: 佐賀県三養基郡みやき町大字東尾737-5
+  furigana: サガケンミヤキグンミヤキチョウ
+- full_address: 佐賀県東松浦郡玄海町大字諸浦348
+  furigana: サガケンヒガシマツウラグンゲンカイチョウ
+- full_address: 佐賀県西松浦郡有田町立部乙2202
+  furigana: サガケンニシマツウラグンアリタチョウタチベ
+- full_address: 佐賀県杵島郡大町町大字大町5017
+  furigana: サガケンキシマグンオオマチチョウ
+- full_address: 佐賀県杵島郡江北町大字山口1651-1
+  furigana: サガケンキシマグンコウホクマチ
+- full_address: 佐賀県杵島郡白石町大字福田1247-1
+  furigana: サガケンキシマグンシロイシチョウ
+- full_address: 佐賀県藤津郡太良町大字多良1番地6
+  furigana: サガケンフジツグンタラチョウ
+- full_address: 長崎県長崎市桜町2-22
+  furigana: ナガサキケンナガサキシサクラマチ
+- full_address: 長崎県佐世保市八幡町1-10
+  furigana: ナガサキケンサセボシハチマンチョウ
+- full_address: 長崎県島原市上の町537
+  furigana: ナガサキケンシマバラシウエノマチ
+- full_address: 長崎県諫早市東小路町7-1
+  furigana: ナガサキケンイサハヤシヒガシコウジマチ
+- full_address: 長崎県大村市玖島1-25
+  furigana: ナガサキケンオオムラシクシマ 1
+- full_address: 長崎県平戸市岩の上町1508-3
+  furigana: ナガサキケンヒラドシイワノウエチョウ
+- full_address: 長崎県松浦市志佐町里免365
+  furigana: ナガサキケンマツウラシシサチョウアカギメン
+- full_address: 長崎県対馬市厳原町国分1441
+  furigana: ナガサキケンツシマシイヅハラマチコクブ
+- full_address: 長崎県壱岐市郷ノ浦町本村触562
+  furigana: ナガサキケンイキシゴウノウラチョウホンムラフレ
+- full_address: 長崎県五島市福江町1-1
+  furigana: ナガサキケンゴトウシフクエチョウ
+- full_address: 長崎県西海市大瀬戸町瀬戸樫浦郷2222
+  furigana: ナガサキケンサイカイシオオセトチョウセトカシノウラゴウ
+- full_address: 長崎県雲仙市吾妻町牛口名714
+  furigana: ナガサキケンウンゼンシアヅマチョウウシグチミョウ
+- full_address: 長崎県南島原市西有家町里坊96-2
+  furigana: ナガサキケンミナミシマバラシニシアリエチョウサトボウ
+- full_address: 長崎県西彼杵郡長与町嬉里郷659-1
+  furigana: ナガサキケンニシソノギグンナガヨチョウウレリゴウ
+- full_address: 長崎県西彼杵郡時津町浦郷274-1
+  furigana: ナガサキケンニシソノギグントギツチョウウラゴウ
+- full_address: 長崎県東彼杵郡東彼杵町蔵本郷1850-6
+  furigana: ナガサキケンヒガシソノギグンヒガシソノギチョウクラモトゴウ
+- full_address: 長崎県東彼杵郡川棚町中組郷1518-1
+  furigana: ナガサキケンヒガシソノギグンカワタナチョウナカグミゴウ
+- full_address: 長崎県東彼杵郡波佐見町宿郷660
+  furigana: ナガサキケンヒガシソノギグンハサミチョウシュクゴウ
+- full_address: 長崎県北松浦郡小値賀町笛吹郷2376-1
+  furigana: ナガサキケンキタマツウラグンオヂカチョウフエフキゴウ
+- full_address: 長崎県北松浦郡佐々町本田原免168-2
+  furigana: ナガサキケンキタマツウラグンサザチョウホンタバルメン
+- full_address: 長崎県南松浦郡新上五島町青方郷1585-1
+  furigana: ナガサキケンミナミマツウラグンシンカミゴトウチョウアオカタゴウ
+- full_address: 熊本県熊本市中央区手取本町1-1
+  furigana: クマモトケンクマモトシチュウオウクテトリホンチョウ
+- full_address: 熊本県熊本市中央区手取本町1-1
+  furigana: クマモトケンクマモトシチュウオウクテトリホンチョウ
+- full_address: 熊本県熊本市東区東本町16-30
+  furigana: クマモトケンクマモトシヒガシクヒガシホンマチ
+- full_address: 熊本県熊本市西区小島2丁目7-1
+  furigana: クマモトケンクマモトシニシクオシマ 2
+- full_address: 熊本県熊本市南区富合町清藤405-3
+  furigana: クマモトケンクマモトシミナミクトミアイマチキヨフジ
+- full_address: 熊本県熊本市北区植木町岩野238-1
+  furigana: クマモトケンクマモトシキタクウエキマチイワノ
+- full_address: 熊本県八代市松江城町1-25
+  furigana: クマモトケンヤツシロシマツエジョウマチ
+- full_address: 熊本県人吉市下城本町1578-1
+  furigana: クマモトケンヒトヨシシシモシロモトマチ
+- full_address: 熊本県荒尾市宮内出目390
+  furigana: クマモトケンアラオシクナイデメ
+- full_address: 熊本県水俣市陣内1-1-1
+  furigana: クマモトケンミナマタシジンナイ 1
+- full_address: 熊本県玉名市岩崎163
+  furigana: クマモトケンタマナシイワサキ
+- full_address: 熊本県山鹿市山鹿987-3
+  furigana: クマモトケンヤマガシヤマガ
+- full_address: 熊本県菊池市隈府888
+  furigana: クマモトケンキクチシワイフ
+- full_address: 熊本県宇土市浦田町51
+  furigana: クマモトケンウトシウラタマチ
+- full_address: 熊本県上天草市大矢野町上1514
+  furigana: クマモトケンカミアマクサシオオヤノマチカミ
+- full_address: 熊本県宇城市松橋町大野85
+  furigana: クマモトケンウキシマツバセマチオオノ
+- full_address: 熊本県阿蘇市一の宮町宮地504-1
+  furigana: クマモトケンアソシイチノミヤマチミヤジ
+- full_address: 熊本県天草市東浜町8-1
+  furigana: クマモトケンアマクサシヒガシハママチ
+- full_address: 熊本県合志市竹迫2140
+  furigana: クマモトケンコウシシタカバ
+- full_address: 熊本県下益城郡美里町馬場1100
+  furigana: クマモトケンシモマシキグンミサトマチババ
+- full_address: 熊本県玉名郡玉東町木葉759
+  furigana: クマモトケンタマナグンギョクトウマチ
+- full_address: 熊本県玉名郡南関町大字関町1316
+  furigana: クマモトケンタマナグンナンカンマチ
+- full_address: 熊本県玉名郡長洲町大字長洲2766
+  furigana: クマモトケンタマナグンナガスマチ
+- full_address: 熊本県玉名郡和水町江田3886
+  furigana: クマモトケンタマナグンナゴミマチエタ
+- full_address: 熊本県菊池郡大津町大字大津1233
+  furigana: クマモトケンキクチグンオオヅマチ
+- full_address: 熊本県菊池郡菊陽町大字久保田2800
+  furigana: クマモトケンキクチグンキクヨウマチ
+- full_address: 熊本県阿蘇郡南小国町大字赤馬場143
+  furigana: クマモトケンアソグンミナミオグニマチ
+- full_address: 熊本県阿蘇郡小国町大字宮原1567-1
+  furigana: クマモトケンアソグンオグニマチ
+- full_address: 熊本県阿蘇郡産山村山鹿488-3
+  furigana: クマモトケンアソグンウブヤマムラ
+- full_address: 熊本県阿蘇郡高森町大字高森2168
+  furigana: クマモトケンアソグンタカモリマチ
+- full_address: 熊本県阿蘇郡西原村大字小森3259
+  furigana: クマモトケンアソグンニシハラムラ
+- full_address: 熊本県阿蘇郡南阿蘇村大字河陽1705-1
+  furigana: クマモトケンアソグンミナミアソムラ
+- full_address: 熊本県上益城郡御船町大字御船995-1
+  furigana: クマモトケンカミマシキグンミフネマチ
+- full_address: 熊本県上益城郡嘉島町上島530
+  furigana: クマモトケンカミマシキグンカシママチ
+- full_address: 熊本県上益城郡益城町大字木山594
+  furigana: クマモトケンカミマシキグンマシキマチ
+- full_address: 熊本県上益城郡甲佐町豊内719-4
+  furigana: クマモトケンカミマシキグンコウサマチ
+- full_address: 熊本県上益城郡山都町浜町6
+  furigana: クマモトケンカミマシキグンヤマトチョウハママチ
+- full_address: 熊本県八代郡氷川町島地642
+  furigana: クマモトケンヤツシログンヒカワチョウシマチ
+- full_address: 熊本県葦北郡芦北町大字芦北2015
+  furigana: クマモトケンアシキタグンアシキタマチ
+- full_address: 熊本県葦北郡津奈木町大字小津奈木2123
+  furigana: クマモトケンアシキタグンツナギマチ
+- full_address: 熊本県球磨郡錦町大字一武1587
+  furigana: クマモトケンクマグンニシキマチ
+- full_address: 熊本県球磨郡多良木町大字多良木1648
+  furigana: クマモトケンクマグンタラギマチ
+- full_address: 熊本県球磨郡水上村大字岩野90
+  furigana: クマモトケンクマグンミズカミムラ
+- full_address: 熊本県球磨郡相良村大字深水2500-1
+  furigana: クマモトケンクマグンサガラムラ
+- full_address: 熊本県球磨郡五木村甲2672-7
+  furigana: クマモトケンクマグンイツキムラコウ
+- full_address: 熊本県球磨郡山江村大字山田甲1356-1
+  furigana: クマモトケンクマグンヤマエムラ
+- full_address: 熊本県球磨郡球磨村大字渡丙1730
+  furigana: クマモトケンクマグンクマムラ
+- full_address: 熊本県球磨郡あさぎり町免田東1199
+  furigana: クマモトケンクマグンアサギリチョウメンダヒガシ
+- full_address: 熊本県天草郡苓北町志岐660
+  furigana: クマモトケンアマクサグンレイホクマチシキ
+- full_address: 大分県大分市荷揚町2-31
+  furigana: オオイタケンオオイタシニアゲマチ
+- full_address: 大分県別府市上野口町1-15
+  furigana: オオイタケンベップシカミノグチチョウ
+- full_address: 大分県中津市豊田町14-3
+  furigana: オオイタケンナカツシトヨダマチ
+- full_address: 大分県日田市田島2-6-1
+  furigana: オオイタケンヒタシタシマ 2
+- full_address: 大分県佐伯市中村南町1-1
+  furigana: オオイタケンサイキシナカムラミナミマチ
+- full_address: 大分県臼杵市大字臼杵72-1
+  furigana: オオイタケンウスキシ
+- full_address: 大分県津久見市宮本町20-15
+  furigana: オオイタケンツクミシミヤモトマチ
+- full_address: 大分県竹田市大字会々1650
+  furigana: オオイタケンタケタシ
+- full_address: 大分県豊後高田市是永町39-3
+  furigana: オオイタケンブンゴタカダシコレナガマチ
+- full_address: 大分県杵築市大字杵築377-1
+  furigana: オオイタケンキツキシ
+- full_address: 大分県宇佐市大字上田1030-1
+  furigana: オオイタケンウサシ
+- full_address: 大分県豊後大野市三重町市場1200
+  furigana: オオイタケンブンゴオオノシミエマチイチバ
+- full_address: 大分県由布市庄内町柿原302
+  furigana: オオイタケンユフシショウナイチョウカキハル
+- full_address: 大分県国東市国東町鶴川149
+  furigana: オオイタケンクニサキシクニサキマチツルガワ
+- full_address: 大分県玖珠郡九重町大字後野上8-1
+  furigana: オオイタケンクスグンココノエマチ
+- full_address: 大分県玖珠郡玖珠町大字帆足268-5
+  furigana: オオイタケンクスグンクスマチ
+- full_address: 宮崎県宮崎市橘通西1-1-1
+  furigana: ミヤザキケンミヤザキシタチバナドオリニシ 1
+- full_address: 宮崎県都城市姫城町6街区21号
+  furigana: ミヤザキケンミヤコノジョウシヒメギチョウ
+- full_address: 宮崎県延岡市東本小路2-1
+  furigana: ミヤザキケンノベオカシヒガシホンコウジ
+- full_address: 宮崎県日南市中央通1-1-1
+  furigana: ミヤザキケンニチナンシチュウオウドオリ 1
+- full_address: 宮崎県小林市細野300
+  furigana: ミヤザキケンコバヤシシ
+- full_address: 宮崎県日向市本町10-5
+  furigana: ミヤザキケンヒュウガシホンマチ
+- full_address: 宮崎県串間市大字西方5550
+  furigana: ミヤザキケンクシマシ
+- full_address: 宮崎県西都市聖陵町2-1
+  furigana: ミヤザキケンサイトシセイリョウチョウ 2
+- full_address: 宮崎県えびの市大字栗下1292
+  furigana: ミヤザキケンエビノシ
+- full_address: 宮崎県北諸県郡三股町五本松1-1
+  furigana: ミヤザキケンキタモロカタグンミマタチョウゴホンマツ
+- full_address: 宮崎県西諸県郡高原町大字西麓899
+  furigana: ミヤザキケンニシモロカタグンタカハルチョウ
+- full_address: 宮崎県東諸県郡国富町大字本庄4800
+  furigana: ミヤザキケンヒガシモロカタグンクニトミチョウ
+- full_address: 宮崎県東諸県郡綾町大字南俣515
+  furigana: ミヤザキケンヒガシモロカタグンアヤチョウ
+- full_address: 宮崎県児湯郡高鍋町大字上江8437
+  furigana: ミヤザキケンコユグンタカナベチョウ
+- full_address: 宮崎県児湯郡新富町大字上富田7491
+  furigana: ミヤザキケンコユグンシントミチョウ
+- full_address: 宮崎県児湯郡西米良村大字村所15
+  furigana: ミヤザキケンコユグンニシメラソン
+- full_address: 宮崎県児湯郡木城町大字高城1227-1
+  furigana: ミヤザキケンコユグンキジョウチョウ
+- full_address: 宮崎県児湯郡川南町大字川南13680-1
+  furigana: ミヤザキケンコユグンカワミナミチョウ
+- full_address: 宮崎県児湯郡都農町大字川北4874-2
+  furigana: ミヤザキケンコユグンツノチョウ
+- full_address: 宮崎県東臼杵郡門川町本町1-1
+  furigana: ミヤザキケンヒガシウスキグンカドガワチョウホンマチ 1
+- full_address: 宮崎県東臼杵郡諸塚村大字家代2683
+  furigana: ミヤザキケンヒガシウスキグンモロツカソン
+- full_address: 宮崎県東臼杵郡椎葉村大字下福良1762-1
+  furigana: ミヤザキケンヒガシウスキグンシイバソン
+- full_address: 宮崎県西臼杵郡高千穂町大字三田井13
+  furigana: ミヤザキケンニシウスキグンタカチホチョウ
+- full_address: 宮崎県西臼杵郡日之影町大字七折9079番地
+  furigana: ミヤザキケンニシウスキグンヒノカゲチョウ
+- full_address: 宮崎県西臼杵郡五ヶ瀬町大字三ヶ所1670
+  furigana: ミヤザキケンニシウスキグンゴカセチョウ
+- full_address: 鹿児島県鹿児島市山下町11-1
+  furigana: カゴシマケンカゴシマシヤマシタチョウ
+- full_address: 鹿児島県鹿屋市共栄町20-1
+  furigana: カゴシマケンカノヤシキョウエイチョウ
+- full_address: 鹿児島県枕崎市千代田町27
+  furigana: カゴシマケンマクラザキシチヨダチョウ
+- full_address: 鹿児島県阿久根市鶴見町200
+  furigana: カゴシマケンアクネシツルミチョウ
+- full_address: 鹿児島県出水市緑町1-3
+  furigana: カゴシマケンイズミシミドリマチ
+- full_address: 鹿児島県指宿市十町2424
+  furigana: カゴシマケンイブスキシジュッチョウ
+- full_address: 鹿児島県西之表市西之表7612
+  furigana: カゴシマケンニシノオモテシニシノオモテ
+- full_address: 鹿児島県垂水市上町114
+  furigana: カゴシマケンタルミズシカンマチ
+- full_address: 鹿児島県薩摩川内市神田町3-22
+  furigana: カゴシマケンサツマセンダイシカンダチョウ
+- full_address: 鹿児島県日置市伊集院町郡1-100
+  furigana: カゴシマケンヒオキシイジュウインチョウコオリ 1
+- full_address: 鹿児島県曽於市末吉町二之方1980
+  furigana: カゴシマケンソオシスエヨシチョウニノカタ
+- full_address: 鹿児島県霧島市国分中央3-45-1
+  furigana: カゴシマケンキリシマシコクブチュウオウ 3
+- full_address: 鹿児島県いちき串木野市昭和通133-1
+  furigana: カゴシマケンイチキクシキノシショウワドオリ
+- full_address: 鹿児島県南さつま市加世田川畑2648
+  furigana: カゴシマケンミナミサツマシカセダカワバタ
+- full_address: 鹿児島県志布志市有明町野井倉1756
+  furigana: カゴシマケンシブシシアリアケチョウノイクラ
+- full_address: 鹿児島県奄美市名瀬幸町25-8
+  furigana: カゴシマケンアマミシナゼサイワイチョウ
+- full_address: 鹿児島県南九州市知覧町郡6204
+  furigana: カゴシマケンミナミキュウシュウシチランチョウコオリ
+- full_address: 鹿児島県伊佐市大口里1888
+  furigana: カゴシマケンイサシオオクチサト
+- full_address: 鹿児島県姶良市宮島町25
+  furigana: カゴシマケンアイラシミヤジママチ
+- full_address: 鹿児島県鹿児島市名山町12-18
+  furigana: カゴシマケンカゴシマシメイザンチョウ
+- full_address: 鹿児島県鹿児島市泉町14-15
+  furigana: カゴシマケンカゴシマシイズミチョウ
+- full_address: 鹿児島県薩摩郡さつま町宮之城屋地1565-2
+  furigana: カゴシマケンサツマグンサツマチョウミヤノジョウヤチ
+- full_address: 鹿児島県出水郡長島町鷹巣1875-1
+  furigana: カゴシマケンイズミグンナガシマチョウタカノス
+- full_address: 鹿児島県姶良郡湧水町木場222
+  furigana: カゴシマケンアイラグンユウスイチョウコバ
+- full_address: 鹿児島県曽於郡大崎町仮宿1029
+  furigana: カゴシマケンソオグンオオサキチョウカリジュク
+- full_address: 鹿児島県肝属郡東串良町川西1543
+  furigana: カゴシマケンキモツキグンヒガシクシラチョウカワニシ
+- full_address: 鹿児島県肝属郡錦江町城元963
+  furigana: カゴシマケンキモツキグンキンコウチョウシロモト
+- full_address: 鹿児島県肝属郡南大隅町根占川北226
+  furigana: カゴシマケンキモツキグンミナミオオスミチョウネジメカワキタ
+- full_address: 鹿児島県肝属郡肝付町新富98
+  furigana: カゴシマケンキモツキグンキモツキチョウニイトミ
+- full_address: 鹿児島県熊毛郡中種子町野間5186
+  furigana: カゴシマケンクマゲグンナカタネチョウノマ
+- full_address: 鹿児島県熊毛郡南種子町中之上2793-1
+  furigana: カゴシマケンクマゲグンミナミタネチョウナカノカミ
+- full_address: 鹿児島県熊毛郡屋久島町小瀬田849-20
+  furigana: カゴシマケンクマゲグンヤクシマチョウコセダ
+- full_address: 鹿児島県大島郡大和村大和浜100
+  furigana: カゴシマケンオオシマグンヤマトソン
+- full_address: 鹿児島県大島郡宇検村湯湾915
+  furigana: カゴシマケンオオシマグンウケンソン
+- full_address: 鹿児島県大島郡瀬戸内町古仁屋船津23
+  furigana: カゴシマケンオオシマグンセトウチチョウ
+- full_address: 鹿児島県大島郡龍郷町浦110
+  furigana: カゴシマケンオオシマグンタツゴウチョウウラ
+- full_address: 鹿児島県大島郡喜界町大字湾1746
+  furigana: カゴシマケンオオシマグンキカイチョウ
+- full_address: 鹿児島県大島郡徳之島町亀津7203
+  furigana: カゴシマケンオオシマグントクノシマチョウカメツ
+- full_address: 鹿児島県大島郡天城町平土野2691-1
+  furigana: カゴシマケンオオシマグンアマギチョウ
+- full_address: 鹿児島県大島郡伊仙町大字伊仙1842
+  furigana: カゴシマケンオオシマグンイセンチョウ
+- full_address: 鹿児島県大島郡和泊町和泊10
+  furigana: カゴシマケンオオシマグンワドマリチョウ
+- full_address: 鹿児島県大島郡知名町大字知名307
+  furigana: カゴシマケンオオシマグンチナチョウ
+- full_address: 鹿児島県大島郡与論町茶花1418-1
+  furigana: カゴシマケンオオシマグンヨロンチョウ
+- full_address: 沖縄県那覇市泉崎1-1-1
+  furigana: オキナワケンナハシイズミザキ 1
+- full_address: 沖縄県宜野湾市野嵩1-1-1
+  furigana: オキナワケンギノワンシノダケ 1
+- full_address: 沖縄県石垣市美崎町14
+  furigana: オキナワケンイシガキシミサキチョウ
+- full_address: 沖縄県浦添市安波茶1-1-1
+  furigana: オキナワケンウラソエシアハチャ 1
+- full_address: 沖縄県名護市港1-1-1
+  furigana: オキナワケンナゴシミナト 1
+- full_address: 沖縄県糸満市潮崎町1-1
+  furigana: オキナワケンイトマンシシオザキチョウ 1
+- full_address: 沖縄県沖縄市仲宗根町26-1
+  furigana: オキナワケンオキナワシナカソネチョウ
+- full_address: 沖縄県豊見城市宜保1-1-1
+  furigana: オキナワケントミグスクシギボ 1
+- full_address: 沖縄県うるま市みどり町1-1-1
+  furigana: オキナワケンウルマシミドリマチ 1
+- full_address: 沖縄県宮古島市平良字西里186
+  furigana: オキナワケンミヤコジマシヒラライケマ
+- full_address: 沖縄県南城市佐敷字新里1870
+  furigana: オキナワケンナンジョウシ
+- full_address: 沖縄県国頭郡国頭村字辺土名121
+  furigana: オキナワケンクニガミグンクニガミソン
+- full_address: 沖縄県国頭郡大宜味村字大兼久157
+  furigana: オキナワケンクニガミグンオオギミソン
+- full_address: 沖縄県国頭郡東村字平良804
+  furigana: オキナワケンクニガミグンヒガシソン
+- full_address: 沖縄県国頭郡今帰仁村字仲宗根219
+  furigana: オキナワケンクニガミグンナキジンソン
+- full_address: 沖縄県国頭郡本部町字東5
+  furigana: オキナワケンクニガミグンモトブチョウ
+- full_address: 沖縄県国頭郡恩納村字恩納2451
+  furigana: オキナワケンクニガミグンオンナソン
+- full_address: 沖縄県国頭郡宜野座村字宜野座296
+  furigana: オキナワケンクニガミグンギノザソン
+- full_address: 沖縄県国頭郡金武町字金武1
+  furigana: オキナワケンクニガミグンキンチョウ
+- full_address: 沖縄県国頭郡伊江村字東江前38
+  furigana: オキナワケンクニガミグンイエソン
+- full_address: 沖縄県中頭郡読谷村字座喜味2901
+  furigana: オキナワケンナカガミグンヨミタンソン
+- full_address: 沖縄県中頭郡嘉手納町字嘉手納588
+  furigana: オキナワケンナカガミグンカデナチョウ
+- full_address: 沖縄県中頭郡北谷町字桑江226
+  furigana: オキナワケンナカガミグンチャタンチョウ
+- full_address: 沖縄県中頭郡北中城村字喜舎場426-2
+  furigana: オキナワケンナカガミグンキタナカグスクソン
+- full_address: 沖縄県中頭郡中城村字当間585番地1
+  furigana: オキナワケンナカガミグンナカグスクソン
+- full_address: 沖縄県中頭郡西原町字与那城140-1
+  furigana: オキナワケンナカガミグンニシハラチョウ
+- full_address: 沖縄県島尻郡与那原町字上与那原16
+  furigana: オキナワケンシマジリグンヨナバルチョウ
+- full_address: 沖縄県島尻郡南風原町字兼城686
+  furigana: オキナワケンシマジリグンハエバルチョウ
+- full_address: 沖縄県島尻郡渡嘉敷村字渡嘉敷183
+  furigana: オキナワケンシマジリグントカシキソン
+- full_address: 沖縄県島尻郡座間味村座間味109
+  furigana: オキナワケンシマジリグンザマミソン
+- full_address: 沖縄県島尻郡粟国村字東367
+  furigana: オキナワケンシマジリグンアグニソン
+- full_address: 沖縄県島尻郡南大東村字南144-1
+  furigana: オキナワケンシマジリグンミナミダイトウソン
+- full_address: 沖縄県島尻郡北大東村字中野218
+  furigana: オキナワケンシマジリグンキタダイトウソン
+- full_address: 沖縄県島尻郡伊平屋村字我喜屋251
+  furigana: オキナワケンシマジリグンイヘヤソン
+- full_address: 沖縄県島尻郡伊是名村字仲田1203
+  furigana: オキナワケンシマジリグンイゼナソン
+- full_address: 沖縄県島尻郡久米島町字比嘉2870
+  furigana: オキナワケンシマジリグンクメジマチョウ
+- full_address: 沖縄県島尻郡八重瀬町字東風平1188
+  furigana: オキナワケンシマジリグンヤエセチョウ
+- full_address: 沖縄県宮古郡多良間村字仲筋99-2
+  furigana: オキナワケンミヤコグンタラマソン
+- full_address: 沖縄県石垣市美崎町11-1
+  furigana: オキナワケンイシガキシミサキチョウ
+- full_address: 沖縄県八重山郡与那国町字与那国129
+  furigana: オキナワケンヤエヤマグンヨナグニチョウ
