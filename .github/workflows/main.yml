@@ -27,5 +27,7 @@ jobs:
       with:
         ruby-version: ${{ matrix.ruby }}
         bundler-cache: true
+    - name: Set up JavaScript
+      uses: actions/setup-node@v2
     - name: Run the default task
       run: bundle exec rake
