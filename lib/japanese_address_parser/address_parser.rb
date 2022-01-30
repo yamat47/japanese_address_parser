@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'number_to_kanji'
 require_relative './models/address'
 require_relative './models/prefecture'
 

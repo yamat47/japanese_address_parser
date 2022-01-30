@@ -16,7 +16,7 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Removed
 
-- [#34](https://github.com/yamat47/japanese_address_parser/pull/34) 使わなくなったコードを整理整頓した。([@yamat47](https://github.com/yamat47))
+- [#34](https://github.com/yamat47/japanese_address_parser/pull/34) 使わなくなったコード・依存関係を整理整頓した。([@yamat47](https://github.com/yamat47))
 
 ### Fixed
 

@@ -30,7 +30,6 @@ require_relative 'lib/japanese_address_parser/version'
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| ::File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency('number_to_kanji')
   spec.add_dependency('schmooze')
   spec.add_development_dependency('activesupport', '< 7')
   spec.add_development_dependency('factory_bot')
