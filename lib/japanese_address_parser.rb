@@ -15,6 +15,8 @@ module JapaneseAddressParser
     normalize_japanese_addresses = ::JapaneseAddressParser::NormalizeJapaneseAddressesSchmoozer.new(::JapaneseAddressParser::JS_PACKAGE_PATH)
     result = normalize_japanese_addresses.normalize(full_address)
 
-    ::JapaneseAddressParser::AddressParser.call("#{result['pref']}#{result['city']}#{result['town']}#{result['addr']}")
+    # このライブラリで探索するのは町域まで。
+    # それ以降のデータを使って探索するとデータと名前が一致しないことがあるので、町域までのデータを使う。
+    ::JapaneseAddressParser::AddressParser.call("#{result['pref']}#{result['city']}#{result['town']}")
   end
 end
