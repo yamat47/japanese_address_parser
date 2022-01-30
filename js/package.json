@@ -1,0 +1,9 @@
+{
+  "name": "japanese_address_parser",
+  "private": true,
+  "description": "JapaneseAddressParserは日本の住所をパースすることができるRuby gemです。",
+  "dependencies": {
+    "@geolonia/normalize-japanese-addresses": "^2.4.0"
+  },
+  "devDependencies": {}
+}
