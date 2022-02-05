@@ -88,23 +88,9 @@ address.furigana #=> "トウキョウトミナトクシバコウエン 4"
 | `longitude` | 経度 | `"141.319722"` |
 </details>
 
-都道府県や市区町村、町域のそれぞれの属性の値は geolonia/japanese-addresses が提供している CSV ファイルの値そのままです。
+都道府県や市区町村、町域のそれぞれの属性の値は [geolonia/japanese-addresses](https://github.com/geolonia/japanese-addresses) が提供している CSV ファイルの値そのままです。
 
-与えられた住所からうまく地名が見つけられないときはそれ以降の探索を中止します。
-見つけられた地名のデータだけを含んだデータを返します。
-
-```ruby
-musashi = JapaneseAddressParser.call('武蔵国港区芝公園4-2-8')
-musashi.prefecture #=> nil
-musashi.city #=> nil
-musashi.town #=> nil
-
-kounan = JapaneseAddressParser.call('東京都港南区芝公園4-2-8')
-kounan.prefecture.name #=> "東京都"
-kounan.city #=> nil
-kounan.town #=> nil
-kounan.furigana #=> "トウキョウト"
-```
+何らかの理由で住所の解析に失敗したときは `JapaneseAddressParser::NormalizeError` を `raise` します。
 
 ## 開発
 開発に必要なライブラリをインストールするには、このコマンドを実行してください：
