@@ -1,4 +1,4 @@
-![CI Status](https://github.com/yamat47/japanese_address_parser/actions/workflows/main.yml/badge.svg) [![Gem Version](https://badge.fury.io/rb/japanese_address_parser.svg)](https://badge.fury.io/rb/japanese_address_parser)
+![CI Status](https://github.com/yamat47/japanese_address_parser/actions/workflows/main.yml/badge.svg) [![Gem Version](https://badge.fury.io/rb/japanese_address_parser.svg)](https://badge.fury.io/rb/japanese_address_parser) [![Maintainability](https://api.codeclimate.com/v1/badges/e9b7d0622cf6cc4143c3/maintainability)](https://codeclimate.com/github/yamat47/japanese_address_parser/maintainability)
 
 # JapaneseAddressParser
 JapaneseAddressParser は日本の住所をパースすることができる Ruby gem です。
