@@ -9,6 +9,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Changed
 
+- [#38](https://github.com/yamat47/japanese_address_parser/pull/38) 住所の解析に失敗したときに発生する例外のクラスを`JapaneseAddressParser::NormalizeError`に固定した。([@yamat47](https://github.com/yamat47))
+
 ### Deprecated
 
 ### Removed
