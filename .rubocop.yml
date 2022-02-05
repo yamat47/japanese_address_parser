@@ -24,10 +24,13 @@ Style/Copyright:
 Style/AsciiComments:
   Enabled: false
 
-# CSVのヘッダーの日本語を解釈するために日本語文字列のハッシュを許容する。
 Style/StringHashKeys:
   Exclude:
+    # CSVのヘッダーの日本語を解釈するために日本語文字列のハッシュを許容する。
     - lib/japanese_address_parser/csv_parser.rb
+
+    # ライブラリが返すハッシュのキーが文字列なので許容する。
+    - spec/japanese_address_parser/address_normalizer_spec.rb
 
 # elseがない場合にはcase文ではなくif文を許容する。
 Style/MissingElse:
