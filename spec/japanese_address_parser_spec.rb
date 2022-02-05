@@ -4,12 +4,10 @@ require 'yaml'
 
 ::RSpec.describe(::JapaneseAddressParser) do
   describe '.call' do
-    subject(:parsed_address) { described_class.call(full_address) }
-
     context '町域が含まれていないとき' do
-      let(:full_address) { '東京都北区' }
-
       it '市区町村まで解析できる' do
+        parsed_address = described_class.call('東京都北区')
+
         expect(parsed_address).to(be_a(::JapaneseAddressParser::Models::Address))
         expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
         expect(parsed_address.city).to(be_a(::JapaneseAddressParser::Models::City))
@@ -20,46 +18,54 @@ require 'yaml'
 
     ::YAML.load_file('spec/japanese_address_parser_spec/parsable_to_prefecture_addresses.yml').each do |address|
       context "#{address['full_address']}のとき" do
-        let(:full_address) { address['full_address'] }
-        let(:furigana)     { address['furigana']     }
-
         it '都道府県まで解析できる' do
+          parsed_address = described_class.call(address['full_address'])
+
           expect(parsed_address).to(be_a(::JapaneseAddressParser::Models::Address))
           expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
           expect(parsed_address.city).to(be_nil)
           expect(parsed_address.town).to(be_nil)
-          expect(parsed_address.furigana).to(eq(furigana))
+          expect(parsed_address.furigana).to(eq(address['furigana']))
         end
       end
     end
 
     ::YAML.load_file('spec/japanese_address_parser_spec/parsable_to_city_addresses.yml').each do |address|
       context "#{address['full_address']}のとき" do
-        let(:full_address) { address['full_address'] }
-        let(:furigana)     { address['furigana']     }
-
         it '市区町村まで解析できる' do
+          parsed_address = described_class.call(address['full_address'])
+
           expect(parsed_address).to(be_a(::JapaneseAddressParser::Models::Address))
           expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
           expect(parsed_address.city).to(be_a(::JapaneseAddressParser::Models::City))
           expect(parsed_address.town).to(be_nil)
-          expect(parsed_address.furigana).to(eq(furigana))
+          expect(parsed_address.furigana).to(eq(address['furigana']))
         end
       end
     end
 
     ::YAML.load_file('spec/japanese_address_parser_spec/addresses.yml').each do |address|
       context "#{address['full_address']}のとき" do
-        let(:full_address) { address['full_address'] }
-        let(:furigana)     { address['furigana']     }
-
         it '町域まで解析できる' do
+          parsed_address = described_class.call(address['full_address'])
+
           expect(parsed_address).to(be_a(::JapaneseAddressParser::Models::Address))
           expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
           expect(parsed_address.city).to(be_a(::JapaneseAddressParser::Models::City))
           expect(parsed_address.town).to(be_a(::JapaneseAddressParser::Models::Town))
-          expect(parsed_address.furigana).to(eq(furigana))
+          expect(parsed_address.furigana).to(eq(address['furigana']))
         end
+      end
+    end
+
+    context 'Schmoozerが例外を吐いたとき' do
+      before do
+        allow(::JapaneseAddressParser::AddressNormalizer::NormalizeJapaneseAddressesSchmoozer).to(receive(:call).and_raise(::Schmooze::JavaScript::FetchError))
+      end
+
+      specify '::JapaneseAddressParser::NormalizeErrorを吐くこと' do
+        expect { described_class.call('東京都渋谷区恵比寿1-1-1') }
+          .to(raise_error(::JapaneseAddressParser::NormalizeError))
       end
     end
   end
