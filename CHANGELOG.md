@@ -9,6 +9,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Changed
 
+- [#41](https://github.com/yamat47/japanese_address_parser/pull/41) 利用しているライブラリのバージョンを上げた。([@yamat47](https://github.com/yamat47))
+
 ### Deprecated
 
 ### Removed
