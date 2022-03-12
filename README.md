@@ -47,6 +47,7 @@ address.full_address #=> "東京都港区芝公園4-2-8"
 address.furigana #=> "トウキョウトミナトクシバコウエン 4"
 ```
 
+### 都道府県・市区町村・町域データの属性
 <details>
 <summary>都道府県データの属性</summary>
 
@@ -92,7 +93,16 @@ address.furigana #=> "トウキョウトミナトクシバコウエン 4"
 
 都道府県や市区町村、町域のそれぞれの属性の値は [geolonia/japanese-addresses](https://github.com/geolonia/japanese-addresses) が提供している CSV ファイルの値そのままです。
 
-何らかの理由で住所の解析に失敗したときは `JapaneseAddressParser::NormalizeError` を `raise` します。
+### `JapaneseAddressParser.call(address)`
+`address` の値を解析して、都道府県・市区町村・町域のデータを返します。
+
+なんらかの理由で住所の解析に失敗したときは `nil` を返します。
+
+### `JapaneseAddressParser.call!(address)`
+
+`address` の値を解析して、都道府県・市区町村・町域のデータを返します。
+
+なんらかの理由で住所の解析に失敗したときは `JapaneseAddressParser::NormalizeError` の例外を吐きます。
 
 ## 開発
 開発に必要なライブラリをインストールするには、このコマンドを実行してください：

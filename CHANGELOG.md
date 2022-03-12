@@ -7,6 +7,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ## [Unreleased]
 ### Added
 
+- [#44](https://github.com/yamat47/japanese_address_parser/pull/44) 住所の解析に失敗したときに例外を吐くモードと吐かないモードを使い分けられるようにした。([@yamat47](https://github.com/yamat47))
+
 ### Changed
 
 - [#43](https://github.com/yamat47/japanese_address_parser/pull/43) 町丁目データを取得する処理の効率を上げた。([@yamat47](https://github.com/yamat47))
