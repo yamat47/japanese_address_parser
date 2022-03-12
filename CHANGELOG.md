@@ -9,6 +9,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Changed
 
+- [#43](https://github.com/yamat47/japanese_address_parser/pull/43) 町丁目データを取得する処理の効率を上げた。([@yamat47](https://github.com/yamat47))
+
 ### Deprecated
 
 ### Removed
