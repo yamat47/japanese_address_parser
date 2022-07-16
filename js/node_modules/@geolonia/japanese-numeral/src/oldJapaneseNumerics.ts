@@ -7,6 +7,7 @@ const oldJapaneseNumerics: oldJapaneseNumericsType = {
   壱: '一',
   壹: '一',
   弐: '二',
+  弍: '二',
   貳: '二',
   貮: '二',
   参: '三',
