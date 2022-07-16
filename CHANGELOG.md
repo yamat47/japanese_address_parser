@@ -10,6 +10,7 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ### Changed
 
 - [#45](https://github.com/yamat47/japanese_address_parser/pull/45) geolonia/japanese-addressesのバージョンを上げた。([@yamat47](https://github.com/yamat47))
+- [#46](https://github.com/yamat47/japanese_address_parser/pull/46) CIでRSpecを並列実行させるようにした。([@yamat47](https://github.com/yamat47))
 
 ### Deprecated
 

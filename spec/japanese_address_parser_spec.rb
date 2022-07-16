@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'yaml'
+require_relative 'support/yaml_loader'
 
 ::RSpec.describe(::JapaneseAddressParser) do
   describe '.call' do
@@ -16,7 +16,7 @@ require 'yaml'
       end
     end
 
-    ::YAML.load_file('spec/japanese_address_parser_spec/parsable_to_prefecture_addresses.yml').each do |address|
+    ::YamlLoader.slice_load('spec/japanese_address_parser_spec/parsable_to_prefecture_addresses.yml').each do |address|
       context "#{address['full_address']}のとき" do
         it '都道府県まで解析できる' do
           parsed_address = described_class.call(address['full_address'])
@@ -30,7 +30,7 @@ require 'yaml'
       end
     end
 
-    ::YAML.load_file('spec/japanese_address_parser_spec/parsable_to_city_addresses.yml').each do |address|
+    ::YamlLoader.slice_load('spec/japanese_address_parser_spec/parsable_to_city_addresses.yml').each do |address|
       context "#{address['full_address']}のとき" do
         it '市区町村まで解析できる' do
           parsed_address = described_class.call(address['full_address'])
@@ -44,7 +44,7 @@ require 'yaml'
       end
     end
 
-    ::YAML.load_file('spec/japanese_address_parser_spec/addresses.yml').each do |address|
+    ::YamlLoader.slice_load('spec/japanese_address_parser_spec/addresses.yml').each do |address|
       context "#{address['full_address']}のとき" do
         it '町域まで解析できる' do
           parsed_address = described_class.call(address['full_address'])
@@ -82,7 +82,7 @@ require 'yaml'
       end
     end
 
-    ::YAML.load_file('spec/japanese_address_parser_spec/parsable_to_prefecture_addresses.yml').each do |address|
+    ::YamlLoader.slice_load('spec/japanese_address_parser_spec/parsable_to_prefecture_addresses.yml').each do |address|
       context "#{address['full_address']}のとき" do
         it '都道府県まで解析できる' do
           parsed_address = described_class.call!(address['full_address'])
@@ -96,7 +96,7 @@ require 'yaml'
       end
     end
 
-    ::YAML.load_file('spec/japanese_address_parser_spec/parsable_to_city_addresses.yml').each do |address|
+    ::YamlLoader.slice_load('spec/japanese_address_parser_spec/parsable_to_city_addresses.yml').each do |address|
       context "#{address['full_address']}のとき" do
         it '市区町村まで解析できる' do
           parsed_address = described_class.call!(address['full_address'])
@@ -110,7 +110,7 @@ require 'yaml'
       end
     end
 
-    ::YAML.load_file('spec/japanese_address_parser_spec/addresses.yml').each do |address|
+    ::YamlLoader.slice_load('spec/japanese_address_parser_spec/addresses.yml').each do |address|
       context "#{address['full_address']}のとき" do
         it '町域まで解析できる' do
           parsed_address = described_class.call!(address['full_address'])
