@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    japanese_address_parser (2.2.0)
+    japanese_address_parser (2.2.1)
       schmooze
 
 GEM
