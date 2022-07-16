@@ -77,7 +77,12 @@ export function kan2n(japanese: string) {
     if (kanji.match(/^[0-9]+$/)) {
       number = number + Number(kanji)
     } else {
-      number = number + japaneseNumerics[kanji]
+      for (let index = 0; index < kanji.length; index++) {
+        const char = kanji[index];
+        const digit = kanji.length - index - 1
+        number = number + japaneseNumerics[char] * (10 ** digit)
+
+      }
     }
   }
 

@@ -1,6 +1,6 @@
 {
   "name": "@geolonia/japanese-numeral",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "Converts Japanese Kanji numeral to number.",
   "main": "dist/index.js",
   "scripts": {
