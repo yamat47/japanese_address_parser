@@ -12,12 +12,7 @@ module JapaneseAddressParser
       def self.all
         filepath = Pathname(__FILE__).dirname.join('../data/prefectures.csv')
         ::CSV.table(filepath, converters: nil).map do |prefecture|
-          new(
-            code: prefecture[:code],
-            name: prefecture[:name],
-            name_kana: prefecture[:name_kana],
-            name_romaji: prefecture[:name_romaji]
-          )
+          new(code: prefecture[:code], name: prefecture[:name], name_kana: prefecture[:name_kana], name_romaji: prefecture[:name_romaji])
         end
       end
 
@@ -35,13 +30,7 @@ module JapaneseAddressParser
       def cities
         filepath = Pathname(__FILE__).dirname.join("../data/#{code}.csv")
         ::CSV.table(filepath, converters: nil).map do |city|
-          ::JapaneseAddressParser::Models::City.new(
-            code: city[:code],
-            prefecture_code: city[:prefecture_code],
-            name: city[:name],
-            name_kana: city[:name_kana],
-            name_romaji: city[:name_romaji]
-          )
+          ::JapaneseAddressParser::Models::City.new(code: city[:code], prefecture_code: city[:prefecture_code], name: city[:name], name_kana: city[:name_kana], name_romaji: city[:name_romaji])
         end
       end
     end
