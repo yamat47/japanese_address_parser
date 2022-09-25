@@ -7,8 +7,6 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ## [Unreleased]
 ### Added
 
-- [#49](https://github.com/yamat47/japanese_address_parser/pull/49) Dockerを使って開発環境の準備をできるようにした。([@yamat47](https://github.com/yamat47))
-
 ### Changed
 
 ### Deprecated
@@ -16,6 +14,13 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ### Removed
 
 ### Fixed
+
+### Security
+
+## [3.0.0] - 2022-09-25
+### Added
+
+- [#49](https://github.com/yamat47/japanese_address_parser/pull/49) Dockerを使って開発環境の準備をできるようにした。([@yamat47](https://github.com/yamat47))
 
 ### Security
 
