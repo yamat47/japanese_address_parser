@@ -19,14 +19,18 @@ module JapaneseAddressParser
     end
   end
 
+  module AddressParser
+    def self.call: (String full_address) -> Models::Address
+  end
+
   module Models
     class Address
-      def initialize: (full_address: String, prefecture: String, city: String, town: String) -> void
+      def initialize: (full_address: String, prefecture: Models::Prefecture?, city: Models::City?, town: Models::Town?) -> void
       def furigana: -> String
       attr_reader full_address: String
-      attr_reader prefecture: String
-      attr_reader city: String
-      attr_reader town: String
+      attr_reader prefecture: Models::Prefecture?
+      attr_reader city: Models::City?
+      attr_reader town: Models::Town?
     end
 
     class Town
