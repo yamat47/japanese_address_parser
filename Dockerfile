@@ -13,3 +13,5 @@ WORKDIR $APP_HOME
 COPY . $APP_HOME
 
 RUN bundle install
+
+CMD sh -c "/bin/sh"
