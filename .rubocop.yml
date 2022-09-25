@@ -36,3 +36,6 @@ Style/StringHashKeys:
 # elseがない場合にはcase文ではなくif文を許容する。
 Style/MissingElse:
   EnforcedStyle: case
+
+Gemspec/DependencyVersion:
+  EnforcedStyle: forbidden
