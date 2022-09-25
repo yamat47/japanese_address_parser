@@ -1,18 +1,18 @@
-D = Steep::Diagnostic
+# frozen_string_literal: true
 
 target :lib do
-  signature "sig"
+  signature 'sig'
 
-  check "lib"
-  ignore "lib/japanese_address_parser/csv_parser.rb"
+  check 'lib'
+  ignore 'lib/japanese_address_parser/csv_parser.rb'
 
-  configure_code_diagnostics(D::Ruby.strict)       # `strict` diagnostics setting
+  configure_code_diagnostics(::Steep::Diagnostic::Ruby.strict)
 end
 
 target :test do
-  signature "sig"
+  signature 'sig'
 
-  check "spec"
+  check 'spec'
 
-  configure_code_diagnostics(D::Ruby.strict)       # `strict` diagnostics setting
+  configure_code_diagnostics(::Steep::Diagnostic::Ruby.strict)
 end

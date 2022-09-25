@@ -38,7 +38,7 @@ require_relative 'lib/japanese_address_parser/version'
   spec.add_development_dependency('rubocop')
   spec.add_development_dependency('rubocop-rake')
   spec.add_development_dependency('rubocop-rspec')
-  spec.add_development_dependency('typeprof')
   spec.add_development_dependency('steep')
+  spec.add_development_dependency('typeprof')
   spec.metadata['rubygems_mfa_required'] = 'true'
 end
