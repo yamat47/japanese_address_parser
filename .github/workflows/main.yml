@@ -33,5 +33,7 @@ jobs:
         bundler-cache: true
     - name: Set up JavaScript
       uses: actions/setup-node@v2
+    - name: Steep check
+      run: bundle exec steep check
     - name: Run the default task
       run: bundle exec rake
