@@ -31,7 +31,7 @@ require_relative 'lib/japanese_address_parser/version'
   spec.require_paths = ['lib']
 
   spec.add_dependency('schmooze')
-  spec.add_development_dependency('activesupport', '< 7')
+  spec.add_development_dependency('activesupport')
   spec.add_development_dependency('factory_bot')
   spec.add_development_dependency('rake')
   spec.add_development_dependency('rspec')
