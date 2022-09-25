@@ -5,7 +5,7 @@ ENV LANG=C.UTF-8 \
 
 # `japanese_address_parser.gemspec` needs git.
 RUN apk update && \
-    apk add --virtual build-dependencies --no-cache git nodejs
+    apk add --virtual build-dependencies --no-cache git nodejs make gcc musl-dev
 
 RUN mkdir $APP_HOME
 WORKDIR $APP_HOME

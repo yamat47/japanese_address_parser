@@ -6,6 +6,7 @@ require:
 
 AllCops:
   EnabledByDefault: true
+  TargetRubyVersion: 2.7
 
 Metrics/BlockLength:
   Exclude:
@@ -35,3 +36,6 @@ Style/StringHashKeys:
 # elseがない場合にはcase文ではなくif文を許容する。
 Style/MissingElse:
   EnforcedStyle: case
+
+Gemspec/DependencyVersion:
+  EnforcedStyle: forbidden
