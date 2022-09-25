@@ -1,4 +1,81 @@
+# TypeProf 0.21.3
+
+# Classes
 module JapaneseAddressParser
   VERSION: String
-  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+
+  def self.call: (String full_address) -> Models::Address?
+  def self.call!: (String full_address) -> Models::Address
+  def self._call: (String full_address) -> Models::Address
+
+  module AddressNormalizer
+    def self.call: (String full_address) -> String
+
+    class NormalizeJapaneseAddressesSchmoozer < Schmooze::Base
+      JS_PACKAGE_PATH: String
+      JAPANESE_API_PATH: String
+
+      def self.call: (String full_address) -> String
+    end
+  end
+
+  module Models
+    class Address
+      def initialize: (full_address: String, prefecture: String, city: String, town: String) -> void
+      def furigana: -> String
+      attr_reader full_address: String
+      attr_reader prefecture: String
+      attr_reader city: String
+      attr_reader town: String
+    end
+
+    class Town
+      def initialize: (name: String, name_kana: String, name_romaji: String, nickname: String, latitude: String, longitude: String) -> void
+      def attributes: -> {name: String, name_kana: String, name_romaji: String, nickname: String, latitude: String, longitude: String}
+      attr_reader name: String
+      attr_reader name_kana: String
+      attr_reader name_romaji: String
+      attr_reader nickname: String
+      attr_reader latitude: String
+      attr_reader longitude: String
+    end
+
+    class City
+      def initialize: (code: String, prefecture_code: String, name: String, name_kana: String, name_romaji: String) -> void
+      def formatted_code: -> String
+      def attributes: -> {code: String, prefecture_code: String, name: String, name_kana: String, name_romaji: String}
+      def prefecture: -> Models::Prefecture?
+      def towns: -> Array[Models::Town]
+      attr_reader code: String
+      attr_reader prefecture_code: String
+      attr_reader name: String
+      attr_reader name_kana: String
+      attr_reader name_romaji: String
+    end
+
+    class Prefecture
+      def self.all: -> Array[Models::Prefecture]
+      def initialize: (code: String, name: String, name_kana: String, name_romaji: String) -> void
+      def attributes: -> {code: String, name: String, name_kana: String, name_romaji: String}
+      def cities: -> Array[Models::City]
+      attr_reader code: String
+      attr_reader name: String
+      attr_reader name_kana: String
+      attr_reader name_romaji: String
+    end
+  end
+
+  module CsvParser
+    HEADER_MAP: Hash[String, Symbol]
+
+    def self.call: -> Hash[untyped, untyped]
+    def self._find_or_build_prefecture: (Array[untyped] prefectures, untyped row) -> Models::Prefecture
+    def self._find_or_build_city: (Array[untyped] cities, Models::Prefecture current_prefecture, untyped row) -> Models::City
+    def self._find_town: (Array[untyped] towns, untyped row) -> nil
+    def self._build_town: (untyped row) -> Models::Town
+    def self._write_csv: (Hash[untyped, untyped] prefectures) -> Hash[untyped, untyped]
+    def self._write_prefectures_csv: (Array[untyped] prefectures) -> Array[untyped]
+    def self._write_cities_csv: (bot prefecture, untyped cities) -> untyped
+    def self._write_towns_csv: (untyped prefecture, untyped city, untyped towns) -> untyped
+  end
 end

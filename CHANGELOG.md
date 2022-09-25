@@ -7,6 +7,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ## [Unreleased]
 ### Added
 
+- [#53](https://github.com/yamat47/japanese_address_parser/pull/53) Steepでの型検査の仕組みを導入した。([@yamat47](https://github.com/yamat47))
+
 ### Changed
 
 ### Deprecated

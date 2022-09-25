@@ -1,0 +1,25 @@
+module Schmooze
+  class Base
+    def self.dependencies: (untyped deps) -> untyped
+
+    def self.finalize: (untyped stdin, untyped stdout, untyped stderr, untyped process_thread) -> untyped
+
+    def self.method: (untyped name, untyped code) -> untyped
+
+    public
+
+    def pid: () -> untyped
+
+    private
+
+    def call_js_method: (untyped method, untyped args) -> untyped
+
+    def ensure_packages_are_initiated: (untyped stdin, untyped stdout, untyped stderr, untyped process_thread) -> untyped
+
+    def ensure_process_is_spawned: () -> untyped
+
+    def initialize: (untyped root, ?untyped env) -> void
+
+    def spawn_process: () -> untyped
+  end
+end
