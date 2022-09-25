@@ -4,128 +4,70 @@
 module JapaneseAddressParser
   VERSION: String
 
-  def call: (untyped full_address) -> Models::Address?
-  def call!: (untyped full_address) -> Models::Address
-  def _call: (untyped full_address) -> Models::Address
-  def self.call: (untyped full_address) -> Models::Address?
-  def self.call!: (untyped full_address) -> Models::Address
-  def self._call: (untyped full_address) -> Models::Address
+  def self.call: (String full_address) -> Models::Address?
+  def self.call!: (String full_address) -> Models::Address
+  def self._call: (String full_address) -> Models::Address
 
   module AddressNormalizer
-    def call: (untyped full_address) -> untyped
-    def self.call: (untyped full_address) -> untyped
+    def self.call: (String full_address) -> String
 
     class NormalizeJapaneseAddressesSchmoozer < Schmooze::Base
       JS_PACKAGE_PATH: String
       JAPANESE_API_PATH: String
 
-      def self.call: (untyped full_address) -> untyped
+      def self.call: (String full_address) -> String
     end
-  end
-
-  class NormalizeError < StandardError
   end
 
   module Models
     class Address
-      attr_reader full_address: String
-      attr_reader prefecture: nil
-      attr_reader city: nil
-      attr_reader town: nil
-      def initialize: (full_address: String, prefecture: nil, city: nil, town: nil) -> void
-                    | (full_address: untyped, prefecture: untyped, city: untyped, town: untyped) -> void
-                    | (full_address: untyped, prefecture: untyped, city: untyped, town: untyped) -> void
-                    | (full_address: untyped, prefecture: untyped, city: untyped, town: untyped) -> void
+      def initialize: (full_address: String, prefecture: String, city: String, town: String) -> void
       def furigana: -> String
-                  | -> String
-                  | -> String
-                  | -> String
+      attr_reader full_address: String
+      attr_reader prefecture: String
+      attr_reader city: String
+      attr_reader town: String
     end
 
     class Town
-      attr_reader name: untyped
-      attr_reader name_kana: untyped
-      attr_reader name_romaji: untyped
-      attr_reader nickname: untyped
-      attr_reader latitude: untyped
-      attr_reader longitude: untyped
-      def initialize: (name: untyped, name_kana: untyped, name_romaji: untyped, nickname: untyped, latitude: untyped, longitude: untyped) -> void
-                    | (name: untyped, name_kana: untyped, name_romaji: untyped, nickname: untyped, latitude: untyped, longitude: untyped) -> void
-                    | (name: untyped, name_kana: untyped, name_romaji: untyped, nickname: untyped, latitude: untyped, longitude: untyped) -> void
-                    | (name: untyped, name_kana: untyped, name_romaji: untyped, nickname: untyped, latitude: untyped, longitude: untyped) -> void
-      def attributes: -> {name: untyped, name_kana: untyped, name_romaji: untyped, nickname: untyped, latitude: untyped, longitude: untyped}
-                    | -> {name: untyped, name_kana: untyped, name_romaji: untyped, nickname: untyped, latitude: untyped, longitude: untyped}
-                    | -> {name: untyped, name_kana: untyped, name_romaji: untyped, nickname: untyped, latitude: untyped, longitude: untyped}
-                    | -> {name: untyped, name_kana: untyped, name_romaji: untyped, nickname: untyped, latitude: untyped, longitude: untyped}
+      def initialize: (name: String, name_kana: String, name_romaji: String, nickname: String, latitude: String, longitude: String) -> void
+      def attributes: -> {name: String, name_kana: String, name_romaji: String, nickname: String, latitude: String, longitude: String}
+      attr_reader name: String
+      attr_reader name_kana: String
+      attr_reader name_romaji: String
+      attr_reader nickname: String
+      attr_reader latitude: String
+      attr_reader longitude: String
     end
 
     class City
-      attr_reader code: untyped
-      attr_reader prefecture_code: untyped
-      attr_reader name: untyped
-      attr_reader name_kana: untyped
-      attr_reader name_romaji: untyped
-      def initialize: (code: untyped, prefecture_code: untyped, name: untyped, name_kana: untyped, name_romaji: untyped) -> void
-                    | (code: untyped, prefecture_code: untyped, name: untyped, name_kana: untyped, name_romaji: untyped) -> void
-                    | (code: untyped, prefecture_code: untyped, name: untyped, name_kana: untyped, name_romaji: untyped) -> void
-                    | (code: untyped, prefecture_code: untyped, name: untyped, name_kana: untyped, name_romaji: untyped) -> void
+      def initialize: (code: String, prefecture_code: String, name: String, name_kana: String, name_romaji: String) -> void
       def formatted_code: -> String
-                        | -> String
-                        | -> String
-                        | -> String
-      def attributes: -> {code: untyped, formatted_code: String, prefecture_code: untyped, name: untyped, name_kana: untyped, name_romaji: untyped}
-                    | -> {code: untyped, formatted_code: String, prefecture_code: untyped, name: untyped, name_kana: untyped, name_romaji: untyped}
-                    | -> {code: untyped, formatted_code: String, prefecture_code: untyped, name: untyped, name_kana: untyped, name_romaji: untyped}
-                    | -> {code: untyped, formatted_code: String, prefecture_code: untyped, name: untyped, name_kana: untyped, name_romaji: untyped}
-      def prefecture: -> untyped
-                    | -> untyped
-                    | -> untyped
-                    | -> untyped
-      def towns: -> untyped
-               | -> untyped
-               | -> untyped
-               | -> untyped
+      def attributes: -> {code: String, prefecture_code: String, name: String, name_kana: String, name_romaji: String}
+      def prefecture: -> Models::Prefecture?
+      def towns: -> Array[Models::Town]
+      attr_reader code: String
+      attr_reader prefecture_code: String
+      attr_reader name: String
+      attr_reader name_kana: String
+      attr_reader name_romaji: String
     end
 
     class Prefecture
-      attr_reader code: untyped
-      attr_reader name: untyped
-      attr_reader name_kana: untyped
-      attr_reader name_romaji: untyped
-      def self.all: -> untyped
-                  | -> untyped
-                  | -> untyped
-      def initialize: (code: untyped, name: untyped, name_kana: untyped, name_romaji: untyped) -> void
-                    | (code: untyped, name: untyped, name_kana: untyped, name_romaji: untyped) -> void
-                    | (code: untyped, name: untyped, name_kana: untyped, name_romaji: untyped) -> void
-      def attributes: -> {code: untyped, name: untyped, name_kana: untyped, name_romaji: untyped}
-                    | -> {code: untyped, name: untyped, name_kana: untyped, name_romaji: untyped}
-                    | -> {code: untyped, name: untyped, name_kana: untyped, name_romaji: untyped}
-      def cities: -> untyped
-                | -> untyped
-                | -> untyped
+      def self.all: -> Array[Models::Prefecture]
+      def initialize: (code: String, name: String, name_kana: String, name_romaji: String) -> void
+      def attributes: -> {code: String, name: String, name_kana: String, name_romaji: String}
+      def cities: -> Array[Models::City]
+      attr_reader code: String
+      attr_reader name: String
+      attr_reader name_kana: String
+      attr_reader name_romaji: String
     end
   end
 
-  module AddressParser
-    def call: (String full_address) -> Models::Address
-    def _build_address: (full_address: String, ?prefecture: nil, ?city: nil, ?town: nil) -> Models::Address
-    def self.call: (String full_address) -> Models::Address
-    def self._build_address: (full_address: String, ?prefecture: nil, ?city: nil, ?town: nil) -> Models::Address
-  end
-
   module CsvParser
-    HEADER_MAP: Hash[String, :city_code | :city_name | :city_name_kana | :city_romaji | :latitude | :longitude | :prefecture_code | :prefecture_name | :prefecture_name_kana | :prefecture_romaji | :town_name | :town_name_kana | :town_name_romaji | :town_nickname]
+    HEADER_MAP: Hash[String, Symbol]
 
-    def call: -> Hash[untyped, untyped]
-    def _find_or_build_prefecture: (Array[untyped] prefectures, untyped row) -> Models::Prefecture
-    def _find_or_build_city: (Array[untyped] cities, Models::Prefecture current_prefecture, untyped row) -> Models::City
-    def _find_town: (Array[untyped] towns, untyped row) -> nil
-    def _build_town: (untyped row) -> Models::Town
-    def _write_csv: (Hash[untyped, untyped] prefectures) -> Hash[untyped, untyped]
-    def _write_prefectures_csv: (Array[untyped] prefectures) -> Array[untyped]
-    def _write_cities_csv: (bot prefecture, untyped cities) -> untyped
-    def _write_towns_csv: (untyped prefecture, untyped city, untyped towns) -> untyped
     def self.call: -> Hash[untyped, untyped]
     def self._find_or_build_prefecture: (Array[untyped] prefectures, untyped row) -> Models::Prefecture
     def self._find_or_build_city: (Array[untyped] cities, Models::Prefecture current_prefecture, untyped row) -> Models::City
@@ -136,9 +78,4 @@ module JapaneseAddressParser
     def self._write_cities_csv: (bot prefecture, untyped cities) -> untyped
     def self._write_towns_csv: (untyped prefecture, untyped city, untyped towns) -> untyped
   end
-end
-
-module YamlLoader
-  def slice_load: (String file) -> untyped
-  def self.slice_load: (String file) -> untyped
 end

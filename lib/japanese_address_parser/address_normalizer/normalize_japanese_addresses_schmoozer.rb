@@ -5,10 +5,12 @@ require 'schmooze'
 module JapaneseAddressParser
   module AddressNormalizer
     class NormalizeJapaneseAddressesSchmoozer < ::Schmooze::Base
-      JS_PACKAGE_PATH = ::File.expand_path('../../../js', __dir__)
+      current_dir = __dir__ || ''
+
+      JS_PACKAGE_PATH = ::File.expand_path('../../../js', current_dir)
       public_constant :JS_PACKAGE_PATH
 
-      JAPANESE_API_PATH = "file://#{::File.expand_path('../data/geolonia-japanese-addresses/api/ja', __dir__)}"
+      JAPANESE_API_PATH = "file://#{::File.expand_path('../data/geolonia-japanese-addresses/api/ja', current_dir)}"
       public_constant :JAPANESE_API_PATH
 
       dependencies normalize_japanese_addresses: '@geolonia/normalize-japanese-addresses'
