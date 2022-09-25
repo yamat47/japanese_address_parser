@@ -19,6 +19,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Security
 
+- [#51](https://github.com/yamat47/japanese_address_parser/pull/51) Ruby 2.6 のサポートを切った。([@yamat47](https://github.com/yamat47))
+
 ## [2.2.1] - 2022-07-16
 ### Changed
 
