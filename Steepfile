@@ -18,10 +18,12 @@ target :lib do
   # end
 end
 
-# target :test do
-#   signature "sig", "sig-private"
-#
-#   check "test"
-#
-#   # library "pathname", "set"       # Standard libraries
-# end
+target :test do
+  signature "sig"
+
+  check "spec"
+
+  # library "pathname", "set"       # Standard libraries
+
+  configure_code_diagnostics(D::Ruby.strict)       # `strict` diagnostics setting
+end
