@@ -111,6 +111,14 @@ address.furigana #=> "トウキョウトミナトクシバコウエン 4"
 bin/setup
 ```
 
+開発環境の構築は Docker を使ってもできます。
+MacOS でしか試していないので、他プラットフォームで動かなかったら issue でご報告ください。
+
+```
+docker compose build
+docker compose run --rm gemsrc sh
+```
+
 自動テストやリンターを実行するには、このコマンドを実行してください：
 
 ```
