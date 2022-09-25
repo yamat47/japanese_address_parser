@@ -6,6 +6,7 @@ require:
 
 AllCops:
   EnabledByDefault: true
+  TargetRubyVersion: 2.7
 
 Metrics/BlockLength:
   Exclude:
