@@ -6,7 +6,7 @@ JapaneseAddressParser は日本の住所をパースすることができる Rub
 住所のパースに使っているのは [geolonia/normalize-japanese-addresses](https://github.com/geolonia/normalize-japanese-addresses) です。
 npm のライブラリを Ruby のランタイムから呼び出しているため、Node が実行できる環境でしか動作しません。
 
-こちらのページで機能を試すことができます：[デモンストレーション | JapaneseAddressParser](https://japanese-address-parser-demo.herokuapp.com/)
+こちらのページで機能を試すことができます：[デモンストレーション | JapaneseAddressParser](https://japanese-address-parser-demo.fly.dev/)
 
 ## インストール
 
