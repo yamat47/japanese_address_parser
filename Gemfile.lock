@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    japanese_address_parser (3.0.1)
+    japanese_address_parser (3.0.2)
       schmooze
 
 GEM
@@ -88,6 +88,7 @@ GEM
 PLATFORMS
   aarch64-linux-musl
   arm64-darwin-21
+  arm64-darwin-22
   x86_64-darwin-21
   x86_64-linux
 
