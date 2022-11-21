@@ -7,6 +7,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ## [Unreleased]
 ### Added
 
+- [#61](https://github.com/yamat47/japanese_address_parser/pull/61) Dependabotを使ってsubmodulesやnpmライブラリが自動で更新される仕組みを作った。([@yamat47](https://github.com/yamat47))
+
 ### Changed
 
 ### Deprecated
