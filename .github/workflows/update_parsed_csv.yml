@@ -1,0 +1,27 @@
+name: Update parsed csv
+on:
+  pull_request:
+    branches:
+      # /geolonia-japanese-addressesのサブモジュールが更新されたプルリクエストに対してのみ実行する。
+      - 'dependabot/submodules/geolonia-japanese-addresses**'
+
+jobs:
+  update_parsed_csv:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1'
+        bundler-cache: true
+    - name: Update parsed csv
+      run: bundle exec rake japanese_address_parser:parse_csv
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v9
+      with:
+        add: lib/japanese_address_parser/data
+        default_author: github_actor
+        message: '[Automatic] Update parsed csv.'
