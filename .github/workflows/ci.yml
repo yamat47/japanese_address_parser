@@ -1,5 +1,4 @@
-name: Ruby
-
+name: CI
 on:
   push:
     branches:
