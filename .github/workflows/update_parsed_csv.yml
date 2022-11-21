@@ -1,12 +1,13 @@
 name: Update parsed csv
 on:
   pull_request:
-    branches:
-      # /geolonia-japanese-addressesのサブモジュールが更新されたプルリクエストに対してのみ実行する。
-      - 'dependabot/submodules/geolonia-japanese-addresses**'
+    types: [opened]
 
 jobs:
   update_parsed_csv:
+    # /jsの中のnpmパッケージが更新されたプルリクエストに対してのみ実行する。
+    if:  startsWith(github.head_ref, 'dependabot/submodules/geolonia-japanese-addresses')
+
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -24,4 +25,5 @@ jobs:
       with:
         add: lib/japanese_address_parser/data
         default_author: github_actor
+        new_branch: ${{ github.head_ref }}
         message: '[Automatic] Update parsed csv.'
