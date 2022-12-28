@@ -17,6 +17,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 賢堂,カシコド,KASHIKODO,,34.307734,135.614313
 柏原,カセバラ,KASEBARA,,34.320947,135.585871
 学文路,カムロ,KAMURO,,34.290339,135.582412
+学文路,カムロ,KAMURO,安田嶋,34.292708,135.572485
 岸上,キシカミ,KISHIKAMI,,34.310249,135.586099
 北馬場,キタババ,KITABABA,,34.328534,135.613592
 北宿,キタヤドリ,KITAYADORI,,34.257143,135.662545
@@ -32,6 +33,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 高野口町応其,コウヤグチチョウオウゴ,KOYAGUCHICHO OGO,,34.322972,135.567349
 高野口町大野,コウヤグチチョウオオノ,KOYAGUCHICHO ONO,,34.313126,135.548272
 高野口町小田,コウヤグチチョウオダ,KOYAGUCHICHO ODA,,34.298158,135.562016
+高野口町小田,コウヤグチチョウオダ,KOYAGUCHICHO ODA,宮田,34.30069,135.564839
 高野口町上中,コウヤグチチョウカミナカ,KOYAGUCHICHO KAMINAKA,,34.333589,135.546489
 高野口町九重,コウヤグチチョウクジュウ,KOYAGUCHICHO KUJU,,34.344484,135.547955
 高野口町嵯峨谷,コウヤグチチョウサガタニ,KOYAGUCHICHO SAGATANI,,34.336968,135.538583
@@ -41,6 +43,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 高野口町名倉,コウヤグチチョウナグラ,KOYAGUCHICHO NAGURA,,34.311202,135.557822
 高野口町名古曽,コウヤグチチョウナゴソ,KOYAGUCHICHO NAGOSO,,34.311025,135.564429
 高野口町伏原,コウヤグチチョウフシハラ,KOYAGUCHICHO FUSHIHARA,,34.304675,135.572442
+高野口町伏原,コウヤグチチョウフシハラ,KOYAGUCHICHO FUSHIHARA,越ヶ坪,34.303936,135.569607
 高野口町向島,コウヤグチチョウムコウジマ,KOYAGUCHICHO MUKOJIMA,,34.298841,135.55331
 光陽台一丁目,コウヨウダイ 1,KOYODAI 1,,34.367038,135.60567
 光陽台二丁目,コウヨウダイ 2,KOYODAI 2,,34.369314,135.605335
@@ -112,6 +115,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 山田,ヤマダ,YAMADA,,34.350732,135.57477
 横座,ヨコザ,YOKOZA,,34.297023,135.625064
 吉原,ヨシハラ,YOSHIHARA,,34.339185,135.563899
-高野口町小田,コウヤグチチョウオダ,KOYAGUCHICHO ODA,宮田,34.30069,135.564839
-高野口町伏原,コウヤグチチョウフシハラ,KOYAGUCHICHO FUSHIHARA,越ヶ坪,34.303936,135.569607
-学文路,カムロ,KAMURO,安田嶋,34.292708,135.572485

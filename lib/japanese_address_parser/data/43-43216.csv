@@ -2,6 +2,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 合生,アイオイ,AIOI,,32.90956,130.762844
 上庄,カミノショウ,KAMINOSHO,,32.904266,130.790324
 幾久富,キクドミ,KIKUDOMI,,32.887196,130.789145
+幾久富,キクドミ,KIKUDOMI,中沖野,32.871588,130.779891
 栄,サカエ,SAKAE,,32.895469,130.76906
 須屋,スヤ,SUYA,,32.868852,130.742914
 竹迫,タカバ,TAKABA,,32.893684,130.821238
@@ -10,4 +11,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 福原,フクハラ,FUKUHARA,,32.883961,130.807359
 御代志,ミヨシ,MIYOSHI,,32.897017,130.753317
 上生,ワブ,WABU,,32.920697,130.732869
-幾久富,キクドミ,KIKUDOMI,中沖野,32.871588,130.779891

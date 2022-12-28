@@ -17,8 +17,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 安曇川町中央三丁目,アドガワチョウチュウオウ 3,ADOGAWACHO CHUO 3,,35.327633,136.016275
 安曇川町中央四丁目,アドガワチョウチュウオウ 4,ADOGAWACHO CHUO 4,,35.329862,136.017313
 安曇川町常磐木,アドガワチョウトキワギ,ADOGAWACHO TOKIWAGI,,35.343484,136.015977
-安曇川町長尾,アドガワチョウナガオ,ADOGAWACHO NAGAO,,35.353645,135.957531
 安曇川町中野,アドガワチョウナカノ,ADOGAWACHO NAKANO,,35.347359,135.970786
+安曇川町長尾,アドガワチョウナガオ,ADOGAWACHO NAGAO,,35.353645,135.957531
 安曇川町西万木,アドガワチョウニシユルギ,ADOGAWACHO NISHIYURUGI,,35.33145,136.027222
 安曇川町三尾里,アドガワチョウミオザト,ADOGAWACHO MIOZATO,,35.323791,136.015734
 安曇川町南古賀,アドガワチョウミナミコガ,ADOGAWACHO MINAMIKOGA,,35.345559,135.993816
@@ -67,6 +67,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 鵜川,ウカワ,UKAWA,,35.276893,135.98746
 音羽,オトワ,OTOWA,,35.295083,135.9915
 勝野,カツノ,KATSUNO,,35.292926,136.002547
+勝野,カツノ,KATSUNO,尾萱,35.300286,136.015142
 鴨,カモ,KAMO,,35.313827,136.018133
 鴨川平一丁目,カモガワダイラ 1,KAMOGAWADAIRA 1,,35.311487,135.991355
 鴨川平二丁目,カモガワダイラ 2,KAMOGAWADAIRA 2,,35.311348,135.992665
@@ -148,4 +149,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 マキノ町山中,マキノチョウヤマナカ,MAKINOCHO YAMANAKA,,35.496219,136.071206
 宮野,ミヤノ,MIYANO,,35.309736,135.998851
 武曽横山,ムソヨコヤマ,MUSOYOKOYAMA,,35.328437,135.963376
-勝野,カツノ,KATSUNO,尾萱,35.300286,136.015142

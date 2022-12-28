@@ -1,9 +1,11 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
+東市来町美山元寺脇,,,,31.637083,130.359361
 伊集院町飯牟礼,イジュウインチョウイイムレ,IJUINCHO IIMURE,,31.608085,130.38477
 伊集院町猪鹿倉,イジュウインチョウイガクラ,IJUINCHO IGAKURA,,31.629076,130.406427
 伊集院町大田,イジュウインチョウオオタ,IJUINCHO OTA,,31.626574,130.374984
 伊集院町上神殿,イジュウインチョウカミコウドノ,IJUINCHO KAMIKODONO,,31.679965,130.431397
 伊集院町清藤,イジュウインチョウキヨフジ,IJUINCHO KIYOFUJI,,31.627368,130.424452
+伊集院町清藤,イジュウインチョウキヨフジ,IJUINCHO KIYOFUJI,下大迫,31.622537,130.41373
 伊集院町桑畑,イジュウインチョウクワバタ,IJUINCHO KUWABATA,,31.654891,130.395711
 伊集院町恋之原,イジュウインチョウコイノハラ,IJUINCHO KOINOHARA,,31.602529,130.409166
 伊集院町郡,イジュウインチョウコオリ,IJUINCHO KORI,,31.641096,130.410339
@@ -16,6 +18,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 伊集院町寺脇,イジュウインチョウテラワキ,IJUINCHO TERAWAKI,,31.637262,130.375816
 伊集院町徳重,イジュウインチョウトクシゲ,IJUINCHO TOKUSHIGE,,31.633696,130.393265
 伊集院町中川,イジュウインチョウナカガワ,IJUINCHO NAKAGAWA,,31.649889,130.453131
+伊集院町中川,イジュウインチョウナカガワ,IJUINCHO NAKAGAWA,田子山,31.651883,130.455287
 伊集院町野田,イジュウインチョウノダ,IJUINCHO NODA,,31.649144,130.381964
 伊集院町古城,イジュウインチョウフルジョウ,IJUINCHO FURUJO,,31.594765,130.393495
 伊集院町妙円寺一丁目,イジュウインチョウミョウエンジ 1,IJUINCHO MYOENJI 1,,31.643057,130.397033
@@ -29,7 +32,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 東市来町南神之川,ヒガシイチキチョウミナミカミノカワ,HIGASHIICHIKICHO MINAMIKAMINOKAWA,,31.621543,130.335724
 東市来町宮田,ヒガシイチキチョウミヤタ,HIGASHIICHIKICHO MIYATA,,31.628862,130.346573
 東市来町美山,ヒガシイチキチョウミヤマ,HIGASHIICHIKICHO MIYAMA,,31.642625,130.361508
-東市来町美山元寺脇,,,,31.637083,130.359361
 東市来町湯田,ヒガシイチキチョウユダ,HIGASHIICHIKICHO YUDA,,31.681211,130.34435
 東市来町養母,ヒガシイチキチョウヨウボ,HIGASHIICHIKICHO YOBO,,31.691203,130.397085
 日吉町神之川,ヒヨシチョウカミノカワ,HIYOSHICHO KAMINOKAWA,,31.610138,130.335571
@@ -47,5 +49,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 吹上町湯之浦,フキアゲチョウユノウラ,FUKIAGECHO YUNORA,,31.508163,130.397098
 吹上町与倉,フキアゲチョウヨクラ,FUKIAGECHO YOKURA,,31.526426,130.419398
 吹上町和田,フキアゲチョウワダ,FUKIAGECHO WADA,,31.488795,130.38462
-伊集院町清藤,イジュウインチョウキヨフジ,IJUINCHO KIYOFUJI,下大迫,31.622537,130.41373
-伊集院町中川,イジュウインチョウナカガワ,IJUINCHO NAKAGAWA,田子山,31.651883,130.455287

@@ -25,6 +25,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 福丸,フクマル,FUKUMARU,,33.727514,130.62462
 縁山畑,ヘリヤマハタ,HERIYAMAHATA,,33.664039,130.5755
 本城,ホンジョウ,HONJO,,33.733168,130.673042
+本城,ホンジョウ,HONJO,平田,33.731084,130.679703
 水原,ミズハラ,MIZUHARA,,33.741172,130.622036
 宮田,ミヤタ,MIYATA,,33.703942,130.652051
 宮永,ミヤナガ,MIYANAGA,,33.729816,130.586674
@@ -32,4 +33,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 湯原,ユバル,YUBARU,,33.689089,130.596615
 龍徳,リュウトク,RYUTOKU,,33.737702,130.69768
 脇田,ワキタ,WAKITA,,33.685482,130.57569
-本城,ホンジョウ,HONJO,平田,33.731084,130.679703

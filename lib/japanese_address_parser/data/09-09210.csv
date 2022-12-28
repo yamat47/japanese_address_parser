@@ -25,6 +25,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 片府田,カタフタ,KATAFUTA,,36.820584,140.061583
 鹿畑,カバタ,KABATA,,36.84175,140.076639
 上石上,カミイシガミ,KAMIISHIGAMI,,36.865211,139.938323
+上石上,カミイシガミ,KAMIISHIGAMI,東山,36.866319,139.948853
 上奥沢,カミオクサワ,KAMIOKUSAWA,,36.868025,140.055886
 亀久,カメヒサ,KAMEHISA,,36.813839,140.154865
 川上,カワカミ,KAWAKAMI,,36.881472,140.21173
@@ -109,4 +110,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 若草一丁目,ワカクサ 1,WAKAKUSA 1,,36.851805,140.04002
 若草二丁目,ワカクサ 2,WAKAKUSA 2,,36.855995,140.042967
 若松町,ワカマツチョウ,WAKAMATSUCHO,,36.858707,140.025638
-上石上,カミイシガミ,KAMIISHIGAMI,東山,36.866319,139.948853

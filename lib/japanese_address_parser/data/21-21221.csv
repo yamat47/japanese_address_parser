@@ -1,4 +1,5 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
+南濃町駒野奥条入会地,,,,35.222226,136.598451
 海津町秋江,カイヅチョウアキエ,KAIZUCHO AKIE,,35.228767,136.669667
 海津町油島,カイヅチョウアブラジマ,KAIZUCHO ABURAJIMA,,35.144058,136.668488
 海津町石亀,カイヅチョウイシガメ,KAIZUCHO ISHIGAME,,35.188296,136.66096
@@ -10,8 +11,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 海津町神桐,カイヅチョウカミギリ,KAIZUCHO KAMIGIRI,,35.24002,136.663559
 海津町萱野,カイヅチョウカヤノ,KAIZUCHO KAYANO,,35.211169,136.638788
 海津町草場,カイヅチョウクサバ,KAIZUCHO KUSABA,,35.218793,136.65895
-海津町五町,カイヅチョウゴチョウ,KAIZUCHO GOCHO,,35.204707,136.641811
 海津町駒ケ江,カイヅチョウコマガエ,KAIZUCHO KOMAGAE,,35.213237,136.671748
+海津町五町,カイヅチョウゴチョウ,KAIZUCHO GOCHO,,35.204707,136.641811
 海津町七右衛門新田,カイヅチョウシチウエモンシンデン,KAIZUCHO SHICHIUEMONSHINDEN,,35.165208,136.651624
 海津町瀬古,カイヅチョウセコ,KAIZUCHO SEKO,,35.24598,136.664337
 海津町外浜,カイヅチョウソトハマ,KAIZUCHO SOTOHAMA,,35.187323,136.668168
@@ -38,6 +39,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 海津町本阿弥新田,カイヅチョウホンナミシンデン,KAIZUCHO HONNAMISHINDEN,,35.194191,136.63831
 海津町松木,カイヅチョウマツノキ,KAIZUCHO MATSUNOKI,,35.245878,136.658121
 海津町馬目,カイヅチョウマノメ,KAIZUCHO MANOME,,35.221904,136.643631
+海津町馬目,カイヅチョウマノメ,KAIZUCHO MANOME,西方,35.223948,136.635171
 海津町万寿新田,カイヅチョウマンジュシンデン,KAIZUCHO MANJUSHINDEN,,35.169445,136.657319
 海津町宮地,カイヅチョウミヤジ,KAIZUCHO MIYAJI,,35.195093,136.629591
 海津町森下,カイヅチョウモリシタ,KAIZUCHO MORISHITA,,35.183559,136.665552
@@ -47,7 +49,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 南濃町太田,ナンノウチョウオオタ,NANNOCHO OTA,,35.179568,136.615286
 南濃町奥条,ナンノウチョウオクジョウ,NANNOCHO OKUJO,,35.204993,136.584241
 南濃町駒野,ナンノウチョウコマノ,NANNOCHO KOMANO,,35.222585,136.605876
-南濃町駒野奥条入会地,,,,35.222226,136.598451
 南濃町駒野新田,ナンノウチョウコマノシンデン,NANNOCHO KOMANOSHINDEN,,35.23555,136.597945
 南濃町境,ナンノウチョウサカイ,NANNOCHO SAKAI,,35.152826,136.640043
 南濃町志津,ナンノウチョウシヅ,NANNOCHO SHIZU,,35.238832,136.570506
@@ -77,4 +78,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 平田町幡長,ヒラタチョウハタオサ,HIRATACHO HATAOSA,,35.26835,136.663174
 平田町仏師川,ヒラタチョウブシガワ,HIRATACHO BUSHIGAWA,,35.257485,136.636515
 平田町脇野,ヒラタチョウワキノ,HIRATACHO WAKINO,,35.232123,136.624861
-海津町馬目,カイヅチョウマノメ,KAIZUCHO MANOME,西方,35.223948,136.635171

@@ -4,6 +4,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 池之尻町,イケノシリチョウ,IKENOSHIRICHO,,34.11392,133.68966
 伊吹町,イブキチョウ,IBUKICHO,,34.13045,133.535408
 植田町,ウエダチョウ,UEDACHO,,34.124153,133.676704
+植田町,ウエダチョウ,UEDACHO,東原,34.123346,133.684571
 大野原町青岡,オオノハラチョウアオオカ,ONOHARACHO AOKA,,34.095797,133.677603
 大野原町有木,オオノハラチョウアリキ,ONOHARACHO ARIKI,,34.033976,133.708414
 大野原町井関,オオノハラチョウイセキ,ONOHARACHO ISEKI,,34.05771,133.68374
@@ -17,6 +18,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 大野原町福田原,オオノハラチョウフクダハラ,ONOHARACHO FUKUDAHARA,,34.074871,133.694292
 大野原町丸井,オオノハラチョウマルイ,ONOHARACHO MARUI,,34.073799,133.706198
 観音寺町,カンオンジチョウ,KANONJICHO,,34.128352,133.649947
+観音寺町,カンオンジチョウ,KANONJICHO,白浜,34.12737,133.654097
 木之郷町,キノゴウチョウ,KINOGOCHO,,34.10365,133.681442
 柞田町,クニタチョウ,KUNITACHO,,34.104938,133.654831
 琴浪町一丁目,コトナミチョウ 1,KOTONAMICHO 1,,34.124344,133.639796
@@ -44,6 +46,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 茂西町一丁目,シゲニシチョウ 1,SHIGENISHICHO 1,,34.132005,133.656241
 茂西町二丁目,シゲニシチョウ 2,SHIGENISHICHO 2,,34.133293,133.655085
 出作町,シュツサクチョウ,SHUTSUSAKUCHO,,34.117447,133.676002
+出作町,シュツサクチョウ,SHUTSUSAKUCHO,川西,34.116712,133.675727
 昭和町一丁目,ショウワチョウ 1,SHOWACHO 1,,34.122256,133.655319
 昭和町二丁目,ショウワチョウ 2,SHOWACHO 2,,34.120584,133.657028
 昭和町三丁目,ショウワチョウ 3,SHOWACHO 3,,34.121326,133.652097
@@ -57,6 +60,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 天神町二丁目,テンジンチョウ 2,TENJINCHO 2,,34.129707,133.658029
 天神町三丁目,テンジンチョウ 3,TENJINCHO 3,,34.13032,133.656365
 豊浜町姫浜,トヨハマチョウヒメハマ,TOYOHAMACHO HIMEHAMA,,34.082918,133.640226
+豊浜町姫浜,トヨハマチョウヒメハマ,TOYOHAMACHO HIMEHAMA,芝原,34.084395,133.641112
 豊浜町箕浦,トヨハマチョウミノウラ,TOYOHAMACHO MINORA,,34.047857,133.631029
 豊浜町和田,トヨハマチョウワダ,TOYOHAMACHO WADA,,34.059646,133.654313
 豊浜町和田浜,トヨハマチョウワダハマ,TOYOHAMACHO WADAHAMA,,34.073198,133.638434
@@ -66,6 +70,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 西本町二丁目,ニシホンマチ 2,NISHIHOMMACHI 2,,34.126471,133.644432
 原町,ハラチョウ,HARACHO,,34.111123,133.707088
 古川町,フルカワチョウ,FURUKAWACHO,,34.126827,133.695349
+古川町,フルカワチョウ,FURUKAWACHO,切石,34.130733,133.692676
 港町一丁目,ミナトマチ 1,MINATOMACHI 1,,34.127246,133.639914
 港町二丁目,ミナトマチ 2,MINATOMACHI 2,,34.126385,133.639742
 南町一丁目,ミナミマチ 1,MINAMIMACHI 1,,34.124258,133.647776
@@ -80,9 +85,4 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 八幡町二丁目,ヤハタチョウ 2,YAHATACHO 2,,34.137459,133.648026
 八幡町三丁目,ヤハタチョウ 3,YAHATACHO 3,,34.136856,133.654134
 吉岡町,ヨシオカチョウ,YOSHIOKACHO,,34.130727,133.688901
-豊浜町姫浜,トヨハマチョウヒメハマ,TOYOHAMACHO HIMEHAMA,芝原,34.084395,133.641112
-観音寺町,カンオンジチョウ,KANONJICHO,白浜,34.12737,133.654097
-出作町,シュツサクチョウ,SHUTSUSAKUCHO,川西,34.116712,133.675727
-植田町,ウエダチョウ,UEDACHO,東原,34.123346,133.684571
 吉岡町,ヨシオカチョウ,YOSHIOKACHO,道上,34.126867,133.687973
-古川町,フルカワチョウ,FURUKAWACHO,切石,34.130733,133.692676

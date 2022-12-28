@@ -29,8 +29,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 郡元三丁目,コオリモト 3,KORIMOTO 3,,31.746263,131.086457
 郡元四丁目,コオリモト 4,KORIMOTO 4,,31.746358,131.090909
 郡元町,コオリモトチョウ,KORIMOTOCHO,,31.744803,131.097372
-五十町,ゴジッチョウ,GOJITCHO,,31.70835,131.038848
 小松原町,コマツバラチョウ,KOMATSUBARACHO,,31.733545,131.07051
+五十町,ゴジッチョウ,GOJITCHO,,31.70835,131.038848
 栄町,サカエマチ,SAKAEMACHI,,31.73512,131.07734
 志比田町,シビタチョウ,SHIBITACHO,,31.745334,131.057312
 下川東一丁目,シモカワヒガシ 1,SHIMOKAWAHIGASHI 1,,31.739224,131.068389
@@ -43,7 +43,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 神之山町,ジンノヤマチョウ,JINNOYAMACHO,,31.753399,131.096634
 関之尾町,セキノオチョウ,SEKINOCHO,,31.762037,131.002898
 千町,センチョウ,SENCHO,,31.737596,131.083748
-大王町,ダイオウチョウ,DAIOCHO,,31.732793,131.063007
 鷹尾一丁目,タカオ 1,TAKAO 1,,31.726828,131.051341
 鷹尾二丁目,タカオ 2,TAKAO 2,,31.721568,131.045075
 鷹尾三丁目,タカオ 3,TAKAO 3,,31.725458,131.044188
@@ -66,6 +65,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 高野町,タカノチョウ,TAKANOCHO,,31.815395,130.943927
 立野町,タテノチョウ,TATENOCHO,,31.730528,131.09782
 太郎坊町,タロボウチョウ,TAROBOCHO,,31.783116,131.090373
+大王町,ダイオウチョウ,DAIOCHO,,31.732793,131.063007
 妻ケ丘町,ツマガオカチョウ,TSUMAGAOKACHO,,31.728043,131.077285
 天神町,テンジンチョウ,TENJINCHO,,31.726176,131.068509
 年見町,トシミチョウ,TOSHIMICHO,,31.733376,131.085877
@@ -99,6 +99,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 牟田町,ムタチョウ,MUTACHO,,31.726386,131.061313
 安久町,ヤスヒサチョウ,YASUHISACHO,,31.662416,131.12576
 山田町中霧島,ヤマダチョウナカギリシマ,YAMADACHO NAKAGIRISHIMA,,31.802895,131.007522
+山田町中霧島,ヤマダチョウナカギリシマ,YAMADACHO NAKAGIRISHIMA,北屋敷,31.794786,131.052967
 山田町山田,ヤマダチョウヤマダ,YAMADACHO YAMADA,,31.840563,131.022159
 山之口町富吉,ヤマノクチチョウトミヨシ,YAMANOKUCHICHO TOMIYOSHI,,31.758798,131.156081
 山之口町花木,ヤマノクチチョウハナノキ,YAMANOKUCHICHO HANANOKI,,31.776565,131.165207
@@ -107,4 +108,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 吉尾町,ヨシオチョウ,YOSHIOCHO,,31.757356,131.074581
 吉之元町,ヨシノモトチョウ,YOSHINOMOTOCHO,,31.831432,130.90126
 若葉町,ワカバチョウ,WAKABACHO,,31.720496,131.081024
-山田町中霧島,ヤマダチョウナカギリシマ,YAMADACHO NAKAGIRISHIMA,北屋敷,31.794786,131.052967

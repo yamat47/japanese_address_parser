@@ -1,5 +1,6 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
 生名,イキナ,IKINA,,34.270477,133.178516
+岩城,イワギ,IWAGI,,34.261037,133.148681
 魚島,ウオシマイチバンコウチ,UOSHIMAICHIBANKOCHI,,34.177054,133.320114
 弓削太田,ユゲオオタ,YUGE OTA,,34.253252,133.202862
 弓削大谷,ユゲオオタニ,YUGE OTANI,,34.274338,133.227558
@@ -7,6 +8,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 弓削上弓削,ユゲカミユゲ,YUGE KAMIYUGE,,34.275825,133.212777
 弓削狩尾,ユゲカリオ,YUGE KARIO,,34.268354,133.222018
 弓削久司浦,ユゲクジウラ,YUGE KUJIURA,,34.283243,133.227307
+弓削佐島,ユゲサシマ,YUGE SASHIMA,,34.241749,133.186522
 弓削沢津,ユゲサワヅ,YUGE SAWAZU,,34.279084,133.217841
 弓削下弓削,ユゲシモユゲ,YUGE SHIMOYUGE,,34.256102,133.20592
 弓削豊島,ユゲトヨシマ,YUGE TOYOSHIMA,,34.232468,133.26066
@@ -16,5 +18,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 弓削百貫,ユゲヒャッカン,YUGE HYAKKAN,,34.300715,133.275754
 弓削藤谷,ユゲフジタニ,YUGE FUJITANI,,34.262737,133.211186
 弓削明神,ユゲミョウジン,YUGE MYOJIN,,34.263751,133.204059
-岩城,イワギ,IWAGI,,34.261037,133.148681
-弓削佐島,ユゲサシマ,YUGE SASHIMA,,34.241749,133.186522

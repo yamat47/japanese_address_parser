@@ -1,6 +1,7 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
 相野田,アイノタ,AINOTA,,36.283783,138.926799
 一ノ宮,イチノミヤ,ICHINOMIYA,,36.255596,138.861567
+一ノ宮,イチノミヤ,ICHINOMIYA,南平,36.251246,138.860704
 岩染,イワソメ,IWASOME,,36.216332,138.86128
 宇田,ウダ,UDA,,36.260064,138.850179
 大島,オオシマ,OSHIMA,,36.240779,138.861503
@@ -16,8 +17,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 君川,キミカワ,KIMIKAWA,,36.268287,138.912291
 黒川,クロカワ,KUROKAWA,,36.263816,138.86883
 桑原,クワハラ,KUWAHARA,,36.298617,138.938332
-後賀,ゴカ,GOKA,,36.271611,138.931083
 小桑原,コクワハラ,KOKUWAHARA,,36.289815,138.932081
+後賀,ゴカ,GOKA,,36.271611,138.931083
 下黒岩,シモクロイワ,SHIMOKUROIWA,,36.278491,138.88782
 下高尾,シモタカオ,SHIMOTAKAO,,36.286352,138.911795
 下高瀬,シモダカセ,SHIMODAKASE,,36.246254,138.889265
@@ -28,6 +29,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 田篠,タジノ,TAJINO,,36.250882,138.912233
 田島,タジマ,TAJIMA,,36.245479,138.858865
 富岡,トミオカ,TOMIOKA,,36.258313,138.895804
+富岡,トミオカ,TOMIOKA,明武塚東,36.261982,138.91036
 中沢,ナカザワ,NAKAZAWA,,36.245256,138.796731
 中高瀬,ナカダカセ,NAKADAKASE,,36.246352,138.880099
 七日市,ナノカイチ,NANOKAICHI,,36.258728,138.878934
@@ -52,5 +54,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 妙義町諸戸,ミョウギマチモロト,MYOGIMACHI MOROTO,,36.290508,138.761726
 妙義町八木連,ミョウギマチヤギツレ,MYOGIMACHI YAGITSURE,,36.280329,138.800482
 蕨,ワラビ,WARABI,,36.285969,138.939919
-一ノ宮,イチノミヤ,ICHINOMIYA,南平,36.251246,138.860704
-富岡,トミオカ,TOMIOKA,明武塚東,36.261982,138.91036

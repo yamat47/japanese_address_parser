@@ -6,6 +6,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 浦和町,ウラワチョウ,URAWACHO,,31.71456,130.265085
 恵比須町,エビスチョウ,EBISUCHO,,31.711398,130.275681
 大里,オオザト,OZATO,,31.678456,130.308978
+大里,オオザト,OZATO,鳥居松,31.676369,130.316023
 大原町,オオハルマチ,OHARUMACHI,,31.716773,130.272912
 御倉町,オクラチョウ,OKURACHO,,31.713653,130.267909
 海瀬,カイゼ,KAIZE,,31.707836,130.297402
@@ -65,4 +66,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 本浜町,モトハマチョウ,MOTOHAMACHO,,31.718839,130.263627
 元町,モトマチ,MOTOMACHI,,31.719615,130.266067
 八房,ヤフサ,YAFUSA,,31.703054,130.289665
-大里,オオザト,OZATO,鳥居松,31.676369,130.316023

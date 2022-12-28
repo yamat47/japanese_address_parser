@@ -1,4 +1,5 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
+波多津町主屋,,,,33.361861,129.90846
 伊万里町乙,イマリチョウオツ,IMARICHO OTSU,,33.275762,129.876992
 伊万里町甲,イマリチョウコウ,IMARICHO KO,,33.274097,129.877106
 大川内町乙,オオカワチチョウオツ,OKAWACHICHO OTSU,,33.241106,129.895304
@@ -32,6 +33,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 新天町,シンテンチョウ,SHINTENCHO,,33.269858,129.874621
 瀬戸町,セトチョウ,SETOCHO,,33.30894,129.844787
 立花町,タチバナチョウ,TACHIBANACHO,,33.261199,129.881801
+立花町,タチバナチョウ,TACHIBANACHO,通谷,33.265361,129.881807
 二里町大里乙,ニリチョウオオザトオツ,NIRICHO OZATOTSU,,33.260948,129.845581
 二里町大里甲,ニリチョウオオザトコウ,NIRICHO OZATOKO,,33.260896,129.865064
 二里町中里乙,ニリチョウナカザトオツ,NIRICHO NAKAZATOTSU,,33.246617,129.861575
@@ -48,7 +50,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 波多津町筒井,ハタツチョウツツイ,HATATSUCHO TSUTSUI,,33.385079,129.893558
 波多津町津留,ハタツチョウツルヌシヤ,HATATSUCHO TSURUNUSHIYA,,33.364996,129.914405
 波多津町中山,ハタツチョウナカヤマ,HATATSUCHO NAKAYAMA,,33.356804,129.901981
-波多津町主屋,,,,33.361861,129.90846
 波多津町畑津,ハタツチョウハタツ,HATATSUCHO HATATSU,,33.361799,129.887204
 波多津町馬蛤潟,ハタツチョウマテガタ,HATATSUCHO MATEGATA,,33.365253,129.860815
 東山代町浦川内,ヒガシヤマシロチョウウラガワチ,HIGASHIYAMASHIROCHO URAGAWACHI,,33.277264,129.834497
@@ -90,4 +91,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 山代町福川内,ヤマシロチョウフクガワチ,YAMASHIROCHO FUKUGAWACHI,,33.289185,129.815349
 山代町峰,ヤマシロチョウミネ,YAMASHIROCHO MINE,,33.298783,129.807378
 脇田町,ワキダチョウ,WAKIDACHO,,33.295428,129.884987
-立花町,タチバナチョウ,TACHIBANACHO,通谷,33.265361,129.881807

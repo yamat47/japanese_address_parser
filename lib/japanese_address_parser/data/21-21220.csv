@@ -1,4 +1,5 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
+馬瀬下山,,,,35.788396,137.189525
 小川,オガワ,OGAWA,,35.786543,137.263576
 小坂町赤沼田,オサカチョウアカンタ,OSAKACHO AKANTA,,35.919554,137.285252
 小坂町岩崎,オサカチョウイワサキ,OSAKACHO IWASAKI,,35.992196,137.250142
@@ -59,12 +60,12 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 萩原町山之口,ハギワラチョウヤマノクチ,HAGIWARACHO YAMANOKUCHI,,36.000332,137.191341
 火打,ヒウチ,HIUCHI,,35.698598,137.233029
 東上田,ヒガシウエダ,HIGASHIUEDA,,35.835693,137.246283
+東上田,ヒガシウエダ,HIGASHIUEDA,水添,35.830705,137.235018
 蛇之尾,ヘビノオ,HEBINO,,35.732612,137.313215
 保井戸,ホイド,HOIDO,,35.747775,137.195754
 馬瀬井谷,マゼイダニ,MAZE IDANI,,35.857612,137.181381
 馬瀬川上,マゼカオレ,MAZE KAORE,,35.967494,137.137466
 馬瀬黒石,マゼクロイシ,MAZE KUROISHI,,35.928329,137.137786
-馬瀬下山,,,,35.788396,137.189525
 馬瀬数河,マゼスゴウ,MAZE SUGO,,35.905315,137.147531
 馬瀬惣島,マゼソウジマ,MAZE SOJIMA,,35.839812,137.186602
 馬瀬中切,マゼナカギリ,MAZE NAKAGIRI,,35.897311,137.160239
@@ -78,4 +79,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 焼石,ヤケイシ,YAKEISHI,,35.720342,137.199426
 湯之島,ユノシマ,YUNOSHIMA,,35.818184,137.248458
 和佐,ワサ,WASA,,35.711362,137.214099
-東上田,ヒガシウエダ,HIGASHIUEDA,水添,35.830705,137.235018

@@ -35,6 +35,7 @@ code,prefecture_code,name,name_kana,name_romaji
 20382,20,上伊那郡辰野町,カミイナグンタツノマチ,KAMIINA GUN TATSUNO MACHI
 20383,20,上伊那郡箕輪町,カミイナグンミノワマチ,KAMIINA GUN MINOWA MACHI
 20384,20,上伊那郡飯島町,カミイナグンイイジママチ,KAMIINA GUN IIJIMA MACHI
+20385,20,上伊那郡南箕輪村,カミイナグンミナミミノワムラ,KAMIINA GUN MINAMIMINOWA MURA
 20386,20,上伊那郡中川村,カミイナグンナカガワムラ,KAMIINA GUN NAKAGAWA MURA
 20388,20,上伊那郡宮田村,カミイナグンミヤダムラ,KAMIINA GUN MIYADA MURA
 20402,20,下伊那郡松川町,シモイナグンマツカワマチ,SHIMOINA GUN MATSUKAWA MACHI
@@ -75,4 +76,3 @@ code,prefecture_code,name,name_kana,name_romaji
 20588,20,上水内郡小川村,カミミノチグンオガワムラ,KAMIMINOCHI GUN OGAWA MURA
 20590,20,上水内郡飯綱町,カミミノチグンイイヅナマチ,KAMIMINOCHI GUN IIZUNA MACHI
 20602,20,下水内郡栄村,シモミノチグンサカエムラ,SHIMOMINOCHI GUN SAKAE MURA
-20385,20,上伊那郡南箕輪村,カミイナグンミナミミノワムラ,KAMIINA GUN MINAMIMINOWA MURA

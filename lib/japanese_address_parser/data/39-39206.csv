@@ -1,4 +1,5 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
+鍛治町,,,,33.391791,133.289838
 吾井郷乙,アイノゴウオツ,AINOGO OTSU,,33.427923,133.293078
 吾井郷甲,アイノゴウコウ,AINOGO KO,,33.429749,133.303712
 青木町,アオキマチ,AOKIMACHI,,33.389974,133.289985
@@ -23,7 +24,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 大間東町,オオマヒガシマチ,OMA HIGASHIMACHI,,33.40836,133.287826
 大間本町,オオマホンマチ,OMA HOMMACHI,,33.406613,133.285673
 押岡,オシオカ,OSHIOKA,,33.404921,133.323317
-鍛治町,,,,33.391791,133.289838
 上分乙,カミブンオツ,KAMIBUN OTSU,,33.393762,133.205967
 上分甲,カミブンコウ,KAMIBUN KO,,33.416399,133.224399
 上分丙,カミブンヘイ,KAMIBUN HEI,,33.415544,133.247755
@@ -32,6 +32,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 桐間南,キリマミナミ,KIRIMAMINAMI,,33.407341,133.295004
 久通,クツウ,KUTSU,,33.394412,133.333527
 神田,コウダ,KODA,,33.418541,133.316231
+神田,コウダ,KODA,下切,33.408705,133.297024
 幸町,サイワイマチ,SAIWAIMACHI,,33.389544,133.281745
 栄町,サカエマチ,SAKAEMACHI,,33.391377,133.282305
 潮田町,シオタマチ,SHIOTAMACHI,,33.404486,133.288237
@@ -64,4 +65,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 妙見町,ミョウケンマチ,MYOKEMMACHI,,33.413432,133.295457
 山手町,ヤマテマチ,YAMATEMACHI,,33.403052,133.282213
 横町,ヨコマチ,YOKOMACHI,,33.390908,133.284085
-神田,コウダ,KODA,下切,33.408705,133.297024

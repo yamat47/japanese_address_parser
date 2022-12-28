@@ -12,7 +12,7 @@ code,prefecture_code,name,name_kana,name_romaji
 19212,19,上野原市,ウエノハラシ,UENOHARA SHI
 19213,19,甲州市,コウシュウシ,KOSHU SHI
 19214,19,中央市,チュウオウシ,CHUO SHI
-19346,19,西八代郡市川三郷町,ニシヤツシログンイチカワミサトチョウ,NISHIYATSUSHIRO GUN ICHIKAWAMISATO
+19346,19,西八代郡市川三郷町,ニシヤツシログンイチカワミサトチョウ,NISHIYATSUSHIRO GUN ICHIKAWAMISATO CHO
 19364,19,南巨摩郡早川町,ミナミコマグンハヤカワチョウ,MINAMIKOMA GUN HAYAKAWA CHO
 19365,19,南巨摩郡身延町,ミナミコマグンミノブチョウ,MINAMIKOMA GUN MINOBU CHO
 19366,19,南巨摩郡南部町,ミナミコマグンナンブチョウ,MINAMIKOMA GUN NAMBU CHO
@@ -23,6 +23,6 @@ code,prefecture_code,name,name_kana,name_romaji
 19424,19,南都留郡忍野村,ミナミツルグンオシノムラ,MINAMITSURU GUN OSHINO MURA
 19425,19,南都留郡山中湖村,ミナミツルグンヤマナカコムラ,MINAMITSURU GUN YAMANAKAKO MURA
 19429,19,南都留郡鳴沢村,ミナミツルグンナルサワムラ,MINAMITSURU GUN NARUSAWA MURA
-19430,19,南都留郡富士河口湖町,ミナミツルグンフジカワグチコマチ,MINAMITSURU GUN FUJIKAWAGUCHIKO MAC
+19430,19,南都留郡富士河口湖町,ミナミツルグンフジカワグチコマチ,MINAMITSURU GUN FUJIKAWAGUCHIKO MACHI
 19442,19,北都留郡小菅村,キタツルグンコスゲムラ,KITATSURU GUN KOSUGE MURA
 19443,19,北都留郡丹波山村,キタツルグンタバヤマムラ,KITATSURU GUN TABAYAMA MURA

@@ -1,4 +1,5 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
+上笠町,,,,35.035315,135.94319
 青地町,アオジチョウ,AOJICHO,,35.003221,135.973301
 芦浦町,アシウラチョウ,ASHIURACHO,,35.057181,135.955866
 集町,アツマリチョウ,ATSUMARICHO,,35.040151,135.950392
@@ -39,7 +40,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 上笠三丁目,カミガサ 3,KAMIGASA 3,,35.028234,135.944502
 上笠四丁目,カミガサ 4,KAMIGASA 4,,35.031788,135.942448
 上笠五丁目,カミガサ 5,KAMIGASA 5,,35.031397,135.939289
-上笠町,,,,35.035315,135.94319
 上寺町,カミデラチョウ,KAMIDERACHO,,35.050009,135.956689
 川原一丁目,カワラ 1,KAWARA 1,,35.034362,135.957561
 川原二丁目,カワラ 2,KAWARA 2,,35.033475,135.953915
@@ -49,6 +49,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 北大萱町,キタオオガヤチョウ,KITAOGAYACHO,,35.044348,135.944498
 北山田町,キタヤマダチョウ,KITAYAMADACHO,,35.032411,135.919704
 木川町,キノカワチョウ,KINOKAWACHO,,35.023679,135.942588
+木川町,キノカワチョウ,KINOKAWACHO,上兵庫,35.018115,135.942203
 草津一丁目,クサツ 1,KUSATSU 1,,35.017238,135.963918
 草津二丁目,クサツ 2,KUSATSU 2,,35.016092,135.961052
 草津三丁目,クサツ 3,KUSATSU 3,,35.01422,135.959104
@@ -145,4 +146,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 若草七丁目,ワカクサ 7,WAKAKUSA 7,,34.984961,135.967134
 若草八丁目,ワカクサ 8,WAKAKUSA 8,,34.984556,135.968957
 若竹町,ワカタケチョウ,WAKATAKECHO,,35.022425,135.967386
-木川町,キノカワチョウ,KINOKAWACHO,上兵庫,35.018115,135.942203
