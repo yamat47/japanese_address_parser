@@ -13,6 +13,7 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 - [#70](https://github.com/yamat47/japanese_address_parser/pull/70) CSVや内部で利用するライブラリの自動更新の仕組みを調整した。([@yamat47](https://github.com/yamat47))
 
 ### Changed
+- [#72](https://github.com/yamat47/japanese_address_parser/pull/72) Bump geolonia-japanese-addresses from fa4822f to ce956e6([@yamat47](https://github.com/yamat47))
 
 ### Deprecated
 
