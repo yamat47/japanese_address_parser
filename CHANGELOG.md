@@ -7,14 +7,7 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ## [Unreleased]
 ### Added
 
-- [#61](https://github.com/yamat47/japanese_address_parser/pull/61) Dependabotを使ってsubmodulesやnpmライブラリが自動で更新される仕組みを作った。([@yamat47](https://github.com/yamat47))
-- [#64](https://github.com/yamat47/japanese_address_parser/pull/64) Dependabotがライブラリを更新するときに、それに依存しているソースコードも自動で更新されるようにした。([@yamat47](https://github.com/yamat47))
-- [#65](https://github.com/yamat47/japanese_address_parser/pull/65) ソースコードの自動更新の仕組みを調整した。([@yamat47](https://github.com/yamat47))
-- [#70](https://github.com/yamat47/japanese_address_parser/pull/70) CSVや内部で利用するライブラリの自動更新の仕組みを調整した。([@yamat47](https://github.com/yamat47))
-
 ### Changed
-- [#72](https://github.com/yamat47/japanese_address_parser/pull/72) Bump geolonia-japanese-addresses from fa4822f to ce956e6([@yamat47](https://github.com/yamat47))
-- [#73](https://github.com/yamat47/japanese_address_parser/pull/73) Bump @geolonia/normalize-japanese-addresses from 2.5.8 to 2.7.3 in /js([@yamat47](https://github.com/yamat47))
 
 ### Deprecated
 
@@ -23,6 +16,19 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ### Fixed
 
 ### Security
+
+## [3.0.3] - 2022-12-28
+### Added
+
+- [#61](https://github.com/yamat47/japanese_address_parser/pull/61) Dependabotを使ってsubmodulesやnpmライブラリが自動で更新される仕組みを作った。([@yamat47](https://github.com/yamat47))
+- [#64](https://github.com/yamat47/japanese_address_parser/pull/64) Dependabotがライブラリを更新するときに、それに依存しているソースコードも自動で更新されるようにした。([@yamat47](https://github.com/yamat47))
+- [#65](https://github.com/yamat47/japanese_address_parser/pull/65) ソースコードの自動更新の仕組みを調整した。([@yamat47](https://github.com/yamat47))
+- [#70](https://github.com/yamat47/japanese_address_parser/pull/70) CSVや内部で利用するライブラリの自動更新の仕組みを調整した。([@yamat47](https://github.com/yamat47))
+
+### Changed
+
+- [#72](https://github.com/yamat47/japanese_address_parser/pull/72) Bump geolonia-japanese-addresses from fa4822f to ce956e6([@yamat47](https://github.com/yamat47))
+- [#73](https://github.com/yamat47/japanese_address_parser/pull/73) Bump @geolonia/normalize-japanese-addresses from 2.5.8 to 2.7.3 in /js([@yamat47](https://github.com/yamat47))
 
 ## [3.0.2] - 2022-11-19
 ### Changed
