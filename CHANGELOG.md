@@ -14,6 +14,7 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Changed
 - [#72](https://github.com/yamat47/japanese_address_parser/pull/72) Bump geolonia-japanese-addresses from fa4822f to ce956e6([@yamat47](https://github.com/yamat47))
+- [#73](https://github.com/yamat47/japanese_address_parser/pull/73) Bump @geolonia/normalize-japanese-addresses from 2.5.8 to 2.7.3 in /js([@yamat47](https://github.com/yamat47))
 
 ### Deprecated
 
