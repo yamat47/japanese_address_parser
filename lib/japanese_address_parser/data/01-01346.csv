@@ -1,4 +1,5 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
+熊石泉岱町,,,,42.091043,140.127177
 相生町,アイオイチョウ,AIOICHO,,42.251958,140.272529
 旭丘,アサヒオカ,ASAHIOKA,,42.191634,140.407748
 熱田,アツタ,ATSUTA,,42.224269,140.270207
@@ -12,7 +13,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 上八雲,カミヤクモ,KAMIYAKUMO,,42.287353,140.155282
 熊石相沼町,クマイシアイヌマチョウ,KUMAISHI AINUMACHO,,42.073875,140.066396
 熊石鮎川町,クマイシアユカワチョウ,KUMAISHI AYUKAWACHO,,42.121501,140.012063
-熊石泉岱町,,,,42.091043,140.127177
 熊石雲石町,クマイシウンセキチョウ,KUMAISHI UNSEKICHO,,42.133504,139.976968
 熊石大谷町,クマイシオオタニチョウ,KUMAISHI OTANICHO,,42.151997,140.04024
 熊石折戸町,クマイシオリトチョウ,KUMAISHI ORITOCHO,,42.069095,140.075052
@@ -41,8 +41,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 野田生,ノダオイ,NODAOI,,42.216915,140.378979
 花浦,ハナウラ,HANAURA,,42.290189,140.260971
 浜松,ハママツ,HAMAMATSU,,42.238158,140.301099
-東野,ヒガシノ,HIGASHINO,,42.21338,140.391899
 東町,ヒガシチョウ,HIGASHICHO,,42.259052,140.272408
+東野,ヒガシノ,HIGASHINO,,42.21338,140.391899
 富士見町,フジミチョウ,FUJIMICHO,,42.255309,140.275
 本町,ホンチョウ,HONCHO,,42.2549,140.271774
 三杉町,ミスギチョウ,MISUGICHO,,42.246564,140.281861
@@ -50,5 +50,5 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 宮園町,ミヤゾノチョウ,MIYAZONOCHO,,42.251802,140.262727
 元町,モトマチ,MOTOMACHI,,42.259816,140.267173
 山越,ヤマコシ,YAMAKOSHI,,42.229889,140.327967
-わらび野,ワラビノ,WARABINO,,42.144923,140.291726
 山崎,ヤマザキ,YAMAZAKI,,42.312204,140.274821
+わらび野,ワラビノ,WARABINO,,42.144923,140.291726

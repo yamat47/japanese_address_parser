@@ -26,6 +26,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 原地蔵,ハラジゾウ,HARAJIZO,,33.409459,130.616381
 東小田,ヒガシオダ,HIGASHIODA,,33.451421,130.57931
 久光,ヒサミツ,HISAMITSU,,33.438994,130.634828
+久光,ヒサミツ,HISAMITSU,引田,33.434992,130.636159
 吹田,フキダ,FUKIDA,,33.470836,130.590266
 二,フタ,FUTA,,33.476485,130.564312
 松延,マツノブ,MATSUNOBU,,33.463259,130.587469
@@ -35,4 +36,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 安野,ヤスノ,YASUNO,,33.443417,130.595108
 山隈,ヤマグマ,YAMAGUMA,,33.420314,130.609787
 依井,ヨリイ,YORII,,33.429917,130.643468
-久光,ヒサミツ,HISAMITSU,引田,33.434992,130.636159

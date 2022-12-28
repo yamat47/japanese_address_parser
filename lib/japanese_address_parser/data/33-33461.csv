@@ -5,6 +5,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 宇内,ウナイ,UNAI,,34.638296,133.545105
 江良,エラ,ERA,,34.602966,133.579692
 小田,オダ,ODA,,34.615849,133.540651
+小田,オダ,ODA,蓮町,34.605544,133.543798
 小林,オバヤシ,OBAYASHI,,34.636106,133.574732
 上高末,カミコウズエ,KAMIKOZUE,,34.684823,133.604099
 里山田,サトヤマダ,SATOYAMADA,,34.60882,133.592518
@@ -17,4 +18,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 本堀,モトホリ,MOTOHORI,,34.616608,133.55569
 矢掛,ヤカゲ,YAKAGE,,34.631677,133.597787
 横谷,ヨコダニ,YOKODANI,,34.597947,133.630311
-小田,オダ,ODA,蓮町,34.605544,133.543798

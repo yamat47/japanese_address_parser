@@ -12,6 +12,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 大隅町中之内,オオスミチョウナカノウチ,OSUMICHO NAKANOCHI,,31.632073,130.968197
 大隅町鳴神町,オオスミチョウナルガミマチ,OSUMICHO NARUGAMIMACHI,,31.586827,131.005192
 末吉町岩崎,スエヨシチョウイワサキ,SUEYOSHICHO IWASAKI,,31.613321,131.015568
+末吉町岩崎,スエヨシチョウイワサキ,SUEYOSHICHO IWASAKI,宮原,31.597837,130.996954
+末吉町岩崎,スエヨシチョウイワサキ,SUEYOSHICHO IWASAKI,岩南,31.594323,131.004533
 末吉町上町一丁目,スエヨシチョウカミマチ 1,SUEYOSHICHO KAMIMACHI 1,,31.653245,131.024079
 末吉町上町二丁目,スエヨシチョウカミマチ 2,SUEYOSHICHO KAMIMACHI 2,,31.651688,131.025596
 末吉町上町三丁目,スエヨシチョウカミマチ 3,SUEYOSHICHO KAMIMACHI 3,,31.650196,131.027113
@@ -32,5 +34,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 財部町北俣,タカラベチョウキタマタ,TAKARABECHO KITAMATA,,31.742102,130.941201
 財部町下財部,タカラベチョウシモタカラベ,TAKARABECHO SHIMOTAKARABE,,31.762017,130.972123
 財部町南俣,タカラベチョウミナミマタ,TAKARABECHO MINAMIMATA,,31.699345,130.932867
-末吉町岩崎,スエヨシチョウイワサキ,SUEYOSHICHO IWASAKI,宮原,31.597837,130.996954
-末吉町岩崎,スエヨシチョウイワサキ,SUEYOSHICHO IWASAKI,岩南,31.594323,131.004533

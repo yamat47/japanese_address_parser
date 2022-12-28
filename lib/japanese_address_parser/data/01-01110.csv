@@ -1,7 +1,7 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
 有明,アリアケ,ARIAKE,,42.932893,141.416259
-美しが丘一条十丁目,ウツクシガオカ1ジョウ 10,UTSUKUSHIGAOKA 1-JO 10,,42.97729,141.468694
 美しが丘一条一丁目,ウツクシガオカ1ジョウ 1,UTSUKUSHIGAOKA 1-JO 1,,42.989985,141.448709
+美しが丘一条十丁目,ウツクシガオカ1ジョウ 10,UTSUKUSHIGAOKA 1-JO 10,,42.97729,141.468694
 美しが丘一条二丁目,ウツクシガオカ1ジョウ 2,UTSUKUSHIGAOKA 1-JO 2,,42.989159,141.451063
 美しが丘一条三丁目,ウツクシガオカ1ジョウ 3,UTSUKUSHIGAOKA 1-JO 3,,42.987921,141.452361
 美しが丘一条四丁目,ウツクシガオカ1ジョウ 4,UTSUKUSHIGAOKA 1-JO 4,,42.986899,141.453582
@@ -10,8 +10,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 美しが丘一条七丁目,ウツクシガオカ1ジョウ 7,UTSUKUSHIGAOKA 1-JO 7,,42.981198,141.462399
 美しが丘一条八丁目,ウツクシガオカ1ジョウ 8,UTSUKUSHIGAOKA 1-JO 8,,42.979559,141.465403
 美しが丘一条九丁目,ウツクシガオカ1ジョウ 9,UTSUKUSHIGAOKA 1-JO 9,,42.977746,141.466391
-美しが丘二条十丁目,ウツクシガオカ2ジョウ 10,UTSUKUSHIGAOKA 2-JO 10,,42.97585,141.467205
 美しが丘二条一丁目,ウツクシガオカ2ジョウ 1,UTSUKUSHIGAOKA 2-JO 1,,42.988939,141.44707
+美しが丘二条十丁目,ウツクシガオカ2ジョウ 10,UTSUKUSHIGAOKA 2-JO 10,,42.97585,141.467205
 美しが丘二条二丁目,ウツクシガオカ2ジョウ 2,UTSUKUSHIGAOKA 2-JO 2,,42.987804,141.449417
 美しが丘二条三丁目,ウツクシガオカ2ジョウ 3,UTSUKUSHIGAOKA 2-JO 3,,42.986792,141.451364
 美しが丘二条四丁目,ウツクシガオカ2ジョウ 4,UTSUKUSHIGAOKA 2-JO 4,,42.984905,141.452073
@@ -20,8 +20,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 美しが丘二条七丁目,ウツクシガオカ2ジョウ 7,UTSUKUSHIGAOKA 2-JO 7,,42.978906,141.461193
 美しが丘二条八丁目,ウツクシガオカ2ジョウ 8,UTSUKUSHIGAOKA 2-JO 8,,42.978192,141.463964
 美しが丘二条九丁目,ウツクシガオカ2ジョウ 9,UTSUKUSHIGAOKA 2-JO 9,,42.976296,141.464752
-美しが丘三条十丁目,ウツクシガオカ3ジョウ 10,UTSUKUSHIGAOKA 3-JO 10,,42.974842,141.46637
 美しが丘三条一丁目,ウツクシガオカ3ジョウ 1,UTSUKUSHIGAOKA 3-JO 1,,42.987933,141.445954
+美しが丘三条十丁目,ウツクシガオカ3ジョウ 10,UTSUKUSHIGAOKA 3-JO 10,,42.974842,141.46637
 美しが丘三条二丁目,ウツクシガオカ3ジョウ 2,UTSUKUSHIGAOKA 3-JO 2,,42.98622,141.447931
 美しが丘三条三丁目,ウツクシガオカ3ジョウ 3,UTSUKUSHIGAOKA 3-JO 3,,42.984038,141.449416
 美しが丘三条四丁目,ウツクシガオカ3ジョウ 4,UTSUKUSHIGAOKA 3-JO 4,,42.982217,141.452073
@@ -124,10 +124,10 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 里塚三条七丁目,サトヅカ3ジョウ 7,SATOZUKA 3-JO 7,,42.981635,141.472343
 里塚四条一丁目,サトヅカ4ジョウ 1,SATOZUKA 4-JO 1,,42.994504,141.463087
 里塚四条三丁目,サトヅカ4ジョウ 3,SATOZUKA 4-JO 3,,42.993562,141.46713
+里塚緑ケ丘一丁目,サトヅカミドリガオカ 1,SATOZUKAMIDORIGAOKA 1,,43.000543,141.470337
 里塚緑ケ丘十丁目,サトヅカミドリガオカ 10,SATOZUKAMIDORIGAOKA 10,,42.988316,141.471655
 里塚緑ケ丘十一丁目,サトヅカミドリガオカ 11,SATOZUKAMIDORIGAOKA 11,,42.988325,141.474036
 里塚緑ケ丘十二丁目,サトヅカミドリガオカ 12,SATOZUKAMIDORIGAOKA 12,,42.986068,141.474902
-里塚緑ケ丘一丁目,サトヅカミドリガオカ 1,SATOZUKAMIDORIGAOKA 1,,43.000543,141.470337
 里塚緑ケ丘二丁目,サトヅカミドリガオカ 2,SATOZUKAMIDORIGAOKA 2,,42.999809,141.474828
 里塚緑ケ丘三丁目,サトヅカミドリガオカ 3,SATOZUKAMIDORIGAOKA 3,,42.997829,141.470578
 里塚緑ケ丘四丁目,サトヅカミドリガオカ 4,SATOZUKAMIDORIGAOKA 4,,42.994584,141.470655
@@ -201,9 +201,9 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 平岡九条三丁目,ヒラオカ9ジョウ 3,HIRAOKA 9-JO 3,,43.013717,141.461257
 平岡九条四丁目,ヒラオカ9ジョウ 4,HIRAOKA 9-JO 4,,43.012971,141.464042
 平岡公園,ヒラオカコウエン,HIRAOKAKOEN,,43.001738,141.464782
+平岡公園東一丁目,ヒラオカコウエンヒガシ 1,HIRAOKAKOENHIGASHI 1,,43.011599,141.467441
 平岡公園東十丁目,ヒラオカコウエンヒガシ 10,HIRAOKAKOENHIGASHI 10,,43.00293,141.474645
 平岡公園東十一丁目,ヒラオカコウエンヒガシ 11,HIRAOKAKOENHIGASHI 11,,43.002886,141.471163
-平岡公園東一丁目,ヒラオカコウエンヒガシ 1,HIRAOKAKOENHIGASHI 1,,43.011599,141.467441
 平岡公園東二丁目,ヒラオカコウエンヒガシ 2,HIRAOKAKOENHIGASHI 2,,43.010328,141.46988
 平岡公園東三丁目,ヒラオカコウエンヒガシ 3,HIRAOKAKOENHIGASHI 3,,43.008816,141.472397
 平岡公園東四丁目,ヒラオカコウエンヒガシ 4,HIRAOKAKOENHIGASHI 4,,43.005098,141.471701

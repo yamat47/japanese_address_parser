@@ -1,4 +1,8 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
+阿波町勝行,,,,34.086268,134.252128
+阿波町北内谷南,,,,34.114646,134.242417
+阿波町姥ケ懐,,,,34.105772,134.229581
+阿波町明地谷,,,,34.106694,134.219206
 阿波町赤坂,アワチョウアカサカ,AWACHO AKASAKA,,34.087666,134.197851
 阿波町医王寺,アワチョウイオウジ,AWACHO IOJI,,34.080831,134.216466
 阿波町伊沢市,アワチョウイサワイチ,AWACHO ISAWAICHI,,34.072678,134.24829
@@ -12,7 +16,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 阿波町居屋敷,アワチョウイヤシキ,AWACHO IYASHIKI,,34.076175,134.21827
 阿波町岩津,アワチョウイワヅ,AWACHO IWAZU,,34.067252,134.193305
 阿波町植桜,アワチョウウエザクラ,AWACHO UEZAKURA,,34.06895,134.186086
-阿波町姥ケ懐,,,,34.105772,134.229581
 阿波町梅川内,アワチョウウメカワウチ,AWACHO UMEKAWAUCHI,,34.079138,134.200942
 阿波町梅ノ木原,アワチョウウメノキバラ,AWACHO UMENOKIBARA,,34.103709,134.223913
 阿波町梅ノ東,アワチョウウメノヒガシ,AWACHO UMENOHIGASHI,,34.106256,134.226739
@@ -30,11 +33,9 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 阿波町柏谷左右,アワチョウカシワダニサユウ,AWACHO KASHIWADANISAYU,,34.108441,134.233213
 阿波町勝命,アワチョウカツミョウ,AWACHO KATSUMYO,,34.076173,134.268561
 阿波町勝命北,アワチョウカツミョウキタ,AWACHO KATSUMYOKITA,,34.084097,134.267393
-阿波町勝行,,,,34.086268,134.252128
 阿波町亀底,アワチョウカメゾコ,AWACHO KAMEZOKO,,34.135456,134.220635
 阿波町川久保,アワチョウカワクボ,AWACHO KAWAKUBO,,34.071526,134.220106
 阿波町川添,アワチョウカワゾエ,AWACHO KAWAZOE,,34.088371,134.238313
-阿波町北内谷南,,,,34.114646,134.242417
 阿波町北岡,アワチョウキタオカ,AWACHO KITAOKA,,34.07058,134.189618
 阿波町北久保,アワチョウキタクボ,AWACHO KITAKUBO,,34.121106,134.220452
 阿波町北五味知,アワチョウキタゴミジリ,AWACHO KITAGOMIJIRI,,34.09619,134.234355
@@ -55,17 +56,17 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 阿波町下喜来,アワチョウシモギライ,AWACHO SHIMOGIRAI,,34.094537,134.266827
 阿波町下喜来南,アワチョウシモギライミナミ,AWACHO SHIMOGIRAIMINAMI,,34.088769,134.268301
 阿波町下原,アワチョウシモバラ,AWACHO SHIMOBARA,,34.095343,134.237354
-阿波町十善地,アワチョウジュウゼンジ,AWACHO JUZENJI,,34.085323,134.211814
 阿波町新開,アワチョウシンバリ,AWACHO SHIMBARI,,34.078202,134.240908
 阿波町真福寺,アワチョウシンプクジ,AWACHO SHIMPUKUJI,,34.085291,134.218607
+阿波町十善地,アワチョウジュウゼンジ,AWACHO JUZENJI,,34.085323,134.211814
 阿波町清原,アワチョウセイバラ,AWACHO SEIBARA,,34.08794,134.261089
 阿波町善地,アワチョウゼンジ,AWACHO ZENJI,,34.079891,134.206856
-阿波町大次郎,アワチョウダイジロウ,AWACHO DAIJIRO,,34.082672,134.24252
 阿波町高垣,アワチョウタカガキ,AWACHO TAKAGAKI,,34.075978,134.213781
 阿波町立割,アワチョウタテワリ,AWACHO TATEWARI,,34.128887,134.219787
 阿波町谷口,アワチョウタニグチ,AWACHO TANIGUCHI,,34.108512,134.238943
 阿波町谷島,アワチョウタニジマ,AWACHO TANIJIMA,,34.0793,134.259017
 阿波町谷島北,アワチョウタニジマキタ,AWACHO TANIJIMAKITA,,34.081581,134.257597
+阿波町大次郎,アワチョウダイジロウ,AWACHO DAIJIRO,,34.082672,134.24252
 阿波町綱懸,アワチョウツナカケ,AWACHO TSUNAKAKE,,34.084485,134.225651
 阿波町寺サコ,アワチョウテラサコ,AWACHO TERASAKO,,34.08092,134.246611
 阿波町天西山,アワチョウテンサイザン,AWACHO TENSAIZAN,,34.110049,134.248977
@@ -113,7 +114,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 阿波町南整理,アワチョウミナミセイリ,AWACHO MINAMISEIRI,,34.070903,134.198504
 阿波町南谷島,アワチョウミナミタニジマ,AWACHO MINAMITANIJIMA,,34.074107,134.259962
 阿波町南西谷,アワチョウミナミニシダニ,AWACHO MINAMINISHIDANI,,34.074793,134.191749
-阿波町明地谷,,,,34.106694,134.219206
 阿波町元町,アワチョウモトマチ,AWACHO MOTOMACHI,,34.074912,134.238347
 阿波町森沢,アワチョウモリサワ,AWACHO MORISAWA,,34.085411,134.248494
 阿波町安政,アワチョウヤスマサ,AWACHO YASUMASA,,34.086536,134.242263

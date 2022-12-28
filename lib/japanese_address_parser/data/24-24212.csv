@@ -7,6 +7,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 飛鳥町野口,アスカチョウノグチ,ASUKACHO NOGUCHI,,33.946758,136.078865
 新鹿町,アタシカチョウ,ATASHIKACHO,,33.942873,136.13899
 有馬町,アリマチョウ,ARIMACHO,,33.880947,136.079376
+有馬町,アリマチョウ,ARIMACHO,丁塚,33.855912,136.072751
+有馬町,アリマチョウ,ARIMACHO,松原,33.854944,136.071333
 育生町赤倉,イクセイチョウアカグラ,IKUSEICHO AKAGURA,,33.912378,136.016594
 育生町大井,イクセイチョウオオイ,IKUSEICHO OI,,33.933489,135.975797
 育生町尾川,イクセイチョウオガワ,IKUSEICHO OGAWA,,33.905783,135.995803
@@ -19,6 +21,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 五郷町和田,イサトチョウワダ,ISATOCHO WADA,,33.969505,136.051561
 磯崎町,イソザキチョウ,ISOZAKICHO,,33.895222,136.131856
 井戸町,イドチョウ,IDOCHO,,33.909025,136.068666
+井戸町,イドチョウ,IDOCHO,赤坂,33.889345,136.095579
 大泊町,オオドマリチョウ,ODOMARICHO,,33.912865,136.111833
 金山町,カナヤマチョウ,KANAYAMACHO,,33.882895,136.04939
 神川町神上,カミカワチョウコウノウエ,KAMIKAWACHO KONOE,,33.947502,135.998514
@@ -51,6 +54,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 波田須町,ハダスチョウ,HADASUCHO,,33.912195,136.134784
 甫母町,ホボチョウ,HOBOCHO,,33.943244,136.208497
 遊木町,ユキチョウ,YUKICHO,,33.925653,136.179383
-井戸町,イドチョウ,IDOCHO,赤坂,33.889345,136.095579
-有馬町,アリマチョウ,ARIMACHO,丁塚,33.855912,136.072751
-有馬町,アリマチョウ,ARIMACHO,松原,33.854944,136.071333

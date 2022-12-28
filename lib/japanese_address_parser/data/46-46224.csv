@@ -15,8 +15,9 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 大口白木,オオクチシラキ,OKUCHI SHIRAKI,,32.06085,130.546868
 大口曽木,オオクチソギ,OKUCHI SOGI,,32.001388,130.59944
 大口田代,オオクチタシロ,OKUCHI TASHIRO,,32.033787,130.51129
-大口堂崎,オオクチドウザキ,OKUCHI DOZAKI,,32.031544,130.599562
 大口鳥巣,オオクチトリス,OKUCHI TORISU,,32.064776,130.584642
+大口鳥巣,オオクチトリス,OKUCHI TORISU,西中水流,32.053439,130.59881
+大口堂崎,オオクチドウザキ,OKUCHI DOZAKI,,32.031544,130.599562
 大口原田,オオクチハラダ,OKUCHI HARADA,,32.04649,130.620773
 大口針持,オオクチハリモチ,OKUCHI HARIMOCHI,,31.979902,130.577673
 大口平出水,オオクチヒライズミ,OKUCHI HIRAIZUMI,,32.085485,130.539602
@@ -36,4 +37,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 菱刈花北,ヒシカリハナキタ,HISHIKARI HANAKITA,,32.034355,130.623349
 菱刈前目,ヒシカリマエメ,HISHIKARI MAEME,,32.015091,130.685798
 菱刈南浦,ヒシカリミナミウラ,HISHIKARI MINAMIURA,,31.965138,130.630584
-大口鳥巣,オオクチトリス,OKUCHI TORISU,西中水流,32.053439,130.59881

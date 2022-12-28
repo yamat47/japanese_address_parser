@@ -9,6 +9,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 北浜,キタハマ,KITAHAMA,,33.960428,132.117708
 神代,コウジロ,KOJIRO,,33.980317,132.183749
 古開作,コガイサク,KOGAISAKU,,33.96406,132.096601
+古開作,コガイサク,KOGAISAKU,中東条,33.967796,132.099282
 新市,シンイチ,SHINICHI,,33.964977,132.11768
 新市沖,シンイチオキ,SHINICHI OKI,,33.96318,132.11749
 新市北,シンイチキタ,SHINICHI KITA,,33.965418,132.118665
@@ -41,4 +42,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 柳井津,ヤナイツ,YANAITSU,,33.967807,132.11034
 山根,ヤマネ,YAMANE,,33.969822,132.115667
 余田,ヨタ,YOTA,,33.985839,132.067086
-古開作,コガイサク,KOGAISAKU,中東条,33.967796,132.099282

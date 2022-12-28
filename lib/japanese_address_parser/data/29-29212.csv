@@ -1,6 +1,6 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
-菟田野稲戸,ウタノイナド,UTANO INADO,,34.461962,135.969532
 菟田野岩﨑,,,,34.47485,135.961491
+菟田野稲戸,ウタノイナド,UTANO INADO,,34.461962,135.969532
 菟田野岩端,ウタノイワハシ,UTANO IWAHASHI,,34.469289,136.038729
 菟田野宇賀志,ウタノウカシ,UTANO UKASHI,,34.453596,135.998996
 菟田野大神,ウタノオオガミ,UTANO OGAMI,,34.480923,135.988271
@@ -50,8 +50,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 大宇陀下宮奥,オオウダシモミヤノオク,OUDA SHIMOMIYANOKU,,34.458332,135.924452
 大宇陀白鳥居,オオウダシラトリイ,OUDA SHIRATORII,,34.455124,135.956865
 大宇陀関戸,オオウダセキド,OUDA SEKIDO,,34.461457,135.935296
-大宇陀大東,オオウダダイトウ,OUDA DAITO,,34.469267,135.933855
 大宇陀田原,オオウダタワラ,OUDA TAWARA,,34.441415,135.947258
+大宇陀大東,オオウダダイトウ,OUDA DAITO,,34.469267,135.933855
 大宇陀調子,オオウダチョウシ,OUDA CHOSHI,,34.487107,135.952467
 大宇陀塚脇,オオウダツカワキ,OUDA TSUKAWAKI,,34.488929,135.947604
 大宇陀中新,オオウダナカシン,OUDA NAKASHIN,,34.48039,135.933439
@@ -90,8 +90,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 榛原篠楽,ハイバラササガク,HAIBARA SASAGAKU,,34.522925,135.940335
 榛原澤,ハイバラサワ,HAIBARA SAWA,,34.494849,135.973727
 榛原三宮寺,ハイバラサングウジ,HAIBARA SANGUJI,,34.486728,135.963422
-榛原自明,ハイバラジミョウ,HAIBARA JIMYO,,34.514084,135.980091
 榛原下井足,ハイバラシモイダニ,HAIBARA SHIMOIDANI,,34.524439,135.94974
+榛原自明,ハイバラジミョウ,HAIBARA JIMYO,,34.514084,135.980091
 榛原高井,ハイバラタカイ,HAIBARA TAKAI,,34.515344,135.993901
 榛原高塚,ハイバラタカツカ,HAIBARA TAKATSUKA,,34.501844,135.946319
 榛原高萩台,ハイバラタカハギダイ,HAIBARA TAKAHAGIDAI,,34.530829,135.952549

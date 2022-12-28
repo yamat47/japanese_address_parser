@@ -1,4 +1,5 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
+船越町,,,,34.383,132.526063
 阿戸町,アトチョウ,ATOCHO,,34.38342,132.621187
 上瀬野一丁目,カミセノ 1,KAMISENO 1,,34.422343,132.612958
 上瀬野二丁目,カミセノ 2,KAMISENO 2,,34.425941,132.620422
@@ -17,8 +18,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 瀬野西四丁目,セノニシ 4,SENONISHI 4,,34.430078,132.59077
 瀬野西五丁目,セノニシ 5,SENONISHI 5,,34.432015,132.589549
 瀬野西六丁目,セノニシ 6,SENONISHI 6,,34.43406,132.587624
-瀬野南一丁目,セノミナミマチ 1,SENOMINAMIMACHI 1,,34.419337,132.598718
 瀬野南町,セノミナミマチ,SENOMINAMIMACHI,,34.411478,132.600917
+瀬野南一丁目,セノミナミマチ 1,SENOMINAMIMACHI 1,,34.419337,132.598718
 中野一丁目,ナカノ 1,NAKANO 1,,34.388254,132.561141
 中野二丁目,ナカノ 2,NAKANO 2,,34.390225,132.559969
 中野三丁目,ナカノ 3,NAKANO 3,,34.39687,132.568611
@@ -27,6 +28,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 中野六丁目,ナカノ 6,NAKANO 6,,34.41015,132.581033
 中野七丁目,ナカノ 7,NAKANO 7,,34.420272,132.58874
 中野町,ナカノチョウ,NAKANOCHO,,34.41054,132.571959
+中野東町,ナカノヒガシマチ,NAKANOHIGASHIMACHI,,34.390547,132.584437
 中野東一丁目,ナカノヒガシマチ 1,NAKANOHIGASHIMACHI 1,,34.386363,132.562375
 中野東二丁目,ナカノヒガシマチ 2,NAKANOHIGASHIMACHI 2,,34.389176,132.569328
 中野東三丁目,ナカノヒガシマチ 3,NAKANOHIGASHIMACHI 3,,34.394057,132.573124
@@ -34,7 +36,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 中野東五丁目,ナカノヒガシマチ 5,NAKANOHIGASHIMACHI 5,,34.400236,132.583448
 中野東六丁目,ナカノヒガシマチ 6,NAKANOHIGASHIMACHI 6,,34.404575,132.588986
 中野東七丁目,ナカノヒガシマチ 7,NAKANOHIGASHIMACHI 7,,34.411559,132.585283
-中野東町,ナカノヒガシマチ,NAKANOHIGASHIMACHI,,34.390547,132.584437
 畑賀一丁目,ハタカ 1,HATAKA 1,,34.386863,132.555604
 畑賀二丁目,ハタカ 2,HATAKA 2,,34.392136,132.552413
 畑賀三丁目,ハタカ 3,HATAKA 3,,34.396961,132.549218
@@ -45,7 +46,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 船越四丁目,フナコシ 4,FUNAKOSHI 4,,34.376551,132.525811
 船越五丁目,フナコシ 5,FUNAKOSHI 5,,34.373935,132.526797
 船越六丁目,フナコシ 6,FUNAKOSHI 6,,34.379249,132.531652
-船越町,,,,34.383,132.526063
 船越南一丁目,フナコシミナミ 1,FUNAKOSHIMINAMI 1,,34.371512,132.517843
 船越南二丁目,フナコシミナミ 2,FUNAKOSHIMINAMI 2,,34.371926,132.522432
 船越南三丁目,フナコシミナミ 3,FUNAKOSHIMINAMI 3,,34.370409,132.524835

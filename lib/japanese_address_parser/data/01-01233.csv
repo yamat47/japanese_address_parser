@@ -4,7 +4,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 乾町,イヌイチョウ,INUICHO,,42.490579,140.906285
 有珠町,ウスチョウ,USUCHO,,42.519433,140.78865
 梅本町,ウメモトチョウ,UMEMOTOCHO,,42.472823,140.871703
-大平町,オオダイラチョウ,ODAIRACHO,,42.518166,140.845823
 大滝区愛地町,オオタキクアイチチョウ,OTAKIKU AICHICHO,,42.777519,141.139798
 大滝区上野町,オオタキクウエノチョウ,OTAKIKU UENOCHO,,42.639069,141.099418
 大滝区北湯沢温泉町,オオタキクキタユザワオンセンチョウ,OTAKIKU KITAYUZAWAONSENCHO,,42.638204,140.99544
@@ -19,6 +18,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 大滝区円山町,オオタキクマルヤマチョウ,OTAKIKU MARUYAMACHO,,42.620096,141.080346
 大滝区宮城町,オオタキクミヤギチョウ,OTAKIKU MIYAGICHO,,42.725721,141.051485
 大滝区優徳町,オオタキクユウトクチョウ,OTAKIKU YUTOKUCHO,,42.666325,141.000223
+大平町,オオダイラチョウ,ODAIRACHO,,42.518166,140.845823
 大町,オオマチ,OMACHI,,42.47212,140.861264
 鹿島町,カシマチョウ,KASHIMACHO,,42.471054,140.864831
 上館山町,カミタテヤマチョウ,KAMITATEYAMACHO,,42.511583,140.872038
@@ -44,7 +44,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 東浜町,ヒガシハマチョウ,HIGASHIHAMACHO,,42.463944,140.867307
 舟岡町,フナオカチョウ,FUNAOKACHO,,42.460295,140.876357
 幌美内町,ホロビナイチョウ,HOROBINAICHO,,42.470522,140.921925
-松ヶ枝町,,,,42.477111,140.889472
+松ヶ枝町,マツガエチョウ,MATSUGAECHO,,42.477111,140.889472
 南有珠町,ミナミウスチョウ,MINAMIUSUCHO,,42.500855,140.802887
 南黄金町,ミナミコガネチョウ,MINAMIKOGANECHO,,42.404371,140.953942
 南稀府町,ミナミマレフチョウ,MINAMIMAREFUCHO,,42.43634,140.922307

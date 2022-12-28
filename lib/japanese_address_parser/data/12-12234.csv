@@ -1,4 +1,6 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
+和田町真浦飛地,,,,35.03554,139.996775
+高崎竹内,,,,35.081529,139.856429
 明石,アカシ,AKASHI,,35.024192,139.901215
 荒川,アラカワ,ARAKAWA,,35.11546,139.939622
 安馬谷,アンバヤ,AMBAYA,,35.007375,139.961229
@@ -24,8 +26,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 沓見,クツミ,KUTSUMI,,35.025275,139.942108
 久保,クボ,KUBO,,35.000625,139.943686
 検儀谷,ケギヤ,KEGIYA,,35.104344,139.855248
-合戸,ゴウド,GODO,,35.093694,139.872736
 小浦,コウラ,KORA,,35.075807,139.835822
+合戸,ゴウド,GODO,,35.093694,139.872736
 下滝田,シモタキダ,SHIMOTAKIDA,,35.054545,139.894529
 下堀,シモホリ,SHIMOHORI,,35.025705,139.888165
 珠師ケ谷,シュシガヤツ,SHUSHIGAYATSU,,35.056876,139.969914
@@ -35,7 +37,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 白浜町滝口,シラハマチョウタキグチ,SHIRAHAMACHO TAKIGUCHI,,34.913541,139.865606
 白浜町根本,シラハマチョウネモト,SHIRAHAMACHO NEMOTO,,34.908805,139.838715
 千代,センダイ,SENDAI,,35.037233,139.897657
-高崎竹内,,,,35.081529,139.856429
 竹内,タケノウチ,TAKENOCHI,,35.089298,139.851678
 千倉町宇田,チクラチョウウダ,CHIKURACHO UDA,,34.990496,139.939178
 千倉町大川,チクラチョウオオカワ,CHIKURACHO OKAWA,,34.934247,139.933804
@@ -95,8 +96,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 和田町海発,ワダチョウカイホツ,WADACHO KAIHOTSU,,35.018497,139.981877
 和田町上三原,ワダチョウカミミハラ,WADACHO KAMIMIHARA,,35.071884,139.990833
 和田町黒岩,ワダチョウクロイワ,WADACHO KUROIWA,,35.057562,140.000432
-和田町五十蔵,ワダチョウゴジュウクラ,WADACHO GOJUKURA,,35.086204,140.014567
 和田町小向,ワダチョウコムカイ,WADACHO KOMUKAI,,35.063741,140.003071
+和田町五十蔵,ワダチョウゴジュウクラ,WADACHO GOJUKURA,,35.086204,140.014567
 和田町柴,ワダチョウシバ,WADACHO SHIBA,,35.055993,140.020165
 和田町下三原,ワダチョウシモミハラ,WADACHO SHIMOMIHARA,,35.033135,139.983168
 和田町白渚,ワダチョウシラスカ,WADACHO SHIRASUKA,,35.03325,140.000039
@@ -108,5 +109,4 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 和田町布野,ワダチョウフノ,WADACHO FUNO,,35.079119,139.998093
 和田町松田,ワダチョウマツダ,WADACHO MATSUDA,,35.023296,139.982454
 和田町真浦,ワダチョウモウラ,WADACHO MORA,,35.06138,140.01406
-和田町真浦飛地,,,,35.03554,139.996775
 和田町和田,ワダチョウワダ,WADACHO WADA,,35.038773,140.015038

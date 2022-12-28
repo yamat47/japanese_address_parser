@@ -24,6 +24,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 入野山,ニュウノヤマ,NYUNOYAMA,,34.192178,134.284534
 東山,ヒガシヤマ,HIGASHIYAMA,,34.202293,134.34995
 引田,ヒケタ,HIKETA,,34.225585,134.395179
+引田,ヒケタ,HIKETA,小海代,34.224676,134.396143
 町田,マチダ,MACHIDA,,34.251876,134.301126
 松崎,マツサキ,MATSUSAKI,,34.245681,134.306767
 松原,マツバラ,MATSUBARA,,34.249976,134.380513
@@ -34,4 +35,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 横内,ヨコウチ,YOKOCHI,,34.256373,134.328322
 吉田,ヨシダ,YOSHIDA,,34.209177,134.399468
 与田山,ヨダヤマ,YODAYAMA,,34.200106,134.321367
-引田,ヒケタ,HIKETA,小海代,34.224676,134.396143

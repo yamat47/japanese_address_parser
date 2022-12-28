@@ -40,6 +40,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 金城町長田,カナギチョウナガタ,KANAGICHO NAGATA,,34.766881,132.207948
 金城町波佐,カナギチョウハザ,KANAGICHO HAZA,,34.755215,132.171924
 上府町,カミコウチョウ,KAMIKOCHO,,34.929283,132.131495
+上府町,カミコウチョウ,KAMIKOCHO,イ,34.925531,132.126022
 京町,キョウマチ,KYOMACHI,,34.895526,132.074108
 久代町,クシロチョウ,KUSHIROCHO,,34.95222,132.137211
 黒川町,クロカワチョウ,KUROKAWACHO,,34.898475,132.101105
@@ -93,6 +94,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 三隅町西河内,ミスミチョウサイゴウチ,MISUMICHO SAIGOCHI,,34.803307,131.9624
 三隅町下古和,ミスミチョウシモコワ,MISUMICHO SHIMOKOWA,,34.738512,131.989724
 三隅町東平原,ミスミチョウヒガシヒラバラ,MISUMICHO HIGASHIHIRABARA,,34.802529,131.992238
+三隅町古市場,ミスミチョウフルイチバ,MISUMICHO FURUICHIBA,,34.781351,131.942978
 三隅町三隅,ミスミチョウミスミ,MISUMICHO MISUMI,,34.781668,131.972184
 三隅町湊浦,ミスミチョウミナトウラ,MISUMICHO MINATORA,,34.7901,131.945211
 三隅町向野田,ミスミチョウムカイノタ,MISUMICHO MUKAINOTA,,34.766803,131.955652
@@ -114,5 +116,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 弥栄町三里,ヤサカチョウミサト,YASAKACHO MISATO,,34.754785,132.135451
 横山町,ヨコヤマチョウ,YOKOYAMACHO,,34.831121,132.032832
 吉地町,ヨシジチョウ,YOSHIJICHO,,34.846344,132.029616
-三隅町古市場,ミスミチョウフルイチバ,MISUMICHO FURUICHIBA,,34.781351,131.942978
-上府町,カミコウチョウ,KAMIKOCHO,イ,34.925531,132.126022

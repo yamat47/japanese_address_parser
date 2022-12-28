@@ -16,6 +16,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 新御堂,シンミドウ,SHIMMIDO,,31.485155,130.770718
 高城,タカジョウ,TAKAJO,,31.470968,130.736853
 田神,タガミ,TAGAMI,,31.502109,130.756756
+田神,タガミ,TAGAMI,下福町,31.494632,130.701292
 中央町,チュウオウチョウ,CHUOCHO,,31.491504,130.703535
 中俣,ナカマタ,NAKAMATA,,31.5198,130.716063
 浜平,ハマビラ,HAMABIRA,,31.47427,130.707722
@@ -24,4 +25,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 本町,ホンマチ,HOMMACHI,,31.49072,130.700925
 松原町,マツバラチョウ,MATSUBARACHO,,31.4894,130.702517
 南松原町,ミナミマツバラチョウ,MINAMIMATSUBARACHO,,31.487774,130.700958
-田神,タガミ,TAGAMI,下福町,31.494632,130.701292

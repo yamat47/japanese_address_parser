@@ -1,4 +1,5 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
+石田町妻ケ島,,,,33.733421,129.757605
 芦辺町芦辺浦,アシベチョウアシベウラ,ASHIBECHO ASHIBEURA,,33.801158,129.759952
 芦辺町国分川迎触,アシベチョウコクブカワムカエフレ,ASHIBECHO KOKUBUKAWAMUKAEFURE,,33.795469,129.709962
 芦辺町国分当田触,アシベチョウコクブトウダフレ,ASHIBECHO KOKUBUTODAFURE,,33.807933,129.732357
@@ -45,7 +46,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 石田町筒城仲触,イシダチョウツツキナカフレ,ISHIDACHO TSUTSUKINAKAFURE,,33.762274,129.79001
 石田町筒城西触,イシダチョウツツキニシフレ,ISHIDACHO TSUTSUKINISHIFURE,,33.758927,129.772501
 石田町筒城東触,イシダチョウツツキヒガシフレ,ISHIDACHO TSUTSUKIHIGASHIFURE,,33.749721,129.780099
-石田町妻ケ島,,,,33.733421,129.757605
 石田町本村触,イシダチョウホンムラフレ,ISHIDACHO HOMMURAFURE,,33.748075,129.767513
 石田町南触,イシダチョウミナミフレ,ISHIDACHO MINAMIFURE,,33.742524,129.770603
 石田町山崎触,イシダチョウヤマサキフレ,ISHIDACHO YAMASAKIFURE,,33.770148,129.777032
@@ -80,9 +80,9 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 郷ノ浦町片原触,ゴウノウラチョウカタバルフレ,GONORACHO KATABARUFURE,,33.7408,129.691901
 郷ノ浦町木田触,ゴウノウラチョウキダフレ,GONORACHO KIDAFURE,,33.77697,129.710878
 郷ノ浦町釘山触,ゴウノウラチョウクギヤマフレ,GONORACHO KUGIYAMAFURE,,33.736839,129.725932
-郷ノ浦町郷ノ浦,ゴウノウラチョウゴウノウラ,GONORACHO GONORA,,33.745557,129.68769
 郷ノ浦町小牧西触,ゴウノウラチョウコマキニシフレ,GONORACHO KOMAKINISHIFURE,,33.794658,129.661125
 郷ノ浦町小牧東触,ゴウノウラチョウコマキヒガシフレ,GONORACHO KOMAKIHIGASHIFURE,,33.791262,129.667723
+郷ノ浦町郷ノ浦,ゴウノウラチョウゴウノウラ,GONORACHO GONORA,,33.745557,129.68769
 郷ノ浦町里触,ゴウノウラチョウサトフレ,GONORACHO SATOFURE,,33.799095,129.669164
 郷ノ浦町志原西触,ゴウノウラチョウシハラニシフレ,GONORACHO SHIHARANISHIFURE,,33.750502,129.712659
 郷ノ浦町志原南触,ゴウノウラチョウシハラミナミフレ,GONORACHO SHIHARAMINAMIFURE,,33.739432,129.718096

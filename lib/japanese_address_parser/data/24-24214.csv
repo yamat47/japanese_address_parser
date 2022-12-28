@@ -31,9 +31,9 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 大安町大井田,ダイアンチョウオオイダ,DAIANCHO OIDA,,35.095226,136.539888
 大安町片樋,ダイアンチョウカタヒ,DAIANCHO KATAHI,,35.120036,136.533602
 大安町高柳,ダイアンチョウタカヤナギ,DAIANCHO TAKAYANAGI,,35.109107,136.543148
-大安町中央ヶ丘一丁目, 1, 1,,35.099133,136.531981
-大安町中央ヶ丘二丁目, 2, 2,,35.101648,136.53277
-大安町中央ヶ丘三丁目, 3, 3,,35.101137,136.529838
+大安町中央ヶ丘一丁目,ダイアンチョウチュウオウガオカ 1,DAIANCHO CHUOGAOKA 1,,35.099133,136.531981
+大安町中央ヶ丘二丁目,ダイアンチョウチュウオウガオカ 2,DAIANCHO CHUOGAOKA 2,,35.101648,136.53277
+大安町中央ヶ丘三丁目,ダイアンチョウチュウオウガオカ 3,DAIANCHO CHUOGAOKA 3,,35.101137,136.529838
 大安町鍋坂,ダイアンチョウナベサカ,DAIANCHO NABESAKA,,35.095811,136.520959
 大安町丹生川上,ダイアンチョウニュウガワカミ,DAIANCHO NYUGAWAKAMI,,35.122389,136.503967
 大安町丹生川中,ダイアンチョウニュウガワナカ,DAIANCHO NYUGAWANAKA,,35.121622,136.518334
@@ -57,11 +57,12 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 藤原町長尾,フジワラチョウナガオ,FUJIWARACHO NAGAO,,35.186417,136.496162
 藤原町西野尻,フジワラチョウニシノジリ,FUJIWARACHO NISHINOJIRI,,35.163744,136.488489
 藤原町日内,フジワラチョウヒナイ,FUJIWARACHO HINAI,,35.181739,136.498503
-藤原町藤ヶ丘,,,,35.191596,136.486141
+藤原町藤ヶ丘,フジワラチョウフジガオカ,FUJIWARACHO FUJIGAOKA,,35.191596,136.486141
 藤原町古田,フジワラチョウフルタ,FUJIWARACHO FURUTA,,35.228011,136.459418
 藤原町本郷,フジワラチョウホンゴウ,FUJIWARACHO HONGO,,35.193275,136.423219
 藤原町山口,フジワラチョウヤマグチ,FUJIWARACHO YAMAGUCHI,,35.188689,136.451236
 北勢町阿下喜,ホクセイチョウアゲキ,HOKUSEICHO AGEKI,,35.153489,136.518994
+北勢町阿下喜,ホクセイチョウアゲキ,HOKUSEICHO AGEKI,中川原,35.153067,136.51015
 北勢町飯倉,ホクセイチョウイグラ,HOKUSEICHO IGURA,,35.160906,136.521426
 北勢町麻生田,ホクセイチョウオウダ,HOKUSEICHO ODA,,35.133366,136.536054
 北勢町大辻新田,ホクセイチョウオオツジシンデン,HOKUSEICHO OTSUJISHINDEN,,35.151277,136.54113
@@ -69,7 +70,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 北勢町垣内,ホクセイチョウカイト,HOKUSEICHO KAITO,,35.136094,136.501061
 北勢町川原,ホクセイチョウカワハラ,HOKUSEICHO KAWAHARA,,35.222717,136.509683
 北勢町北中津原,ホクセイチョウキタナカツハラ,HOKUSEICHO KITANAKATSUHARA,,35.170411,136.559622
-北勢町京ヶ野新田,,,,35.181891,136.51167
+北勢町京ヶ野新田,ホクセイチョウキョウガノシンデン,HOKUSEICHO KYOGANOSHINDEN,,35.181891,136.51167
 北勢町小原一色,ホクセイチョウコハライッシキ,HOKUSEICHO KOHARAISSHIKI,,35.198413,136.558505
 北勢町塩崎,ホクセイチョウシオサキ,HOKUSEICHO SHIOSAKI,,35.186553,136.520283
 北勢町下平,ホクセイチョウシモヒラ,HOKUSEICHO SHIMOHIRA,,35.168644,136.520129
@@ -91,4 +92,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 北勢町別名,ホクセイチョウベツミョウ,HOKUSEICHO BETSUMYO,,35.1483,136.469501
 北勢町南中津原,ホクセイチョウミナミナカツハラ,HOKUSEICHO MINAMINAKATSUHARA,,35.164812,136.566198
 北勢町向平,ホクセイチョウムコヒラ,HOKUSEICHO MUKOHIRA,,35.17508,136.521881
-北勢町阿下喜,ホクセイチョウアゲキ,HOKUSEICHO AGEKI,中川原,35.153067,136.51015

@@ -10,6 +10,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 下林,シモバヤシ,SHIMOBAYASHI,,33.758917,132.869324
 則之内,スノウチコウ,SUNOCHI KO,,33.782918,132.930318
 田窪,タノクボ,TANOKUBO,,33.79037,132.860296
+田窪,タノクボ,TANOKUBO,門田,33.784374,132.855824
 滑川,ナメガワ,NAMEGAWA,,33.797611,133.004804
 西岡,ニシオカ,NISHIOKA,,33.812423,132.869427
 野田一丁目,ノダ 1,NODA 1,,33.794866,132.841148
@@ -24,4 +25,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 山之内,ヤマノウチ,YAMANOCHI,,33.863716,132.923525
 横河原,ヨコガワラ,YOKOGAWARA,,33.80093,132.884856
 吉久,ヨシヒサ,YOSHIHISA,,33.785606,132.88959
-田窪,タノクボ,TANOKUBO,門田,33.784374,132.855824

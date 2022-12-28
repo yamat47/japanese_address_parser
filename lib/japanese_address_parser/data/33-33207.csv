@@ -10,6 +10,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 木之子町,キノコチョウ,KINOKOCHO,,34.586209,133.494509
 神代町,コウジロチョウ,KOJIROCHO,,34.609522,133.525297
 笹賀町,ササカチョウ,SASAKACHO,,34.591727,133.43919
+笹賀町,ササカチョウ,SASAKACHO,弐反田,34.593423,133.457071
 笹賀町一丁目,ササカチョウ 1,SASAKACHO 1,,34.58819,133.440915
 笹賀町二丁目,ササカチョウ 2,SASAKACHO 2,,34.59017,133.444787
 下出部町,シモイズエチョウ,SHIMOIZUECHO,,34.584866,133.44909
@@ -59,4 +60,3 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 芳井町山村,ヨシイチョウヤマムラ,YOSHIICHO YAMAMURA,,34.694764,133.418585
 芳井町与井,ヨシイチョウヨイ,YOSHIICHO YOI,,34.62755,133.43959
 芳井町吉井,ヨシイチョウヨシイ,YOSHIICHO YOSHII,,34.629551,133.426509
-笹賀町,ササカチョウ,SASAKACHO,弐反田,34.593423,133.457071

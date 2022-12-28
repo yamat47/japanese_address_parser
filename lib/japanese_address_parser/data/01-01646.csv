@@ -1,4 +1,5 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
+西勇足,,,,43.102285,143.492998
 朝日町,アサヒマチ,ASAHIMACHI,,43.123851,143.614668
 押帯,オショツプ,OSHOTSUPU,,43.141872,143.401861
 柏木町,カシワギチョウ,KASHIWAGICHO,,43.117533,143.612478
@@ -21,7 +22,6 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 錦町,ニシキマチ,NISHIKIMACHI,,43.135987,143.616284
 西仙美里,ニシセンビリ,NISHISEMBIRI,,43.202634,143.544474
 西美里別,ニシビリベツ,NISHIBIRIBETSU,,43.177933,143.472108
-西勇足,,,,43.102285,143.492998
 東本別,ヒガシホンベツ,HIGASHIHOMBETSU,,43.172916,143.707275
 東町,ヒガシマチ,HIGASHIMACHI,,43.124893,143.622692
 美蘭別,ビランベツ,BIRAMBETSU,,43.178916,143.432855
