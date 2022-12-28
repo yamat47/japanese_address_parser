@@ -1182,7 +1182,7 @@
 - full_address: 埼玉県草加市高砂1-1-1
   furigana: サイタマケンソウカシタカサゴ 1
 - full_address: 埼玉県越谷市越ヶ谷4-2-1
-  furigana: サイタマケンコシガヤシ 4
+  furigana: サイタマケンコシガヤシコシガヤ 4
 - full_address: 埼玉県蕨市中央5-14-15
   furigana: サイタマケンワラビシチュウオウ 5
 - full_address: 埼玉県戸田市上戸田1-18-1
@@ -1269,6 +1269,8 @@
   furigana: サイタマケンキタカツシカグンスギトマチセイジ 2
 - full_address: 埼玉県北葛飾郡松伏町大字松伏2424
   furigana: サイタマケンキタカツシカグンマツブシマチ
+- full_address: 埼玉県北足立郡伊奈町中央四丁目355番地
+  furigana: サイタマケンキタアダチグンイナマチチュウオウ 4
 - full_address: 千葉県千葉市中央区千葉港1-1
   furigana: チバケンチバシチュウオウクチバミナト
 - full_address: 千葉県千葉市中央区中央4-5-1
@@ -1482,7 +1484,7 @@
 - full_address: 東京都稲城市東長沼2111
   furigana: トウキョウトイナギシヒガシナガヌマ
 - full_address: 東京都羽村市緑ヶ丘5-2-1
-  furigana: トウキョウトハムラシ 5
+  furigana: トウキョウトハムラシミドリガオカ 5
 - full_address: 東京都あきる野市二宮350
   furigana: トウキョウトアキルノシニノミヤ
 - full_address: 東京都西東京市南町5-6-13
@@ -2332,7 +2334,7 @@
 - full_address: 三重県度会郡大紀町滝原1610-1
   furigana: ミエケンワタライグンタイキチョウタキハラ
 - full_address: 三重県度会郡南伊勢町五ヶ所浦3057
-  furigana: ミエケンワタライグンミナミイセチョウ
+  furigana: ミエケンワタライグンミナミイセチョウゴカショウラ
 - full_address: 三重県北牟婁郡紀北町東長島769番地1
   furigana: ミエケンキタムログンキホクチョウヒガシナガシマ
 - full_address: 三重県南牟婁郡御浜町大字阿田和6120-1
@@ -3016,7 +3018,7 @@
 - full_address: 広島県安芸郡熊野町中溝1-1-1
   furigana: ヒロシマケンアキグンクマノチョウナカミゾ 1
 - full_address: 広島県安芸郡坂町平成ヶ浜1-1-1
-  furigana: ヒロシマケンアキグンサカチョウ 1
+  furigana: ヒロシマケンアキグンサカチョウヘイセイガハマ 1
 - full_address: 広島県山県郡安芸太田町戸河内784-1
   furigana: ヒロシマケンヤマガタグンアキオオタチョウ
 - full_address: 広島県山県郡北広島町有田1234
