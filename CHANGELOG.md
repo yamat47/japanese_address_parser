@@ -15,6 +15,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Fixed
 
+- [#75](https://github.com/yamat47/japanese_address_parser/pull/75) READMEのCIステータスバッジがリンク切れになっていたのを直した。([@yamat47](https://github.com/yamat47))
+
 ### Security
 
 ## [3.0.3] - 2022-12-28
