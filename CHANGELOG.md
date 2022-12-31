@@ -7,6 +7,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ## [Unreleased]
 ### Added
 
+- [#76](https://github.com/yamat47/japanese_address_parser/pull/76) CIで動作確認をするRubyのバージョンを増やした。([@yamat47](https://github.com/yamat47))
+
 ### Changed
 
 ### Deprecated
