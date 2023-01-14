@@ -220,6 +220,9 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 上野丘東,ウエノガオカヒガシ,UENOGAOKA HIGASHI,,33.222107,131.615544
 上野町,ウエノマチ,UENOMACHI,,33.227708,131.61293
 上野,ウエノミナミ,UENOMINAMI,,33.22223,131.606637
+梅が丘一丁目,ウメガオカ 1,UMEGAOKA 1,,,
+梅が丘二丁目,ウメガオカ 2,UMEGAOKA 2,,,
+梅が丘三丁目,ウメガオカ 3,UMEGAOKA 3,,,
 恵比寿町,エビスマチ,EBISUMACHI,,33.238185,131.748456
 王子北町,オウジキタマチ,OJI KITAMACHI,,33.244881,131.594934
 王子新町,オウジシンマチ,OJI SHIMMACHI,,33.236917,131.590867
@@ -299,6 +302,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 京が丘南一丁目,キョウガオカミナミ 1,KYOGAOKAMINAMI 1,,33.176358,131.648317
 京が丘南二丁目,キョウガオカミナミ 2,KYOGAOKAMINAMI 2,,33.174588,131.649773
 京が丘南三丁目,キョウガオカミナミ 3,KYOGAOKAMINAMI 3,,33.174603,131.64782
+京が丘南四丁目,キョウガオカミナミ 4,KYOGAOKAMINAMI 4,,,
 久原北,クバルキタ,KUBARUKITA,,33.239187,131.753865
 久原中央一丁目,クバルチュウオウ 1,KUBARUCHUO 1,,33.236484,131.756303
 久原中央二丁目,クバルチュウオウ 2,KUBARUCHUO 2,,33.236632,131.75969
@@ -323,6 +327,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 古ケ鶴一丁目,コガヅル 1,KOGAZURU 1,,33.239012,131.631839
 古ケ鶴二丁目,コガヅル 2,KOGAZURU 2,,33.236821,131.631549
 国分新町,コクブシンマチ,KOKUBUSHIMMACHI,,33.196278,131.547555
+国分台,コクブダイ,KOKUBUDAI,,,
 小佐井一丁目,コザイ 1,KOZAI 1,,33.229553,131.744334
 小佐井二丁目,コザイ 2,KOZAI 2,,33.22611,131.746603
 小佐井三丁目,コザイ 3,KOZAI 3,,33.224431,131.747564
