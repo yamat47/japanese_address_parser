@@ -7,12 +7,7 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ## [Unreleased]
 ### Added
 
-- [#76](https://github.com/yamat47/japanese_address_parser/pull/76) CIで動作確認をするRubyのバージョンを増やした。([@yamat47](https://github.com/yamat47))
-
 ### Changed
-
-- [#77](https://github.com/yamat47/japanese_address_parser/pull/77) Bump geolonia-japanese-addresses from ce956e6 to 662d645([@yamat47](https://github.com/yamat47))
-- [#78](https://github.com/yamat47/japanese_address_parser/pull/78) Bump geolonia-japanese-addresses from 662d645 to eb3bc25([@yamat47](https://github.com/yamat47))
 
 ### Deprecated
 
@@ -20,9 +15,21 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Fixed
 
-- [#75](https://github.com/yamat47/japanese_address_parser/pull/75) READMEのCIステータスバッジがリンク切れになっていたのを直した。([@yamat47](https://github.com/yamat47))
-
 ### Security
+
+## [3.0.4] - 2023-01-14
+### Added
+
+- [#76](https://github.com/yamat47/japanese_address_parser/pull/76) CIで動作確認をするRubyのバージョンを増やした。([@yamat47](https://github.com/yamat47))
+
+### Changed
+
+- [#77](https://github.com/yamat47/japanese_address_parser/pull/77) Bump geolonia-japanese-addresses from ce956e6 to 662d645([@yamat47](https://github.com/yamat47))
+- [#78](https://github.com/yamat47/japanese_address_parser/pull/78) Bump geolonia-japanese-addresses from 662d645 to eb3bc25([@yamat47](https://github.com/yamat47))
+
+### Fixed
+
+- [#75](https://github.com/yamat47/japanese_address_parser/pull/75) READMEのCIステータスバッジがリンク切れになっていたのを直した。([@yamat47](https://github.com/yamat47))
 
 ## [3.0.3] - 2022-12-28
 ### Added
