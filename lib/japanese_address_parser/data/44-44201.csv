@@ -176,6 +176,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 青葉台三丁目,アオバダイ 3,AOBADAI 3,,33.228362,131.572517
 青葉台四丁目,アオバダイ 4,AOBADAI 4,,33.230307,131.573825
 青葉町,アオバマチ,AOBAMACHI,,33.252776,131.627503
+明磧町一丁目,アケガワラマチ 1,AKEGAWARAMACHI 1,,,
+明磧町二丁目,アケガワラマチ 2,AKEGAWARAMACHI 2,,,
 明野北一丁目,アケノキタ 1,AKENOKITA 1,,33.227464,131.653499
 明野北二丁目,アケノキタ 2,AKENOKITA 2,,33.23245,131.654036
 明野北三丁目,アケノキタ 3,AKENOKITA 3,,33.231886,131.657671
@@ -199,6 +201,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 曙台二丁目,アケボノダイ 2,AKEBONODAI 2,,33.235379,131.727862
 曙台三丁目,アケボノダイ 3,AKEBONODAI 3,,33.233889,131.729003
 曙台四丁目,アケボノダイ 4,AKEBONODAI 4,,33.235672,131.729287
+旭町,アサヒマチ,ASAHIMACHI,,,
 生石一丁目,イクシ 1,IKUSHI 1,,33.243569,131.586607
 生石二丁目,イクシ 2,IKUSHI 2,,33.245011,131.584668
 生石三丁目,イクシ 3,IKUSHI 3,,33.244639,131.587344
@@ -444,6 +447,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 高松東三丁目,タカマツヒガシ 3,TAKAMATSUHIGASHI 3,,33.247432,131.662381
 竹下一丁目,タケシタ 1,TAKESHITA 1,,33.242467,131.726387
 竹下二丁目,タケシタ 2,TAKESHITA 2,,33.240899,131.730955
+竹の上,タケノウエ,TAKENOE,,,
 田尻北,タジリキタ,TAJIRIKITA,,33.182676,131.586351
 田尻中央,タジリチュウオウ,TAJIRICHUO,,33.180292,131.585627
 田尻西,タジリニシ,TAJIRINISHI,,33.179845,131.582665
@@ -497,6 +501,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 中津留二丁目,ナカヅル 2,NAKAZURU 2,,33.245014,131.629003
 仲西町一丁目,ナカニシマチ 1,NAKANISHIMACHI 1,,33.242485,131.662314
 仲西町二丁目,ナカニシマチ 2,NAKANISHIMACHI 2,,33.244432,131.6622
+中の瀬町,ナカノセマチ,NAKANOSEMACHI,,,
 長浜町一丁目,ナガハママチ 1,NAGAHAMAMACHI 1,,33.237113,131.615968
 長浜町二丁目,ナガハママチ 2,NAGAHAMAMACHI 2,,33.237112,131.61794
 長浜町三丁目,ナガハママチ 3,NAGAHAMAMACHI 3,,33.237326,131.621053
@@ -523,6 +528,11 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 萩原二丁目,ハギワラ 2,HAGIWARA 2,,33.247533,131.63942
 萩原三丁目,ハギワラ 3,HAGIWARA 3,,33.244114,131.643818
 萩原四丁目,ハギワラ 4,HAGIWARA 4,,33.248076,131.643107
+畑中一丁目,ハタケナカ 1,HATAKENAKA 1,,,
+畑中二丁目,ハタケナカ 2,HATAKENAKA 2,,,
+畑中三丁目,ハタケナカ 3,HATAKENAKA 3,,,
+畑中四丁目,ハタケナカ 4,HATAKENAKA 4,,,
+畑中五丁目,ハタケナカ 5,HATAKENAKA 5,,,
 花江川,ハナエガワ,HANAEGAWA,,33.244865,131.706207
 花高松一丁目,ハナタカマツ 1,HANATAKAMATSU 1,,33.249178,131.663155
 花高松二丁目,ハナタカマツ 2,HANATAKAMATSU 2,,33.25063,131.663412
@@ -594,9 +604,15 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 富士見が丘東三丁目,フジミガオカヒガシ 3,FUJIMIGAOKA HIGASHI 3,,33.181383,131.549812
 富士見が丘東四丁目,フジミガオカヒガシ 4,FUJIMIGAOKA HIGASHI 4,,33.180138,131.545442
 富士見が丘東五丁目,フジミガオカヒガシ 5,FUJIMIGAOKA HIGASHI 5,,33.183007,131.545396
+二又町一丁目,フタマタマチ 1,FUTAMATAMACHI 1,,,
+二又町二丁目,フタマタマチ 2,FUTAMATAMACHI 2,,,
+二又町三丁目,フタマタマチ 3,FUTAMATAMACHI 3,,,
 府内町一丁目,フナイマチ 1,FUNAIMACHI 1,,33.235638,131.609734
 府内町二丁目,フナイマチ 2,FUNAIMACHI 2,,33.236755,131.609669
 府内町三丁目,フナイマチ 3,FUNAIMACHI 3,,33.238226,131.609575
+豊饒一丁目,ブニョウ 1,BUNYO 1,,,
+豊饒二丁目,ブニョウ 2,BUNYO 2,,,
+豊饒三丁目,ブニョウ 3,BUNYO 3,,,
 弁天一丁目,ベンテン 1,BENTEN 1,,33.252387,131.612958
 弁天二丁目,ベンテン 2,BENTEN 2,,33.253128,131.610075
 弁天三丁目,ベンテン 3,BENTEN 3,,33.25505,131.613816
@@ -621,6 +637,9 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 松原町三丁目,マツバラマチ 3,MATSUBARAMACHI 3,,33.250702,131.65494
 政所一丁目,マドコロ 1,MADOKORO 1,,33.246318,131.723928
 政所二丁目,マドコロ 2,MADOKORO 2,,33.249107,131.725893
+三ケ田町一丁目,ミケタマチ 1,MIKETAMACHI 1,,,
+三ケ田町二丁目,ミケタマチ 2,MIKETAMACHI 2,,,
+三ケ田町三丁目,ミケタマチ 3,MIKETAMACHI 3,,,
 三佐一丁目,ミサ 1,MISA 1,,33.25243,131.67708
 三佐二丁目,ミサ 2,MISA 2,,33.248755,131.675506
 三佐三丁目,ミサ 3,MISA 3,,33.249979,131.678333
@@ -663,6 +682,11 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 向原東二丁目,ムカイバルヒガシ 2,MUKAIBARU HIGASHI 2,,33.253908,131.665402
 萌葱台,モエギダイ,MOEGIDAI,,33.19128,131.568018
 元町,モトマチ,MOTOMACHI,,33.221634,131.617001
+森町西一丁目,モリマチニシ 1,MORIMACHINISHI 1,,,
+森町西二丁目,モリマチニシ 2,MORIMACHINISHI 2,,,
+森町西三丁目,モリマチニシ 3,MORIMACHINISHI 3,,,
+森町西四丁目,モリマチニシ 4,MORIMACHINISHI 4,,,
+森町西五丁目,モリマチニシ 5,MORIMACHINISHI 5,,,
 山津町一丁目,ヤマヅマチ 1,YAMAZUMACHI 1,,33.243007,131.666289
 山津町二丁目,ヤマヅマチ 2,YAMAZUMACHI 2,,33.242108,131.669599
 豊町一丁目,ユタカマチ 1,YUTAKAMACHI 1,,33.247682,131.617295
@@ -675,5 +699,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 横田二丁目,ヨコタ 2,YOKOTA 2,,33.251849,131.72002
 横塚一丁目,ヨコヅカ 1,YOKOZUKA 1,,33.240013,131.739603
 横塚二丁目,ヨコヅカ 2,YOKOZUKA 2,,33.242444,131.740967
+永興一丁目,リョウゴ 1,RYOGO 1,,,
+永興二丁目,リョウゴ 2,RYOGO 2,,,
+永興三丁目,リョウゴ 3,RYOGO 3,,,
 六坊北町,ロクボウキタマチ,ROKUBOKITAMACHI,,33.227316,131.616801
 六坊南町,ロクボウミナミマチ,ROKUBOMINAMIMACHI,,33.225789,131.615979
