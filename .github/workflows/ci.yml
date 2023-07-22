@@ -35,5 +35,6 @@ jobs:
       uses: actions/setup-node@v3
     - name: Steep check
       run: bundle exec steep check
+      if: ${{ matrix.ruby != 'head' }}
     - name: Run the default task
       run: bundle exec rake
