@@ -1,5 +1,4 @@
 name,name_kana,name_romaji,nickname,latitude,longitude
-中ノ島,,,,37.233532,138.95672
 青島,アオシマ,AOSHIMA,,37.219496,138.951683
 赤土,アカツチ,AKATSUCHI,,37.291054,139.010522
 穴沢,アナザワ,ANAZAWA,,37.355824,139.090915
@@ -69,6 +68,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 徳田,トクダ,TOKUDA,,37.268482,138.924905
 中島,ナカジマ,NAKAJIMA,,37.245415,138.965366
 中島新田,ナカジマシンデン,NAKAJIMASHINDEN,,37.251499,138.969477
+中ノ島,ナカノシマ,,,37.233532,138.95672
 中原,ナカハラ,NAKAHARA,,37.218062,138.969493
 中原,ナカハラ,NAKAHARA,土井下,37.218376,138.968179
 長鳥,ナガトリ,NAGATORI,,37.341905,139.039373
