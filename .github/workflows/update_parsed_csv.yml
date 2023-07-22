@@ -3,9 +3,6 @@ on:
   pull_request:
     types: [opened]
 
-permissions:
-  contents: read
-
 jobs:
   update_parsed_csv:
     # /jsの中のnpmパッケージが更新されたプルリクエストに対してのみ実行する。
@@ -13,10 +10,9 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
       with:
         submodules: recursive
-        token: ${{ secrets.TOKEN_FOR_CI }}
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
