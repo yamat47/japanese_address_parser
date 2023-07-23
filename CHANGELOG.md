@@ -17,6 +17,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Removed
 
+- [#89](https://github.com/yamat47/japanese_address_parser/pull/89) 最新のRubyでCIを実行するのを一時的に停止した。([@yamat47](https://github.com/yamat47))
+
 ### Fixed
 
 ### Security
