@@ -222,6 +222,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 徳山港町,トクヤマミナトマチ,TOKUYAMAMINATOMACHI,,34.052237,131.796011
 富田一丁目,トンダ 1,TONDA 1,,34.074263,131.7508
 富田二丁目,トンダ 2,TONDA 2,,34.074246,131.754711
+富田新町一丁目,トンダシンマチ 1,TONDASHINMACHI 1,,,
+富田新町二丁目,トンダシンマチ 2,TONDASHINMACHI 2,,,
 土井一丁目,ドイ 1,DOI 1,,34.079254,131.770808
 土井二丁目,ドイ 2,DOI 2,,34.077118,131.773499
 道源町,ドウゲンチョウ,DOGENCHO,,34.065584,131.784826
@@ -257,6 +259,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 花園町,ハナゾノチョウ,HANAZONOCHO,,34.066983,131.7755
 花畠町,ハナバタケチョウ,HANABATAKECHO,,34.05978,131.810996
 浜田一丁目,ハマダ 1,HAMADA 1,,34.069147,131.755553
+浜田二丁目,ハマダ 2,HAMADA 2,,,
 速玉町,ハヤタマチョウ,HAYATAMACHO,,34.046024,131.809746
 原宿町,ハラジュクチョウ,HARAJUKUCHO,,34.062296,131.804365
 晴海町,ハルミチョウ,HARUMICHO,,34.036451,131.791869

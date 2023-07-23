@@ -71,6 +71,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 大平,オオヒラ,OHIRA ,,33.470429,132.430493
 沖新田,オキシンデン,OKISHINDEN,,33.4594,132.418768
 海望園,カイボウエン,KAIBOEN,,33.462524,132.42642
+片山町,カタヤマチョウ,KATAYAMACHO,,,
 釜倉,カマノクラ,KAMANOKURA,,33.410131,132.45853
 川上町上泊,カワカミチョウカミドマリ,KAWAKAMICHOKAMIDOMARI,,33.425893,132.399421
 川上町川名津,カワカミチョウカワナヅ,KAWAKAMICHOKAWANAZU,,33.424443,132.406685
@@ -88,7 +89,13 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 舌間,シタマ,SHITAMA,,33.443414,132.416432
 昭和通,ショウワドオリ,SHOWADORI,,33.457975,132.421037
 新川,シンカワ,SHINKAWA,,33.457537,132.420484
+新町一丁目,シンマチ 1,SHINMACHI 1,,,
+新町二丁目,シンマチ 2,SHINMACHI 2,,,
+新町三丁目,シンマチ 3,SHINMACHI 3,,,
 神宮,ジングウ,JINGU,,33.462374,132.432863
+須崎一丁目,スサキ 1,SUSAKI 1,,,
+須崎二丁目,スサキ 2,SUSAKI 2,,,
+船場通,センバドオリ,SENBADORI,,,
 高野地,タカノジ,TAKANOJI,,33.478935,132.447158
 谷,タニ,TANI,,33.409911,132.441623
 大黒町一丁目,ダイコクマチ 1,DAIKOKUMACHI 1,,33.459783,132.422916
@@ -97,9 +104,14 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 大黒町四丁目,ダイコクマチ 4,DAIKOKUMACHI 4,,33.460089,132.421218
 大黒町五丁目,ダイコクマチ 5,DAIKOKUMACHI 5,,33.459723,132.420725
 大門,ダイモン,DAIMON,,33.461624,132.426877
+中央,チュウオウ,CHUO,,,
+千代田町,チヨダマチ,CHIYODAMACHI,,,
+天神通一丁目,テンジンドオリ 1,TENJINDORI 1,,,
 天神通二丁目,テンジンドオリ 2,TENJINDORI 2,,33.458911,132.421491
 出島,デジマ,DEJIMA,,33.458684,132.415713
 中津川,ナカツカワ,NAKATSUKAWA,,33.436841,132.463534
+浜田町一丁目,ハマダマチ 1,HAMADAMACHI 1,,,
+浜之町,ハマノマチ,HAMANOMACHI,,,
 日土町,ヒヅチチョウ,HIZUCHICHO,,33.510875,132.445334
 桧谷一丁目,ヒノキダニ 1,HINOKIDANI 1,,33.46081,132.437531
 桧谷二丁目,ヒノキダニ 2,HINOKIDANI 2,,33.460282,132.436753
@@ -119,6 +131,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 保内町須川,ホナイチョウスガワ,HONAICHO SUGAWA,,33.483577,132.416987
 保内町広早,ホナイチョウヒロハヤ,HONAICHO HIROHAYA,,33.525543,132.381233
 保内町宮内,ホナイチョウミヤウチ,HONAICHO MIYAUCHI,,33.491474,132.39742
+本町一丁目,ホンマチ 1,HONMACHI 1,,,
+本町二丁目,ホンマチ 2,HONMACHI 2,,,
 真網代,マアジロ,MAAJIRO,,33.413766,132.393932
 松蔭町,マツカゲチョウ,MATSUKAGECHO,,33.459753,132.430227
 松柏,マツカヤ,MATSUKAYA,,33.461662,132.439298
@@ -130,5 +144,8 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 八代一丁目,ヤシロ 1,YASHIRO 1,,33.449924,132.431298
 矢野町,ヤノマチ,YANOMACHI,,33.453273,132.433585
 矢野町,ヤノマチ,YANOMACHI,徳雲坊,33.453694,132.433148
+矢野町五丁目,ヤノマチ 5,YANOMACHI 5,,,
+矢野町六丁目,ヤノマチ 6,YANOMACHI 6,,,
+矢野町七丁目,ヤノマチ 7,YANOMACHI 7,,,
 横平,ヨコヒラ,YOKOHIRA,,33.41901,132.427049
 若山,ワカヤマ,WAKAYAMA,,33.423081,132.459834
