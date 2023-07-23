@@ -43,9 +43,13 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 猪岡,イノオカ,INOKA,水上,39.31756,140.521665
 猪岡,イノオカ,INOKA,長瀞,39.315335,140.519002
 梅の木町,ウメノキマチ,UMENOKIMACHI,,39.315702,140.557751
+駅西一丁目,エキニシ 1,EKINISHI 1,,,
+駅西二丁目,エキニシ 2,EKINISHI 2,,,
+駅西三丁目,エキニシ 3,EKINISHI 3,,,
 駅前町,エキマエチョウ,EKIMAECHO,,39.308784,140.561408
 駅南一丁目,エキミナミ 1,EKIMINAMI 1,,39.302415,140.56071
 駅南二丁目,エキミナミ 2,EKIMINAMI 2,,39.302577,140.558314
+駅南三丁目,エキミナミ 3,EKIMINAMI 3,,,
 追廻一丁目,オイマワシ 1,OIMAWASHI 1,,39.332247,140.568572
 追廻二丁目,オイマワシ 2,OIMAWASHI 2,,39.331959,140.570628
 追廻三丁目,オイマワシ 3,OIMAWASHI 3,,39.334844,140.572056
@@ -408,6 +412,7 @@ name,name_kana,name_romaji,nickname,latitude,longitude
 三本柳,サンボンヤナギ,SAMBONYANAGI,街道下,39.321213,140.538111
 三本柳,サンボンヤナギ,SAMBONYANAGI,馬場尻,39.324461,140.53328
 三枚橋一丁目,サンマイバシ 1,SAMMAIBASHI 1,,39.313272,140.558151
+三枚橋二丁目,サンマイバシ 2,SANMAIBASHI 2,,,
 静町,シズカマチ,SHIZUKAMACHI,,39.332264,140.545279
 静町,シズカマチ,SHIZUKAMACHI,北小屋,39.336115,140.543985
 静町,シズカマチ,SHIZUKAMACHI,払小屋,39.334205,140.543283
