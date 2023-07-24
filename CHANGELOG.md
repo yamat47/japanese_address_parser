@@ -9,19 +9,25 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Changed
 
-- [#79](https://github.com/yamat47/japanese_address_parser/pull/79) Bump activesupport from 7.0.4 to 7.0.4.1([@yamat47](https://github.com/yamat47))
-- [#84](https://github.com/yamat47/japanese_address_parser/pull/84) Bump activesupport from 7.0.4.1 to 7.0.4.3([@yamat47](https://github.com/yamat47))
-- [#85](https://github.com/yamat47/japanese_address_parser/pull/85) CIに必要な権限を追加した。([@yamat47](https://github.com/yamat47))
-
 ### Deprecated
 
 ### Removed
 
-- [#89](https://github.com/yamat47/japanese_address_parser/pull/89) 最新のRubyでCIを実行するのを一時的に停止した。([@yamat47](https://github.com/yamat47))
-
 ### Fixed
 
 ### Security
+
+## [3.1.0] - 2023-07-24
+
+### Changed
+
+- [#79](https://github.com/yamat47/japanese_address_parser/pull/79) Bump activesupport from 7.0.4 to 7.0.4.1([@yamat47](https://github.com/yamat47))
+- [#84](https://github.com/yamat47/japanese_address_parser/pull/84) Bump activesupport from 7.0.4.1 to 7.0.4.3([@yamat47](https://github.com/yamat47))
+- [#85](https://github.com/yamat47/japanese_address_parser/pull/85) CIに必要な権限を追加した。([@yamat47](https://github.com/yamat47))
+
+### Removed
+
+- [#89](https://github.com/yamat47/japanese_address_parser/pull/89) 最新のRubyでCIを実行するのを一時的に停止した。([@yamat47](https://github.com/yamat47))
 
 ## [3.0.5]
 ### Changed
