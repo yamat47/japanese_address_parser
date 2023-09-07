@@ -17,6 +17,16 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Security
 
+## [3.1.1] - 2023-09-07
+
+### Changed
+
+- [#95](https://github.com/yamat47/japanese_address_parser/pull/95) Bump @geolonia/normalize-japanese-addresses from 2.8.0 to 2.9.2 in /js([@yamat47](https://github.com/yamat47))
+
+### Security
+
+- [#94](https://github.com/yamat47/japanese_address_parser/pull/94) Bump activesupport from 7.0.4.3 to 7.0.7.1([@yamat47](https://github.com/yamat47))
+
 ## [3.1.0] - 2023-07-24
 
 ### Changed
