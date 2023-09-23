@@ -17,6 +17,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Fixed
 
+- [#99](https://github.com/yamat47/japanese_address_parser/pull/99) 最新のRuby（head）でCIを実行できるようにする
+
 ### Security
 
 ## [3.1.1] - 2023-09-07
