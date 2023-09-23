@@ -5,11 +5,10 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 またバージョンの付け方は [Semantic Versioning](https://semver.org/) に従います。
 
 ## [Unreleased]
+
 ### Added
 
 ### Changed
-
-- [#97](https://github.com/yamat47/japanese_address_parser/pull/97) parser gem のバージョンを最新の(3.2.2.3)にアップデートする([@takatea](https://github.com/takatea))
 
 ### Deprecated
 
@@ -17,9 +16,17 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Fixed
 
-- [#99](https://github.com/yamat47/japanese_address_parser/pull/99) 最新のRuby（head）でCIを実行できるようにする
-
 ### Security
+
+## [3.1.2] - 2023-09-23
+
+### Changed
+
+- [#97](https://github.com/yamat47/japanese_address_parser/pull/97) parser gem のバージョンを最新の(3.2.2.3)にアップデートする([@takatea](https://github.com/takatea))
+
+### Fixed
+
+- [#99](https://github.com/yamat47/japanese_address_parser/pull/99) 最新のRuby（head）でCIを実行できるようにする
 
 ## [3.1.1] - 2023-09-07
 
