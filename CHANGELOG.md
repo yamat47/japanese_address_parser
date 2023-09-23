@@ -9,6 +9,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Changed
 
+- [#97](https://github.com/yamat47/japanese_address_parser/pull/97) parser gem のバージョンを最新の(3.2.2.3)にアップデートする([@takatea](https://github.com/takatea))
+
 ### Deprecated
 
 ### Removed
