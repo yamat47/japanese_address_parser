@@ -43,7 +43,7 @@ city.attributes #=> {:code=>"13103", :formatted_code=>"13103", :prefecture_code=
 town = address.town
 town.attributes #=> {:name=>"芝公園四丁目", :name_kana=>"シバコウエン 4", :name_romaji=>"SHIBAKOEN 4", :nickname=>nil, :latitude=>"35.656459", :longitude=>"139.74764"}
 
-address.full_address #=> "東京都港区芝公園4-2-8"
+address.full_address #=> "東京都港区芝公園四丁目"
 address.furigana #=> "トウキョウトミナトクシバコウエン 4"
 ```
 
