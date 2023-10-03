@@ -15,6 +15,7 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ### Removed
 
 ### Fixed
+- [#101](https://github.com/yamat47/japanese_address_parser/pull/101) full_addressメソッド の実行結果のコメントを修正する([@takatea](https://github.com/takatea))
 
 ### Security
 
