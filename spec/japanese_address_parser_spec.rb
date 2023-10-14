@@ -12,6 +12,7 @@ require_relative 'support/yaml_loader'
         expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
         expect(parsed_address.city).to(be_a(::JapaneseAddressParser::Models::City))
         expect(parsed_address.town).to(be_nil)
+        expect(parsed_address.full_address).to(eq('東京都北区'))
         expect(parsed_address.furigana).to(eq('トウキョウトキタク'))
       end
     end
@@ -25,6 +26,7 @@ require_relative 'support/yaml_loader'
           expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
           expect(parsed_address.city).to(be_nil)
           expect(parsed_address.town).to(be_nil)
+          expect(parsed_address.full_address).to(eq(address['full_address']))
           expect(parsed_address.furigana).to(eq(address['furigana']))
         end
       end
@@ -39,6 +41,7 @@ require_relative 'support/yaml_loader'
           expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
           expect(parsed_address.city).to(be_a(::JapaneseAddressParser::Models::City))
           expect(parsed_address.town).to(be_nil)
+          expect(parsed_address.full_address).to(eq(address['full_address']))
           expect(parsed_address.furigana).to(eq(address['furigana']))
         end
       end
@@ -53,6 +56,7 @@ require_relative 'support/yaml_loader'
           expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
           expect(parsed_address.city).to(be_a(::JapaneseAddressParser::Models::City))
           expect(parsed_address.town).to(be_a(::JapaneseAddressParser::Models::Town))
+          expect(parsed_address.full_address).to(eq(address['full_address']))
           expect(parsed_address.furigana).to(eq(address['furigana']))
         end
       end
@@ -78,6 +82,7 @@ require_relative 'support/yaml_loader'
         expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
         expect(parsed_address.city).to(be_a(::JapaneseAddressParser::Models::City))
         expect(parsed_address.town).to(be_nil)
+        expect(parsed_address.full_address).to(eq('東京都北区'))
         expect(parsed_address.furigana).to(eq('トウキョウトキタク'))
       end
     end
@@ -91,6 +96,7 @@ require_relative 'support/yaml_loader'
           expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
           expect(parsed_address.city).to(be_nil)
           expect(parsed_address.town).to(be_nil)
+          expect(parsed_address.full_address).to(eq(address['full_address']))
           expect(parsed_address.furigana).to(eq(address['furigana']))
         end
       end
@@ -105,6 +111,7 @@ require_relative 'support/yaml_loader'
           expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
           expect(parsed_address.city).to(be_a(::JapaneseAddressParser::Models::City))
           expect(parsed_address.town).to(be_nil)
+          expect(parsed_address.full_address).to(eq(address['full_address']))
           expect(parsed_address.furigana).to(eq(address['furigana']))
         end
       end
@@ -119,6 +126,7 @@ require_relative 'support/yaml_loader'
           expect(parsed_address.prefecture).to(be_a(::JapaneseAddressParser::Models::Prefecture))
           expect(parsed_address.city).to(be_a(::JapaneseAddressParser::Models::City))
           expect(parsed_address.town).to(be_a(::JapaneseAddressParser::Models::Town))
+          expect(parsed_address.full_address).to(eq(address['full_address']))
           expect(parsed_address.furigana).to(eq(address['furigana']))
         end
       end
