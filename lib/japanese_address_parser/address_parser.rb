@@ -5,12 +5,12 @@ require_relative './models/prefecture'
 
 module JapaneseAddressParser
   module AddressParser
-    def call(full_address)
-      prefecture = ::JapaneseAddressParser::Models::Prefecture.all.find { |candidate| full_address.start_with?(candidate.name) }
+    def call(normalized:, full_address:)
+      prefecture = ::JapaneseAddressParser::Models::Prefecture.all.find { |candidate| normalized.start_with?(candidate.name) }
 
       return _build_address(full_address: full_address) if prefecture.nil?
 
-      city_and_after = full_address.delete_prefix(prefecture.name)
+      city_and_after = normalized.delete_prefix(prefecture.name)
       city = prefecture.cities.find { |candidate| city_and_after.start_with?(candidate.name) }
 
       return _build_address(full_address: full_address, prefecture: prefecture) if city.nil?

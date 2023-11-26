@@ -20,7 +20,7 @@ module JapaneseAddressParser
 
     # このライブラリで探索するのは町域まで。
     # それ以降のデータを使って探索するとデータと名前が一致しないことがあるので、町域までのデータを使う。
-    ::JapaneseAddressParser::AddressParser.call("#{normalized['pref']}#{normalized['city']}#{normalized['town']}")
+    ::JapaneseAddressParser::AddressParser.call(normalized: "#{normalized['pref']}#{normalized['city']}#{normalized['town']}", full_address: full_address)
   end
 
   module_function :call, :call!, :_call

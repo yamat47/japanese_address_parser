@@ -20,7 +20,7 @@ module JapaneseAddressParser
   end
 
   module AddressParser
-    def self.call: (String full_address) -> Models::Address
+    def self.call: (normalized: String, full_address: String) -> Models::Address
   end
 
   module Models
