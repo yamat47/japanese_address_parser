@@ -18,6 +18,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Removed
 
+- [#102](https://github.com/yamat47/japanese_address_parser/pull/102) #full_addressが処理前の住所の一部のみを返すようになっていた不具合を解消した。([@yamat47](https://github.com/yamat47))
+
 ### Fixed
 
 ### Security
