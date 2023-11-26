@@ -12,6 +12,7 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 - [#105](https://github.com/yamat47/japanese_address_parser/pull/105) Update CI settings.([@yamat47](https://github.com/yamat47))
 - [#103](https://github.com/yamat47/japanese_address_parser/pull/103) Bump @geolonia/normalize-japanese-addresses from 2.9.2 to 2.10.0 in /js([@yamat47](https://github.com/yamat47))
+- [#104](https://github.com/yamat47/japanese_address_parser/pull/104) Bump geolonia-japanese-addresses from a8df8fe to 406bb43([@yamat47](https://github.com/yamat47))
 
 ### Deprecated
 
