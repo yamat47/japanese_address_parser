@@ -9,6 +9,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ### Added
 - [#109](https://github.com/yamat47/japanese_address_parser/pull/109) READMEにDocker composeを利用した際の使い方を追記([@tossyi](https://github.com/tossyi))
 
+- Add csv to gemspec for new Ruby versions
+
 ### Changed
 
 ### Deprecated
