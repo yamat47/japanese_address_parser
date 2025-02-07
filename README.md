@@ -119,6 +119,11 @@ docker compose build
 docker compose run --rm gemsrc sh
 ```
 
+```
+/gemsrc # bin/console
+irb(main):001:0> address = JapaneseAddressParser.call('東京都港区芝公園4-2-8')
+```
+
 自動テストやリンターを実行するには、このコマンドを実行してください：
 
 ```
