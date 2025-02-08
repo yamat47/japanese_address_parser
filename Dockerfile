@@ -1,4 +1,4 @@
-FROM ruby:3.1.2-alpine
+FROM ruby:3.4-alpine
 
 ENV LANG=C.UTF-8 \
     APP_HOME=/gemsrc

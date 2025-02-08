@@ -7,9 +7,6 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ## [Unreleased]
 
 ### Added
-- [#109](https://github.com/yamat47/japanese_address_parser/pull/109) READMEにDocker composeを利用した際の使い方を追記([@tossyi](https://github.com/tossyi))
-
-- [#108](https://github.com/yamat47/japanese_address_parser/pull/108) Add csv to gemspec for new Ruby versions ([@balvig](https://github.com/balvig))
 
 ### Changed
 
@@ -18,6 +15,10 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ### Removed
 
 ### Fixed
+
+- [#109](https://github.com/yamat47/japanese_address_parser/pull/109) READMEにDocker composeを利用した際の使い方を追記([@tossyi](https://github.com/tossyi))
+- [#108](https://github.com/yamat47/japanese_address_parser/pull/108) Add csv to gemspec for new Ruby versions ([@balvig](https://github.com/balvig))
+- [#110](https://github.com/yamat47/japanese_address_parser/pull/110) Update local dev environment and CI settings.([@yamat47](https://github.com/yamat47))
 
 ### Security
 
