@@ -1,0 +1,28 @@
+{
+  "name": "Japanese Address Parser",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "initializeCommand": "cd .devcontainer && cp -n .env.example .env 2>/dev/null || true",
+
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "ruby.useBundler": true,
+        "ruby.useLanguageServer": true,
+        "ruby.lint": {
+          "rubocop": {
+            "useBundler": true
+          }
+        },
+        "ruby.format": "rubocop"
+      }
+    }
+  },
+
+  "postCreateCommand": "bundle install"
+}
