@@ -82,7 +82,7 @@ module JapaneseAddressParser
                 end
 
                 # 最適なパターンを追加
-                if best_pattern
+                if best_pattern && !place_name_context?(text, pos, best_pattern)
                   patterns << best_pattern
                   pos += best_pattern.length
                   match_found = true
@@ -97,6 +97,20 @@ module JapaneseAddressParser
             patterns
           end
           # rubocop:enable Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/PerceivedComplexity
+
+          # 地名の文脈で漢数字変換を避けるべきかチェック
+          # @param text [String] 全体のテキスト
+          # @param pos [Integer] パターンの開始位置
+          # @param pattern [String] 変換候補のパターン
+          # @return [Boolean] 地名の文脈で変換を避けるべきならtrue
+          def place_name_context?(text, pos, pattern)
+            # "三芳" のような地名を保護
+            return true if pattern == '三' && pos + 1 < text.length && text[pos + 1] == '芳'
+
+            false
+          end
+
+          module_function :place_name_context?
 
           # 漢数字パターンを数値に変換
           # @param pattern [String] 漢数字パターン
