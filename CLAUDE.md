@@ -47,6 +47,67 @@ bin/console
 bin/setup
 ```
 
+## Docker Setup and Testing
+
+### Building and Running with Docker
+
+```bash
+# Build the Docker image
+docker compose build
+
+# Start a container and enter the development environment
+docker compose run --rm gemsrc sh
+
+# Inside the container, start the Ruby console
+/gemsrc # bin/console
+```
+
+### Testing the Gem Functionality
+
+Once inside the Docker container, you can test the gem's functionality:
+
+```ruby
+# Basic address parsing
+address = JapaneseAddressParser.call('東京都港区芝公園4-2-8')
+
+# Get prefecture information
+prefecture = address.prefecture
+prefecture.attributes
+# => {:code=>"13", :name=>"東京都", :name_kana=>"トウキョウト", :name_romaji=>"TOKYO TO"}
+
+# Get city information
+city = address.city
+city.attributes
+# => {:code=>"13103", :formatted_code=>"13103", :prefecture_code=>"13", :name=>"港区", :name_kana=>"ミナトク", :name_romaji=>"MINATO KU"}
+
+# Get town information
+town = address.town
+town.attributes
+# => {:name=>"芝公園四丁目", :name_kana=>"シバコウエン 4", :name_romaji=>"SHIBAKOEN 4", :nickname=>nil, :latitude=>"35.656459", :longitude=>"139.74764"}
+
+# Get full address and furigana
+address.full_address # => "東京都港区芝公園4-2-8"
+address.furigana     # => "トウキョウトミナトクシバコウエン 4"
+```
+
+### Running Tests from Docker
+
+If you have a running container (e.g., `japanese_address_parser-gemsrc-1`), you can execute commands from outside:
+
+```bash
+# Run a simple Ruby script
+docker exec japanese_address_parser-gemsrc-1 ruby -e "require 'bundler/setup'; require 'japanese_address_parser'; puts JapaneseAddressParser.call('東京都港区芝公園4-2-8').full_address"
+
+# Check installed dependencies
+docker exec japanese_address_parser-gemsrc-1 bundle check
+
+# Run RSpec tests
+docker exec japanese_address_parser-gemsrc-1 bundle exec rspec
+
+# Run RuboCop
+docker exec japanese_address_parser-gemsrc-1 bundle exec rubocop
+```
+
 ## Architecture Overview
 
 ### Core Components
