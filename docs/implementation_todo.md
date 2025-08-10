@@ -18,11 +18,11 @@ JavaScriptライブラリへの依存を排除し、純粋なRuby実装に移行
   - [x] テストケース作成
   - [x] JSとの互換性確認
   
-- [ ] `normalizers/core/inspired/kanji_variants.rb` - 旧字体・新字体変換
-  - [ ] JIS第2水準→第1水準の変換辞書作成
-  - [ ] 旧字体→新字体の変換辞書作成
-  - [ ] 変換ロジックの実装
-  - [ ] テストケース作成
+- [x] `normalizers/core/inspired/kanji_variants.rb` - 旧字体・新字体変換
+  - [x] JIS第2水準→第1水準の変換辞書作成
+  - [x] 旧字体→新字体の変換辞書作成
+  - [x] 変換ロジックの実装
+  - [x] テストケース作成
   
 - [ ] `normalizers/core/inspired/text_variants.rb` - 表記ゆらぎ吸収
   - [ ] 「ヶケが」の統一処理
