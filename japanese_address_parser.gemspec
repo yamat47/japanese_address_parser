@@ -35,6 +35,10 @@ require_relative 'lib/japanese_address_parser/version'
   spec.add_development_dependency('activesupport')
   spec.add_development_dependency('base64')
   spec.add_development_dependency('factory_bot')
+  # Ruby 3.4で標準ライブラリから削除されたgemを追加
+  spec.add_development_dependency('mutex_m')
+  spec.add_development_dependency('observer')
+  spec.add_development_dependency('ostruct')
   spec.add_development_dependency('rake')
   spec.add_development_dependency('rspec')
   spec.add_development_dependency('rubocop')

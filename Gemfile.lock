@@ -29,6 +29,9 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     minitest (5.19.0)
+    mutex_m (0.3.0)
+    observer (0.1.2)
+    ostruct (0.6.3)
     parallel (1.22.1)
     parser (3.2.2.3)
       ast (~> 2.4.1)
@@ -96,6 +99,7 @@ PLATFORMS
   arm64-darwin-21
   arm64-darwin-22
   arm64-darwin-23
+  arm64-darwin-24
   x86_64-darwin-21
   x86_64-linux
 
@@ -104,6 +108,9 @@ DEPENDENCIES
   base64
   factory_bot
   japanese_address_parser!
+  mutex_m
+  observer
+  ostruct
   rake
   rspec
   rubocop

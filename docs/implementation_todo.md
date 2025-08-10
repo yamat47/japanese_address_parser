@@ -6,17 +6,17 @@ JavaScriptライブラリへの依存を排除し、純粋なRuby実装に移行
 ## Phase 1: 基盤構築 🏗️
 
 ### ディレクトリ構造
-- [ ] `lib/japanese_address_parser/normalizers/` ディレクトリを作成
-- [ ] `lib/japanese_address_parser/normalizers/core/` ディレクトリを作成
-- [ ] `lib/japanese_address_parser/normalizers/core/inspired/` ディレクトリを作成
-- [ ] `lib/japanese_address_parser/normalizers/core/extensions/` ディレクトリを作成
-- [ ] `lib/japanese_address_parser/compatibility/` ディレクトリを作成
+- [x] `lib/japanese_address_parser/normalizers/` ディレクトリを作成
+- [x] `lib/japanese_address_parser/normalizers/core/` ディレクトリを作成
+- [x] `lib/japanese_address_parser/normalizers/core/inspired/` ディレクトリを作成
+- [x] `lib/japanese_address_parser/normalizers/core/extensions/` ディレクトリを作成
+- [x] `lib/japanese_address_parser/compatibility/` ディレクトリを作成
 
 ### Core/Inspired モジュール（JS由来の処理）
-- [ ] `normalizers/core/inspired/zen2han.rb` - 全角→半角変換
-  - [ ] 全角英数字→半角英数字の変換実装
-  - [ ] テストケース作成
-  - [ ] JSとの互換性確認
+- [x] `normalizers/core/inspired/zen2han.rb` - 全角→半角変換
+  - [x] 全角英数字→半角英数字の変換実装
+  - [x] テストケース作成
+  - [x] JSとの互換性確認
   
 - [ ] `normalizers/core/inspired/kanji_variants.rb` - 旧字体・新字体変換
   - [ ] JIS第2水準→第1水準の変換辞書作成
