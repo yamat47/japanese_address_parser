@@ -4,6 +4,8 @@ require_relative '../normalizers/pure_ruby'
 require_relative '../normalizers/core/extensions/prefecture_matcher'
 require_relative '../normalizers/core/extensions/city_matcher'
 require_relative '../normalizers/core/extensions/town_matcher'
+require_relative '../normalizers/core/inspired/patch_addr'
+require_relative '../normalizers/core/inspired/address_postprocessor'
 require_relative '../models/prefecture'
 require_relative '../models/city'
 require_relative '../models/town'
@@ -51,10 +53,38 @@ module JapaneseAddressParser
 
         if town_match_result[:matched]
           town = city.towns.find { |t| t.name == town_match_result[:town] }
-          return town_result(full_address, prefecture, city, town, town_match_result[:remaining]) if town
+          if town
+            # Step 5: 町域マッチング後の住所処理
+            # @geolonia/normalize-japanese-addresses v2.10.0
+            # src/normalize.ts#L428-L476
+            processed_addr = ::JapaneseAddressParser::Normalizers::Core::Inspired::AddressPostprocessor.process(
+              town_match_result[:remaining],
+              true # has_town = true
+            )
+            
+            # Step 6: patchAddrの適用
+            # @geolonia/normalize-japanese-addresses v2.10.0
+            # src/normalize.ts#L479
+            patched_addr = ::JapaneseAddressParser::Normalizers::Core::Inspired::PatchAddr.patch_addr(
+              prefecture.name,
+              city.name,
+              town.name,
+              processed_addr
+            )
+            
+            return town_result(full_address, prefecture, city, town, patched_addr)
+          end
         end
 
-        city_result(full_address, prefecture, city, city_result[:remaining])
+        # 町域が見つからなかった場合もpatchAddrを適用
+        patched_addr = ::JapaneseAddressParser::Normalizers::Core::Inspired::PatchAddr.patch_addr(
+          prefecture.name,
+          city.name,
+          '',
+          city_result[:remaining]
+        )
+        
+        city_result(full_address, prefecture, city, patched_addr)
       end
 
       private_class_method :new
@@ -97,10 +127,7 @@ module JapaneseAddressParser
         }
       end
 
-      def self.town_result(_full_address, prefecture, city, town, remaining)
-        # 町域名から残りのアドレス部分を取得
-        addr = remaining.delete_prefix(town.name)
-
+      def self.town_result(_full_address, prefecture, city, town, addr)
         {
           'pref' => prefecture.name,
           'city' => city.name,
