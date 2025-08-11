@@ -58,4 +58,3 @@ module JapaneseAddressParser
     end
   end
 end
-

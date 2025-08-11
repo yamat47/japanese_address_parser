@@ -7,8 +7,7 @@ module JapaneseAddressParser
     # パイプラインのカスタマイズ、キャッシュ設定、
     # エンジン切り替えなどの設定を管理
     class Config
-      attr_accessor :normalizer_engine, :pipeline_stages, :cache_size, :cache_enabled,
-                    :use_geolonia_data, :parallel_processing
+      attr_accessor :normalizer_engine, :pipeline_stages, :cache_size, :cache_enabled, :use_geolonia_data, :parallel_processing
 
       def initialize
         reset_to_defaults
@@ -20,14 +19,7 @@ module JapaneseAddressParser
 
         # パイプラインステージの設定
         # 順番が重要: NFCで正規化 -> スペース削除 -> 全角半角 -> ハイフン統一 -> 表記ゆらぎ -> 漢数字
-        @pipeline_stages = %i[
-          nfc
-          space
-          zen2han
-          hyphen
-          text_variants
-          kan2num
-        ]
+        @pipeline_stages = %i[nfc space zen2han hyphen text_variants kan2num]
 
         # キャッシュ設定
         @cache_enabled = true
@@ -111,24 +103,16 @@ module JapaneseAddressParser
       # 環境変数から設定をロード
       def load_from_env
         # JAPANESE_ADDRESS_PARSER_ENGINE
-        if ENV['JAPANESE_ADDRESS_PARSER_ENGINE']
-          @normalizer_engine = ENV['JAPANESE_ADDRESS_PARSER_ENGINE'].to_sym
-        end
+        @normalizer_engine = ENV['JAPANESE_ADDRESS_PARSER_ENGINE'].to_sym if ENV['JAPANESE_ADDRESS_PARSER_ENGINE']
 
         # JAPANESE_ADDRESS_PARSER_CACHE_SIZE
-        if ENV['JAPANESE_ADDRESS_PARSER_CACHE_SIZE']
-          @cache_size = ENV['JAPANESE_ADDRESS_PARSER_CACHE_SIZE'].to_i
-        end
+        @cache_size = ENV['JAPANESE_ADDRESS_PARSER_CACHE_SIZE'].to_i if ENV['JAPANESE_ADDRESS_PARSER_CACHE_SIZE']
 
         # JAPANESE_ADDRESS_PARSER_CACHE_ENABLED
-        if ENV['JAPANESE_ADDRESS_PARSER_CACHE_ENABLED']
-          @cache_enabled = ENV['JAPANESE_ADDRESS_PARSER_CACHE_ENABLED'] != 'false'
-        end
+        @cache_enabled = ENV['JAPANESE_ADDRESS_PARSER_CACHE_ENABLED'] != 'false' if ENV['JAPANESE_ADDRESS_PARSER_CACHE_ENABLED']
 
         # JAPANESE_ADDRESS_PARSER_PARALLEL
-        if ENV['JAPANESE_ADDRESS_PARSER_PARALLEL']
-          @parallel_processing = ENV['JAPANESE_ADDRESS_PARSER_PARALLEL'] == 'true'
-        end
+        @parallel_processing = ENV['JAPANESE_ADDRESS_PARSER_PARALLEL'] == 'true' if ENV['JAPANESE_ADDRESS_PARSER_PARALLEL']
       end
     end
 
@@ -137,24 +121,24 @@ module JapaneseAddressParser
 
     class << self
       attr_reader :config
+    end
 
-      # 設定ブロックを使用して設定を変更
-      #
-      # @yield [Config] 設定オブジェクト
-      def configure
-        yield @config if block_given?
-        @config
-      end
+    # 設定ブロックを使用して設定を変更
+    #
+    # @yield [Config] 設定オブジェクト
+    def self.configure
+      yield(@config) if block_given?
+      @config
+    end
 
-      # 設定をリセット
-      def reset_config
-        @config = Config.new
-      end
+    # 設定をリセット
+    def self.reset_config
+      @config = Config.new
+    end
 
-      # 現在の設定を取得
-      def current_config
-        @config.to_h
-      end
+    # 現在の設定を取得
+    def self.current_config
+      @config.to_h
     end
   end
 end

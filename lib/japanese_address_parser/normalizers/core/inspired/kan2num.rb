@@ -40,7 +40,7 @@ module JapaneseAddressParser
           # 有効な漢数字パターンを検出
           # @param text [String] 検索対象の文字列
           # @return [Array<String>] 検出された漢数字パターンの配列
-          # rubocop:disable Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/PerceivedComplexity
+
           def find_kanji_numbers(text)
             patterns = []
 
@@ -60,13 +60,9 @@ module JapaneseAddressParser
                   candidate = ::Regexp.last_match[1]
                   # 「千代」のような非数字パターンを除外
                   # 位取り記号を含む場合は位取りパターンとして挑う
-                  if candidate && !candidate.empty?
-                    if !(candidate == '千' && pos + 1 < text.length && text[pos + 1] == '代')
-                      if candidate =~ /[千百十]/ && candidate.length > best_length
+                  if candidate && !candidate.empty? && !(candidate == '千' && pos + 1 < text.length && text[pos + 1] == '代') && (candidate =~ /[千百十]/ && candidate.length > best_length)
                         best_pattern = candidate
                         best_length = candidate.length
-                      end
-                    end
                   end
                 end
 
@@ -96,7 +92,6 @@ module JapaneseAddressParser
 
             patterns
           end
-          # rubocop:enable Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/PerceivedComplexity
 
           # 地名の文脈で漢数字変換を避けるべきかチェック
           # @param text [String] 全体のテキスト
@@ -115,14 +110,12 @@ module JapaneseAddressParser
           # 漢数字パターンを数値に変換
           # @param pattern [String] 漢数字パターン
           # @return [Integer, nil] 変換後の数値
-          # rubocop:disable Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/PerceivedComplexity
+
           def convert_kanji_to_number(pattern)
             return if pattern.nil? || pattern.empty?
 
             # 冗長な表記の処理
-            pattern = pattern.gsub(/一千/, '千')
-                            .gsub(/一百/, '百')
-                            .gsub(/一十/, '十')
+            pattern = pattern.gsub(/一千/, '千').gsub(/一百/, '百').gsub(/一十/, '十')
 
             # 位取り表記の場合
             if pattern =~ /[千百十]/
@@ -155,23 +148,19 @@ module JapaneseAddressParser
               value
             elsif pattern =~ /^[〇一二三四五六七八九]+$/
               # 単純な漢数字の連続（〇を含む）
-              pattern.chars.map { |c| kanji_digit(c) }.join.to_i
+              pattern.chars.map { |c| kanji_digit(c) }
+                     .join.to_i
             end
           end
-          # rubocop:enable Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/PerceivedComplexity
 
           # 単一の漢数字を数値に変換
           # @param kanji [String] 漢数字（1文字）
           # @return [Integer] 対応する数値
-          # rubocop:disable Style/StringHashKeys
+
           def kanji_digit(kanji)
-            digits = {
-              '〇' => 0, '一' => 1, '二' => 2, '三' => 3, '四' => 4,
-              '五' => 5, '六' => 6, '七' => 7, '八' => 8, '九' => 9
-            }
+            digits = { '〇' => 0, '一' => 1, '二' => 2, '三' => 3, '四' => 4, '五' => 5, '六' => 6, '七' => 7, '八' => 8, '九' => 9 }
             digits[kanji] || 0
           end
-          # rubocop:enable Style/StringHashKeys
 
           module_function :find_kanji_numbers, :convert_kanji_to_number, :kanji_digit
           private_class_method :find_kanji_numbers, :convert_kanji_to_number, :kanji_digit

@@ -38,7 +38,7 @@ module JapaneseAddressParser
                 # マッチした部分を削除して残りを取得
                 match = text.match(@prefecture_patterns[prefecture])
                 remaining = text[match[0].length..-1] || ''
-                
+
                 {
                   text: text,
                   pref: prefecture.name,
@@ -64,7 +64,7 @@ module JapaneseAddressParser
             # src/lib/cacheRegexes.ts#L71-L74
             def build_patterns
               @prefecture_patterns = {}
-              
+
               @prefecture_cache.each do |prefecture|
                 # 東京都 -> 東京(都)? のようなパターンを作成
                 # 末尾の「都府県」が抜けた住所に対応
