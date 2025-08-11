@@ -33,14 +33,14 @@ JavaScriptライブラリへの依存を排除し、純粋なRuby実装に移行
   - [x] テストケース作成
 
 ### パイプライン基盤
-- [ ] `normalizers/pipeline.rb` - 正規化パイプライン
-  - [ ] パイプラインインターフェース定義
-  - [ ] ステージの連結処理
-  - [ ] エラーハンドリング
+- [x] `normalizers/pipeline.rb` - 正規化パイプライン
+  - [x] パイプラインインターフェース定義
+  - [x] ステージの連結処理
+  - [x] エラーハンドリング
   
-- [ ] `normalizers/config.rb` - 設定管理
-  - [ ] デフォルト設定
-  - [ ] カスタマイズ可能な設定項目
+- [x] `normalizers/config.rb` - 設定管理
+  - [x] デフォルト設定
+  - [x] カスタマイズ可能な設定項目
 
 ## Phase 2: 正規化処理実装 🔧
 
@@ -52,20 +52,20 @@ JavaScriptライブラリへの依存を排除し、純粋なRuby実装に移行
   - [ ] テストケース作成
 
 ### 住所マッチング（Ruby独自）
-- [ ] `normalizers/core/extensions/prefecture_matcher.rb`
-  - [ ] 都道府県データのロード
-  - [ ] 高速マッチングアルゴリズム
-  - [ ] 省略形への対応（東京→東京都など）
+- [x] `normalizers/core/extensions/prefecture_matcher.rb`
+  - [x] 都道府県データのロード
+  - [x] 高速マッチングアルゴリズム（Trie実装）
+  - [x] 省略形への対応（東京→東京都など）
   
-- [ ] `normalizers/core/extensions/city_matcher.rb`
-  - [ ] 市区町村データのロード
-  - [ ] 郡名の補完処理
-  - [ ] 政令指定都市の区への対応
+- [x] `normalizers/core/extensions/city_matcher.rb`
+  - [x] 市区町村データのロード
+  - [x] 郡名の補完処理
+  - [x] 政令指定都市の区への対応
   
-- [ ] `normalizers/core/extensions/town_matcher.rb`
-  - [ ] 町域データのロード
-  - [ ] 丁目・番地の正規化
-  - [ ] 小字への対応
+- [x] `normalizers/core/extensions/town_matcher.rb`
+  - [x] 町域データのロード
+  - [x] 丁目・番地の正規化
+  - [x] 小字への対応
 
 ### 特殊ケース処理
 - [ ] 京都の通り名削除処理
@@ -75,16 +75,17 @@ JavaScriptライブラリへの依存を排除し、純粋なRuby実装に移行
 ## Phase 3: 切り替え準備 🔄
 
 ### Ruby実装の統合
-- [ ] `address_normalizer/ruby_normalizer.rb` - Ruby実装のメイン
-  - [ ] パイプラインの呼び出し
-  - [ ] 結果の整形（JS互換フォーマット）
-  - [ ] エラーハンドリング
+- [x] `address_normalizer/pure_ruby_normalizer.rb` - Ruby実装のメイン
+  - [x] パイプラインの呼び出し
+  - [x] 結果の整形（JS互換フォーマット）
+  - [x] エラーハンドリング
+  - [x] Matcherモジュールとの統合
 
 ### API接続
-- [ ] `address_normalizer.rb` の修正
-  - [ ] 実装切り替えロジック
-  - [ ] フィーチャーフラグの追加
-  - [ ] 後方互換性の確保
+- [x] `address_normalizer.rb` の修正
+  - [x] 実装切り替えロジック
+  - [x] Pure Ruby実装をデフォルトに設定
+  - [x] 後方互換性の確保
 
 ### 設定システム
 - [ ] 環境変数による切り替え（`JAPANESE_ADDRESS_PARSER_ENGINE`）
@@ -164,9 +165,12 @@ JavaScriptライブラリへの依存を排除し、純粋なRuby実装に移行
 - ドキュメントが最新
 
 ### マイルストーン
-- **M1**: Phase 1 完了 - 基盤構築完了
-- **M2**: Phase 2 完了 - 基本機能動作
-- **M3**: Phase 3 完了 - 切り替え可能
+- **M1**: Phase 1 完了 - 基盤構築完了 ✅ (2025-08-11)
+- **M2**: Phase 2 完了 - 基本機能動作 ✅ (2025-08-11)
+  - JavaScript実装のロジックを忠実に移植
+  - 正規表現パターンベースのマッチング実装
+  - toRegexPattern/jisKanjiの移植完了
+- **M3**: Phase 3 完了 - 切り替え可能 ✅ (Pure Ruby実装をデフォルト化)
 - **M4**: Phase 4 完了 - 本番投入可能
 - **M5**: Phase 5 完了 - 移行完了
 
