@@ -70,4 +70,3 @@ require_relative '../../../../../lib/japanese_address_parser/normalizers/core/in
     end
   end
 end
-

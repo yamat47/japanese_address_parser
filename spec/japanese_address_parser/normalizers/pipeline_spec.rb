@@ -124,4 +124,3 @@ require_relative '../../../lib/japanese_address_parser/normalizers/pipeline'
     end
   end
 end
-

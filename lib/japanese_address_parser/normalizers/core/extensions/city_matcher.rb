@@ -30,21 +30,20 @@ module JapaneseAddressParser
               # 少ない文字数の地名に対してミスマッチしないように文字の長さ順にソート
               sorted_cities = cities.sort_by { |city| -city.name.length }
 
-              patterns =
-                sorted_cities.map do |city|
-                               # toRegexPatternで表記ゆらぎを吸収
-                               pattern_str = Core::Inspired::Dict.to_regex_pattern(city.name)
+              patterns = sorted_cities.map do |city|
+                # toRegexPatternで表記ゆらぎを吸収
+                pattern_str = Core::Inspired::Dict.to_regex_pattern(city.name)
 
-                               # 町村の場合は郡が省略されている可能性がある
-                               if city.name.match?(/(町|村)$/)
-                                 # 郡名を含む場合、郡をオプショナルにする
-                                 # 例: "上北郡東北町" -> "^(上北郡)?東北町"
-                                 pattern_str = pattern_str.gsub(/(.+?)郡/, '(\1郡)?')
-                               end
-
-                               pattern = /^#{pattern_str}/
-                               [city, pattern]
+                # 町村の場合は郡が省略されている可能性がある
+                if city.name.match?(/(町|村)$/)
+                  # 郡名を含む場合、郡をオプショナルにする
+                  # 例: "上北郡東北町" -> "^(上北郡)?東北町"
+                  pattern_str = pattern_str.gsub(/(.+?)郡/, '(\1郡)?')
                 end
+
+                pattern = /^#{pattern_str}/
+                [city, pattern]
+              end
 
               @city_patterns_cache[cache_key] = patterns
               patterns

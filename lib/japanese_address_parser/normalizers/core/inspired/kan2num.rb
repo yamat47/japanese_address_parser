@@ -58,11 +58,17 @@ module JapaneseAddressParser
                 # 千二百三十四、百二十三、二十三、十五、千、百、十など
                 if text[pos..] =~ /^((?:[一二三四五六七八九]?千)?(?:[一二三四五六七八九]?百)?(?:[一二三四五六七八九]?十)?(?:[一二三四五六七八九])?)/
                   candidate = ::Regexp.last_match[1]
-                  # 「千代」のような非数字パターンを除外
-                  # 位取り記号を含む場合は位取りパターンとして挑う
-                  if candidate && !candidate.empty? && !(candidate == '千' && pos + 1 < text.length && text[pos + 1] == '代') && (candidate =~ /[千百十]/ && candidate.length > best_length)
-                        best_pattern = candidate
-                        best_length = candidate.length
+                  # 「千代」「千葉」「三重」のような地名パターンを除外
+                  # 位取り記号を含む場合は位取りパターンとして扱う
+                  next_char = pos + candidate.length < text.length ? text[pos + candidate.length] : nil
+                  is_place_name = (candidate == '千' && next_char && next_char =~ /[代葉]/) ||
+                                  (candidate == '三' && next_char && next_char == '重') ||
+                                  (candidate == '八' && next_char && next_char == '王')
+                  
+                  if candidate && !candidate.empty? && !is_place_name &&
+                     (candidate =~ /[千百十]/ && candidate.length > best_length)
+                    best_pattern = candidate
+                    best_length = candidate.length
                   end
                 end
 
@@ -70,8 +76,14 @@ module JapaneseAddressParser
                 # 二〇二三、一二三など
                 if text[pos..] =~ /^([〇一二三四五六七八九]+)/
                   candidate = ::Regexp.last_match[1]
+                  # 地名パターンのチェック
+                  next_char = pos + candidate.length < text.length ? text[pos + candidate.length] : nil
+                  is_place_name = (candidate == '千' && next_char && next_char =~ /[代葉]/) ||
+                                  (candidate == '三' && next_char && next_char == '重') ||
+                                  (candidate == '八' && next_char && next_char == '王')
+                  
                   # 〇を含む場合、または位取り記号を含まない場合は単純パターンとして扱う
-                  if (candidate =~ /〇/ || candidate !~ /[千百十]/) && candidate.length > best_length
+                  if !is_place_name && (candidate =~ /〇/ || candidate !~ /[千百十]/) && candidate.length > best_length
                     best_pattern = candidate
                     best_length = candidate.length
                   end

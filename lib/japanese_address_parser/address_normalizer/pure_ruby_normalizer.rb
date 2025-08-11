@@ -25,31 +25,21 @@ module JapaneseAddressParser
 
         # Step 2: 都道府県を特定（新しいMatcherを使用）
         pref_result = ::JapaneseAddressParser::Normalizers::Core::Extensions::PrefectureMatcher.process(normalized)
-        unless pref_result[:matched]
-          return default_result(full_address)
-        end
+        return default_result(full_address) unless pref_result[:matched]
 
         prefecture = ::JapaneseAddressParser::Models::Prefecture.all.find { |p| p.name == pref_result[:pref] }
         return default_result(full_address) if prefecture.nil?
 
         # Step 3: 市区町村を特定（新しいMatcherを使用）
-        city_result = ::JapaneseAddressParser::Normalizers::Core::Extensions::CityMatcher.process(
-          prefecture, 
-          pref_result[:remaining]
-        )
-        
-        unless city_result[:matched]
-          return prefecture_result(full_address, prefecture)
-        end
+        city_result = ::JapaneseAddressParser::Normalizers::Core::Extensions::CityMatcher.process(prefecture, pref_result[:remaining])
+
+        return prefecture_result(full_address, prefecture) unless city_result[:matched]
 
         city = prefecture.cities.find { |c| c.name == city_result[:city] }
         return prefecture_result(full_address, prefecture) if city.nil?
 
         # Step 4: 町丁目を特定（新しいMatcherを使用）
-        town_match_result = ::JapaneseAddressParser::Normalizers::Core::Extensions::TownMatcher.process(
-          city,
-          city_result[:remaining]
-        )
+        town_match_result = ::JapaneseAddressParser::Normalizers::Core::Extensions::TownMatcher.process(city, city_result[:remaining])
 
         if town_match_result[:matched]
           town = city.towns.find { |t| t.name == town_match_result[:town] }
@@ -61,29 +51,19 @@ module JapaneseAddressParser
               town_match_result[:remaining],
               true # has_town = true
             )
-            
+
             # Step 6: patchAddrの適用
             # @geolonia/normalize-japanese-addresses v2.10.0
             # src/normalize.ts#L479
-            patched_addr = ::JapaneseAddressParser::Normalizers::Core::Inspired::PatchAddr.patch_addr(
-              prefecture.name,
-              city.name,
-              town.name,
-              processed_addr
-            )
-            
+            patched_addr = ::JapaneseAddressParser::Normalizers::Core::Inspired::PatchAddr.patch_addr(prefecture.name, city.name, town.name, processed_addr)
+
             return town_result(full_address, prefecture, city, town, patched_addr)
           end
         end
 
         # 町域が見つからなかった場合もpatchAddrを適用
-        patched_addr = ::JapaneseAddressParser::Normalizers::Core::Inspired::PatchAddr.patch_addr(
-          prefecture.name,
-          city.name,
-          '',
-          city_result[:remaining]
-        )
-        
+        patched_addr = ::JapaneseAddressParser::Normalizers::Core::Inspired::PatchAddr.patch_addr(prefecture.name, city.name, '', city_result[:remaining])
+
         city_result(full_address, prefecture, city, patched_addr)
       end
 

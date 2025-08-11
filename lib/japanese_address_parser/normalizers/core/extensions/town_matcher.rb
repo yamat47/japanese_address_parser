@@ -6,6 +6,7 @@ require_relative '../../../models/city'
 require_relative '../../../models/town'
 require_relative '../inspired/dict'
 require_relative '../inspired/kan2num'
+require_relative '../inspired/zen2han'
 
 module JapaneseAddressParser
   module Normalizers
@@ -74,42 +75,40 @@ module JapaneseAddressParser
 
               # パターン生成
               # https://github.com/geolonia/normalize-japanese-addresses/blob/v2.10.0/src/lib/cacheRegexes.ts#L273-L314
-              patterns =
-                towns.map do |town|
-                               pattern_str = Core::Inspired::Dict.to_regex_pattern(
-                                 town.name
-                                   # 横棒を含む場合（流通センター、など）に対応
-                                   .gsub(/[-－﹣−‐⁃‑‒–—﹘―⎯⏤ーｰ─━]/, '[-－﹣−‐⁃‑‒–—﹘―⎯⏤ーｰ─━]')
-                                   .gsub(/大?字/, '(大?字)?')
-                               )
+              patterns = towns.map do |town|
+                pattern_str = Core::Inspired::Dict.to_regex_pattern(
+                  town.name
+                    # 横棒を含む場合（流通センター、など）に対応
+                    .gsub(/[-－﹣−‐⁃‑‒–—﹘―⎯⏤ーｰ─━]/, '[-－﹣−‐⁃‑‒–—﹘―⎯⏤ーｰ─━]')
+                    .gsub(/大?字/, '(大?字)?')
+                )
 
-                               # 住所マスターの町丁目に含まれる数字を正規表現に変換
-                               pattern_str =
-                                 pattern_str.gsub(
-                                                  /([壱一二三四五六七八九十]+)(丁目?|番(町|丁)|条|軒|線|(の|ノ)町|地割|号)/
-                                                ) do |match|
-                                                  patterns = []
+                # 住所マスターの町丁目に含まれる数字を正規表現に変換
+                pattern_str = pattern_str.gsub(
+                  /([壱一二三四五六七八九十]+)(丁目?|番(町|丁)|条|軒|線|(の|ノ)町|地割|号)/
+                ) do |match|
+                  patterns = []
 
-                                                  # 漢数字部分を抽出
-                                                  kanji_num = match.gsub(/(丁目?|番(町|丁)|条|軒|線|(の|ノ)町|地割|号)/, '')
-                                                  patterns << kanji_num
+                  # 漢数字部分を抽出
+                  kanji_num = match.gsub(/(丁目?|番(町|丁)|条|軒|線|(の|ノ)町|地割|号)/, '')
+                  patterns << kanji_num
 
-                                                  if match.start_with?('壱')
-                                                    patterns << '一'
-                                                    patterns << '1'
-                                                    patterns << '１'
-                                                  else
-                                                    # 漢数字をアラビア数字に変換
-                                                    num = Core::Inspired::Kan2num.normalize(kanji_num)
-                                                    patterns << num.to_s
-                                                  end
+                  if match.start_with?('壱')
+                    patterns << '一'
+                    patterns << '1'
+                    patterns << '１'
+                  else
+                    # 漢数字をアラビア数字に変換
+                    num = Core::Inspired::Kan2num.normalize(kanji_num)
+                    patterns << num.to_s
+                  end
 
-                                                  "(#{patterns.join('|')})((丁|町)目?|番(町|丁)|条|軒|線|の町?|地割|号|[-－﹣−‐⁃‑‒–—﹘―⎯⏤ーｰ─━])"
-                                                end
-
-                               pattern = /#{pattern_str}/
-                               [town, pattern]
+                  "(#{patterns.join('|')})((丁|町)目?|番(町|丁)|条|軒|線|の町?|地割|号|[-－﹣−‐⁃‑‒–—﹘―⎯⏤ーｰ─━])"
                 end
+
+                pattern = /#{pattern_str}/
+                [town, pattern]
+              end
 
               # X丁目の丁目なしの数字だけ許容するため、最後に数字だけ追加
               # https://github.com/geolonia/normalize-japanese-addresses/blob/v2.10.0/src/lib/cacheRegexes.ts#L316-L330
@@ -135,8 +134,12 @@ module JapaneseAddressParser
             def process(city, text)
               return empty_result(text) unless city
 
+              # 全角数字を半角に変換してから処理
+              # JavaScript実装と同様に、マッチング前に正規化を行う
+              normalized_text = Core::Inspired::Zen2han.normalize(text)
+              
               # 先頭の「大字」を削除
-              addr = text.strip.gsub(/^大字/, '')
+              addr = normalized_text.strip.gsub(/^大字/, '')
 
               town_patterns = get_town_regex_patterns(city)
 
