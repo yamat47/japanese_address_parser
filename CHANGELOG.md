@@ -8,6 +8,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Added
 
+- [#113](https://github.com/yamat47/japanese_address_parser/pull/113) `Address#addr`を追加して、町域以降の文字列を取得できるようにした。([@s-n-1-0](https://github.com/s-n-1-0))
+
 ### Changed
 
 ### Deprecated
