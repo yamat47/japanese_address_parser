@@ -8,9 +8,10 @@ require_relative '../../lib/japanese_address_parser/models/address'
     city
     town
     full_address { "#{prefecture&.name}#{city&.name}#{town&.name}1-1" }
+    addr { '1-1' }
 
     initialize_with do
-      new(full_address: full_address, prefecture: prefecture, city: city, town: town)
+      new(full_address: full_address, prefecture: prefecture, city: city, town: town, addr: addr)
     end
   end
 end

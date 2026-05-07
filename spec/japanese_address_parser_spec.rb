@@ -14,6 +14,15 @@ require_relative 'support/yaml_loader'
         expect(parsed_address.town).to(be_nil)
         expect(parsed_address.full_address).to(eq('東京都北区'))
         expect(parsed_address.furigana).to(eq('トウキョウトキタク'))
+        expect(parsed_address.addr).to(eq(''))
+      end
+    end
+
+    context '番地以降が含まれているとき' do
+      it 'addrを取得できる' do
+        parsed_address = described_class.call('東京都港区芝公園4-2-8')
+
+        expect(parsed_address.addr).to(eq('2-8'))
       end
     end
 
@@ -84,6 +93,15 @@ require_relative 'support/yaml_loader'
         expect(parsed_address.town).to(be_nil)
         expect(parsed_address.full_address).to(eq('東京都北区'))
         expect(parsed_address.furigana).to(eq('トウキョウトキタク'))
+        expect(parsed_address.addr).to(eq(''))
+      end
+    end
+
+    context '番地以降が含まれているとき' do
+      it 'addrを取得できる' do
+        parsed_address = described_class.call!('東京都港区芝公園4-2-8')
+
+        expect(parsed_address.addr).to(eq('2-8'))
       end
     end
 
