@@ -1,0 +1,10 @@
+# Interim signature for the v4.0.0 utility layer (M2).
+# The full RBS overhaul happens in M9; this keeps `steep check` green in the meantime.
+
+module JapaneseAddressParser
+  module V4
+    module Zen2han
+      def self.call: (String str) -> String
+    end
+  end
+end
