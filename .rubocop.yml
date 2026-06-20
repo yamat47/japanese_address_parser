@@ -13,11 +13,42 @@ Metrics/BlockLength:
     - japanese_address_parser.gemspec
     - spec/**/*_spec.rb
 
-# v4 データ VO の from_json は JSON→VO の機械的フィールドマッピングで、
-# フィールド数が多い型（SingleMachiAza 等）では 1 行 1 フィールドの整形で行数が嵩む。
+# v4 リアーキの lib は上流 JS の逐語移植（working_agreement §3）。メソッド構成・
+# 複雑度・モジュール長は移植元 JS に合わせるため、これらの Metrics を v4 では緩める。
+# （from_json のフィールドマッピングや japanese_numeral の漢数字変換ロジック等。）
 Metrics/MethodLength:
   Exclude:
-    - lib/japanese_address_parser/v4/data/*.rb
+    - lib/japanese_address_parser/v4/**/*.rb
+
+Metrics/AbcSize:
+  Exclude:
+    - lib/japanese_address_parser/v4/**/*.rb
+
+Metrics/CyclomaticComplexity:
+  Exclude:
+    - lib/japanese_address_parser/v4/**/*.rb
+
+Metrics/PerceivedComplexity:
+  Exclude:
+    - lib/japanese_address_parser/v4/**/*.rb
+
+Metrics/ModuleLength:
+  Exclude:
+    - lib/japanese_address_parser/v4/**/*.rb
+
+# v4 の逐語移植では、移植元 JS の構造をそのまま写すため通常の定数参照・
+# 行内プロバナンスコメント（# JS: ...）・JS falsy 再現の `== 0` 比較を許容する。
+Lint/ConstantResolution:
+  Exclude:
+    - lib/japanese_address_parser/v4/**/*.rb
+
+Style/InlineComment:
+  Exclude:
+    - lib/japanese_address_parser/v4/**/*.rb
+
+Style/NumericPredicate:
+  Exclude:
+    - lib/japanese_address_parser/v4/**/*.rb
 
 # contextの記述を日本語で記述するのを許容する。
 RSpec/ContextWording:
@@ -57,6 +88,9 @@ Style/StringHashKeys:
     - spec/v4/data/single_machi_aza_spec.rb
     - spec/v4/data/single_rsdt_spec.rb
     - spec/v4/data/single_chiban_spec.rb
+
+    # 漢数字⇔数値の辞書は日本語の文字をキーにするため文字列キーのハッシュを許容する。
+    - lib/japanese_address_parser/v4/**/*.rb
 
 # elseがない場合にはcase文ではなくif文を許容する。
 Style/MissingElse:

@@ -1,0 +1,31 @@
+# Interim signature for the v4.0.0 utility layer (M2).
+# The full RBS overhaul happens in M9; this keeps `steep check` green in the meantime.
+#
+# `untyped` is used where the upstream JS relies on Number()/undefined coercion that can
+# produce NaN — modelling that union precisely is deferred to M9.
+
+module JapaneseAddressParser
+  module V4
+    module JapaneseNumeral
+      # 値は実際には Integer だが、kan2n が未知文字を JS の undefined→NaN として
+      # 扱う（`JAPANESE_NUMERICS[char] || Float::NAN`）ため、ここでは untyped にする。
+      JAPANESE_NUMERICS: Hash[String, untyped]
+      OLD_JAPANESE_NUMERICS: Hash[String, String]
+      LARGE_NUMBERS: Hash[String, Integer]
+      SMALL_NUMBERS: Hash[String, Integer]
+
+      def self.kanji2number: (String japanese) -> Integer
+      def self.number2kanji: (untyped num) -> String
+      def self.find_kanji_numbers: (String text) -> Array[String]
+
+      def self.ecmascript_global_match: (String text, String pattern) -> Array[String]
+      def self.normalize: (String japanese) -> String
+      def self.split_large_number: (String japanese) -> Hash[String, untyped]
+      def self.kan2n: (String japanese) -> untyped
+      def self.n2kan: (Integer num) -> String
+      def self.zen2han: (String str) -> String
+      def self.js_number: (String str) -> untyped
+      def self.js_truthy?: (untyped value) -> bool
+    end
+  end
+end
