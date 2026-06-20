@@ -1,0 +1,44 @@
+# Interim signatures for the v4.0.0 data model layer (M1).
+# The full RBS overhaul happens in M9; these keep `steep check` green in the meantime.
+#
+# These are `Data.define` value objects, but the bundled RBS (rbs 2.6.0) predates the
+# core `Data` class, so they are declared as plain classes exposing the interface we use.
+
+module JapaneseAddressParser
+  module V4
+    module Data
+      class SingleCity
+        attr_reader code: Integer
+        attr_reader county: String?
+        attr_reader county_k: String?
+        attr_reader county_r: String?
+        attr_reader city: String
+        attr_reader city_k: String
+        attr_reader city_r: String
+        attr_reader ward: String?
+        attr_reader ward_k: String?
+        attr_reader ward_r: String?
+        attr_reader point: [Float, Float]
+
+        def self.new: (code: Integer, county: String?, county_k: String?, county_r: String?, city: String, city_k: String, city_r: String, ward: String?, ward_k: String?, ward_r: String?, point: [Float, Float]) -> instance
+        def self.from_json: (Hash[String, untyped] hash) -> SingleCity
+
+        def city_name: () -> String
+      end
+
+      class SinglePrefecture
+        attr_reader code: Integer
+        attr_reader pref: String
+        attr_reader pref_k: String
+        attr_reader pref_r: String
+        attr_reader point: [Float, Float]
+        attr_reader cities: Array[SingleCity]
+
+        def self.new: (code: Integer, pref: String, pref_k: String, pref_r: String, point: [Float, Float], cities: Array[SingleCity]) -> instance
+        def self.from_json: (Hash[String, untyped] hash) -> SinglePrefecture
+
+        def prefecture_name: () -> String
+      end
+    end
+  end
+end

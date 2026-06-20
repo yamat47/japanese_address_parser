@@ -44,6 +44,16 @@
 - **中間リリースはしない**。`rearchitecture → main` の最終 PR で v4.0.0 を一括リリース。
 - コミットメッセージ末尾の Co-Authored-By 等、リポジトリの規約に従う。**コミット・プッシュはオーナーの指示があるときだけ**行う。
 
+### 2.1 新旧コードの物理的分離（M1〜M8 の暫定運用）
+
+旧 schmooze 実装と並存させる間、**v4 の新規コードはすべて `V4` 接頭辞配下に隔離**し、旧実装とファイル名・定数とも衝突させない。
+
+- コード: `lib/japanese_address_parser/v4/**`（名前空間 `JapaneseAddressParser::V4::...`、内部の `Data.define` は `::Data.define` と明示）
+- spec: `spec/v4/**`（fixture も `spec/v4/fixtures/` 配下）
+- RBS: `sig/v4/**`
+- **CI は別ワークフロー** `.github/workflows/ci_rearchitecture.yml`（Ruby 3.2/3.3、Node 不要）。旧 `ci.yml` の rspec マトリクス（2.7〜3.1 を含む）は `--exclude-pattern "v4/**/*_spec.rb"` で新 spec を除外する（`Data.define` は 3.2+ 必須のため）。
+- **M9 で旧実装を撤去した後、`v4/` を `lib/japanese_address_parser/` 直下へ昇格**して `V4` 接頭辞を外す（`docs/upstream_mapping.md` の最終パスに一致させる）。ワークフローもこの時に統合する。
+
 ---
 
 ## 3. 逐語移植のルール（fidelity）
