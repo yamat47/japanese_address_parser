@@ -6,7 +6,7 @@
 ## 進捗
 
 - [x] **M0** 設計確定（ドキュメント整備）
-- [ ] **M1** データモデル層（japanese-addresses-v2 型）
+- [x] **M1** データモデル層（japanese-addresses-v2 型）
 - [ ] **M2** ユーティリティ層
 - [ ] **M3** 設定 & データアクセス層（config / fetcher）
 - [ ] **M4** cacheRegexes（level 3 まで）
