@@ -39,6 +39,50 @@ module JapaneseAddressParser
 
         def prefecture_name: () -> String
       end
+
+      class SingleMachiAza
+        attr_reader machiaza_id: String
+        attr_reader oaza_cho: String?
+        attr_reader oaza_cho_k: String?
+        attr_reader oaza_cho_r: String?
+        attr_reader chome: String?
+        attr_reader chome_n: Integer?
+        attr_reader koaza: String?
+        attr_reader koaza_k: String?
+        attr_reader koaza_r: String?
+        attr_reader rsdt: true?
+        attr_reader point: [Float, Float]?
+        attr_reader csv_ranges: Hash[String, Hash[String, Integer]]?
+
+        def self.new: (machiaza_id: String, oaza_cho: String?, oaza_cho_k: String?, oaza_cho_r: String?, chome: String?, chome_n: Integer?, koaza: String?, koaza_k: String?, koaza_r: String?, rsdt: true?, point: [Float, Float]?, csv_ranges: Hash[String, Hash[String, Integer]]?) -> instance
+        def self.from_json: (Hash[String, untyped] hash) -> SingleMachiAza
+
+        def machi_aza_name: () -> String
+      end
+
+      class SingleRsdt
+        attr_reader blk_num: String?
+        attr_reader rsdt_num: String
+        attr_reader rsdt_num2: String?
+        attr_reader point: [Float, Float]?
+
+        def self.new: (blk_num: String?, rsdt_num: String, rsdt_num2: String?, point: [Float, Float]?) -> instance
+        def self.from_json: (Hash[String, untyped] hash) -> SingleRsdt
+
+        def rsdt_to_string: () -> String
+      end
+
+      class SingleChiban
+        attr_reader prc_num1: String
+        attr_reader prc_num2: String?
+        attr_reader prc_num3: String?
+        attr_reader point: [Float, Float]?
+
+        def self.new: (prc_num1: String, prc_num2: String?, prc_num3: String?, point: [Float, Float]?) -> instance
+        def self.from_json: (Hash[String, untyped] hash) -> SingleChiban
+
+        def chiban_to_string: () -> String
+      end
     end
   end
 end
