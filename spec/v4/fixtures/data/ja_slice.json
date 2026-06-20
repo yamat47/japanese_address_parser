@@ -1,0 +1,41 @@
+{
+  "meta": { "updated": 1735102668 },
+  "data": [
+    {
+      "code": 10006,
+      "pref": "北海道",
+      "pref_k": "ホッカイドウ",
+      "pref_r": "Hokkaido",
+      "point": [141.347906782, 43.0639406375],
+      "cities": [
+        {
+          "code": 11011,
+          "city": "札幌市",
+          "city_k": "サッポロシ",
+          "city_r": "Sapporo-shi",
+          "ward": "中央区",
+          "ward_k": "チュウオウク",
+          "ward_r": "Chuo-ku",
+          "point": [141.35389, 43.061414]
+        },
+        {
+          "code": 12025,
+          "city": "函館市",
+          "city_k": "ハコダテシ",
+          "city_r": "Hakodate-shi",
+          "point": [140.729108, 41.768712]
+        },
+        {
+          "code": 13030,
+          "county": "石狩郡",
+          "county_k": "イシカリグン",
+          "county_r": "Ishikari-gun",
+          "city": "当別町",
+          "city_k": "トウベツチョウ",
+          "city_r": "Tobetsu-cho",
+          "point": [141.5170027, 43.22363701]
+        }
+      ]
+    }
+  ]
+}

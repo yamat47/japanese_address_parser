@@ -1,0 +1,50 @@
+name: CI (v4 rearchitecture)
+
+# v4.0.0 リアーキ（lib/japanese_address_parser/v4 配下）専用の CI。
+# 旧 schmooze 実装の ci.yml とは独立。Node 不要・Ruby 3.2+ 前提（Data.define）。
+on:
+  push:
+    branches:
+      - rearchitecture
+  pull_request:
+    paths:
+      - 'lib/japanese_address_parser/v4/**'
+      - 'spec/v4/**'
+      - 'sig/v4/**'
+      - '.github/workflows/ci_rearchitecture.yml'
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    name: Ruby 3.3 - v4 RuboCop & Steep
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.3'
+        bundler-cache: true
+    - name: RuboCop check (v4)
+      run: bundle exec rubocop lib/japanese_address_parser/v4 spec/v4
+    - name: Steep check
+      run: bundle exec steep check
+
+  rspec:
+    runs-on: ubuntu-latest
+    name: Ruby ${{ matrix.ruby }} - v4 RSpec
+    strategy:
+      fail-fast: false
+      matrix:
+        # 3.4 は M9（gemspec / 依存バージョン更新）で追加する。
+        ruby:
+          - '3.2'
+          - '3.3'
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: ${{ matrix.ruby }}
+        bundler-cache: true
+    - name: Run RSpec (v4)
+      run: bundle exec rspec spec/v4
