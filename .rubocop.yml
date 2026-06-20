@@ -13,6 +13,12 @@ Metrics/BlockLength:
     - japanese_address_parser.gemspec
     - spec/**/*_spec.rb
 
+# v4 データ VO の from_json は JSON→VO の機械的フィールドマッピングで、
+# フィールド数が多い型（SingleMachiAza 等）では 1 行 1 フィールドの整形で行数が嵩む。
+Metrics/MethodLength:
+  Exclude:
+    - lib/japanese_address_parser/v4/data/*.rb
+
 # contextの記述を日本語で記述するのを許容する。
 RSpec/ContextWording:
   Enabled: false
@@ -48,6 +54,9 @@ Style/StringHashKeys:
     # 配信 API の JSON（文字列キー）を from_json に渡すため日本語/文字列キーのハッシュを許容する。
     - spec/v4/data/single_city_spec.rb
     - spec/v4/data/single_prefecture_spec.rb
+    - spec/v4/data/single_machi_aza_spec.rb
+    - spec/v4/data/single_rsdt_spec.rb
+    - spec/v4/data/single_chiban_spec.rb
 
 # elseがない場合にはcase文ではなくif文を許容する。
 Style/MissingElse:
