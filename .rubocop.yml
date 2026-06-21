@@ -88,6 +88,7 @@ Style/StringHashKeys:
     - spec/v4/data/single_machi_aza_spec.rb
     - spec/v4/data/single_rsdt_spec.rb
     - spec/v4/data/single_chiban_spec.rb
+    - spec/v4/utils_spec.rb
 
     # 漢数字⇔数値の辞書は日本語の文字をキーにするため文字列キーのハッシュを許容する。
     - lib/japanese_address_parser/v4/**/*.rb
