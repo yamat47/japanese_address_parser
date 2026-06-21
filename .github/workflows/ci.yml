@@ -1,9 +1,9 @@
 name: CI
+# v4.0.0 リアーキ進行中は、旧実装（schmooze / Node 依存）向けのこの CI を一時停止する。
+# v4 の検証は ci_rearchitecture.yml が担当する。M9（旧実装撤去・CI 統合）で自動トリガを復帰させる。
+# 必要なときは Actions 画面から workflow_dispatch で手動実行できる。
 on:
-  push:
-    branches:
-      - main
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   build:

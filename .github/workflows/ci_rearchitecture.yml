@@ -2,16 +2,16 @@ name: CI (v4 rearchitecture)
 
 # v4.0.0 リアーキ（lib/japanese_address_parser/v4 配下）専用の CI。
 # 旧 schmooze 実装の ci.yml とは独立。Node 不要・Ruby 3.2+ 前提（Data.define）。
+# リアーキ期間中は旧 ci.yml を停止しているため、rearchitecture 宛ての PR では
+# 変更ファイルに依らず常にこの CI を走らせる（paths フィルタは使わない）。
 on:
   push:
     branches:
       - rearchitecture
   pull_request:
-    paths:
-      - 'lib/japanese_address_parser/v4/**'
-      - 'spec/v4/**'
-      - 'sig/v4/**'
-      - '.github/workflows/ci_rearchitecture.yml'
+    branches:
+      - rearchitecture
+  workflow_dispatch:
 
 jobs:
   checks:
