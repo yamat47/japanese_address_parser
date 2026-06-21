@@ -1,0 +1,11 @@
+# Interim signature for the v4.0.0 utility layer (M2).
+# The full RBS overhaul happens in M9.
+
+module JapaneseAddressParser
+  module V4
+    module Utils
+      def self.remove_cities_from_prefecture: (untyped pref) -> (Hash[Symbol, untyped] | nil)
+      def self.remove_extra_from_machi_aza: (untyped machi_aza) -> (Hash[Symbol, untyped] | nil)
+    end
+  end
+end
