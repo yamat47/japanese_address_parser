@@ -1,0 +1,10 @@
+# Interim signature for the v4.0.0 utility layer (M2).
+# The full RBS overhaul happens in M9.
+
+module JapaneseAddressParser
+  module V4
+    module Kan2num
+      def self.call: (String string) -> String
+    end
+  end
+end
