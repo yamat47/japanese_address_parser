@@ -16,4 +16,29 @@ require 'japanese_address_parser/v4/normalize_result_point'
       expect(described_class.from_lng_lat(nil, level: 3)).to(be_nil)
     end
   end
+
+  describe '.normalize_result_point?' do
+    it 'is true for a point with numeric lat/lng and a valid level' do
+      [1, 2, 3, 8].each do |level|
+        expect(described_class.normalize_result_point?(described_class.new(lat: 35.0, lng: 139.0, level: level))).to(be(true))
+      end
+    end
+
+    it 'is false for an invalid level' do
+      expect(described_class.normalize_result_point?(described_class.new(lat: 35.0, lng: 139.0, level: 4))).to(be(false))
+      expect(described_class.normalize_result_point?(described_class.new(lat: 35.0, lng: 139.0, level: 0))).to(be(false))
+    end
+
+    it 'is false for objects that do not respond to lat/lng/level' do
+      expect(described_class.normalize_result_point?(nil)).to(be(false))
+      expect(described_class.normalize_result_point?('35.0')).to(be(false))
+      # JS↔Ruby のオブジェクトモデル差: JS はプロパティで見るが Ruby はメソッド応答で見るため
+      # Hash（[]アクセス）は対象外（working_agreement §3-4）。
+      expect(described_class.normalize_result_point?({ lat: 35.0, lng: 139.0, level: 3 })).to(be(false))
+    end
+
+    it 'is false when a coordinate is non-numeric' do
+      expect(described_class.normalize_result_point?(described_class.new(lat: '35.0', lng: 139.0, level: 3))).to(be(false))
+    end
+  end
 end
