@@ -132,8 +132,13 @@ Address = Data.define(
 
 Prefecture = Data.define(:name, :code, :name_kana, :name_romaji, :point)
 City       = Data.define(:name, :code, :county, :ward, :name_kana, :name_romaji, :point)
-Town       = Data.define(:name, :machiaza_id, :chome, :koaza, :point)
+Town       = Data.define(:name, :machiaza_id, :chome, :chome_n, :koaza, :point)
 ```
+
+> **M6 確定**: `Town` は `chome`（"一丁目" 等の文字列）と `chome_n`（1 等の整数）の両方を持つ。
+> JS の `SingleMachiAza` が両方を保持するため、リッチ VO でも JS と同じ情報量を一級フィールドで提供する。
+> 各 VO の `point` は `NormalizeResultPoint(lat, lng, level)`（§1-4 の忠実表現と一貫）。
+> 公開エントリは M9 まで `JapaneseAddressParser::V4.call/.call!`（旧トップレベル `call` と並存）、M9 で `JapaneseAddressParser.call` へ昇格する。
 
 > 旧 v2.x の独自付加情報（別 CSV 由来の furigana 等）は廃止。ただし**情報自体は v3 データから供給するため、kana/romaji/code は復活する**（出所が変わる）。`point` は `{lat, lng, level}` の表現で持つ。
 

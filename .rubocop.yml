@@ -98,6 +98,8 @@ Style/StringHashKeys:
     # 配信 API の JSON（文字列キー）を from_json に渡すため日本語/文字列キーのハッシュを許容する。
     - spec/v4/data/single_city_spec.rb
     - spec/v4/data/single_prefecture_spec.rb
+    - spec/v4/city_spec.rb
+    - spec/v4/address_spec.rb
     - spec/v4/data/single_machi_aza_spec.rb
     - spec/v4/data/single_rsdt_spec.rb
     - spec/v4/data/single_chiban_spec.rb

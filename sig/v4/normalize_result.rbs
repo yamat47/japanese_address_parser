@@ -12,6 +12,7 @@ module JapaneseAddressParser
       attr_reader rsdt: untyped
 
       def self.new: (input: String, prefecture: Hash[Symbol, untyped]?, city: Data::SingleCity?, machi_aza: Hash[Symbol, untyped]?, chiban: untyped, rsdt: untyped) -> instance
+      def to_h: () -> Hash[Symbol, untyped]
     end
 
     class NormalizeResult
