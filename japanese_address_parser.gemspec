@@ -42,5 +42,6 @@ require_relative 'lib/japanese_address_parser/version'
   spec.add_development_dependency('rubocop-rspec')
   spec.add_development_dependency('steep')
   spec.add_development_dependency('typeprof')
+  spec.add_development_dependency('webmock')
   spec.metadata['rubygems_mfa_required'] = 'true'
 end
