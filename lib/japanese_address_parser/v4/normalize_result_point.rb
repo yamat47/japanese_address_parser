@@ -8,7 +8,17 @@
 module JapaneseAddressParser
   module V4
     # 正規化結果の位置情報（EPSG:4326 / WGS84）。level は座標の正確さ（1:県 2:市 3:町字 8:住居表示/地番）。
-    NormalizeResultPoint = ::Data.define(:lat, :lng, :level)
+    NormalizeResultPoint =
+      ::Data.define(:lat, :lng, :level) do
+        # Ruby 独自の補助コンストラクタ: [lng, lat] 配列（無ければ nil）から VO を作る。
+        # 上流 types.ts の *ToResultPoint は VO の .point を直接受けるため逐語移植のまま残し、
+        # metadata の Hash（[lng, lat] 配列）から組み立てる M6 リッチ VO 層はこのファクトリを共有する。
+        def self.from_lng_lat(point, level:)
+          return if point.nil?
+
+          new(lat: point[1], lng: point[0], level: level)
+        end
+      end
     public_constant :NormalizeResultPoint
 
     # Single* VO（point は [lng, lat]）から NormalizeResultPoint を作る変換ヘルパ群。

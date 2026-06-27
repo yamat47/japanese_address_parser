@@ -1,0 +1,64 @@
+# Interim signature for the v4.0.0 public value objects (M6).
+# The full RBS overhaul happens in M9.
+#
+# These are `Data.define` value objects, but the bundled RBS (rbs 2.6.0) predates the
+# core `Data` class, so they are declared as plain classes exposing the interface we use.
+
+module JapaneseAddressParser
+  module V4
+    class Prefecture
+      attr_reader name: String
+      attr_reader code: Integer
+      attr_reader name_kana: String
+      attr_reader name_romaji: String
+      attr_reader point: NormalizeResultPoint
+
+      def self.new: (name: String, code: Integer, name_kana: String, name_romaji: String, point: NormalizeResultPoint) -> instance
+      def self.from_metadata: (Hash[Symbol, untyped]? hash) -> Prefecture?
+      def to_h: () -> Hash[Symbol, untyped]
+    end
+
+    class City
+      attr_reader name: String
+      attr_reader code: Integer
+      attr_reader county: String?
+      attr_reader ward: String?
+      attr_reader name_kana: String
+      attr_reader name_romaji: String
+      attr_reader point: NormalizeResultPoint
+
+      def self.new: (name: String, code: Integer, county: String?, ward: String?, name_kana: String, name_romaji: String, point: NormalizeResultPoint) -> instance
+      def self.from_metadata: (Data::SingleCity? city) -> City?
+      def to_h: () -> Hash[Symbol, untyped]
+    end
+
+    class Town
+      attr_reader name: String
+      attr_reader machiaza_id: String
+      attr_reader chome: String?
+      attr_reader chome_n: Integer?
+      attr_reader koaza: String?
+      attr_reader point: NormalizeResultPoint?
+
+      def self.new: (name: String, machiaza_id: String, chome: String?, chome_n: Integer?, koaza: String?, point: NormalizeResultPoint?) -> instance
+      def self.from_metadata: (Hash[Symbol, untyped]? hash) -> Town?
+      def to_h: () -> Hash[Symbol, untyped]
+    end
+
+    class Address
+      attr_reader full_address: String
+      attr_reader prefecture: Prefecture?
+      attr_reader city: City?
+      attr_reader town: Town?
+      attr_reader addr: String?
+      attr_reader other: String
+      attr_reader point: NormalizeResultPoint?
+      attr_reader level: Integer
+      attr_reader metadata: NormalizeResultMetadata
+
+      def self.new: (full_address: String, prefecture: Prefecture?, city: City?, town: Town?, addr: String?, other: String, point: NormalizeResultPoint?, level: Integer, metadata: NormalizeResultMetadata) -> instance
+      def self.from_normalize_result: (NormalizeResult result) -> Address
+      def to_h: () -> Hash[Symbol, untyped]
+    end
+  end
+end

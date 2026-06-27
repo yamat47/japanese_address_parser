@@ -9,6 +9,8 @@ module JapaneseAddressParser
       attr_reader level: Integer
 
       def self.new: (lat: Float, lng: Float, level: Integer) -> instance
+      def self.from_lng_lat: ([Float, Float]? point, level: Integer) -> NormalizeResultPoint?
+      def to_h: () -> Hash[Symbol, untyped]
     end
 
     module ResultPoint
