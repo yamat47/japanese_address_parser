@@ -86,6 +86,7 @@ RSpec/FilePath:
 RSpec/Pending:
   Exclude:
     - spec/v4/main_spec.rb
+    - spec/v4/addresses_spec.rb
 
 # MITなのでファイルの著作権は記載しない。
 Style/Copyright:
