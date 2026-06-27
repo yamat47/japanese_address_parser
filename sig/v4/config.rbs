@@ -1,0 +1,21 @@
+# Interim signature for the v4.0.0 config & data-access layer (M3).
+# The full RBS overhaul happens in M9.
+
+module JapaneseAddressParser
+  module V4
+    class Config
+      DEFAULT_ENDPOINT: String
+
+      attr_accessor japanese_addresses_api: String
+      attr_accessor cache_size: Integer
+      attr_accessor geolonia_api_key: String?
+
+      def initialize: () -> void
+    end
+
+    self.@config: Config?
+
+    def self.config: () -> Config
+    def self.configure: () ?{ (Config) -> void } -> Config
+  end
+end
