@@ -8,7 +8,7 @@
 - [x] **M0** 設計確定（ドキュメント整備）
 - [x] **M1** データモデル層（japanese-addresses-v2 型）
 - [x] **M2** ユーティリティ層
-- [ ] **M3** 設定 & データアクセス層（config / fetcher）
+- [x] **M3** 設定 & データアクセス層（config / fetcher）
 - [ ] **M4** cacheRegexes（level 3 まで）
 - [ ] **M5** normalize 本体（level 0–3）
 - [ ] **M6** 公開 API & リッチ VO
