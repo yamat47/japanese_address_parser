@@ -18,6 +18,17 @@ module JapaneseAddressParser
 
           new(lat: point[1], lng: point[0], level: level)
         end
+
+        # JS: isNormalizeResultPoint(obj) — 任意の値が NormalizeResultPoint の形か検証する type guard。
+        # JS は object のプロパティ存在＋数値型を見る。Ruby では lat/lng/level に応答し、それらが
+        # Numeric かつ level が 1/2/3/8 のいずれか、で判定する（JS↔Ruby のオブジェクトモデル差のため
+        # Hash は対象外＝working_agreement §3-4。挙動は spec に固定する）。
+        def self.normalize_result_point?(obj)
+          return false unless obj.respond_to?(:lat) && obj.respond_to?(:lng) && obj.respond_to?(:level)
+          return false unless obj.lat.is_a?(::Numeric) && obj.lng.is_a?(::Numeric) && obj.level.is_a?(::Numeric)
+
+          [1, 2, 3, 8].include?(obj.level) # JS: validLevels = [1, 2, 3, 8]
+        end
       end
     public_constant :NormalizeResultPoint
 

@@ -43,6 +43,7 @@ Metrics/ModuleLength:
 Lint/ConstantResolution:
   Exclude:
     - lib/japanese_address_parser/v4/**/*.rb
+    - lib/japanese_address_parser/v4.rb
 
 Style/InlineComment:
   Exclude:
