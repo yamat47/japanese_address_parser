@@ -106,6 +106,9 @@ Style/StringHashKeys:
     # HTTP ヘッダ名・クエリ名は文字列キーが自然なので許容する。
     - spec/v4/fetcher_spec.rb
 
+    # from_json に配信 API の JSON（文字列キー）を渡すため許容する。
+    - spec/v4/normalize_result_point_spec.rb
+
     # 漢数字⇔数値の辞書は日本語の文字をキーにするため文字列キーのハッシュを許容する。
     - lib/japanese_address_parser/v4/**/*.rb
 

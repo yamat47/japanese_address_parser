@@ -10,7 +10,7 @@
 - [x] **M2** ユーティリティ層
 - [x] **M3** 設定 & データアクセス層（config / fetcher）
 - [x] **M4** cacheRegexes（level 3 まで）
-- [ ] **M5** normalize 本体（level 0–3）
+- [x] **M5** normalize 本体（level 0–3）
 - [ ] **M6** 公開 API & リッチ VO
 - [ ] **M7** テストスイート移植
 - [ ] **M8** level 8（rsdt / chiban）

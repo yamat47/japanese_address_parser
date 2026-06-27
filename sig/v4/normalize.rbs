@@ -1,0 +1,18 @@
+# Interim signature for the v4.0.0 normalize layer (M5).
+# The full RBS overhaul happens in M9.
+#
+# town は SingleMachiAza か TownAlias の混在なので untyped で受ける。
+
+module JapaneseAddressParser
+  module V4
+    module Normalize
+      DEFAULT_LEVEL: Integer
+      NUM: String
+      DASHES: String
+
+      def self.call: (String address, ?level: Integer) -> NormalizeResult
+      def self.normalize_town_name: (String input, Data::SinglePrefecture pref, Data::SingleCity city, Integer api_version) -> { town: untyped, other: String }?
+      def self.normalize_addr: (String other) -> String
+    end
+  end
+end
