@@ -1,0 +1,21 @@
+# Interim signature for the v4.0.0 normalize layer (M5).
+# The full RBS overhaul happens in M9.
+
+module JapaneseAddressParser
+  module V4
+    class NormalizeResultPoint
+      attr_reader lat: Float
+      attr_reader lng: Float
+      attr_reader level: Integer
+
+      def self.new: (lat: Float, lng: Float, level: Integer) -> instance
+    end
+
+    module ResultPoint
+      def self.prefecture_to_result_point: (Data::SinglePrefecture pref) -> NormalizeResultPoint
+      def self.city_to_result_point: (Data::SingleCity city) -> NormalizeResultPoint
+      def self.machi_aza_to_result_point: (Data::SingleMachiAza machi_aza) -> NormalizeResultPoint?
+      def self.upgrade_point: (NormalizeResultPoint? point_a, NormalizeResultPoint? point_b) -> NormalizeResultPoint?
+    end
+  end
+end
