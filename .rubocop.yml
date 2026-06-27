@@ -12,6 +12,8 @@ Metrics/BlockLength:
   Exclude:
     - japanese_address_parser.gemspec
     - spec/**/*_spec.rb
+    # v4 の逐語移植では上流 JS の巨大なコールバック（getTownRegexPatterns 等）をそのまま写す。
+    - lib/japanese_address_parser/v4/**/*.rb
 
 # v4 リアーキの lib は上流 JS の逐語移植（working_agreement §3）。メソッド構成・
 # 複雑度・モジュール長は移植元 JS に合わせるため、これらの Metrics を v4 では緩める。
@@ -47,6 +49,17 @@ Style/InlineComment:
     - lib/japanese_address_parser/v4/**/*.rb
 
 Style/NumericPredicate:
+  Exclude:
+    - lib/japanese_address_parser/v4/**/*.rb
+
+# v4 は JS の関数名（getPrefectures 等）をそのまま get_* に移植するため許容する。
+Naming/AccessorMethodName:
+  Exclude:
+    - lib/japanese_address_parser/v4/**/*.rb
+
+# v4 は正規表現を文字列レベルで逐語コピーする（§3-1）。上流が文字クラス内に
+# リテラル `|` を含める癖（例: /[都|道|府|県]$/）もそのまま移植するため許容する。
+Lint/DuplicateRegexpCharacterClassElement:
   Exclude:
     - lib/japanese_address_parser/v4/**/*.rb
 
