@@ -1,0 +1,23 @@
+# frozen_string_literal: true
+
+# Port of: https://github.com/geolonia/japanese-addresses-v2/blob/bb4d000ae136d8b8b571ebccd39a772cc6afc67a/src/data.ts
+# Upstream: @geolonia/japanese-addresses-v2 v0.0.5 (data spec for @geolonia/normalize-japanese-addresses v3.1.3)
+
+require 'japanese_address_parser/v4/data/api_meta'
+require 'japanese_address_parser/v4/data/single_prefecture'
+
+module JapaneseAddressParser
+  module V4
+    module Data
+      # api/ja.json のレスポンス全体（全都道府県＋配下市区町村）。JS の PrefectureApi。
+      PrefectureApi =
+        ::Data.define(:meta, :data) do
+          # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
+          def self.from_json(hash)
+            new(meta: ApiMeta.from_json(hash['meta']), data: (hash['data'] || []).map { |pref| SinglePrefecture.from_json(pref) })
+          end
+        end
+      public_constant :PrefectureApi
+    end
+  end
+end

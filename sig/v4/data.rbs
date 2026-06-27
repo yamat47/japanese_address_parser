@@ -83,6 +83,29 @@ module JapaneseAddressParser
 
         def chiban_to_string: () -> String
       end
+
+      class ApiMeta
+        attr_reader updated: Integer
+
+        def self.new: (updated: Integer) -> instance
+        def self.from_json: (Hash[String, untyped] hash) -> ApiMeta
+      end
+
+      class PrefectureApi
+        attr_reader meta: ApiMeta
+        attr_reader data: Array[SinglePrefecture]
+
+        def self.new: (meta: ApiMeta, data: Array[SinglePrefecture]) -> instance
+        def self.from_json: (Hash[String, untyped] hash) -> PrefectureApi
+      end
+
+      class MachiAzaApi
+        attr_reader meta: ApiMeta
+        attr_reader data: Array[SingleMachiAza]
+
+        def self.new: (meta: ApiMeta, data: Array[SingleMachiAza]) -> instance
+        def self.from_json: (Hash[String, untyped] hash) -> MachiAzaApi
+      end
     end
   end
 end
