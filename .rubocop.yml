@@ -80,6 +80,13 @@ RSpec/FilePath:
   Exclude:
     - spec/v4/**/*_spec.rb
 
+# v4 移植スイートでは level 8 が必要なケースを M8 まで pending で枠だけ確保する（M7 DoD）。
+# インライン disable は禁止（Style/DisableCopsWithinSourceCodeDirective）のため、pending を持つ
+# ファイルを個別に除外する。M8 で pending が外れたら該当エントリも削除する。
+RSpec/Pending:
+  Exclude:
+    - spec/v4/main_spec.rb
+
 # MITなのでファイルの著作権は記載しない。
 Style/Copyright:
   Enabled: false
@@ -101,6 +108,7 @@ Style/StringHashKeys:
     - spec/v4/data/single_prefecture_spec.rb
     - spec/v4/city_spec.rb
     - spec/v4/address_spec.rb
+    - spec/v4/match_close_to_spec.rb
     - spec/v4/data/single_machi_aza_spec.rb
     - spec/v4/data/single_rsdt_spec.rb
     - spec/v4/data/single_chiban_spec.rb
