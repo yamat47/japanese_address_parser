@@ -49,6 +49,20 @@ module JapaneseAddressParser
         data
       end
 
+      # モジュールレベルのキャッシュをすべて破棄する。
+      # JS は test ファイルごとに別プロセスでモジュール状態が新鮮になる（プロセス分離）が、
+      # Ruby/RSpec は 1 プロセス共有のため、`japanese_addresses_api` を切り替える際の明示的な
+      # リセット手段を提供する（runtime でデータ源を変えるユーザにも有用。working_agreement §1-6）。
+      def reset!
+        @cache = nil
+        @cached_prefectures = nil
+        @cached_prefecture_patterns = nil
+        @cached_same_named_prefecture_city_regex_patterns = nil
+        @cached_city_patterns = nil
+        @cached_towns = nil
+        nil
+      end
+
       # JS: getPrefectures()
       def get_prefectures
         return @cached_prefectures unless @cached_prefectures.nil?
