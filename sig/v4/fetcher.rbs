@@ -20,6 +20,7 @@ module JapaneseAddressParser
       def self.fetch: (String input, ?offset: Integer?, ?length: Integer?) -> Response
       def self.http_request: (String url, Integer? offset, Integer? length) -> Response
       def self.read_file: (String path, Integer? offset, Integer? length) -> Response
+      def self.strip_query: (String path) -> String
     end
   end
 end
