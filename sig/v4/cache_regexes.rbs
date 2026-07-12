@@ -26,6 +26,7 @@ module JapaneseAddressParser
 
       def self.cache: () -> untyped
       def self.fetch_from_cache: (String key) { () -> untyped } -> untyped
+      def self.reset!: () -> nil
       def self.get_prefectures: () -> Data::PrefectureApi
       def self.cache_prefectures: (Data::PrefectureApi data) -> Data::PrefectureApi
       def self.get_prefecture_regex_patterns: (Data::PrefectureApi api) -> Array[[Data::SinglePrefecture, String]]

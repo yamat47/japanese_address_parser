@@ -57,16 +57,18 @@ module JapaneseAddressParser
         url = "#{V4.config.japanese_addresses_api}#{input}"
 
         if url.start_with?('http://', 'https://')
+          # http(s) はクエリ（?v=apiVersion 等）を保持したまま取得する（JS の requestHandlers.http と同じ）。
           http_request(url, offset, length)
         elsif url.start_with?('file://')
-          # JS: decodeURI(fileURL.pathname)。file:// を剥がしてパーセントデコードする。
-          read_file(::URI::DEFAULT_PARSER.unescape(url.sub(%r{\Afile://}, '')), offset, length)
+          # JS: decodeURI(fileURL.pathname)。file:// を剥がし、? 以降のクエリを除いてパーセントデコードする。
+          read_file(::URI::DEFAULT_PARSER.unescape(strip_query(url.sub(%r{\Afile://}, ''))), offset, length)
         elsif url.match?(%r{\A[a-zA-Z][a-zA-Z0-9+.\-]*://})
           # http(s)/file 以外のスキームは上流同様に拒否する（JS: throw `Unknown URL schema: ...`）。
           raise(::ArgumentError, "Unknown URL schema: #{url[/\A[a-zA-Z][a-zA-Z0-9+.\-]*/]}:")
         else
           # スキーム無しのローカルパスも第一級サポートする（working_agreement §1-5。上流 JS には無い）。
-          read_file(url, offset, length)
+          # file:// と同様に ? 以降のクエリを除いてから読む。
+          read_file(strip_query(url), offset, length)
         end
       end
 
@@ -111,7 +113,13 @@ module JapaneseAddressParser
         end
       end
 
-      private_class_method :http_request, :read_file
+      # file:// / ローカルパス読み込み用に ? 以降のクエリを取り除く（JS の URL#pathname に相当）。
+      # 町字 JSON は ?v={apiVersion} 付きで要求されるが、ファイル読みではクエリを含めるとパスがずれる。
+      def strip_query(path)
+        path.sub(/\?.*\z/m, '')
+      end
+
+      private_class_method :http_request, :read_file, :strip_query
     end
     public_constant :Fetcher
   end

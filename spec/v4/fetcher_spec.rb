@@ -25,6 +25,10 @@ require 'webmock'
       expect(described_class.fetch('/sample.json').text).to(eq('{"pref":"東京都","city":"渋谷区"}'))
     end
 
+    it 'strips a ?query before reading the local file' do
+      expect(described_class.fetch('/sample.json?v=20240101').json).to(eq({ 'pref' => '東京都', 'city' => '渋谷区' }))
+    end
+
     it 'reads only the requested byte range when offset and length are given' do
       # range.txt = "0123456789abcdefghij"; bytes 5..8 => "5678"
       response = described_class.fetch('/range.txt', offset: 5, length: 4)
@@ -47,6 +51,11 @@ require 'webmock'
 
     it 'reads the file behind a file:// URL' do
       expect(described_class.fetch('/sample.json').json).to(eq({ 'pref' => '東京都', 'city' => '渋谷区' }))
+    end
+
+    # JS は URL#pathname を使うため ?v={apiVersion} 等のクエリはファイルパスに含まれない。
+    it 'strips a ?query (e.g. ?v=apiVersion) before reading the file' do
+      expect(described_class.fetch('/sample.json?v=20240101').json).to(eq({ 'pref' => '東京都', 'city' => '渋谷区' }))
     end
   end
 

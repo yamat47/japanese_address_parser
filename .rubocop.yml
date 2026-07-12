@@ -87,6 +87,15 @@ RSpec/Pending:
   Exclude:
     - spec/v4/main_spec.rb
     - spec/v4/addresses_spec.rb
+    - spec/v4/metadata_spec.rb
+    - spec/v4/filesystem_api_spec.rb
+
+# filesystem_api_spec は CDN から tmpdir へ一度だけ DL するため before/after(:context) を使う。
+# 状態（Config / モジュールキャッシュ）は around で example ごとに復元・reset し、tmpdir は
+# after(:context) で削除するので、本 cop が警告する状態リークは管理済み。
+RSpec/BeforeAfterAll:
+  Exclude:
+    - spec/v4/filesystem_api_spec.rb
 
 # MITなのでファイルの著作権は記載しない。
 Style/Copyright:
