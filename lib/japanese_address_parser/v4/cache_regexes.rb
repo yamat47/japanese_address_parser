@@ -4,6 +4,7 @@
 # Upstream: @geolonia/normalize-japanese-addresses v3.1.3
 #   level 0-3 部分のみ。rsdt/chiban（getRsdt/getChiban/fetchSubresource/parseSubresource）は M8 で実装する。
 
+require 'csv'
 require 'set'
 require 'lru_redux'
 require 'japanese_address_parser/v4/config'
@@ -13,6 +14,8 @@ require 'japanese_address_parser/v4/kan2num'
 require 'japanese_address_parser/v4/japanese_numeral'
 require 'japanese_address_parser/v4/data/prefecture_api'
 require 'japanese_address_parser/v4/data/machi_aza_api'
+require 'japanese_address_parser/v4/data/single_rsdt'
+require 'japanese_address_parser/v4/data/single_chiban'
 
 module JapaneseAddressParser
   module V4
@@ -210,14 +213,57 @@ module JapaneseAddressParser
         @cached_same_named_prefecture_city_regex_patterns = patterns
       end
 
-      # JS: getRsdt(pref, city, town, apiVersion) — M8 で実装する。
-      def get_rsdt(_pref, _city, _town, _api_version)
-        raise(::NotImplementedError, 'getRsdt is implemented in M8 (level 8)')
+      # JS: getRsdt(pref, city, town, apiVersion)
+      def get_rsdt(pref, city, town, api_version)
+        row = town.csv_ranges&.dig('住居表示')
+        return [] if row.nil?
+
+        fetch_from_cache("住居表示-#{pref.code}-#{city.code}-#{town.machi_aza_name}") do
+          rsdts = parse_subresource(fetch_subresource('住居表示', pref, city, row, api_version))
+          # JS: [blk_num, rsdt_num, rsdt_num2].filter(Boolean).join('-') の長さ降順（rsdt_to_string と同義）。
+          stable_sort_by(rsdts) { |rsdt| -rsdt.rsdt_to_string.length }
+        end
       end
 
-      # JS: getChiban(pref, city, town, apiVersion) — M8 で実装する。
-      def get_chiban(_pref, _city, _town, _api_version)
-        raise(::NotImplementedError, 'getChiban is implemented in M8 (level 8)')
+      # JS: getChiban(pref, city, town, apiVersion)
+      def get_chiban(pref, city, town, api_version)
+        row = town.csv_ranges&.dig('地番')
+        return [] if row.nil?
+
+        fetch_from_cache("地番-#{pref.code}-#{city.code}-#{town.machi_aza_name}") do
+          chibans = parse_subresource(fetch_subresource('地番', pref, city, row, api_version))
+          # JS: [prc_num1, prc_num2, prc_num3].filter(Boolean).join('-') の長さ降順（chiban_to_string と同義）。
+          stable_sort_by(chibans) { |chiban| -chiban.chiban_to_string.length }
+        end
+      end
+
+      # JS: fetchSubresource(kind, pref, city, row, apiVersion) — 住居表示/地番 .txt を Range 部分取得する。
+      def fetch_subresource(kind, pref, city, row, api_version)
+        # get_towns 同様、encodeURI せず生の県名・市名を渡す（Fetcher#http_request 側で一括エンコード）。
+        input = ['', pref.prefecture_name, "#{city.city_name}-#{kind}.txt?v=#{api_version}"].join('/')
+        Fetcher.fetch(input, offset: row['start'], length: row['length']).text
+      end
+
+      # JS: parseSubresource<T>(data) — 先頭1行を捨て、残りを header 付き CSV としてパースして VO 化する。
+      def parse_subresource(data)
+        # JS: firstLineEnd = data.indexOf('\n')（未検出は -1）; rest = data.slice(firstLineEnd + 1)
+        first_line_end = data.index("\n") || -1
+        rest = data[(first_line_end + 1)..].to_s
+        ::CSV.parse(rest, headers: true).filter_map do |row|
+          point = point_from(row['lng'], row['lat'])
+          if row.headers.include?('blk_num') # JS: 'blk_num' in line
+            Data::SingleRsdt.new(blk_num: row['blk_num'], rsdt_num: row['rsdt_num'], rsdt_num2: row['rsdt_num2'], point: point)
+          elsif row.headers.include?('prc_num1') # JS: 'prc_num1' in line
+            Data::SingleChiban.new(prc_num1: row['prc_num1'], prc_num2: row['prc_num2'], prc_num3: row['prc_num3'], point: point)
+          end
+        end
+      end
+
+      # JS: line.lng && line.lat ? [parseFloat(lng), parseFloat(lat)] : undefined（nil・空文字は falsy）。
+      def point_from(lng, lat)
+        return if lng.to_s.empty? || lat.to_s.empty?
+
+        [Float(lng), Float(lat)]
       end
 
       # --- 内部ヘルパ ---
@@ -286,7 +332,16 @@ module JapaneseAddressParser
         "(#{patterns.join('|')})((丁|町)目?|番(町|丁)|条|軒|線|の町?|地割|号|[-－﹣−‐⁃‑‒–—﹘―⎯⏤ーｰ─━])"
       end
 
-      private_class_method :cached_city_patterns, :cached_towns, :stable_sort_by, :town_sort_length, :kanji_number_followed_by_cho?, :town_pattern_source, :expand_town_number
+      private_class_method :cached_city_patterns,
+                           :cached_towns,
+                           :stable_sort_by,
+                           :town_sort_length,
+                           :kanji_number_followed_by_cho?,
+                           :town_pattern_source,
+                           :expand_town_number,
+                           :fetch_subresource,
+                           :parse_subresource,
+                           :point_from
     end
     public_constant :CacheRegexes
   end

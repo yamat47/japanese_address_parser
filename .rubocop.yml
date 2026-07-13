@@ -119,6 +119,7 @@ Style/StringHashKeys:
     - spec/v4/city_spec.rb
     - spec/v4/address_spec.rb
     - spec/v4/match_close_to_spec.rb
+    - spec/v4/cache_regexes_subresource_spec.rb
     - spec/v4/data/single_machi_aza_spec.rb
     - spec/v4/data/single_rsdt_spec.rb
     - spec/v4/data/single_chiban_spec.rb
