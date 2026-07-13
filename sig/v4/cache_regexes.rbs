@@ -34,8 +34,11 @@ module JapaneseAddressParser
       def self.get_towns: (Data::SinglePrefecture pref_obj, Data::SingleCity city_obj, Integer api_version) -> Data::MachiAzaApi
       def self.get_town_regex_patterns: (Data::SinglePrefecture pref, Data::SingleCity city, Integer api_version) -> Array[[untyped, String]]
       def self.get_same_named_prefecture_city_regex_patterns: (Data::PrefectureApi pref_api) -> Array[[String, String]]
-      def self.get_rsdt: (untyped pref, untyped city, untyped town, untyped api_version) -> bot
-      def self.get_chiban: (untyped pref, untyped city, untyped town, untyped api_version) -> bot
+      def self.get_rsdt: (Data::SinglePrefecture pref, Data::SingleCity city, Data::SingleMachiAza town, Integer api_version) -> Array[Data::SingleRsdt]
+      def self.get_chiban: (Data::SinglePrefecture pref, Data::SingleCity city, Data::SingleMachiAza town, Integer api_version) -> Array[Data::SingleChiban]
+      def self.fetch_subresource: (String kind, Data::SinglePrefecture pref, Data::SingleCity city, Hash[String, Integer] row, Integer api_version) -> String
+      def self.parse_subresource: (String data) -> Array[untyped]
+      def self.point_from: (untyped lng, untyped lat) -> [Float, Float]?
 
       def self.cached_city_patterns: () -> Hash[Integer, Array[[Data::SingleCity, String]]]
       def self.cached_towns: () -> Hash[String, Data::MachiAzaApi]

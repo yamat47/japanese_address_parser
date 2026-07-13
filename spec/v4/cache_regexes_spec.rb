@@ -107,12 +107,5 @@ require 'japanese_address_parser/v4/cache_regexes'
     end
   end
 
-  describe '.get_rsdt / .get_chiban (M8 stubs)' do
-    it 'raises NotImplementedError until M8' do
-      expect { described_class.get_rsdt(nil, nil, nil, nil) }
-        .to(raise_error(::NotImplementedError))
-      expect { described_class.get_chiban(nil, nil, nil, nil) }
-        .to(raise_error(::NotImplementedError))
-    end
-  end
+  # get_rsdt / get_chiban の実装は spec/v4/cache_regexes_subresource_spec.rb に移した（M8）。
 end
