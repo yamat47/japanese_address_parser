@@ -1,0 +1,49 @@
+name: CI
+
+# ライブ CDN（japanese-addresses-v2）を叩くため、RSpec はネットワーク egress を前提とする。
+on:
+  push:
+    branches:
+      - main
+      - rearchitecture
+  pull_request:
+    branches:
+      - main
+      - rearchitecture
+  workflow_dispatch:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    name: RuboCop & Steep
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.3'
+        bundler-cache: true
+    - name: RuboCop check
+      run: bundle exec rubocop
+    - name: Steep check
+      run: bundle exec steep check
+
+  rspec:
+    runs-on: ubuntu-latest
+    name: Ruby ${{ matrix.ruby }} - RSpec
+    strategy:
+      fail-fast: false
+      matrix:
+        ruby:
+          - '3.2'
+          - '3.3'
+          - '3.4'
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: ${{ matrix.ruby }}
+        bundler-cache: true
+    - name: Run RSpec
+      run: bundle exec rspec spec

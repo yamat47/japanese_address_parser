@@ -1,143 +1,85 @@
-![CI Status](https://github.com/yamat47/japanese_address_parser/actions/workflows/ci.yml/badge.svg) [![Gem Version](https://badge.fury.io/rb/japanese_address_parser.svg)](https://badge.fury.io/rb/japanese_address_parser) [![Maintainability](https://api.codeclimate.com/v1/badges/e9b7d0622cf6cc4143c3/maintainability)](https://codeclimate.com/github/yamat47/japanese_address_parser/maintainability)
+![CI Status](https://github.com/yamat47/japanese_address_parser/actions/workflows/ci.yml/badge.svg) [![Gem Version](https://badge.fury.io/rb/japanese_address_parser.svg)](https://badge.fury.io/rb/japanese_address_parser)
 
 # JapaneseAddressParser
-JapaneseAddressParser は日本の住所をパースすることができる Ruby gem です。
 
-住所のパースに使っているのは [geolonia/normalize-japanese-addresses](https://github.com/geolonia/normalize-japanese-addresses) です。
-npm のライブラリを Ruby のランタイムから呼び出しているため、Node が実行できる環境でしか動作しません。
+JapaneseAddressParser は日本の住所を正規化する Ruby gem です。
 
-こちらのページで機能を試すことができます：[デモンストレーション | JapaneseAddressParser](https://japanese-address-parser-demo.fly.dev/)
+[@geolonia/normalize-japanese-addresses](https://github.com/geolonia/normalize-japanese-addresses)
+**v3.1.3** の忠実な Ruby 移植で、住所データは配信 API から実行時に取得します。**Node.js は不要**です。
 
 ## インストール
 
-`Gemfile` にこの行を追加してください：
+`Gemfile` に追記して `bundle install`：
 
 ```ruby
 gem 'japanese_address_parser'
 ```
 
-次にこのコマンドを実行してください：
-
-```
-$ bundle install
-```
-
-もしくは gem install をして直接インストールすることもできます：
-
-```
-$ gem install japanese_address_parser
-```
+Ruby 3.2 以上が必要です。
 
 ## 使い方
+
 ```ruby
-address = JapaneseAddressParser.call('東京都港区芝公園4-2-8')
+address = JapaneseAddressParser.call('渋谷区道玄坂1-10-8')
 
-address.class #=> JapaneseAddressParser::Models::Address
+address.prefecture.name        #=> "東京都"
+address.prefecture.code        #=> 130001
+address.prefecture.name_kana   #=> "トウキョウト"
+address.prefecture.name_romaji #=> "Tokyo"
 
-prefecture = address.prefecture
-prefecture.attributes #=> {:code=>"13", :name=>"東京都", :name_kana=>"トウキョウト", :name_romaji=>"TOKYO TO"}
+address.city.name              #=> "渋谷区"
+address.town.name              #=> "道玄坂一丁目"
+address.town.chome             #=> "一丁目"
+address.town.chome_n           #=> 1
 
-city = address.city
-city.attributes #=> {:code=>"13103", :formatted_code=>"13103", :prefecture_code=>"13", :name=>"港区", :name_kana=>"ミナトク", :name_romaji=>"MINATO KU"}
+address.addr                   #=> "10-8"   # 住居表示 or 地番（level 8）
+address.other                  #=> ""       # 末尾の未正規化部
+address.level                  #=> 8        # 0/1/2/3/8
+address.point                  #=> #<... lat: 35.6568..., lng: 139.6987..., level: 8>
 
-town = address.town
-town.attributes #=> {:name=>"芝公園四丁目", :name_kana=>"シバコウエン 4", :name_romaji=>"SHIBAKOEN 4", :nickname=>nil, :latitude=>"35.656459", :longitude=>"139.74764"}
-
-address.full_address #=> "東京都港区芝公園4-2-8"
-address.furigana #=> "トウキョウトミナトクシバコウエン 4"
+address.to_h                   # ネスト VO・座標も含めた Hash
+address.metadata               # VO に昇格しない生データ（rsdt/chiban 等）の逃がし道
 ```
 
-### 都道府県・市区町村・町域データの属性
-<details>
-<summary>都道府県データの属性</summary>
+### 戻り値と例外
 
-クラス：`JapaneseAddressParser::Models::Prefecture`
+- `call` / `call!` は**常に `Address` を返します**。都道府県すら判別できなくても `level 0` の `Address` を返します（未マッチは失敗ではありません）。
+- `nil`／例外になるのは**データ取得（fetch）失敗時のみ**です。`call` は `nil` を返し、`call!` は `JapaneseAddressParser::NormalizeError` を raise します。
+- 正規化レベルは毎回 `level:` で指定できます（既定は `8`）。
 
-| 属性 | 説明 | 例 |
-| --- | --- | --- |
-| `code` | 都道府県コード | `"01"` |
-| `name` | 名前 | `"北海道"` |
-| `name_kana` | ふりがな | `"ホッカイドウ"` |
-| `name_romaji` | ローマ字 | `"HOKKAIDO"` |
-</details>
-
-<details>
-<summary>市区町村データの属性</summary>
-
-クラス：`JapaneseAddressParser::Models::City`
-
-| 属性 | 説明 | 例 |
-| --- | --- | --- |
-| `code` | 市区町村コード | `"01101"` |
-| `formatted_code` | 整形された市区町村コード<br>市区町村コードがない場合に `"UNKNOWN"` が入っています。 | `"01101"` / `"UNKNOWN"` |
-| `prefecture_code` | 都道府県コード | `"01"` |
-| `name` | 名前 | `"札幌市中央区"` |
-| `name_kana` | ふりがな | `"サッポロシチュウオウク"` |
-| `name_romaji` | ローマ字 | `"SAPPORO SHI CHUO KU"` |
-</details>
-
-<details>
-<summary>町域データの属性</summary>
-
-クラス：`JapaneseAddressParser::Models::Town`
-
-| 属性 | 説明 | 例 |
-| --- | --- | --- |
-| `name` | 名前 | `"旭ケ丘一丁目"` |
-| `name_kana` | ふりがな | `"アサヒガオカ 1"` |
-| `name_romaji` | ローマ字 | `"ASAHIGAOKA 1"` |
-| `nickname` | 小字・通称名 |  |
-| `latitude` | 緯度 | `"43.04223"` |
-| `longitude` | 経度 | `"141.319722"` |
-</details>
-
-都道府県や市区町村、町域のそれぞれの属性の値は [geolonia/japanese-addresses](https://github.com/geolonia/japanese-addresses) が提供している CSV ファイルの値そのままです。
-
-### `JapaneseAddressParser.call(address)`
-`address` の値を解析して、都道府県・市区町村・町域のデータを返します。
-
-なんらかの理由で住所の解析に失敗したときは `nil` を返します。
-
-### `JapaneseAddressParser.call!(address)`
-
-`address` の値を解析して、都道府県・市区町村・町域のデータを返します。
-
-なんらかの理由で住所の解析に失敗したときは `JapaneseAddressParser::NormalizeError` の例外を吐きます。
-
-## 開発
-開発に必要なライブラリをインストールするには、このコマンドを実行してください：
-
-```
-bin/setup
+```ruby
+JapaneseAddressParser.call('神奈川県横浜市港北区', level: 2).level #=> 2
+JapaneseAddressParser.call!('渋谷区道玄坂1-10-8')                   # fetch 失敗時は NormalizeError
 ```
 
-開発環境の構築は Docker を使ってもできます。
-MacOS でしか試していないので、他プラットフォームで動かなかったら issue でご報告ください。
+## 設定
 
-```
-docker compose build
-docker compose run --rm gemsrc sh
-```
-
-```
-/gemsrc # bin/console
-irb(main):001:0> address = JapaneseAddressParser.call('東京都港区芝公園4-2-8')
+```ruby
+JapaneseAddressParser.configure do |c|
+  # データ源。既定はリモート API。
+  c.japanese_addresses_api = 'https://japanese-addresses-v2.geoloniamaps.com/api/ja'
+  # 町字パターンの LRU キャッシュサイズ（既定 1000）。
+  c.cache_size = 1_000
+end
 ```
 
-自動テストやリンターを実行するには、このコマンドを実行してください：
+- `http://` / `https://` で始まる → HTTP で取得（level 8 は Range 部分取得）。
+- `file://` で始まる、または絶対/相対パス → ローカルファイルから取得（ミラーを置いて利用できます）。
+- 住所データは gem に**同梱していません**（level 3 で約 100MB、level 8 で数 GB のため）。
 
+## スレッド安全性
+
+本 gem は**スレッドセーフではありません**（上流 JS と同じくモジュールレベルのキャッシュを使います）。
+マルチスレッドで使う場合は、**起動時に代表的な住所を1回正規化してキャッシュを暖機**しておくことを推奨します。
+
+## 移植元（アップストリーム）
+
+```ruby
+JapaneseAddressParser::UPSTREAM_VERSION    #=> "3.1.3"
+JapaneseAddressParser::UPSTREAM_COMMIT_SHA #=> "49c1ae4be9d2ba353b86eaf40fd7eb12a1269f3e"
 ```
-rake
-```
 
-## 貢献方法
-イシューやプルリクエストは随時お待ちしています。
+## v4.0.0 について
 
-特に住所の正規化については漏れているケースがまだまだ数多くありそうです。
-「この住所だとうまくパースできないよ」くらいの気軽なもので結構ですので、イシューでのご報告をお願いします。
-
-## ライセンス
-この gem は [MIT ライセンス](https://opensource.org/licenses/MIT) の下でオープンソースとして利用可能です。
-
-## 行動規範
-JapaneseAddressParser に関してコードを書いたりイシューを追加したりする際は [行動規範](https://github.com/yamat47/japanese_address_parser/blob/main/CODE_OF_CONDUCT.md) に従ってください。
+v4.0.0 で Node.js / `schmooze` 依存を撤去し、上流 v3.1.3 を Ruby に逐語移植しました。
+公開 API・戻り値の形は v3.x から変わっています（後方互換はありません）。

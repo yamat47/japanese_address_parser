@@ -8,6 +8,7 @@
 require 'net/http'
 require 'json'
 require 'japanese_address_parser/version'
+require 'japanese_address_parser/upstream'
 require 'japanese_address_parser/exceptions'
 require 'japanese_address_parser/normalize'
 require 'japanese_address_parser/address'
