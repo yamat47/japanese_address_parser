@@ -1,0 +1,75 @@
+name: Upstream check
+
+# 上流 @geolonia/normalize-japanese-addresses の新バージョンを検知し、追従用の Issue を自動作成する。
+# 注: v3.1.3 は 2024/12 以降リリースが無く実質フリーズしているため、低頻度（週次）で十分。
+on:
+  schedule:
+    - cron: '0 0 * * 1' # 毎週月曜 00:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.3'
+
+    - name: Resolve versions
+      id: versions
+      run: |
+        # upstream.rb は依存ゼロの定数のみなので、bundler なしで直接読む。
+        current="$(ruby -Ilib -rjapanese_address_parser/upstream -e 'print JapaneseAddressParser::UPSTREAM_VERSION')"
+        current_sha="$(ruby -Ilib -rjapanese_address_parser/upstream -e 'print JapaneseAddressParser::UPSTREAM_COMMIT_SHA')"
+        latest="$(npm view @geolonia/normalize-japanese-addresses version)"
+        {
+          echo "current=${current}"
+          echo "current_sha=${current_sha}"
+          echo "latest=${latest}"
+        } >> "$GITHUB_OUTPUT"
+        echo "current=${current} latest=${latest}"
+
+    - name: Open a follow-up issue when the upstream is ahead
+      if: steps.versions.outputs.current != steps.versions.outputs.latest
+      env:
+        GH_TOKEN: ${{ github.token }}
+        CURRENT: ${{ steps.versions.outputs.current }}
+        CURRENT_SHA: ${{ steps.versions.outputs.current_sha }}
+        LATEST: ${{ steps.versions.outputs.latest }}
+      run: |
+        title="Upstream update: normalize-japanese-addresses ${CURRENT} -> ${LATEST}"
+
+        # 同名の open issue が既にあれば作らない（週次実行の重複防止）。
+        existing="$(gh issue list --state open --search "${title} in:title" --json number --jq '.[0].number')"
+        if [ -n "${existing}" ]; then
+          echo "Issue already open: #${existing}"
+          exit 0
+        fi
+
+        body="$(cat <<EOF
+        上流 [@geolonia/normalize-japanese-addresses](https://github.com/geolonia/normalize-japanese-addresses) の新バージョンが公開されました。
+
+        - 追従中: \`${CURRENT}\` (\`${CURRENT_SHA}\`)
+        - 最新: \`${LATEST}\`
+        - 変更点（compare / release）を確認: https://github.com/geolonia/normalize-japanese-addresses/releases
+
+        ## 翻訳チェックリスト
+
+        1. \`docs/upstream_mapping.md\` の対応表で、変更された JS ファイル → Ruby 移植先を逆引きする。
+        2. 変更ファイルごとに逐語移植（\`docs/working_agreement.md\` §3。正規表現は文字列レベルでコピー、\`^\`/\`\$\` は \`\\\\A\`/\`\\\\z\` に翻訳）。
+        3. \`lib/japanese_address_parser/upstream.rb\` の \`UPSTREAM_VERSION\` / \`UPSTREAM_COMMIT_SHA\` を更新する。
+        4. 各ファイル先頭の移植元 URL の sha を更新する。
+        5. \`bundle exec rspec\` / \`bundle exec rubocop\` / \`bundle exec steep check\` を green にする。
+
+        _このissueは \`.github/workflows/upstream-check.yml\` により自動作成されました。_
+        EOF
+        )"
+
+        gh issue create --title "${title}" --body "${body}"

@@ -2,6 +2,18 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## 🚧 v4.0.0 リアーキテクチャ進行中
+
+このリポジトリは現在、Node.js / `schmooze` 依存を撤去し `@geolonia/normalize-japanese-addresses` v3.1.3 を Ruby に逐語移植する **v4.0.0 リアーキテクチャ**を進めている（作業ブランチ `rearchitecture`）。
+
+**リアーキテクチャ関連の作業を行う場合は、まず `docs/working_agreement.md` を読むこと。** そこを起点に:
+- `docs/working_agreement.md` — 運用ルール・確定方針・上流の読み方（最初に読む）
+- `docs/milestones.md` — 作業単位 M0〜M10（未チェックの最若番が次の作業）
+- `docs/rearchitecture.md` — 設計の真実源
+- `docs/upstream_mapping.md` — JS → Ruby 逐語移植対応表
+
+以下の「Project Overview」「Architecture Overview」は**現行（v3.x・schmooze ベース）**の記述であり、リアーキ完了（M9）時に刷新される。
+
 ## Project Overview
 
 JapaneseAddressParser is a Ruby gem that parses Japanese addresses using the geolonia/normalize-japanese-addresses library. It requires Node.js to run as it bridges Ruby and JavaScript through the `schmooze` gem.

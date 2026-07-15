@@ -1,0 +1,47 @@
+{
+  "meta": { "updated": 1735102670 },
+  "data": [
+    {
+      "machiaza_id": "0001001",
+      "oaza_cho": "神宮前",
+      "oaza_cho_k": "ジングウマエ",
+      "oaza_cho_r": "Jingumae",
+      "chome": "一丁目",
+      "chome_n": 1,
+      "rsdt": true,
+      "point": [139.705302, 35.671552],
+      "csv_ranges": {
+        "地番": { "start": 50000, "length": 14823 },
+        "住居表示": { "start": 50000, "length": 18985 }
+      }
+    },
+    {
+      "machiaza_id": "0001000",
+      "oaza_cho": "旭川清澄町",
+      "oaza_cho_k": "アサヒカワキヨスミマチ",
+      "oaza_cho_r": "Asahikawa Kiyosumimachi",
+      "rsdt": true,
+      "point": [140.128123, 39.743039],
+      "csv_ranges": {
+        "地番": { "start": 100000, "length": 3191 }
+      }
+    },
+    {
+      "machiaza_id": "0027101",
+      "oaza_cho": "新屋町",
+      "oaza_cho_k": "アラヤマチ",
+      "oaza_cho_r": "Arayamachi",
+      "koaza": "字後田",
+      "koaza_k": "アザウシロダ",
+      "csv_ranges": {
+        "地番": { "start": 330670, "length": 138 }
+      }
+    },
+    {
+      "machiaza_id": "0000101",
+      "koaza": "クネソエ",
+      "koaza_k": "クネソエ",
+      "point": [140.238453, 39.520472]
+    }
+  ]
+}

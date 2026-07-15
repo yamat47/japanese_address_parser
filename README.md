@@ -1,143 +1,93 @@
-![CI Status](https://github.com/yamat47/japanese_address_parser/actions/workflows/ci.yml/badge.svg) [![Gem Version](https://badge.fury.io/rb/japanese_address_parser.svg)](https://badge.fury.io/rb/japanese_address_parser) [![Maintainability](https://api.codeclimate.com/v1/badges/e9b7d0622cf6cc4143c3/maintainability)](https://codeclimate.com/github/yamat47/japanese_address_parser/maintainability)
+![CI Status](https://github.com/yamat47/japanese_address_parser/actions/workflows/ci.yml/badge.svg) [![Gem Version](https://badge.fury.io/rb/japanese_address_parser.svg)](https://badge.fury.io/rb/japanese_address_parser)
 
 # JapaneseAddressParser
-JapaneseAddressParser は日本の住所をパースすることができる Ruby gem です。
 
-住所のパースに使っているのは [geolonia/normalize-japanese-addresses](https://github.com/geolonia/normalize-japanese-addresses) です。
-npm のライブラリを Ruby のランタイムから呼び出しているため、Node が実行できる環境でしか動作しません。
+JapaneseAddressParser は日本の住所を正規化する Ruby 用のライブラリです。「東京都渋谷区道玄坂1-10-8」のような住所の文字列を受け取り、都道府県・市区町村・町名・番地に分解します。
 
-こちらのページで機能を試すことができます：[デモンストレーション | JapaneseAddressParser](https://japanese-address-parser-demo.fly.dev/)
+住所の正規化には geolonia の [normalize-japanese-addresses](https://github.com/geolonia/normalize-japanese-addresses) と同じ仕組みを使っています。
 
 ## インストール
 
-`Gemfile` にこの行を追加してください：
+Gemfile に次の行を追加して `bundle install` を実行してください。
 
 ```ruby
 gem 'japanese_address_parser'
 ```
 
-次にこのコマンドを実行してください：
-
-```
-$ bundle install
-```
-
-もしくは gem install をして直接インストールすることもできます：
-
-```
-$ gem install japanese_address_parser
-```
+Ruby 3.2 以降が必要です。
 
 ## 使い方
+
+`JapaneseAddressParser.call` に住所の文字列を渡すと、正規化した結果を返します。
+
 ```ruby
-address = JapaneseAddressParser.call('東京都港区芝公園4-2-8')
+address = JapaneseAddressParser.call('東京都渋谷区道玄坂1-10-8')
 
-address.class #=> JapaneseAddressParser::Models::Address
-
-prefecture = address.prefecture
-prefecture.attributes #=> {:code=>"13", :name=>"東京都", :name_kana=>"トウキョウト", :name_romaji=>"TOKYO TO"}
-
-city = address.city
-city.attributes #=> {:code=>"13103", :formatted_code=>"13103", :prefecture_code=>"13", :name=>"港区", :name_kana=>"ミナトク", :name_romaji=>"MINATO KU"}
-
-town = address.town
-town.attributes #=> {:name=>"芝公園四丁目", :name_kana=>"シバコウエン 4", :name_romaji=>"SHIBAKOEN 4", :nickname=>nil, :latitude=>"35.656459", :longitude=>"139.74764"}
-
-address.full_address #=> "東京都港区芝公園4-2-8"
-address.furigana #=> "トウキョウトミナトクシバコウエン 4"
+address.prefecture.name #=> "東京都"
+address.city.name       #=> "渋谷区"
+address.town.name       #=> "道玄坂一丁目"
+address.addr            #=> "10-8"
+address.other           #=> ""
+address.level           #=> 8
 ```
 
-### 都道府県・市区町村・町域データの属性
-<details>
-<summary>都道府県データの属性</summary>
+都道府県・市区町村・町名には、名前のほかに読みがな・ローマ字・行政コードなどの情報も含まれています。
 
-クラス：`JapaneseAddressParser::Models::Prefecture`
+```ruby
+address.prefecture.name        #=> "東京都"
+address.prefecture.code        #=> 130001
+address.prefecture.name_kana   #=> "トウキョウト"
+address.prefecture.name_romaji #=> "Tokyo"
 
-| 属性 | 説明 | 例 |
-| --- | --- | --- |
-| `code` | 都道府県コード | `"01"` |
-| `name` | 名前 | `"北海道"` |
-| `name_kana` | ふりがな | `"ホッカイドウ"` |
-| `name_romaji` | ローマ字 | `"HOKKAIDO"` |
-</details>
+address.town.chome   #=> "一丁目"
+address.town.chome_n #=> 1
 
-<details>
-<summary>市区町村データの属性</summary>
-
-クラス：`JapaneseAddressParser::Models::City`
-
-| 属性 | 説明 | 例 |
-| --- | --- | --- |
-| `code` | 市区町村コード | `"01101"` |
-| `formatted_code` | 整形された市区町村コード<br>市区町村コードがない場合に `"UNKNOWN"` が入っています。 | `"01101"` / `"UNKNOWN"` |
-| `prefecture_code` | 都道府県コード | `"01"` |
-| `name` | 名前 | `"札幌市中央区"` |
-| `name_kana` | ふりがな | `"サッポロシチュウオウク"` |
-| `name_romaji` | ローマ字 | `"SAPPORO SHI CHUO KU"` |
-</details>
-
-<details>
-<summary>町域データの属性</summary>
-
-クラス：`JapaneseAddressParser::Models::Town`
-
-| 属性 | 説明 | 例 |
-| --- | --- | --- |
-| `name` | 名前 | `"旭ケ丘一丁目"` |
-| `name_kana` | ふりがな | `"アサヒガオカ 1"` |
-| `name_romaji` | ローマ字 | `"ASAHIGAOKA 1"` |
-| `nickname` | 小字・通称名 |  |
-| `latitude` | 緯度 | `"43.04223"` |
-| `longitude` | 経度 | `"141.319722"` |
-</details>
-
-都道府県や市区町村、町域のそれぞれの属性の値は [geolonia/japanese-addresses](https://github.com/geolonia/japanese-addresses) が提供している CSV ファイルの値そのままです。
-
-### `JapaneseAddressParser.call(address)`
-`address` の値を解析して、都道府県・市区町村・町域のデータを返します。
-
-なんらかの理由で住所の解析に失敗したときは `nil` を返します。
-
-### `JapaneseAddressParser.call!(address)`
-
-`address` の値を解析して、都道府県・市区町村・町域のデータを返します。
-
-なんらかの理由で住所の解析に失敗したときは `JapaneseAddressParser::NormalizeError` の例外を吐きます。
-
-## 開発
-開発に必要なライブラリをインストールするには、このコマンドを実行してください：
-
-```
-bin/setup
+address.point #=> 緯度・経度とその精度
+address.to_h  #=> 住所全体をハッシュに変換する
 ```
 
-開発環境の構築は Docker を使ってもできます。
-MacOS でしか試していないので、他プラットフォームで動かなかったら issue でご報告ください。
+### 正規化のレベル
 
-```
-docker compose build
-docker compose run --rm gemsrc sh
-```
+住所をどこまで判別できたかは `level` で表されます。
 
-```
-/gemsrc # bin/console
-irb(main):001:0> address = JapaneseAddressParser.call('東京都港区芝公園4-2-8')
-```
+- 0: 都道府県も判別できなかった
+- 1: 都道府県まで判別できた
+- 2: 市区町村まで判別できた
+- 3: 町名まで判別できた
+- 8: 住居表示または地番まで判別できた
 
-自動テストやリンターを実行するには、このコマンドを実行してください：
+どのレベルまで判別するかは呼び出しごとに指定できます。指定しない場合は 8 まで判別します。
 
-```
-rake
+```ruby
+JapaneseAddressParser.call('神奈川県横浜市港北区', level: 2).level #=> 2
 ```
 
-## 貢献方法
-イシューやプルリクエストは随時お待ちしています。
+### 戻り値と例外
 
-特に住所の正規化については漏れているケースがまだまだ数多くありそうです。
-「この住所だとうまくパースできないよ」くらいの気軽なもので結構ですので、イシューでのご報告をお願いします。
+`call` は常に住所を返します。都道府県すら判別できなかった場合でも、`level` が 0 の住所を返します。住所として認識できないこと自体はエラーではありません。
 
-## ライセンス
-この gem は [MIT ライセンス](https://opensource.org/licenses/MIT) の下でオープンソースとして利用可能です。
+住所データの取得に失敗したときだけ、戻り値が変わります。`call` は `nil` を返し、`call!` は `JapaneseAddressParser::NormalizeError` を発生させます。
 
-## 行動規範
-JapaneseAddressParser に関してコードを書いたりイシューを追加したりする際は [行動規範](https://github.com/yamat47/japanese_address_parser/blob/main/CODE_OF_CONDUCT.md) に従ってください。
+```ruby
+JapaneseAddressParser.call('あいうえお').level #=> 0
+JapaneseAddressParser.call!('東京都渋谷区道玄坂1-10-8') # 取得に失敗すると例外
+```
+
+## 設定
+
+`JapaneseAddressParser.configure` で動作を設定できます。
+
+```ruby
+JapaneseAddressParser.configure do |config|
+  config.japanese_addresses_api = 'https://japanese-addresses-v2.geoloniamaps.com/api/ja'
+  config.cache_size = 1000
+end
+```
+
+設定できる項目は次の3つです。
+
+| 設定項目 | 説明 |
+| --- |  --- |
+| `japanese_addresses_api` | 住所データの取得先。指定しない場合は geolonia の配信 API を参照します。`file://` で始まる値やローカルのパスを指定すると手元の住所ファイルを使うこともできます。 |
+| `cache_size` | 町名の照合に使う正規表現のキャッシュ上限。指定しない場合は 1000 。 |
+
