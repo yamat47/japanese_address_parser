@@ -80,16 +80,6 @@ RSpec/FilePath:
   Exclude:
     - spec/v4/**/*_spec.rb
 
-# v4 移植スイートでは level 8 が必要なケースを M8 まで pending で枠だけ確保する（M7 DoD）。
-# インライン disable は禁止（Style/DisableCopsWithinSourceCodeDirective）のため、pending を持つ
-# ファイルを個別に除外する。M8 で pending が外れたら該当エントリも削除する。
-RSpec/Pending:
-  Exclude:
-    - spec/v4/main_spec.rb
-    - spec/v4/addresses_spec.rb
-    - spec/v4/metadata_spec.rb
-    - spec/v4/filesystem_api_spec.rb
-
 # filesystem_api_spec は CDN から tmpdir へ一度だけ DL するため before/after(:context) を使う。
 # 状態（Config / モジュールキャッシュ）は around で example ごとに復元・reset し、tmpdir は
 # after(:context) で削除するので、本 cop が警告する状態リークは管理済み。

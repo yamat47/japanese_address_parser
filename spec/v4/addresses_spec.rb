@@ -4,8 +4,7 @@
 # 上流同様ライブ CDN を叩く（working_agreement §1-8、:upstream_port）。上流はリトライ/キャッシュ無し
 # （concurrency: 4 で直叩き）なので本移植も対策を入れず逐次でライブ CDN を叩く。
 #
-# 上流 normalize は level 8 を実装済みで全行 pass するが、本 gem は M8 未了のため level 8 行は pending。
-# M8 で `pending ... if expected_level == 8` の1行を外せば、JS と同様に全行 active で pass する。
+# level 0-3 も level 8（rsdt/chiban）も全行アクティブで、上流 normalize と同値になることを検証する。
 # （RSpec/Pending はインライン disable 不可のため .rubocop.yml でこのファイルを除外している。）
 
 require 'csv'
@@ -42,7 +41,6 @@ require_relative 'support/match_close_to'
     expected = { pref: presence.call(row[1]), city: presence.call(row[2]), town: presence.call(row[3]), addr: presence.call(row[4]), other: row[5].to_s, level: expected_level, point: point }.compact
 
     it test_name do
-      pending('level 8 (rsdt/chiban) — enabled in M8') if expected_level == 8
       expect(described_class.call(address)).to(match_close_to(**expected))
     end
   end

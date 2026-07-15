@@ -18,6 +18,7 @@ module JapaneseAddressParser
       def self.prefecture_to_result_point: (Data::SinglePrefecture pref) -> NormalizeResultPoint
       def self.city_to_result_point: (Data::SingleCity city) -> NormalizeResultPoint
       def self.machi_aza_to_result_point: (Data::SingleMachiAza machi_aza) -> NormalizeResultPoint?
+      def self.rsdt_or_chiban_to_result_point: (Data::SingleRsdt | Data::SingleChiban input) -> NormalizeResultPoint?
       def self.upgrade_point: (NormalizeResultPoint? point_a, NormalizeResultPoint? point_b) -> NormalizeResultPoint?
     end
   end

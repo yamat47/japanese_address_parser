@@ -31,8 +31,11 @@ require 'japanese_address_parser/v4'
       expect(result.level).to(eq(0))
     end
 
-    it 'defaults to level 8 (capped at level 3 until M8)' do
-      expect(described_class.call(address).level).to(eq(3))
+    it 'resolves to level 8 (rsdt) with the default level' do
+      result = described_class.call(address)
+
+      expect(result.level).to(eq(8))
+      expect(result.addr).to(eq('17-11'))
     end
   end
 

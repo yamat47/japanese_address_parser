@@ -143,8 +143,42 @@ module JapaneseAddressParser
         level_value += 1 if town
 
         # JS: if (option.level <= 3 || level < 3) { return result }
-        # M8 で level 8（normalizeAddrPart）の分岐をここに追加する。M5 では常にこの結果を返す。
         # metadata は VO に昇格しない生データの逃がし道（working_agreement §1-3）。
+        if level <= 3 || level_value < 3
+          return NormalizeResult.new(
+            pref: pref ? pref.prefecture_name : nil,
+            city: city ? city.city_name : nil,
+            town: town ? town.machi_aza_name : nil,
+            addr: addr,
+            other: other,
+            point: point,
+            level: level_value,
+            metadata: NormalizeResultMetadata.new(
+              input: address,
+              prefecture: Utils.remove_cities_from_prefecture(pref),
+              city: city,
+              machi_aza: Utils.remove_extra_from_machi_aza(town),
+              chiban: nil,
+              rsdt: nil
+            )
+          )
+        end
+
+        # level 8（住居表示 rsdt / 地番 chiban）。ここに来るのは level_value == 3 かつ level >= 4 のとき。
+        normalized_addr_part = normalize_addr_part(other, pref, city, town, api_version)
+        # JS TODO: rsdt と地番を両方対応した時に両方返すけど、今は rsdt を優先する
+        if normalized_addr_part[:rsdt]
+          addr = normalized_addr_part[:rsdt].rsdt_to_string
+          other = normalized_addr_part[:rest]
+          point = ResultPoint.upgrade_point(point, ResultPoint.rsdt_or_chiban_to_result_point(normalized_addr_part[:rsdt]))
+          level_value = 8
+        elsif normalized_addr_part[:chiban]
+          addr = normalized_addr_part[:chiban].chiban_to_string
+          other = normalized_addr_part[:rest]
+          point = ResultPoint.upgrade_point(point, ResultPoint.rsdt_or_chiban_to_result_point(normalized_addr_part[:chiban]))
+          level_value = 8
+        end
+
         NormalizeResult.new(
           pref: pref ? pref.prefecture_name : nil,
           city: city ? city.city_name : nil,
@@ -158,8 +192,8 @@ module JapaneseAddressParser
             prefecture: Utils.remove_cities_from_prefecture(pref),
             city: city,
             machi_aza: Utils.remove_extra_from_machi_aza(town),
-            chiban: nil,
-            rsdt: nil
+            chiban: normalized_addr_part[:chiban],
+            rsdt: normalized_addr_part[:rsdt]
           )
         )
       end
@@ -201,7 +235,29 @@ module JapaneseAddressParser
           .strip
       end
 
-      private_class_method :normalize_town_name, :normalize_addr
+      # JS: normalizeAddrPart(addr, pref, city, town, apiVersion)
+      def normalize_addr_part(addr, pref, city, town, api_version)
+        # JS: /^([1-9][0-9]*)(?:-([1-9][0-9]*))?(?:-([1-9][0-9]*))?/（^ → \A）
+        match = addr.match(/\A([1-9][0-9]*)(?:-([1-9][0-9]*))?(?:-([1-9][0-9]*))?/)
+        return { rest: addr } unless match
+
+        matched = match[0].to_s
+        # JS TODO: rsdt の場合は rsdt と地番を両方取得する
+        if town.rsdt
+          CacheRegexes.get_rsdt(pref, city, town, api_version).each do |rsdt|
+            addr_part = rsdt.rsdt_to_string
+            return { rsdt: rsdt, rest: addr[addr_part.length..].to_s } if matched == addr_part
+          end
+        else
+          CacheRegexes.get_chiban(pref, city, town, api_version).each do |chiban|
+            addr_part = chiban.chiban_to_string
+            return { chiban: chiban, rest: addr[addr_part.length..].to_s } if matched == addr_part
+          end
+        end
+        { rest: addr }
+      end
+
+      private_class_method :normalize_town_name, :normalize_addr, :normalize_addr_part
     end
     public_constant :Normalize
   end
