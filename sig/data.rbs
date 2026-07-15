@@ -1,0 +1,109 @@
+# Interim signatures for the v4.0.0 data model layer (M1).
+# The full RBS overhaul happens in M9; these keep `steep check` green in the meantime.
+#
+# These are `Data.define` value objects, but the bundled RBS (rbs 2.6.0) predates the
+# core `Data` class, so they are declared as plain classes exposing the interface we use.
+
+module JapaneseAddressParser
+  module Data
+    class SingleCity
+      attr_reader code: Integer
+      attr_reader county: String?
+      attr_reader county_k: String?
+      attr_reader county_r: String?
+      attr_reader city: String
+      attr_reader city_k: String
+      attr_reader city_r: String
+      attr_reader ward: String?
+      attr_reader ward_k: String?
+      attr_reader ward_r: String?
+      attr_reader point: [Float, Float]
+
+      def self.new: (code: Integer, county: String?, county_k: String?, county_r: String?, city: String, city_k: String, city_r: String, ward: String?, ward_k: String?, ward_r: String?, point: [Float, Float]) -> instance
+      def self.from_json: (Hash[String, untyped] hash) -> SingleCity
+
+      def city_name: () -> String
+    end
+
+    class SinglePrefecture
+      attr_reader code: Integer
+      attr_reader pref: String
+      attr_reader pref_k: String
+      attr_reader pref_r: String
+      attr_reader point: [Float, Float]
+      attr_reader cities: Array[SingleCity]
+
+      def self.new: (code: Integer, pref: String, pref_k: String, pref_r: String, point: [Float, Float], cities: Array[SingleCity]) -> instance
+      def self.from_json: (Hash[String, untyped] hash) -> SinglePrefecture
+
+      def prefecture_name: () -> String
+    end
+
+    class SingleMachiAza
+      attr_reader machiaza_id: String
+      attr_reader oaza_cho: String?
+      attr_reader oaza_cho_k: String?
+      attr_reader oaza_cho_r: String?
+      attr_reader chome: String?
+      attr_reader chome_n: Integer?
+      attr_reader koaza: String?
+      attr_reader koaza_k: String?
+      attr_reader koaza_r: String?
+      attr_reader rsdt: true?
+      attr_reader point: [Float, Float]?
+      attr_reader csv_ranges: Hash[String, Hash[String, Integer]]?
+
+      def self.new: (machiaza_id: String, oaza_cho: String?, oaza_cho_k: String?, oaza_cho_r: String?, chome: String?, chome_n: Integer?, koaza: String?, koaza_k: String?, koaza_r: String?, rsdt: true?, point: [Float, Float]?, csv_ranges: Hash[String, Hash[String, Integer]]?) -> instance
+      def self.from_json: (Hash[String, untyped] hash) -> SingleMachiAza
+
+      def machi_aza_name: () -> String
+    end
+
+    class SingleRsdt
+      attr_reader blk_num: String?
+      attr_reader rsdt_num: String
+      attr_reader rsdt_num2: String?
+      attr_reader point: [Float, Float]?
+
+      def self.new: (blk_num: String?, rsdt_num: String, rsdt_num2: String?, point: [Float, Float]?) -> instance
+      def self.from_json: (Hash[String, untyped] hash) -> SingleRsdt
+
+      def rsdt_to_string: () -> String
+    end
+
+    class SingleChiban
+      attr_reader prc_num1: String
+      attr_reader prc_num2: String?
+      attr_reader prc_num3: String?
+      attr_reader point: [Float, Float]?
+
+      def self.new: (prc_num1: String, prc_num2: String?, prc_num3: String?, point: [Float, Float]?) -> instance
+      def self.from_json: (Hash[String, untyped] hash) -> SingleChiban
+
+      def chiban_to_string: () -> String
+    end
+
+    class ApiMeta
+      attr_reader updated: Integer
+
+      def self.new: (updated: Integer) -> instance
+      def self.from_json: (Hash[String, untyped] hash) -> ApiMeta
+    end
+
+    class PrefectureApi
+      attr_reader meta: ApiMeta
+      attr_reader data: Array[SinglePrefecture]
+
+      def self.new: (meta: ApiMeta, data: Array[SinglePrefecture]) -> instance
+      def self.from_json: (Hash[String, untyped] hash) -> PrefectureApi
+    end
+
+    class MachiAzaApi
+      attr_reader meta: ApiMeta
+      attr_reader data: Array[SingleMachiAza]
+
+      def self.new: (meta: ApiMeta, data: Array[SingleMachiAza]) -> instance
+      def self.from_json: (Hash[String, untyped] hash) -> MachiAzaApi
+    end
+  end
+end

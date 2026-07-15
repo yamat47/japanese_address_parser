@@ -1,0 +1,10 @@
+# Interim signature for the v4.0.0 utility layer (M2).
+# The full RBS overhaul happens in M9.
+
+module JapaneseAddressParser
+  module PatchAddr
+    ADDR_PATCHES: Array[Hash[Symbol, String]]
+
+    def self.call: (String pref_name, String city_name, String town_name, String addr) -> String
+  end
+end

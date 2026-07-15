@@ -1,14 +1,21 @@
 name: CI
-# v4.0.0 リアーキ進行中は、旧実装（schmooze / Node 依存）向けのこの CI を一時停止する。
-# v4 の検証は ci_rearchitecture.yml が担当する。M9（旧実装撤去・CI 統合）で自動トリガを復帰させる。
-# 必要なときは Actions 画面から workflow_dispatch で手動実行できる。
+
+# ライブ CDN（japanese-addresses-v2）を叩くため、RSpec はネットワーク egress を前提とする。
 on:
+  push:
+    branches:
+      - main
+      - rearchitecture
+  pull_request:
+    branches:
+      - main
+      - rearchitecture
   workflow_dispatch:
 
 jobs:
-  build:
+  checks:
     runs-on: ubuntu-latest
-    name: Ruby 3.3 - CI Checks
+    name: RuboCop & Steep
     steps:
     - uses: actions/checkout@v4
     - name: Set up Ruby
@@ -16,29 +23,21 @@ jobs:
       with:
         ruby-version: '3.3'
         bundler-cache: true
-    - name: Set up JavaScript
-      uses: actions/setup-node@v3
+    - name: RuboCop check
+      run: bundle exec rubocop
     - name: Steep check
       run: bundle exec steep check
-    - name: RuboCop check
-      run: bundle exec rake rubocop
 
   rspec:
     runs-on: ubuntu-latest
     name: Ruby ${{ matrix.ruby }} - RSpec
     strategy:
+      fail-fast: false
       matrix:
         ruby:
-          - '3.3'
           - '3.2'
-          - '3.1'
-          - '3.0'
-          - '2.7'
-        ci_node_total: [10]
-        ci_node_index: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-    env:
-      CI_NODE_TOTAL: ${{ matrix.ci_node_total }}
-      CI_NODE_INDEX: ${{ matrix.ci_node_index }}
+          - '3.3'
+          - '3.4'
     steps:
     - uses: actions/checkout@v4
     - name: Set up Ruby
@@ -47,6 +46,4 @@ jobs:
         ruby-version: ${{ matrix.ruby }}
         bundler-cache: true
     - name: Run RSpec
-      # v4 リアーキの spec は専用ワークフロー ci_rearchitecture.yml で実行する。
-      # （Data.define は Ruby 3.2+ 必須で、この旧マトリクスの 2.7〜3.1 では読み込めない）
-      run: bundle exec rspec --exclude-pattern "v4/**/*_spec.rb"
+      run: bundle exec rspec spec

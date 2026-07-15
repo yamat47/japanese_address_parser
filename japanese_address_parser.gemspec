@@ -9,10 +9,10 @@ require_relative 'lib/japanese_address_parser/version'
   spec.email = ['yamat47.thirddown@gmail.com']
 
   spec.summary = 'Japanese address parser written in Ruby.'
-  spec.description = 'JapaneseAddressParser is a Ruby gem that parses Japanese address. To detect the address, it uses geolonia/japanese-addresses (https://github.com/geolonia/japanese-addresses) CSV data.'
+  spec.description = 'A faithful Ruby port of @geolonia/normalize-japanese-addresses (v3.1.3). Normalizes Japanese addresses using the geolonia japanese-addresses API at runtime; no Node.js required.'
   spec.homepage = 'https://github.com/yamat47/japanese_address_parser'
   spec.license = 'MIT'
-  spec.required_ruby_version = '>= 2.7.0'
+  spec.required_ruby_version = '>= 3.2.0'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/yamat47/japanese_address_parser'
@@ -32,10 +32,8 @@ require_relative 'lib/japanese_address_parser/version'
 
   spec.add_dependency('csv')
   spec.add_dependency('lru_redux')
-  spec.add_dependency('schmooze')
   spec.add_development_dependency('activesupport')
   spec.add_development_dependency('base64')
-  spec.add_development_dependency('factory_bot')
   spec.add_development_dependency('rake')
   spec.add_development_dependency('rspec')
   spec.add_development_dependency('rubocop')

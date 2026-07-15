@@ -1,0 +1,4 @@
+module JapaneseAddressParser
+  UPSTREAM_VERSION: String
+  UPSTREAM_COMMIT_SHA: String
+end
