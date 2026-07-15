@@ -13,7 +13,7 @@
 - [x] **M5** normalize 本体（level 0–3）
 - [x] **M6** 公開 API & リッチ VO
 - [x] **M7** テストスイート移植
-- [ ] **M8** level 8（rsdt / chiban）
+- [x] **M8** level 8（rsdt / chiban）
 - [ ] **M9** 旧実装撤去 & 仕上げ
 - [ ] **M10** アップストリーム追従自動化 & リリース
 

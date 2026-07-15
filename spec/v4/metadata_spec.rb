@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # Port of test/main/metadata.test.ts。上流同様ライブ CDN を叩く（:upstream_port）。
-# prefecture/city/machi_aza は level 3 で揃うのでアクティブ。rsdt は level 8 のため M8 まで pending。
+# prefecture/city/machi_aza（level 3）に加え rsdt（level 8）も検証する。level:2 指定時は machi_aza 以降が未設定。
 
 require 'japanese_address_parser/v4'
 
@@ -34,8 +34,7 @@ require 'japanese_address_parser/v4'
       expect(metadata.chiban).to(be_nil)
     end
 
-    it 'exposes rsdt (level 8) — pending until M8' do
-      pending('level 8 (rsdt) — enabled in M8')
+    it 'exposes rsdt (level 8)' do
       expect(metadata.rsdt.blk_num).to(eq('10'))
       expect(metadata.rsdt.rsdt_num).to(eq('8'))
     end

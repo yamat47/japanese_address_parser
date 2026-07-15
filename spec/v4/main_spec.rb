@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # Port of test/main/main.test.ts (basic tests)。上流同様ライブ CDN を叩く（working_agreement §1-8）。
-# level 8 が必要なケースは M8 まで pending（DoD）。比較は assertMatchCloseTo 相当の match_close_to。
+# level 8（rsdt）ケースを含め全ケースを検証する。比較は assertMatchCloseTo 相当の match_close_to。
 
 require 'japanese_address_parser/v4'
 require_relative 'support/match_close_to'
@@ -45,13 +45,10 @@ require_relative 'support/match_close_to'
     expect(normalize.call('あいうえお')).to(match_close_to(other: 'あいうえお', level: 0))
   end
 
-  # level 8（rsdt）ケースは M8 まで pending で枠を確保する（M7 DoD）。M8 で外れたら RSpec が FIXED を報告する。
-  # （RSpec/Pending はインライン disable 不可のため .rubocop.yml でこのファイルを除外している。）
-  describe '東京都江東区豊洲一丁目2-27 のパターンテスト (level 8 — pending until M8)' do
+  describe '東京都江東区豊洲一丁目2-27 のパターンテスト (level 8)' do
     addresses = ['東京都江東区豊洲1丁目2-27', '東京都江東区豊洲 1丁目2-27', '東京都江東区豊洲 1-2-27', '東京都 江東区 豊洲 1-2-27', '東京都江東区豊洲 １ー２ー２７', '東京都江東区豊洲 一丁目2-27', '江東区豊洲 一丁目2-27']
     addresses.each do |address|
       it address do
-        pending('level 8 (rsdt) — enabled in M8')
         expect(normalize.call(address)).to(match_close_to(pref: '東京都', city: '江東区', town: '豊洲一丁目', addr: '2-27', level: 8, point: { lat: 35.661166758, lng: 139.793685144, level: 8 }))
       end
     end
@@ -75,13 +72,12 @@ require_relative 'support/match_close_to'
     end
   end
 
-  # 上流 main.test.ts の対になる level 8 パターン（豊洲と同じく M8 まで pending）。
-  # 上流の期待 point.level は 8 ではなく 2（rsdt 座標が無く市の代表点へフォールバックする上流クセ）をそのまま移植。
-  describe '石川県七尾市藤橋町亥45番地1 のパターンテスト (level 8 — pending until M8)' do
+  # 上流 main.test.ts の対になる level 8 パターン。上流の期待 point.level は 8 ではなく 2
+  # （rsdt 座標が無く市の代表点へフォールバックする上流クセ）をそのまま移植する。
+  describe '石川県七尾市藤橋町亥45番地1 のパターンテスト (level 8)' do
     addresses = ['石川県七尾市藤橋町亥45番地1', '石川県七尾市藤橋町亥四十五番地1', '石川県七尾市藤橋町 亥 四十五番地1', '石川県七尾市藤橋町 亥 45-1', '七尾市藤橋町 亥 45-1']
     addresses.each do |address|
       it address do
-        pending('level 8 (rsdt) — enabled in M8')
         expect(normalize.call(address)).to(match_close_to(pref: '石川県', city: '七尾市', town: '藤橋町亥', addr: '45-1', level: 8, point: { lat: 37.043108, lng: 136.967296, level: 2 }))
       end
     end

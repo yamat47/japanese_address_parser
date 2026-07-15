@@ -53,6 +53,13 @@ module JapaneseAddressParser
         NormalizeResultPoint.new(lat: machi_aza.point[1], lng: machi_aza.point[0], level: 3)
       end
 
+      # JS: rsdtOrChibanToResultPoint(input) — input.point が無ければ undefined（rsdt/chiban 共通、level 8）。
+      def rsdt_or_chiban_to_result_point(input)
+        return if input.point.nil?
+
+        NormalizeResultPoint.new(lat: input.point[1], lng: input.point[0], level: 8)
+      end
+
       # JS: upgradePoint(a, b) — より正確（level の大きい）方を採用する
       def upgrade_point(point_a, point_b)
         return point_b if point_a.nil?

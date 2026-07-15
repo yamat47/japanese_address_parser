@@ -18,8 +18,9 @@ require_relative 'support/match_close_to'
   # 意図的に用意しない＝未提供エリアの検証用）。データは不変なので example ごとに落とし直さない。
   before(:context) do
     tmpdir = ::Dir.mktmpdir('jap-addr-fs-')
-    ['.json', '/東京都/渋谷区.json'].each do |relative|
-      # Config base が file://#{tmpdir}/ja なので ja.json と ja/東京都/渋谷区.json が並ぶ。
+    # ja.json / 渋谷区.json（町字）に加え、level 8 の住居表示 .txt も落とす（上流 filesystem-api.test.ts と同じ）。
+    ['.json', '/東京都/渋谷区.json', '/東京都/渋谷区-住居表示.txt'].each do |relative|
+      # Config base が file://#{tmpdir}/ja なので ja.json と ja/東京都/... が並ぶ。
       path = "#{tmpdir}/ja#{relative}"
       ::FileUtils.mkdir_p(::File.dirname(path))
       ::File.write(path, ::JapaneseAddressParser::V4::Fetcher.fetch(relative).body)
@@ -56,8 +57,7 @@ require_relative 'support/match_close_to'
     end
   end
 
-  it 'resolves to level 8 (rsdt) through file:// — pending until M8' do
-    pending('level 8 (rsdt) — enabled in M8')
+  it 'resolves to level 8 (rsdt) through file://' do
     expect(described_class.call('渋谷区道玄坂1-10-8')).to(match_close_to(pref: '東京都', city: '渋谷区', town: '道玄坂一丁目', level: 8))
   end
 end

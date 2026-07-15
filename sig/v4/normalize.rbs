@@ -13,6 +13,7 @@ module JapaneseAddressParser
       def self.call: (String address, ?level: Integer) -> NormalizeResult
       def self.normalize_town_name: (String input, Data::SinglePrefecture pref, Data::SingleCity city, Integer api_version) -> { town: untyped, other: String }?
       def self.normalize_addr: (String other) -> String
+      def self.normalize_addr_part: (String addr, untyped pref, untyped city, untyped town, Integer api_version) -> Hash[Symbol, untyped]
     end
   end
 end
