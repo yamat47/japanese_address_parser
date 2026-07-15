@@ -22,7 +22,7 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Changed
 
-- [#139](https://github.com/yamat47/japanese_address_parser/pull/139) Node.js への依存をなくし、@geolonia/normalize-japanese-addresses v3.1.3 と同じ仕組みで住所を正規化するように作り直しました（v3.x との後方互換はありません）([@yamat47](https://github.com/yamat47))
+- [#139](https://github.com/yamat47/japanese_address_parser/pull/139) Node-free rearchitecture (faithful port of normalize-japanese-addresses v3.1.3)([@yamat47](https://github.com/yamat47))
 
 ## [3.2.0]
 
