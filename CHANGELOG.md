@@ -16,11 +16,30 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Fixed
 
-- [#109](https://github.com/yamat47/japanese_address_parser/pull/109) READMEにDocker composeを利用した際の使い方を追記([@tossyi](https://github.com/tossyi))
-- [#108](https://github.com/yamat47/japanese_address_parser/pull/108) Add csv to gemspec for new Ruby versions ([@balvig](https://github.com/balvig))
-- [#110](https://github.com/yamat47/japanese_address_parser/pull/110) Update local dev environment and CI settings.([@yamat47](https://github.com/yamat47))
-
 ### Security
+
+## [4.0.0]
+
+Node.js / `schmooze` 依存を撤去し、[@geolonia/normalize-japanese-addresses](https://github.com/geolonia/normalize-japanese-addresses) **v3.1.3** を Ruby に逐語移植した大規模リアーキテクチャです。**v3.x との後方互換はありません。**
+
+### Added
+
+- 公開 API が正規化レベル（0/1/2/3/8）を返すようになりました。`level: 8` で住居表示（rsdt）・地番（chiban）まで解決します（既定は `8`、呼び出しごとに `level:` 指定可）。
+- リッチな Value Object（`Address` / `Prefecture` / `City` / `Town`）。`code` / カナ / ローマ字 / 郡 / 政令区 / `machiaza_id` / `chome_n` / `point`（`lat`/`lng`/`level`）等を保持します。
+- `point`（緯度経度＋精度レベル）と `metadata`（VO に昇格しない生データの逃がし道）を出力します。
+- `file://`／ローカルパスのデータ源を第一級サポート（level 8 は Range 部分読み）。`JapaneseAddressParser.configure` で `japanese_addresses_api` / `cache_size` を設定できます。
+- `JapaneseAddressParser::UPSTREAM_VERSION` / `UPSTREAM_COMMIT_SHA` 定数。
+
+### Changed
+
+- 住所データを **gem に同梱せず、配信 API から実行時に取得**するようになりました（既定はリモート）。**Node.js は不要**です。
+- `call` は常に `Address` を返します（未マッチは `level 0` の `Address`）。`nil`／例外になるのは fetch 失敗時のみ（`call` は `nil`、`call!` は `NormalizeError`）。
+- **スレッドセーフではありません**（上流同様）。起動時のキャッシュ暖機を推奨します。
+- Ruby の必要バージョンを **>= 3.2.0** に更新しました。
+
+### Removed
+
+- Node.js / `schmooze` ブリッジ、同梱 CSV データ（1,943 ファイル）、旧 CSV ベースの Model と関連 API（`furigana` 等）を削除しました。
 
 ## [3.2.0]
 
