@@ -41,7 +41,7 @@ require 'japanese_address_parser/v4/data/single_city'
           other: '',
           point: ::JapaneseAddressParser::V4::NormalizeResultPoint.new(lat: 35.508, lng: 139.625, level: 3),
           level: 3,
-          metadata: metadata
+          metadata:
         )
       end
 
@@ -72,7 +72,7 @@ require 'japanese_address_parser/v4/data/single_city'
         ::JapaneseAddressParser::V4::NormalizeResultMetadata.new(input: 'まったく住所ではない文字列', prefecture: nil, city: nil, machi_aza: nil, chiban: nil, rsdt: nil)
       end
       let(:result) do
-        ::JapaneseAddressParser::V4::NormalizeResult.new(pref: nil, city: nil, town: nil, addr: nil, other: 'まったく住所ではない文字列', point: nil, level: 0, metadata: metadata)
+        ::JapaneseAddressParser::V4::NormalizeResult.new(pref: nil, city: nil, town: nil, addr: nil, other: 'まったく住所ではない文字列', point: nil, level: 0, metadata:)
       end
 
       it 'leaves the nested VOs nil (unmatched is not a failure)' do
@@ -90,7 +90,7 @@ require 'japanese_address_parser/v4/data/single_city'
       ::JapaneseAddressParser::V4::NormalizeResultMetadata.new(input: 'まったく住所ではない文字列', prefecture: nil, city: nil, machi_aza: nil, chiban: nil, rsdt: nil)
     end
     let(:result) do
-      ::JapaneseAddressParser::V4::NormalizeResult.new(pref: nil, city: nil, town: nil, addr: nil, other: 'まったく住所ではない文字列', point: nil, level: 0, metadata: metadata)
+      ::JapaneseAddressParser::V4::NormalizeResult.new(pref: nil, city: nil, town: nil, addr: nil, other: 'まったく住所ではない文字列', point: nil, level: 0, metadata:)
     end
 
     it 'deep-converts nested VOs and shallow-converts metadata' do

@@ -1,28 +1,17 @@
 # frozen_string_literal: true
 
-require_relative 'japanese_address_parser/address_normalizer'
-require_relative 'japanese_address_parser/address_parser'
-require_relative 'japanese_address_parser/version'
+require 'japanese_address_parser/version'
+require 'japanese_address_parser/v4'
 
 module JapaneseAddressParser
-  def call(full_address)
-    _call(full_address)
-  rescue ::JapaneseAddressParser::NormalizeError
-    nil
+  # 公開 API は v4 実装へ委譲する（V4 名前空間の物理昇格は後続コミットで行う）。
+  def call(address, level: ::JapaneseAddressParser::V4::DEFAULT_LEVEL)
+    ::JapaneseAddressParser::V4.call(address, level:)
   end
 
-  def call!(full_address)
-    _call(full_address)
+  def call!(address, level: ::JapaneseAddressParser::V4::DEFAULT_LEVEL)
+    ::JapaneseAddressParser::V4.call!(address, level:)
   end
 
-  def _call(full_address)
-    normalized = ::JapaneseAddressParser::AddressNormalizer.call(full_address)
-
-    # このライブラリで探索するのは町域まで。
-    # それ以降のデータを使って探索するとデータと名前が一致しないことがあるので、町域までのデータを使う。
-    ::JapaneseAddressParser::AddressParser.call(normalized: "#{normalized['pref']}#{normalized['city']}#{normalized['town']}", full_address: full_address)
-  end
-
-  module_function :call, :call!, :_call
-  private_class_method :_call
+  module_function :call, :call!
 end

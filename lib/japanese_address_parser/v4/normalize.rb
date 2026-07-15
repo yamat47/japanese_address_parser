@@ -149,18 +149,11 @@ module JapaneseAddressParser
             pref: pref ? pref.prefecture_name : nil,
             city: city ? city.city_name : nil,
             town: town ? town.machi_aza_name : nil,
-            addr: addr,
-            other: other,
-            point: point,
+            addr:,
+            other:,
+            point:,
             level: level_value,
-            metadata: NormalizeResultMetadata.new(
-              input: address,
-              prefecture: Utils.remove_cities_from_prefecture(pref),
-              city: city,
-              machi_aza: Utils.remove_extra_from_machi_aza(town),
-              chiban: nil,
-              rsdt: nil
-            )
+            metadata: NormalizeResultMetadata.new(input: address, prefecture: Utils.remove_cities_from_prefecture(pref), city:, machi_aza: Utils.remove_extra_from_machi_aza(town), chiban: nil, rsdt: nil)
           )
         end
 
@@ -183,14 +176,14 @@ module JapaneseAddressParser
           pref: pref ? pref.prefecture_name : nil,
           city: city ? city.city_name : nil,
           town: town ? town.machi_aza_name : nil,
-          addr: addr,
-          other: other,
-          point: point,
+          addr:,
+          other:,
+          point:,
           level: level_value,
           metadata: NormalizeResultMetadata.new(
             input: address,
             prefecture: Utils.remove_cities_from_prefecture(pref),
-            city: city,
+            city:,
             machi_aza: Utils.remove_extra_from_machi_aza(town),
             chiban: normalized_addr_part[:chiban],
             rsdt: normalized_addr_part[:rsdt]
@@ -209,7 +202,7 @@ module JapaneseAddressParser
         regex_prefixes.each do |regex_prefix|
           town_patterns.each do |town, pattern|
             match = input.match(::Regexp.new("#{regex_prefix}#{pattern}"))
-            return { town: town, other: input[match[0].to_s.length..].to_s } if match
+            return { town:, other: input[match[0].to_s.length..].to_s } if match
           end
         end
 
@@ -246,12 +239,12 @@ module JapaneseAddressParser
         if town.rsdt
           CacheRegexes.get_rsdt(pref, city, town, api_version).each do |rsdt|
             addr_part = rsdt.rsdt_to_string
-            return { rsdt: rsdt, rest: addr[addr_part.length..].to_s } if matched == addr_part
+            return { rsdt:, rest: addr[addr_part.length..].to_s } if matched == addr_part
           end
         else
           CacheRegexes.get_chiban(pref, city, town, api_version).each do |chiban|
             addr_part = chiban.chiban_to_string
-            return { chiban: chiban, rest: addr[addr_part.length..].to_s } if matched == addr_part
+            return { chiban:, rest: addr[addr_part.length..].to_s } if matched == addr_part
           end
         end
         { rest: addr }

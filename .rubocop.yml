@@ -6,7 +6,7 @@ require:
 
 AllCops:
   EnabledByDefault: true
-  TargetRubyVersion: 2.7
+  TargetRubyVersion: 3.2
 
 Metrics/BlockLength:
   Exclude:
@@ -97,12 +97,6 @@ Style/AsciiComments:
 
 Style/StringHashKeys:
   Exclude:
-    # CSVのヘッダーの日本語を解釈するために日本語文字列のハッシュを許容する。
-    - lib/japanese_address_parser/csv_parser.rb
-
-    # ライブラリが返すハッシュのキーが文字列なので許容する。
-    - spec/japanese_address_parser/address_normalizer_spec.rb
-
     # 配信 API の JSON（文字列キー）を from_json に渡すため日本語/文字列キーのハッシュを許容する。
     - spec/v4/data/single_city_spec.rb
     - spec/v4/data/single_prefecture_spec.rb

@@ -19,7 +19,7 @@ module JapaneseAddressParser
           # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
           def self.from_json(hash)
             cities = (hash['cities'] || []).map { |city| ::JapaneseAddressParser::V4::Data::SingleCity.from_json(city) }
-            new(code: hash['code'], pref: hash['pref'], pref_k: hash['pref_k'], pref_r: hash['pref_r'], point: hash['point'], cities: cities)
+            new(code: hash['code'], pref: hash['pref'], pref_k: hash['pref_k'], pref_r: hash['pref_r'], point: hash['point'], cities:)
           end
         end
       public_constant :SinglePrefecture

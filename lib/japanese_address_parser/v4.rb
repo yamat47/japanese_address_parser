@@ -23,7 +23,7 @@ module JapaneseAddressParser
 
     # 住所文字列を正規化して Address を返す。fetch 失敗時は nil。
     def call(address, level: DEFAULT_LEVEL)
-      call!(address, level: level)
+      call!(address, level:)
     rescue ::JapaneseAddressParser::NormalizeError
       nil
     end
@@ -39,7 +39,7 @@ module JapaneseAddressParser
     # 設定/プログラマエラー（ArgumentError=未知 URL スキーム / NotImplementedError=M8）は
     # 意図的に握らず、そのまま伝播させる。
     def call!(address, level: DEFAULT_LEVEL)
-      Address.from_normalize_result(Normalize.call(address, level: level))
+      Address.from_normalize_result(Normalize.call(address, level:))
     rescue ::SocketError, ::SystemCallError, ::Net::OpenTimeout, ::Net::ReadTimeout, ::JSON::ParserError => e
       raise(::JapaneseAddressParser::NormalizeError, "failed to fetch address data: #{e.message}")
     end

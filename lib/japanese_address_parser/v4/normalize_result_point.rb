@@ -16,7 +16,7 @@ module JapaneseAddressParser
         def self.from_lng_lat(point, level:)
           return if point.nil?
 
-          new(lat: point[1], lng: point[0], level: level)
+          new(lat: point[1], lng: point[0], level:)
         end
 
         # JS: isNormalizeResultPoint(obj) — 任意の値が NormalizeResultPoint の形か検証する type guard。

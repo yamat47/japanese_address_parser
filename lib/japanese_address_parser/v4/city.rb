@@ -20,7 +20,7 @@ module JapaneseAddressParser
 
         # 緯度経度をネストも含めて Hash 化する Ruby 独自 API。
         def to_h
-          { name: name, code: code, county: county, ward: ward, name_kana: name_kana, name_romaji: name_romaji, point: point.to_h }
+          { name:, code:, county:, ward:, name_kana:, name_romaji:, point: point.to_h }
         end
       end
     public_constant :City

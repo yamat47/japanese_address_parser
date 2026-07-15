@@ -20,7 +20,7 @@ require 'japanese_address_parser/v4/normalize_result_point'
   describe '.normalize_result_point?' do
     it 'is true for a point with numeric lat/lng and a valid level' do
       [1, 2, 3, 8].each do |level|
-        expect(described_class.normalize_result_point?(described_class.new(lat: 35.0, lng: 139.0, level: level))).to(be(true))
+        expect(described_class.normalize_result_point?(described_class.new(lat: 35.0, lng: 139.0, level:))).to(be(true))
       end
     end
 

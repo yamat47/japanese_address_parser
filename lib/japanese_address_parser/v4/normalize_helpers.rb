@@ -11,16 +11,16 @@ module JapaneseAddressParser
     # 数字に隣接する各種横棒のハイフン統一・丁目/区郡/番地以前のスペース削除を行う。
     module NormalizeHelpers
       # 数字の前後で統一する横棒（ハイフン・マイナス・長音記号・罫線等）の文字クラス。
-      DASH = /[-－﹣−‐⁃‑‒–—﹘―⎯⏤ーｰ─━]/.freeze
+      DASH = /[-－﹣−‐⁃‑‒–—﹘―⎯⏤ーｰ─━]/
       # JS: /([0-9０-９一二三四五六七八九〇十百千][横棒])|([横棒])[0-9０-９一二三四五六七八九〇十]/g
       # 先頭側の数字クラスは「百千」を含むが、横棒の後ろ側は「十」までで非対称（上流のまま）。
-      NUMBER_ADJACENT_DASH = /([0-9０-９一二三四五六七八九〇十百千]#{DASH.source})|(#{DASH.source})[0-9０-９一二三四五六七八九〇十]/.freeze
+      NUMBER_ADJACENT_DASH = /([0-9０-９一二三四五六七八九〇十百千]#{DASH.source})|(#{DASH.source})[0-9０-９一二三四五六七八九〇十]/
       # JS: /(.+)(丁目?|番(町|地|丁)|条|軒|線|(の|ノ)町|地割)/（g フラグ無し）
-      BEFORE_CHOME = /(.+)(丁目?|番(町|地|丁)|条|軒|線|(の|ノ)町|地割)/.freeze
+      BEFORE_CHOME = /(.+)(丁目?|番(町|地|丁)|条|軒|線|(の|ノ)町|地割)/
       # JS: /(.+)((郡.+(町|村))|((市|巿).+(区|區)))/（g フラグ無し）
-      BEFORE_KU_GUN = /(.+)((郡.+(町|村))|((市|巿).+(区|區)))/.freeze
+      BEFORE_KU_GUN = /(.+)((郡.+(町|村))|((市|巿).+(区|區)))/
       # JS: /.+?[0-9一二三四五六七八九〇十百千]-/（g フラグ無し）
-      BEFORE_FIRST_NUMBER_DASH = /.+?[0-9一二三四五六七八九〇十百千]-/.freeze
+      BEFORE_FIRST_NUMBER_DASH = /.+?[0-9一二三四五六七八九〇十百千]-/
 
       private_constant :DASH
       private_constant :NUMBER_ADJACENT_DASH

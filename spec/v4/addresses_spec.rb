@@ -32,13 +32,13 @@ require_relative 'support/match_close_to'
         nil
       else
         lng, lat = row[7].to_s.split(',').map { |value| Float(value) }
-        { lng: lng, lat: lat, level: Integer(row[8].to_s, 10) }
+        { lng:, lat:, level: Integer(row[8].to_s, 10) }
       end
 
     # 上流 addresses.test.ts の match 構築を逐語移植:
     #   other/level は常に、pref/city/town/addr は非空なら、point は緯度経度があれば付与。
     # 空欄は nil にして compact で落とす（＝上流の「非空なら付与」と等価）。
-    expected = { pref: presence.call(row[1]), city: presence.call(row[2]), town: presence.call(row[3]), addr: presence.call(row[4]), other: row[5].to_s, level: expected_level, point: point }.compact
+    expected = { pref: presence.call(row[1]), city: presence.call(row[2]), town: presence.call(row[3]), addr: presence.call(row[4]), other: row[5].to_s, level: expected_level, point: }.compact
 
     it test_name do
       expect(described_class.call(address)).to(match_close_to(**expected))

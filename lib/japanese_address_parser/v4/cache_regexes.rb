@@ -252,9 +252,9 @@ module JapaneseAddressParser
         ::CSV.parse(rest, headers: true).filter_map do |row|
           point = point_from(row['lng'], row['lat'])
           if row.headers.include?('blk_num') # JS: 'blk_num' in line
-            Data::SingleRsdt.new(blk_num: row['blk_num'], rsdt_num: row['rsdt_num'], rsdt_num2: row['rsdt_num2'], point: point)
+            Data::SingleRsdt.new(blk_num: row['blk_num'], rsdt_num: row['rsdt_num'], rsdt_num2: row['rsdt_num2'], point:)
           elsif row.headers.include?('prc_num1') # JS: 'prc_num1' in line
-            Data::SingleChiban.new(prc_num1: row['prc_num1'], prc_num2: row['prc_num2'], prc_num3: row['prc_num3'], point: point)
+            Data::SingleChiban.new(prc_num1: row['prc_num1'], prc_num2: row['prc_num2'], prc_num3: row['prc_num3'], point:)
           end
         end
       end

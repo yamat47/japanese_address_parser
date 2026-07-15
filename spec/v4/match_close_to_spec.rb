@@ -12,16 +12,16 @@ require_relative 'support/match_close_to'
 # pending の間、ここだけが実際に exercise する）。
 ::RSpec.describe(::MatchCloseToHelper) do
   def build_address(pref: nil, city: nil, town: nil, other: '', point: nil, level: 0)
-    prefecture = pref && { code: 13, pref: pref, pref_k: 'X', pref_r: 'X', point: [139.0, 35.0] }
+    prefecture = pref && { code: 13, pref:, pref_k: 'X', pref_r: 'X', point: [139.0, 35.0] }
     single_city = city && ::JapaneseAddressParser::V4::Data::SingleCity.from_json('code' => 1, 'city' => city, 'city_k' => 'X', 'city_r' => 'X', 'point' => [139.0, 35.0])
     machi_aza = town && { machiaza_id: '1', oaza_cho: town, chome: nil, chome_n: nil, koaza: nil, point: nil }
-    metadata = ::JapaneseAddressParser::V4::NormalizeResultMetadata.new(input: 'x', prefecture: prefecture, city: single_city, machi_aza: machi_aza, chiban: nil, rsdt: nil)
-    result = ::JapaneseAddressParser::V4::NormalizeResult.new(pref: pref, city: city, town: town, addr: nil, other: other, point: point, level: level, metadata: metadata)
+    metadata = ::JapaneseAddressParser::V4::NormalizeResultMetadata.new(input: 'x', prefecture:, city: single_city, machi_aza:, chiban: nil, rsdt: nil)
+    result = ::JapaneseAddressParser::V4::NormalizeResult.new(pref:, city:, town:, addr: nil, other:, point:, level:, metadata:)
     ::JapaneseAddressParser::V4::Address.from_normalize_result(result)
   end
 
   def point(lat, lng, level)
-    ::JapaneseAddressParser::V4::NormalizeResultPoint.new(lat: lat, lng: lng, level: level)
+    ::JapaneseAddressParser::V4::NormalizeResultPoint.new(lat:, lng:, level:)
   end
 
   it 'matches when the specified scalar fields are equal (and ignores unspecified fields)' do

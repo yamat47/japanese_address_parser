@@ -44,7 +44,7 @@ module JapaneseAddressParser
       # これは working_agreement §3-1（文字列の逐語コピー）の意図的な例外であり、§3-2 の「改善しない」
       # にも抵触しない（ネットワーク上の自己申告であって正規化ロジックではない）。
       # 将来の忠実移植レビュー（/simplify 等）でこれを上流の文字列へ「戻さない」こと。
-      USER_AGENT = "japanese_address_parser/#{::JapaneseAddressParser::VERSION} (+#{HOMEPAGE_URL})"
+      USER_AGENT = "japanese_address_parser/#{::JapaneseAddressParser::VERSION} (+#{HOMEPAGE_URL})".freeze
       public_constant :USER_AGENT
 
       module_function
@@ -91,7 +91,7 @@ module JapaneseAddressParser
 
         body = (response.body || '').dup.force_encoding(::Encoding::UTF_8)
         # JS: Response.ok は 2xx（206 Partial Content を含む）。Net::HTTPSuccess が同じ範囲。
-        Response.new(body: body, ok: response.is_a?(::Net::HTTPSuccess))
+        Response.new(body:, ok: response.is_a?(::Net::HTTPSuccess))
       end
 
       # JS: requestHandlers.file

@@ -26,7 +26,7 @@ module JapaneseAddressParser
             other: result.other,
             point: result.point,
             level: result.level,
-            metadata: metadata
+            metadata:
           )
         end
 
@@ -34,14 +34,14 @@ module JapaneseAddressParser
         # shallow に Hash 化する（内部の SingleCity 等は VO のまま）。
         def to_h
           {
-            full_address: full_address,
+            full_address:,
             prefecture: prefecture&.to_h,
             city: city&.to_h,
             town: town&.to_h,
-            addr: addr,
-            other: other,
+            addr:,
+            other:,
             point: point&.to_h,
-            level: level,
+            level:,
             metadata: metadata.to_h
           }
         end
