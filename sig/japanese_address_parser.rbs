@@ -1,9 +1,9 @@
-# 公開エントリの型。実装は v4 レイヤ（sig/v4/**）に委譲する。
-# 名前空間の物理昇格（V4 接頭辞除去）は後続コミットで行う。
+# 公開エントリの型。Address 等の VO は sig/**（旧 sig/v4/**）で定義する。
 
 module JapaneseAddressParser
   VERSION: String
+  DEFAULT_LEVEL: Integer
 
-  def self.call: (String address, ?level: Integer) -> V4::Address?
-  def self.call!: (String address, ?level: Integer) -> V4::Address
+  def self.call: (String address, ?level: Integer) -> Address?
+  def self.call!: (String address, ?level: Integer) -> Address
 end

@@ -13,56 +13,56 @@ Metrics/BlockLength:
     - japanese_address_parser.gemspec
     - spec/**/*_spec.rb
     # v4 の逐語移植では上流 JS の巨大なコールバック（getTownRegexPatterns 等）をそのまま写す。
-    - lib/japanese_address_parser/v4/**/*.rb
+    - lib/japanese_address_parser/**/*.rb
 
 # v4 リアーキの lib は上流 JS の逐語移植（working_agreement §3）。メソッド構成・
 # 複雑度・モジュール長は移植元 JS に合わせるため、これらの Metrics を v4 では緩める。
 # （from_json のフィールドマッピングや japanese_numeral の漢数字変換ロジック等。）
 Metrics/MethodLength:
   Exclude:
-    - lib/japanese_address_parser/v4/**/*.rb
+    - lib/japanese_address_parser/**/*.rb
 
 Metrics/AbcSize:
   Exclude:
-    - lib/japanese_address_parser/v4/**/*.rb
+    - lib/japanese_address_parser/**/*.rb
 
 Metrics/CyclomaticComplexity:
   Exclude:
-    - lib/japanese_address_parser/v4/**/*.rb
+    - lib/japanese_address_parser/**/*.rb
 
 Metrics/PerceivedComplexity:
   Exclude:
-    - lib/japanese_address_parser/v4/**/*.rb
+    - lib/japanese_address_parser/**/*.rb
 
 Metrics/ModuleLength:
   Exclude:
-    - lib/japanese_address_parser/v4/**/*.rb
+    - lib/japanese_address_parser/**/*.rb
 
 # v4 の逐語移植では、移植元 JS の構造をそのまま写すため通常の定数参照・
 # 行内プロバナンスコメント（# JS: ...）・JS falsy 再現の `== 0` 比較を許容する。
 Lint/ConstantResolution:
   Exclude:
-    - lib/japanese_address_parser/v4/**/*.rb
-    - lib/japanese_address_parser/v4.rb
+    - lib/japanese_address_parser/**/*.rb
+    - lib/japanese_address_parser.rb
 
 Style/InlineComment:
   Exclude:
-    - lib/japanese_address_parser/v4/**/*.rb
+    - lib/japanese_address_parser/**/*.rb
 
 Style/NumericPredicate:
   Exclude:
-    - lib/japanese_address_parser/v4/**/*.rb
+    - lib/japanese_address_parser/**/*.rb
 
 # v4 は JS の関数名（getPrefectures 等）をそのまま get_* に移植するため許容する。
 Naming/AccessorMethodName:
   Exclude:
-    - lib/japanese_address_parser/v4/**/*.rb
+    - lib/japanese_address_parser/**/*.rb
 
 # v4 は正規表現を文字列レベルで逐語コピーする（§3-1）。上流が文字クラス内に
 # リテラル `|` を含める癖（例: /[都|道|府|県]$/）もそのまま移植するため許容する。
 Lint/DuplicateRegexpCharacterClassElement:
   Exclude:
-    - lib/japanese_address_parser/v4/**/*.rb
+    - lib/japanese_address_parser/**/*.rb
 
 # contextの記述を日本語で記述するのを許容する。
 RSpec/ContextWording:
@@ -78,14 +78,14 @@ RSpec/MultipleExpectations:
 # そのままパスに写すと spec/japanese_address_parser/v4/... となり隔離できない）。
 RSpec/FilePath:
   Exclude:
-    - spec/v4/**/*_spec.rb
+    - spec/**/*_spec.rb
 
 # filesystem_api_spec は CDN から tmpdir へ一度だけ DL するため before/after(:context) を使う。
 # 状態（Config / モジュールキャッシュ）は around で example ごとに復元・reset し、tmpdir は
 # after(:context) で削除するので、本 cop が警告する状態リークは管理済み。
 RSpec/BeforeAfterAll:
   Exclude:
-    - spec/v4/filesystem_api_spec.rb
+    - spec/filesystem_api_spec.rb
 
 # MITなのでファイルの著作権は記載しない。
 Style/Copyright:
@@ -98,25 +98,25 @@ Style/AsciiComments:
 Style/StringHashKeys:
   Exclude:
     # 配信 API の JSON（文字列キー）を from_json に渡すため日本語/文字列キーのハッシュを許容する。
-    - spec/v4/data/single_city_spec.rb
-    - spec/v4/data/single_prefecture_spec.rb
-    - spec/v4/city_spec.rb
-    - spec/v4/address_spec.rb
-    - spec/v4/match_close_to_spec.rb
-    - spec/v4/cache_regexes_subresource_spec.rb
-    - spec/v4/data/single_machi_aza_spec.rb
-    - spec/v4/data/single_rsdt_spec.rb
-    - spec/v4/data/single_chiban_spec.rb
-    - spec/v4/utils_spec.rb
+    - spec/data/single_city_spec.rb
+    - spec/data/single_prefecture_spec.rb
+    - spec/city_spec.rb
+    - spec/address_spec.rb
+    - spec/match_close_to_spec.rb
+    - spec/cache_regexes_subresource_spec.rb
+    - spec/data/single_machi_aza_spec.rb
+    - spec/data/single_rsdt_spec.rb
+    - spec/data/single_chiban_spec.rb
+    - spec/utils_spec.rb
 
     # HTTP ヘッダ名・クエリ名は文字列キーが自然なので許容する。
-    - spec/v4/fetcher_spec.rb
+    - spec/fetcher_spec.rb
 
     # from_json に配信 API の JSON（文字列キー）を渡すため許容する。
-    - spec/v4/normalize_result_point_spec.rb
+    - spec/normalize_result_point_spec.rb
 
     # 漢数字⇔数値の辞書は日本語の文字をキーにするため文字列キーのハッシュを許容する。
-    - lib/japanese_address_parser/v4/**/*.rb
+    - lib/japanese_address_parser/**/*.rb
 
 # elseがない場合にはcase文ではなくif文を許容する。
 Style/MissingElse:

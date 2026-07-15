@@ -1,0 +1,50 @@
+# Interim signature for the v4.0.0 config & data-access layer (M3/M4).
+# The full RBS overhaul happens in M9.
+#
+# LruRedux には RBS が無いため、キャッシュ関連は untyped で受ける。
+# 町字パターン配列の要素は SingleMachiAza か TownAlias の混在なので untyped にしている。
+
+module JapaneseAddressParser
+  module CacheRegexes
+    class TownAlias
+      attr_reader machiaza_id: String
+      attr_reader point: [Float, Float]?
+      attr_reader oaza_cho: String
+      attr_reader original_town: Data::SingleMachiAza
+
+      def self.new: (machiaza_id: String, point: [Float, Float]?, oaza_cho: String, original_town: Data::SingleMachiAza) -> instance
+      def machi_aza_name: () -> String
+    end
+
+    @cache: untyped
+    @cached_prefectures: Data::PrefectureApi?
+    @cached_prefecture_patterns: Array[[Data::SinglePrefecture, String]]?
+    @cached_city_patterns: Hash[Integer, Array[[Data::SingleCity, String]]]?
+    @cached_towns: Hash[String, Data::MachiAzaApi]?
+    @cached_same_named_prefecture_city_regex_patterns: Array[[String, String]]?
+
+    def self.cache: () -> untyped
+    def self.fetch_from_cache: (String key) { () -> untyped } -> untyped
+    def self.reset!: () -> nil
+    def self.get_prefectures: () -> Data::PrefectureApi
+    def self.cache_prefectures: (Data::PrefectureApi data) -> Data::PrefectureApi
+    def self.get_prefecture_regex_patterns: (Data::PrefectureApi api) -> Array[[Data::SinglePrefecture, String]]
+    def self.get_city_regex_patterns: (Data::SinglePrefecture pref) -> Array[[Data::SingleCity, String]]
+    def self.get_towns: (Data::SinglePrefecture pref_obj, Data::SingleCity city_obj, Integer api_version) -> Data::MachiAzaApi
+    def self.get_town_regex_patterns: (Data::SinglePrefecture pref, Data::SingleCity city, Integer api_version) -> Array[[untyped, String]]
+    def self.get_same_named_prefecture_city_regex_patterns: (Data::PrefectureApi pref_api) -> Array[[String, String]]
+    def self.get_rsdt: (Data::SinglePrefecture pref, Data::SingleCity city, Data::SingleMachiAza town, Integer api_version) -> Array[Data::SingleRsdt]
+    def self.get_chiban: (Data::SinglePrefecture pref, Data::SingleCity city, Data::SingleMachiAza town, Integer api_version) -> Array[Data::SingleChiban]
+    def self.fetch_subresource: (String kind, Data::SinglePrefecture pref, Data::SingleCity city, Hash[String, Integer] row, Integer api_version) -> String
+    def self.parse_subresource: (String data) -> Array[untyped]
+    def self.point_from: (untyped lng, untyped lat) -> [Float, Float]?
+
+    def self.cached_city_patterns: () -> Hash[Integer, Array[[Data::SingleCity, String]]]
+    def self.cached_towns: () -> Hash[String, Data::MachiAzaApi]
+    def self.stable_sort_by: (untyped list) { (untyped) -> untyped } -> untyped
+    def self.town_sort_length: (untyped town) -> Integer
+    def self.kanji_number_followed_by_cho?: (String target_town_name) -> bool
+    def self.town_pattern_source: (String name) -> String
+    def self.expand_town_number: (String match) -> String
+  end
+end
