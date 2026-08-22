@@ -8,6 +8,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Added
 
+- [#142](https://github.com/yamat47/japanese_address_parser/pull/142) Ruby 4.0 support (added to the CI matrix)([@yamat47](https://github.com/yamat47))
+
 ### Changed
 
 ### Deprecated
@@ -17,6 +19,8 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ### Fixed
 
 ### Security
+
+- [#142](https://github.com/yamat47/japanese_address_parser/pull/142) Update vulnerable development dependencies (activesupport / concurrent-ruby / rexml)([@yamat47](https://github.com/yamat47))
 
 ## [4.0.0]
 

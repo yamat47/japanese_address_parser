@@ -34,6 +34,8 @@ require_relative 'lib/japanese_address_parser/version'
   spec.add_dependency('lru_redux')
   spec.add_development_dependency('activesupport')
   spec.add_development_dependency('base64')
+  spec.add_development_dependency('benchmark')
+  spec.add_development_dependency('ostruct')
   spec.add_development_dependency('rake')
   spec.add_development_dependency('rspec')
   spec.add_development_dependency('rubocop')
