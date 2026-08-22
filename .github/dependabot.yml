@@ -1,10 +1,10 @@
 version: 2
 updates:
-  - package-ecosystem: "gitsubmodule"
+  - package-ecosystem: "bundler"
     directory: "/"
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/js"
+      interval: "weekly"
+  - package-ecosystem: "github-actions"
+    directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
