@@ -8,19 +8,21 @@ require_relative 'single_city'
 module JapaneseAddressParser
   module Data
     # SinglePrefecture — api/ja.json の data 要素（都道府県＋配下の市区町村一覧）。
-    SinglePrefecture =
-      ::Data.define(:code, :pref, :pref_k, :pref_r, :point, :cities) do
-        # JS: prefectureName(pref) => pref.pref
-        def prefecture_name
-          pref
-        end
-
-        # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
-        def self.from_json(hash)
-          cities = (hash['cities'] || []).map { |city| ::JapaneseAddressParser::Data::SingleCity.from_json(city) }
-          new(code: hash['code'], pref: hash['pref'], pref_k: hash['pref_k'], pref_r: hash['pref_r'], point: hash['point'], cities:)
-        end
-      end
+    SinglePrefecture = ::Data.define(:code, :pref, :pref_k, :pref_r, :point, :cities)
     public_constant :SinglePrefecture
+
+    # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
+    class SinglePrefecture
+      # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
+      def self.from_json(hash)
+        cities = (hash['cities'] || []).map { |city| ::JapaneseAddressParser::Data::SingleCity.from_json(city) }
+        new(code: hash['code'], pref: hash['pref'], pref_k: hash['pref_k'], pref_r: hash['pref_r'], point: hash['point'], cities:)
+      end
+
+      # JS: prefectureName(pref) => pref.pref
+      def prefecture_name
+        pref
+      end
+    end
   end
 end

@@ -4,6 +4,9 @@ module JapaneseAddressParser
   VERSION: String
   DEFAULT_LEVEL: Integer
 
-  def self.call: (String address, ?level: Integer) -> Address?
-  def self.call!: (String address, ?level: Integer) -> Address
+  class NormalizeError < ::StandardError
+  end
+
+  def self?.call: (String address, ?level: Integer) -> Address?
+  def self?.call!: (String address, ?level: Integer) -> Address
 end

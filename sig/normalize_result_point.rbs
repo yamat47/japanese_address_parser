@@ -1,5 +1,4 @@
-# Interim signature for the v4.0.0 normalize layer (M5).
-# The full RBS overhaul happens in M9.
+# Signatures for the v4.0.0 normalize layer (M5).
 
 module JapaneseAddressParser
   class NormalizeResultPoint
@@ -8,16 +7,18 @@ module JapaneseAddressParser
     attr_reader level: Integer
 
     def self.new: (lat: Float, lng: Float, level: Integer) -> instance
-    def self.from_lng_lat: ([Float, Float]? point, level: Integer) -> NormalizeResultPoint?
+    def self.from_lng_lat: ([Float, Float] point, level: Integer) -> NormalizeResultPoint
+                          | (nil point, level: Integer) -> nil
+                          | ([Float, Float]? point, level: Integer) -> NormalizeResultPoint?
     def self.normalize_result_point?: (untyped obj) -> bool
     def to_h: () -> Hash[Symbol, untyped]
   end
 
   module ResultPoint
-    def self.prefecture_to_result_point: (Data::SinglePrefecture pref) -> NormalizeResultPoint
-    def self.city_to_result_point: (Data::SingleCity city) -> NormalizeResultPoint
-    def self.machi_aza_to_result_point: (Data::SingleMachiAza machi_aza) -> NormalizeResultPoint?
-    def self.rsdt_or_chiban_to_result_point: (Data::SingleRsdt | Data::SingleChiban input) -> NormalizeResultPoint?
-    def self.upgrade_point: (NormalizeResultPoint? point_a, NormalizeResultPoint? point_b) -> NormalizeResultPoint?
+    def self?.prefecture_to_result_point: (Data::SinglePrefecture pref) -> NormalizeResultPoint
+    def self?.city_to_result_point: (Data::SingleCity city) -> NormalizeResultPoint
+    def self?.machi_aza_to_result_point: (Data::SingleMachiAza machi_aza) -> NormalizeResultPoint?
+    def self?.rsdt_or_chiban_to_result_point: (Data::SingleRsdt | Data::SingleChiban input) -> NormalizeResultPoint?
+    def self?.upgrade_point: (NormalizeResultPoint? point_a, NormalizeResultPoint? point_b) -> NormalizeResultPoint?
   end
 end

@@ -1,8 +1,7 @@
-# Interim signature for the v4.0.0 public value objects (M6).
-# The full RBS overhaul happens in M9.
+# Signatures for the v4.0.0 public value objects (M6).
 #
-# These are `Data.define` value objects, but the bundled RBS (rbs 2.6.0) predates the
-# core `Data` class, so they are declared as plain classes exposing the interface we use.
+# These are `Data.define` value objects, declared as plain classes exposing the
+# interface we use (attr_reader + keyword-argument new).
 
 module JapaneseAddressParser
   class Prefecture

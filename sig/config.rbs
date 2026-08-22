@@ -1,5 +1,4 @@
-# Interim signature for the v4.0.0 config & data-access layer (M3).
-# The full RBS overhaul happens in M9.
+# Signatures for the v4.0.0 config & data-access layer (M3).
 
 module JapaneseAddressParser
   class Config

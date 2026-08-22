@@ -7,29 +7,31 @@
 
 module JapaneseAddressParser
   # 正規化結果の位置情報（EPSG:4326 / WGS84）。level は座標の正確さ（1:県 2:市 3:町字 8:住居表示/地番）。
-  NormalizeResultPoint =
-    ::Data.define(:lat, :lng, :level) do
-      # Ruby 独自の補助コンストラクタ: [lng, lat] 配列（無ければ nil）から VO を作る。
-      # 上流 types.ts の *ToResultPoint は VO の .point を直接受けるため逐語移植のまま残し、
-      # metadata の Hash（[lng, lat] 配列）から組み立てる M6 リッチ VO 層はこのファクトリを共有する。
-      def self.from_lng_lat(point, level:)
-        return if point.nil?
-
-        new(lat: point[1], lng: point[0], level:)
-      end
-
-      # JS: isNormalizeResultPoint(obj) — 任意の値が NormalizeResultPoint の形か検証する type guard。
-      # JS は object のプロパティ存在＋数値型を見る。Ruby では lat/lng/level に応答し、それらが
-      # Numeric かつ level が 1/2/3/8 のいずれか、で判定する（JS↔Ruby のオブジェクトモデル差のため
-      # Hash は対象外＝working_agreement §3-4。挙動は spec に固定する）。
-      def self.normalize_result_point?(obj)
-        return false unless obj.respond_to?(:lat) && obj.respond_to?(:lng) && obj.respond_to?(:level)
-        return false unless obj.lat.is_a?(::Numeric) && obj.lng.is_a?(::Numeric) && obj.level.is_a?(::Numeric)
-
-        [1, 2, 3, 8].include?(obj.level) # JS: validLevels = [1, 2, 3, 8]
-      end
-    end
+  NormalizeResultPoint = ::Data.define(:lat, :lng, :level)
   public_constant :NormalizeResultPoint
+
+  # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
+  class NormalizeResultPoint
+    # Ruby 独自の補助コンストラクタ: [lng, lat] 配列（無ければ nil）から VO を作る。
+    # 上流 types.ts の *ToResultPoint は VO の .point を直接受けるため逐語移植のまま残し、
+    # metadata の Hash（[lng, lat] 配列）から組み立てる M6 リッチ VO 層はこのファクトリを共有する。
+    def self.from_lng_lat(point, level:)
+      return if point.nil?
+
+      new(lat: point[1], lng: point[0], level:)
+    end
+
+    # JS: isNormalizeResultPoint(obj) — 任意の値が NormalizeResultPoint の形か検証する type guard。
+    # JS は object のプロパティ存在＋数値型を見る。Ruby では lat/lng/level に応答し、それらが
+    # Numeric かつ level が 1/2/3/8 のいずれか、で判定する（JS↔Ruby のオブジェクトモデル差のため
+    # Hash は対象外＝working_agreement §3-4。挙動は spec に固定する）。
+    def self.normalize_result_point?(obj)
+      return false unless obj.respond_to?(:lat) && obj.respond_to?(:lng) && obj.respond_to?(:level)
+      return false unless obj.lat.is_a?(::Numeric) && obj.lng.is_a?(::Numeric) && obj.level.is_a?(::Numeric)
+
+      [1, 2, 3, 8].include?(obj.level) # JS: validLevels = [1, 2, 3, 8]
+    end
+  end
 
   # Single* VO（point は [lng, lat]）から NormalizeResultPoint を作る変換ヘルパ群。
   module ResultPoint

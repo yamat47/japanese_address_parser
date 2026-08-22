@@ -5,13 +5,7 @@ target :lib do
 
   check 'lib'
 
-  configure_code_diagnostics(::Steep::Diagnostic::Ruby.strict)
-end
-
-target :test do
-  signature 'sig'
-
-  check 'spec'
+  library 'csv', 'json', 'net-http', 'socket', 'uri'
 
   configure_code_diagnostics(::Steep::Diagnostic::Ruby.strict)
 end

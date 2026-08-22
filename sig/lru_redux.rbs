@@ -1,0 +1,9 @@
+# lru_redux gem には RBS が同梱されておらず gem_rbs_collection にも無いため、
+# 本 gem が使う範囲だけを untyped で最小宣言する。
+module LruRedux
+  class Cache
+    def initialize: (untyped size) -> void
+    def []: (untyped key) -> untyped
+    def []=: (untyped key, untyped value) -> untyped
+  end
+end

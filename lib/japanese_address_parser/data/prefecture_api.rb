@@ -9,13 +9,15 @@ require 'japanese_address_parser/data/single_prefecture'
 module JapaneseAddressParser
   module Data
     # api/ja.json のレスポンス全体（全都道府県＋配下市区町村）。JS の PrefectureApi。
-    PrefectureApi =
-      ::Data.define(:meta, :data) do
-        # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
-        def self.from_json(hash)
-          new(meta: ApiMeta.from_json(hash['meta']), data: (hash['data'] || []).map { |pref| SinglePrefecture.from_json(pref) })
-        end
-      end
+    PrefectureApi = ::Data.define(:meta, :data)
     public_constant :PrefectureApi
+
+    # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
+    class PrefectureApi
+      # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
+      def self.from_json(hash)
+        new(meta: ApiMeta.from_json(hash['meta']), data: (hash['data'] || []).map { |pref| SinglePrefecture.from_json(pref) })
+      end
+    end
   end
 end

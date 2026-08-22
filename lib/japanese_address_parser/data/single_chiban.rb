@@ -6,22 +6,24 @@
 module JapaneseAddressParser
   module Data
     # SingleChiban — 地番（地番1・地番2・地番3）。M8 で CSV 行から生成する。
-    SingleChiban =
-      ::Data.define(:prc_num1, :prc_num2, :prc_num3, :point) do
-        # JS: chibanToString(chiban) => [prc_num1, prc_num2, prc_num3].filter(Boolean).join('-')
-        # JS の filter(Boolean) は falsy（nil・空文字）を除外する。Ruby では空文字は truthy なので
-        # compact だけでは不十分。nil と空文字の両方を除外して忠実に再現する。
-        def chiban_to_string
-          [prc_num1, prc_num2, prc_num3]
-            .reject { |value| value.nil? || value == '' }
-            .join('-')
-        end
-
-        # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
-        def self.from_json(hash)
-          new(prc_num1: hash['prc_num1'], prc_num2: hash['prc_num2'], prc_num3: hash['prc_num3'], point: hash['point'])
-        end
-      end
+    SingleChiban = ::Data.define(:prc_num1, :prc_num2, :prc_num3, :point)
     public_constant :SingleChiban
+
+    # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
+    class SingleChiban
+      # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
+      def self.from_json(hash)
+        new(prc_num1: hash['prc_num1'], prc_num2: hash['prc_num2'], prc_num3: hash['prc_num3'], point: hash['point'])
+      end
+
+      # JS: chibanToString(chiban) => [prc_num1, prc_num2, prc_num3].filter(Boolean).join('-')
+      # JS の filter(Boolean) は falsy（nil・空文字）を除外する。Ruby では空文字は truthy なので
+      # compact だけでは不十分。nil と空文字の両方を除外して忠実に再現する。
+      def chiban_to_string
+        [prc_num1, prc_num2, prc_num3]
+          .reject { |value| value.nil? || value == '' }
+          .join('-')
+      end
+    end
   end
 end

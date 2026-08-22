@@ -16,6 +16,7 @@ module JapaneseAddressParser
       #     return { ...acc, [d.src]: pattern, [d.dst]: pattern }
       #   }, {})
       # 既存キーへの再代入は位置を保って値を更新する（JS object と Ruby Hash で同挙動）。
+      # @type var pattern_map: ::Hash[::String, ::String]
       pattern_map = {}
       Dictionary::DICTIONARY.each do |entry|
         pattern = "(#{entry[:src]}|#{entry[:dst]})"

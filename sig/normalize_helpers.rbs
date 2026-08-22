@@ -1,5 +1,4 @@
-# Interim signature for the v4.0.0 utility layer (M2).
-# The full RBS overhaul happens in M9.
+# Signatures for the v4.0.0 utility layer (M2).
 
 module JapaneseAddressParser
   module NormalizeHelpers
@@ -9,6 +8,6 @@ module JapaneseAddressParser
     BEFORE_KU_GUN: Regexp
     BEFORE_FIRST_NUMBER_DASH: Regexp
 
-    def self.prenormalize: (String input) -> String
+    def self?.prenormalize: (String input) -> String
   end
 end
