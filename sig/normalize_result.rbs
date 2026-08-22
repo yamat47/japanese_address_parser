@@ -1,4 +1,3 @@
-# Signatures for the v4.0.0 normalize layer (M5).
 
 module JapaneseAddressParser
   class NormalizeResultMetadata

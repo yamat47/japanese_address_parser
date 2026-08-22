@@ -5,7 +5,7 @@
 
 module JapaneseAddressParser
   module Data
-    # SingleRsdt — 住居表示住所（街区符号・住居番号・住居番号2）。M8 で CSV 行から生成する。
+    # SingleRsdt — 住居表示住所（街区符号・住居番号・住居番号2）。CSV 行から生成する。
     SingleRsdt = ::Data.define(:blk_num, :rsdt_num, :rsdt_num2, :point)
     public_constant :SingleRsdt
 

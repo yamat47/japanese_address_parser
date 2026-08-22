@@ -14,7 +14,7 @@ module JapaneseAddressParser
     class SingleMachiAza
       # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
       # csv_ranges は `{ "住居表示" => { "start" => Integer, "length" => Integer }, "地番" => {...} }`
-      # の構造をそのまま保持する（M8 で消費する）。
+      # の構造をそのまま保持する（level 8 のデータアクセスで消費する）。
       def self.from_json(hash)
         new(
           machiaza_id: hash['machiaza_id'],

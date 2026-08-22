@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Public value object returned by the v4 API (M6).
+# Public value object returned by the v4 API.
 # Ruby-original enrichment layer over the faithful NormalizeResult (working_agreement §1-3 / rearchitecture §5.2)。
 # JS の NormalizeResult（文字列 pref/city/town）をネストしたリッチ VO に組み替える。
 
@@ -15,7 +15,7 @@ module JapaneseAddressParser
   public_constant :Address
 
   class Address
-    # 内部 NormalizeResult（M5）から公開 Address を組み立てる。
+    # 内部 NormalizeResult から公開 Address を組み立てる。
     def self.from_normalize_result(result)
       metadata = result.metadata
       new(

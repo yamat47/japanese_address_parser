@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# M8 の level 8 データアクセス（fetchSubresource / parseSubresource / getRsdt / getChiban）。
+# level 8 データアクセス（fetchSubresource / parseSubresource / getRsdt / getChiban）。
 # parse は .txt サンプルでオフライン検証、get_rsdt/get_chiban は上流同様ライブ CDN を Range 取得する。
 
 require 'japanese_address_parser/cache_regexes'

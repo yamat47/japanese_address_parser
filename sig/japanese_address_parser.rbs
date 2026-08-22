@@ -1,4 +1,4 @@
-# 公開エントリの型。Address 等の VO は sig/**（旧 sig/v4/**）で定義する。
+# 公開エントリの型。Address 等の VO は sig/** で定義する。
 
 module JapaneseAddressParser
   VERSION: String

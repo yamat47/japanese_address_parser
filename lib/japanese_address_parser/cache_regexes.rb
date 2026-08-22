@@ -2,7 +2,6 @@
 
 # Port of: https://github.com/geolonia/normalize-japanese-addresses/blob/49c1ae4be9d2ba353b86eaf40fd7eb12a1269f3e/src/lib/cacheRegexes.ts
 # Upstream: @geolonia/normalize-japanese-addresses v3.1.3
-#   level 0-3 部分のみ。rsdt/chiban（getRsdt/getChiban/fetchSubresource/parseSubresource）は M8 で実装する。
 
 require 'csv'
 require 'lru_redux'

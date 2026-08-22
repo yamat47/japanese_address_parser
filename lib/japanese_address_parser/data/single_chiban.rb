@@ -5,7 +5,7 @@
 
 module JapaneseAddressParser
   module Data
-    # SingleChiban — 地番（地番1・地番2・地番3）。M8 で CSV 行から生成する。
+    # SingleChiban — 地番（地番1・地番2・地番3）。CSV 行から生成する。
     SingleChiban = ::Data.define(:prc_num1, :prc_num2, :prc_num3, :point)
     public_constant :SingleChiban
 

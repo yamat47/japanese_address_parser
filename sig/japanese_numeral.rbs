@@ -1,5 +1,3 @@
-# Signatures for the v4.0.0 utility layer (M2).
-#
 # `untyped` is used where the upstream JS relies on Number()/undefined coercion that can
 # produce NaN — that union is intentionally left untyped.
 

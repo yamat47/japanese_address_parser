@@ -1,5 +1,3 @@
-# Signatures for the v4.0.0 data model layer (M1).
-#
 # These are `Data.define` value objects, declared as plain classes exposing the
 # interface we use (attr_reader + keyword-argument new).
 

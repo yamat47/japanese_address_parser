@@ -15,7 +15,7 @@ Metrics/BlockLength:
     # v4 の逐語移植では上流 JS の巨大なコールバック（getTownRegexPatterns 等）をそのまま写す。
     - lib/japanese_address_parser/**/*.rb
 
-# v4 リアーキの lib は上流 JS の逐語移植（working_agreement §3）。メソッド構成・
+# v4 の lib は上流 JS（@geolonia/normalize-japanese-addresses）の逐語移植。メソッド構成・
 # 複雑度・モジュール長は移植元 JS に合わせるため、これらの Metrics を v4 では緩める。
 # （from_json のフィールドマッピングや japanese_numeral の漢数字変換ロジック等。）
 Metrics/MethodLength:
@@ -58,13 +58,13 @@ Naming/AccessorMethodName:
   Exclude:
     - lib/japanese_address_parser/**/*.rb
 
-# v4 は正規表現を文字列レベルで逐語コピーする（§3-1）。上流が文字クラス内に
+# v4 は上流 JS の正規表現を文字列レベルで逐語コピーする。上流が文字クラス内に
 # リテラル `|` を含める癖（例: /[都|道|府|県]$/）もそのまま移植するため許容する。
 Lint/DuplicateRegexpCharacterClassElement:
   Exclude:
     - lib/japanese_address_parser/**/*.rb
 
-# 同じく §3-1 の逐語コピーのため、上流の冗長なエスケープ（例: 文字クラス内の `\-`）も
+# 同じく正規表現を逐語コピーするため、上流の冗長なエスケープ（例: 文字クラス内の `\-`）も
 # そのまま写すのを許容する。
 Style/RedundantRegexpEscape:
   Exclude:

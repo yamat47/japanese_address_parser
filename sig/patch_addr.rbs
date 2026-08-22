@@ -1,4 +1,3 @@
-# Signatures for the v4.0.0 utility layer (M2).
 
 module JapaneseAddressParser
   module PatchAddr

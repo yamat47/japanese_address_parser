@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Rich value object exposed by the v4 public API (M6).
+# Rich value object exposed by the v4 public API.
 # Ruby-original enrichment layer over the faithful NormalizeResult (working_agreement §1-3).
 # 供給元: NormalizeResult#metadata.prefecture（Omit<SinglePrefecture, 'cities'> 相当の Hash）。
 

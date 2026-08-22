@@ -2,8 +2,7 @@
 
 # Port of: https://github.com/geolonia/normalize-japanese-addresses/blob/49c1ae4be9d2ba353b86eaf40fd7eb12a1269f3e/src/types.ts
 # Upstream: @geolonia/normalize-japanese-addresses v3.1.3
-#   NormalizeResultPoint と座標変換ヘルパ（rsdtOrChibanToResultPoint は M8、
-#   isNormalizeResultPoint は公開 API 検証とともに M6 で移植する）。
+#   NormalizeResultPoint と座標変換ヘルパ。
 
 module JapaneseAddressParser
   # 正規化結果の位置情報（EPSG:4326 / WGS84）。level は座標の正確さ（1:県 2:市 3:町字 8:住居表示/地番）。
@@ -13,7 +12,7 @@ module JapaneseAddressParser
   class NormalizeResultPoint
     # Ruby 独自の補助コンストラクタ: [lng, lat] 配列（無ければ nil）から VO を作る。
     # 上流 types.ts の *ToResultPoint は VO の .point を直接受けるため逐語移植のまま残し、
-    # metadata の Hash（[lng, lat] 配列）から組み立てる M6 リッチ VO 層はこのファクトリを共有する。
+    # metadata の Hash（[lng, lat] 配列）から組み立てるリッチ VO 層はこのファクトリを共有する。
     def self.from_lng_lat(point, level:)
       return if point.nil?
 
