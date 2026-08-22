@@ -8,8 +8,6 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Added
 
-- [#142](https://github.com/yamat47/japanese_address_parser/pull/142) Ruby 4.0 support (added to the CI matrix)([@yamat47](https://github.com/yamat47))
-
 ### Changed
 
 ### Deprecated
@@ -17,6 +15,21 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 ### Removed
 
 ### Fixed
+
+### Security
+
+## [4.0.1] - 2026-08-22
+
+### Added
+
+- [#149](https://github.com/yamat47/japanese_address_parser/pull/149) Add Trusted Publishing release workflow([@yamat47](https://github.com/yamat47))
+
+### Changed
+
+- [#143](https://github.com/yamat47/japanese_address_parser/pull/143) Bump actions/checkout from 4 to 7([@yamat47](https://github.com/yamat47))
+- [#150](https://github.com/yamat47/japanese_address_parser/pull/150) Group Dependabot updates per ecosystem([@yamat47](https://github.com/yamat47))
+- [#151](https://github.com/yamat47/japanese_address_parser/pull/151) Bump actions/checkout in the github-actions-dependencies group([@yamat47](https://github.com/yamat47))
+- [#152](https://github.com/yamat47/japanese_address_parser/pull/152) Bump the bundler-dependencies group (8 updates) and migrate to RuboCop 1.89 / Steep 2.0([@yamat47](https://github.com/yamat47))
 
 ### Security
 
