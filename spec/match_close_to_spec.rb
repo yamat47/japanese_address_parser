@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 require 'japanese_address_parser/address'
+require 'japanese_address_parser/data/single_city'
 require 'japanese_address_parser/normalize_result'
 require 'japanese_address_parser/normalize_result_point'
-require 'japanese_address_parser/data/single_city'
 require_relative 'support/match_close_to'
 
 # match_close_to マッチャ自体のユニットテスト（ネットワーク不要）。

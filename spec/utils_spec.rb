@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require 'japanese_address_parser/utils'
-require 'japanese_address_parser/data/single_prefecture'
 require 'japanese_address_parser/data/single_machi_aza'
+require 'japanese_address_parser/data/single_prefecture'
+require 'japanese_address_parser/utils'
 
 ::RSpec.describe(::JapaneseAddressParser::Utils) do
   describe '.remove_cities_from_prefecture' do

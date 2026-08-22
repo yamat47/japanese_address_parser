@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
+require 'japanese_address_parser/data/single_machi_aza'
 require 'json'
 require 'pathname'
-require 'japanese_address_parser/data/single_machi_aza'
 
 ::RSpec.describe(::JapaneseAddressParser::Data::SingleMachiAza) do
   let(:fixture) do
@@ -16,7 +16,7 @@ require 'japanese_address_parser/data/single_machi_aza'
   # 3: クネソエ (koaza only, point あり, csv_ranges/rsdt なし)
 
   describe '.from_json' do
-    subject(:machi_aza) { described_class.from_json(entries[0]) }
+    subject(:machi_aza) { described_class.from_json(entries.first) }
 
     it 'maps the scalar fields including the integer chome_n' do
       expect(machi_aza).to(have_attributes(machiaza_id: '0001001', oaza_cho: '神宮前', oaza_cho_k: 'ジングウマエ', oaza_cho_r: 'Jingumae', chome: '一丁目', chome_n: 1, rsdt: true, point: [139.705302, 35.671552]))
@@ -39,7 +39,7 @@ require 'japanese_address_parser/data/single_machi_aza'
 
   describe '#machi_aza_name' do
     it 'joins oaza_cho and chome (JS machiAzaName: oaza_cho + chome + koaza)' do
-      expect(described_class.from_json(entries[0]).machi_aza_name).to(eq('神宮前一丁目'))
+      expect(described_class.from_json(entries.first).machi_aza_name).to(eq('神宮前一丁目'))
     end
 
     it 'returns just the oaza_cho when there is no chome or koaza' do

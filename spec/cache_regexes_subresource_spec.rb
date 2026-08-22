@@ -19,7 +19,7 @@ require 'japanese_address_parser/cache_regexes'
 
       expect(rsdts.map(&:class).uniq).to(eq([::JapaneseAddressParser::Data::SingleRsdt]))
       # 空欄は Ruby の CSV では nil（JS の Papa.parse は '' ）。rsdt_to_string は両方を落とすので挙動は同値。
-      expect(rsdts[0]).to(have_attributes(blk_num: '10', rsdt_num: '8', rsdt_num2: nil, point: [139.697, 35.659]))
+      expect(rsdts.first).to(have_attributes(blk_num: '10', rsdt_num: '8', rsdt_num2: nil, point: [139.697, 35.659]))
       expect(rsdts[1]).to(have_attributes(rsdt_to_string: '1-2-3', point: nil))
     end
 
@@ -32,7 +32,7 @@ require 'japanese_address_parser/cache_regexes'
 
       chibans = described_class.__send__(:parse_subresource, data)
 
-      expect(chibans[0]).to(have_attributes(prc_num1: '100', chiban_to_string: '100', point: [139.7, 35.6]))
+      expect(chibans.first).to(have_attributes(prc_num1: '100', chiban_to_string: '100', point: [139.7, 35.6]))
     end
   end
 

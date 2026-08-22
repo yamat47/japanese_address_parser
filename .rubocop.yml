@@ -1,6 +1,6 @@
 inherit_from: .rubocop_todo.yml
 
-require:
+plugins:
   - rubocop-rake
   - rubocop-rspec
 
@@ -64,6 +64,45 @@ Lint/DuplicateRegexpCharacterClassElement:
   Exclude:
     - lib/japanese_address_parser/**/*.rb
 
+# 同じく §3-1 の逐語コピーのため、上流の冗長なエスケープ（例: 文字クラス内の `\-`）も
+# そのまま写すのを許容する。
+Style/RedundantRegexpEscape:
+  Exclude:
+    - lib/japanese_address_parser/**/*.rb
+
+# v4 は JS の `array[0]` / `a && a.b` / import 順もそのまま写すため lib では緩める。
+Style/ArrayFirstLast:
+  Exclude:
+    - lib/japanese_address_parser/**/*.rb
+
+Style/SafeNavigation:
+  Exclude:
+    - lib/japanese_address_parser/**/*.rb
+
+Style/RequireOrder:
+  Exclude:
+    - lib/japanese_address_parser/**/*.rb
+    - lib/japanese_address_parser.rb
+
+# jis_dai2 の異体字辞書は上流 dict.ts のデータの逐語移植なので許容する。
+Metrics/CollectionLiteralLength:
+  Exclude:
+    - lib/japanese_address_parser/**/*.rb
+
+# Data.define したクラスの再オープン（Steep 対応。クラスメソッドだけを追加するケース）を
+# 「クラスメソッドのみのクラス」と誤認して module 化を提案するため lib では緩める。
+Style/StaticClass:
+  Exclude:
+    - lib/japanese_address_parser/**/*.rb
+
+# キー欠落を黙って nil にせず例外にしたい箇所で Hash#fetch を意図的に使うため無効化する。
+Style/HashLookupMethod:
+  Enabled: false
+
+# 開発依存は従来どおり gemspec で管理する（Gemfile への移行はしない）。
+Gemspec/DevelopmentDependencies:
+  Enabled: false
+
 # contextの記述を日本語で記述するのを許容する。
 RSpec/ContextWording:
   Enabled: false
@@ -74,11 +113,23 @@ RSpec/ExampleLength:
 RSpec/MultipleExpectations:
   Enabled: false
 
-# v4 リアーキの spec は隔離のため spec/v4 配下に置く（クラスの名前空間を
-# そのままパスに写すと spec/japanese_address_parser/v4/... となり隔離できない）。
-RSpec/FilePath:
+# spec は上流テストファイル・ドメイン単位の命名（addresses_spec 等）で、クラスの
+# 名前空間をパスに写さない（spec/japanese_address_parser/... 形式にしない）ため無効化。
+RSpec/SpecFilePathFormat:
   Exclude:
     - spec/**/*_spec.rb
+
+# addresses_spec は上流 addresses.test.ts の逐語移植で、CSV の行ごとに describe 直下で
+# 期待値を組み立てて example を生成するデータ駆動形式のため、この cop の警告対象になる。
+# 各変数はイテレーションごとに束縛され example 実行前に変更されないのでリークしない。
+RSpec/LeakyLocalVariable:
+  Exclude:
+    - spec/addresses_spec.rb
+
+# level1 / level3 の数字は位置情報レベル（level: 1 / 3）というドメインの値を指すため許容する。
+RSpec/IndexedLet:
+  Exclude:
+    - spec/normalize_result_point_spec.rb
 
 # filesystem_api_spec は CDN から tmpdir へ一度だけ DL するため before/after(:context) を使う。
 # 状態（Config / モジュールキャッシュ）は around で example ごとに復元・reset し、tmpdir は
