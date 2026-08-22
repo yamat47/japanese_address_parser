@@ -12,7 +12,6 @@ module JapaneseAddressParser
   Town = ::Data.define(:name, :machiaza_id, :chome, :chome_n, :koaza, :point)
   public_constant :Town
 
-  # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
   class Town
     # metadata.machi_aza（csv_ranges を除いた Hash・Symbol キー）から VO を作る。town 未判別なら nil。
     # point（level 3 代表点）は町字によっては存在しないため from_lng_lat が nil を返す。

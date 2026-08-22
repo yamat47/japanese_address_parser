@@ -11,7 +11,6 @@ module JapaneseAddressParser
     SinglePrefecture = ::Data.define(:code, :pref, :pref_k, :pref_r, :point, :cities)
     public_constant :SinglePrefecture
 
-    # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
     class SinglePrefecture
       # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
       def self.from_json(hash)

@@ -11,7 +11,6 @@ module JapaneseAddressParser
     SingleMachiAza = ::Data.define(:machiaza_id, :oaza_cho, :oaza_cho_k, :oaza_cho_r, :chome, :chome_n, :koaza, :koaza_k, :koaza_r, :rsdt, :point, :csv_ranges)
     public_constant :SingleMachiAza
 
-    # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
     class SingleMachiAza
       # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
       # csv_ranges は `{ "住居表示" => { "start" => Integer, "length" => Integer }, "地番" => {...} }`

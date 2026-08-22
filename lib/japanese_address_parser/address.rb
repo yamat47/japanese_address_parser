@@ -14,7 +14,6 @@ module JapaneseAddressParser
   Address = ::Data.define(:full_address, :prefecture, :city, :town, :addr, :other, :point, :level, :metadata)
   public_constant :Address
 
-  # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
   class Address
     # 内部 NormalizeResult（M5）から公開 Address を組み立てる。
     def self.from_normalize_result(result)

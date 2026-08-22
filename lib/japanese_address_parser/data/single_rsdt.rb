@@ -9,7 +9,6 @@ module JapaneseAddressParser
     SingleRsdt = ::Data.define(:blk_num, :rsdt_num, :rsdt_num2, :point)
     public_constant :SingleRsdt
 
-    # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
     class SingleRsdt
       # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
       def self.from_json(hash)

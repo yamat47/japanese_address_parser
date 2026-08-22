@@ -12,7 +12,6 @@ module JapaneseAddressParser
     MachiAzaApi = ::Data.define(:meta, :data)
     public_constant :MachiAzaApi
 
-    # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
     class MachiAzaApi
       # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
       def self.from_json(hash)

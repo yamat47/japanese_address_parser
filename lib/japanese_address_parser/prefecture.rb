@@ -11,7 +11,6 @@ module JapaneseAddressParser
   Prefecture = ::Data.define(:name, :code, :name_kana, :name_romaji, :point)
   public_constant :Prefecture
 
-  # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
   class Prefecture
     # metadata.prefecture（cities を除いた Hash・Symbol キー）から VO を作る。pref 未判別なら nil。
     # point（level 1 代表点）は都道府県データに必ず存在する（from_lng_lat は nil 受けも安全）。

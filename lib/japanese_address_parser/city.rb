@@ -11,7 +11,6 @@ module JapaneseAddressParser
   City = ::Data.define(:name, :code, :county, :ward, :name_kana, :name_romaji, :point)
   public_constant :City
 
-  # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
   class City
     # metadata.city（SingleCity VO）から VO を作る。city 未判別なら nil。
     def self.from_metadata(city)

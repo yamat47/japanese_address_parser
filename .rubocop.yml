@@ -95,6 +95,16 @@ Style/StaticClass:
   Exclude:
     - lib/japanese_address_parser/**/*.rb
 
+# Data.define したクラスの再オープンにも別途のドキュメントコメントを要求するため lib では
+# 緩める（VO の説明は定数代入側にある）。merge 指定は .rubocop_todo.yml 側の Exclude を
+# 上書きせず追記するため。
+Style/Documentation:
+  inherit_mode:
+    merge:
+      - Exclude
+  Exclude:
+    - lib/japanese_address_parser/**/*.rb
+
 # キー欠落を黙って nil にせず例外にしたい箇所で Hash#fetch を意図的に使うため無効化する。
 Style/HashLookupMethod:
   Enabled: false

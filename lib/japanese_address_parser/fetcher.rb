@@ -19,7 +19,6 @@ module JapaneseAddressParser
     Response = ::Data.define(:body, :ok)
     public_constant :Response
 
-    # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
     class Response
       # JS: json: async () => JSON.parse(contents.toString('utf-8'))
       def json

@@ -12,7 +12,6 @@ module JapaneseAddressParser
     PrefectureApi = ::Data.define(:meta, :data)
     public_constant :PrefectureApi
 
-    # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
     class PrefectureApi
       # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
       def self.from_json(hash)

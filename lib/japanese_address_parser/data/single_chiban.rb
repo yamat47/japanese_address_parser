@@ -9,7 +9,6 @@ module JapaneseAddressParser
     SingleChiban = ::Data.define(:prc_num1, :prc_num2, :prc_num3, :point)
     public_constant :SingleChiban
 
-    # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
     class SingleChiban
       # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
       def self.from_json(hash)

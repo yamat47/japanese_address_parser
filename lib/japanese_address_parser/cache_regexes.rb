@@ -26,7 +26,6 @@ module JapaneseAddressParser
     TownAlias = ::Data.define(:machiaza_id, :point, :oaza_cho, :original_town)
     public_constant :TownAlias
 
-    # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
     class TownAlias
       # JS: machiAzaName(town) 相当。エイリアスは oaza_cho（町を除いた名前）のみを持つ。
       def machi_aza_name
@@ -256,7 +255,7 @@ module JapaneseAddressParser
       # JS: firstLineEnd = data.indexOf('\n')（未検出は -1）; rest = data.slice(firstLineEnd + 1)
       first_line_end = data.index("\n") || -1
       rest = data[(first_line_end + 1)..].to_s
-      rows = _ = ::CSV.parse(rest, headers: true) # RBS の CSV.parse は headers: true の CSV::Table 返しを表現しないため untyped で受ける
+      rows = _ = ::CSV.parse(rest, headers: true)
       rows.filter_map do |row|
         point = point_from(row['lng'], row['lat'])
         if row.headers.include?('blk_num') # JS: 'blk_num' in line

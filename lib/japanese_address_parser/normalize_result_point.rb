@@ -10,7 +10,6 @@ module JapaneseAddressParser
   NormalizeResultPoint = ::Data.define(:lat, :lng, :level)
   public_constant :NormalizeResultPoint
 
-  # Data.define のブロック内は Steep が self を型付けできないため、メソッドはクラスを再オープンして定義する。
   class NormalizeResultPoint
     # Ruby 独自の補助コンストラクタ: [lng, lat] 配列（無ければ nil）から VO を作る。
     # 上流 types.ts の *ToResultPoint は VO の .point を直接受けるため逐語移植のまま残し、
