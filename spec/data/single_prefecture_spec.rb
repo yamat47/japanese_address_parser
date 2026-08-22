@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
+require 'japanese_address_parser/data/single_prefecture'
 require 'json'
 require 'pathname'
-require 'japanese_address_parser/data/single_prefecture'
 
 ::RSpec.describe(::JapaneseAddressParser::Data::SinglePrefecture) do
   let(:fixture) do

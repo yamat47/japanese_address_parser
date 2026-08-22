@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require 'japanese_address_parser/normalize_result_point'
-require 'japanese_address_parser/data/single_prefecture'
 require 'japanese_address_parser/data/single_city'
 require 'japanese_address_parser/data/single_machi_aza'
+require 'japanese_address_parser/data/single_prefecture'
+require 'japanese_address_parser/normalize_result_point'
 
 ::RSpec.describe(::JapaneseAddressParser::ResultPoint) do
   # point は [lng, lat]。NormalizeResultPoint は lat/lng/level を持つ（level は座標の正確さ）。

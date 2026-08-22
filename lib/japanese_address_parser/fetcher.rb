@@ -16,19 +16,20 @@ module JapaneseAddressParser
   module Fetcher
     # 取得結果。JS の FetchResponseLike `{ json(), text(), ok }` に対応する。
     # body は UTF-8 の生文字列、ok は取得成功フラグ。
-    Response =
-      ::Data.define(:body, :ok) do
-        # JS: json: async () => JSON.parse(contents.toString('utf-8'))
-        def json
-          ::JSON.parse(body)
-        end
-
-        # JS: text: async () => contents.toString('utf-8')
-        def text
-          body
-        end
-      end
+    Response = ::Data.define(:body, :ok)
     public_constant :Response
+
+    class Response
+      # JS: json: async () => JSON.parse(contents.toString('utf-8'))
+      def json
+        ::JSON.parse(body)
+      end
+
+      # JS: text: async () => contents.toString('utf-8')
+      def text
+        body
+      end
+    end
 
     # User-Agent のコメント部で自己申告する本 gem の homepage。
     HOMEPAGE_URL = 'https://github.com/yamat47/japanese_address_parser'
@@ -84,7 +85,7 @@ module JapaneseAddressParser
       request['Range'] = "bytes=#{offset}-#{offset + length - 1}" unless offset.nil? || length.nil?
 
       response =
-        ::Net::HTTP.start(uri.hostname, uri.port, use_ssl: uri.is_a?(::URI::HTTPS)) do |http|
+        ::Net::HTTP.start(uri.hostname.to_s, uri.port, use_ssl: uri.is_a?(::URI::HTTPS)) do |http|
           http.request(request)
         end
 

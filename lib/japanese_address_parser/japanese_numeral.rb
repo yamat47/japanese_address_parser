@@ -152,6 +152,7 @@ module JapaneseAddressParser
     # 進める（ECMAScript の lastIndex 前進と同じ）。
     def ecmascript_global_match(text, pattern)
       anchored = ::Regexp.new("\\A(?:#{pattern})\\z")
+      # @type var matches: ::Array[::String]
       matches = []
       position = 0
       while position <= text.length
@@ -187,6 +188,7 @@ module JapaneseAddressParser
     # JS: splitLargeNumber(japanese) — 漢数字を兆・億・万単位に分割する
     def split_large_number(japanese)
       kanji = japanese
+      # @type var numbers: ::Hash[::String, ::Integer]
       numbers = {}
       LARGE_NUMBERS.each_key do |key|
         match = kanji.match(::Regexp.new("(.+)#{key}"))

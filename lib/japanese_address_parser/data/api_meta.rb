@@ -7,13 +7,14 @@ module JapaneseAddressParser
   module Data
     # API レスポンスの meta。`updated` はデータの更新時刻で、町字/サブリソース取得時の
     # `?v={apiVersion}` に使う（キャッシュバスティング）。
-    ApiMeta =
-      ::Data.define(:updated) do
-        # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
-        def self.from_json(hash)
-          new(updated: hash['updated'])
-        end
-      end
+    ApiMeta = ::Data.define(:updated)
     public_constant :ApiMeta
+
+    class ApiMeta
+      # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
+      def self.from_json(hash)
+        new(updated: hash['updated'])
+      end
+    end
   end
 end

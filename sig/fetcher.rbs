@@ -1,5 +1,3 @@
-# Interim signature for the v4.0.0 config & data-access layer (M3).
-# The full RBS overhaul happens in M9.
 
 module JapaneseAddressParser
   module Fetcher
@@ -14,11 +12,12 @@ module JapaneseAddressParser
       def text: () -> String
     end
 
+    HOMEPAGE_URL: String
     USER_AGENT: String
 
-    def self.fetch: (String input, ?offset: Integer?, ?length: Integer?) -> Response
-    def self.http_request: (String url, Integer? offset, Integer? length) -> Response
-    def self.read_file: (String path, Integer? offset, Integer? length) -> Response
-    def self.strip_query: (String path) -> String
+    def self?.fetch: (String input, ?offset: Integer?, ?length: Integer?) -> Response
+    def self?.http_request: (String url, Integer? offset, Integer? length) -> Response
+    def self?.read_file: (String path, Integer? offset, Integer? length) -> Response
+    def self?.strip_query: (String path) -> String
   end
 end

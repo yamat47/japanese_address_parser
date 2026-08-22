@@ -23,7 +23,7 @@ require_relative 'support/match_close_to'
   presence = ->(value) { value.to_s.empty? ? nil : value }
 
   rows.drop(1).each do |row|
-    address = row[0].to_s
+    address = row.first.to_s
     expected_level = Integer(row[6].to_s, 10)
     test_name = row[9].to_s.empty? ? address : "#{address} (#{row[9]})"
 

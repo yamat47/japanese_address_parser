@@ -1,8 +1,5 @@
-# Interim signature for the v4.0.0 utility layer (M2).
-# The full RBS overhaul happens in M9; this keeps `steep check` green in the meantime.
-#
 # `untyped` is used where the upstream JS relies on Number()/undefined coercion that can
-# produce NaN — modelling that union precisely is deferred to M9.
+# produce NaN — that union is intentionally left untyped.
 
 module JapaneseAddressParser
   module JapaneseNumeral
@@ -13,17 +10,17 @@ module JapaneseAddressParser
     LARGE_NUMBERS: Hash[String, Integer]
     SMALL_NUMBERS: Hash[String, Integer]
 
-    def self.kanji2number: (String japanese) -> Integer
-    def self.number2kanji: (untyped num) -> String
-    def self.find_kanji_numbers: (String text) -> Array[String]
+    def self?.kanji2number: (String japanese) -> Integer
+    def self?.number2kanji: (untyped num) -> String
+    def self?.find_kanji_numbers: (String text) -> Array[String]
 
-    def self.ecmascript_global_match: (String text, String pattern) -> Array[String]
-    def self.normalize: (String japanese) -> String
-    def self.split_large_number: (String japanese) -> Hash[String, untyped]
-    def self.kan2n: (String japanese) -> untyped
-    def self.n2kan: (Integer num) -> String
-    def self.zen2han: (String str) -> String
-    def self.js_number: (String str) -> untyped
-    def self.js_truthy?: (untyped value) -> bool
+    def self?.ecmascript_global_match: (String text, String pattern) -> Array[String]
+    def self?.normalize: (String japanese) -> String
+    def self?.split_large_number: (String japanese) -> Hash[String, untyped]
+    def self?.kan2n: (String japanese) -> untyped
+    def self?.n2kan: (Integer num) -> String
+    def self?.zen2han: (String str) -> String
+    def self?.js_number: (String str) -> untyped
+    def self?.js_truthy?: (untyped value) -> bool
   end
 end

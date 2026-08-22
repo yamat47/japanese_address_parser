@@ -2,10 +2,8 @@
 
 # Port of: https://github.com/geolonia/normalize-japanese-addresses/blob/49c1ae4be9d2ba353b86eaf40fd7eb12a1269f3e/src/lib/cacheRegexes.ts
 # Upstream: @geolonia/normalize-japanese-addresses v3.1.3
-#   level 0-3 部分のみ。rsdt/chiban（getRsdt/getChiban/fetchSubresource/parseSubresource）は M8 で実装する。
 
 require 'csv'
-require 'set'
 require 'lru_redux'
 require 'japanese_address_parser/config'
 require 'japanese_address_parser/fetcher'
@@ -24,14 +22,15 @@ module JapaneseAddressParser
   module CacheRegexes
     # 「○○町」の省略エイリアス。JS では SingleMachiAza に originalTown を生やした部分オブジェクト。
     # machi_aza_name は oaza_cho（町を除いた名前）を返す（chome/koaza は持たない）。
-    TownAlias =
-      ::Data.define(:machiaza_id, :point, :oaza_cho, :original_town) do
-        # JS: machiAzaName(town) 相当。エイリアスは oaza_cho（町を除いた名前）のみを持つ。
-        def machi_aza_name
-          oaza_cho
-        end
-      end
+    TownAlias = ::Data.define(:machiaza_id, :point, :oaza_cho, :original_town)
     public_constant :TownAlias
+
+    class TownAlias
+      # JS: machiAzaName(town) 相当。エイリアスは oaza_cho（町を除いた名前）のみを持つ。
+      def machi_aza_name
+        oaza_cho
+      end
+    end
 
     module_function
 
@@ -67,7 +66,8 @@ module JapaneseAddressParser
 
     # JS: getPrefectures()
     def get_prefectures
-      return @cached_prefectures unless @cached_prefectures.nil?
+      cached = @cached_prefectures
+      return cached unless cached.nil?
 
       response = Fetcher.fetch('.json') # ja.json
       cache_prefectures(Data::PrefectureApi.from_json(response.json))
@@ -80,7 +80,8 @@ module JapaneseAddressParser
 
     # JS: getPrefectureRegexPatterns(api)
     def get_prefecture_regex_patterns(api)
-      return @cached_prefecture_patterns if @cached_prefecture_patterns
+      cached = @cached_prefecture_patterns
+      return cached if cached
 
       @cached_prefecture_patterns =
         api.data.map do |pref|
@@ -137,6 +138,7 @@ module JapaneseAddressParser
         api = get_towns(pref, city, api_version)
         pre_towns = api.data
         town_set = ::Set.new(pre_towns.map(&:machi_aza_name))
+        # @type var towns: ::Array[Data::SingleMachiAza | TownAlias]
         towns = []
 
         is_kyoto = city.city == '京都市'
@@ -163,6 +165,8 @@ module JapaneseAddressParser
         # JS: towns.sort((a, b) => bLen - aLen)（大字始まりは優先度を下げる）— 文字数の降順に安定ソート
         towns = stable_sort_by(towns) { |town| -town_sort_length(town) }
 
+        # 後段の丁目ループは TownAlias を元 VO に剥がさずそのまま追加する（JS と同挙動）。
+        # @type var patterns: ::Array[[Data::SingleMachiAza | TownAlias, ::String]]
         patterns =
           towns.map do |town|
             pattern = Dict.to_regex_pattern(town_pattern_source(town.machi_aza_name))
@@ -190,12 +194,14 @@ module JapaneseAddressParser
 
     # JS: getSameNamedPrefectureCityRegexPatterns(prefApi)
     def get_same_named_prefecture_city_regex_patterns(pref_api)
-      return @cached_same_named_prefecture_city_regex_patterns unless @cached_same_named_prefecture_city_regex_patterns.nil?
+      cached = @cached_same_named_prefecture_city_regex_patterns
+      return cached unless cached.nil?
 
       pref_list = pref_api.data
       # JS: pref.pref.replace(/[都|道|府|県]$/, '') — 文字クラス（| も含む）は上流のまま（$ → \z）
       prefs = pref_list.map { |pref| pref.pref.sub(/[都|道|府|県]\z/, '') }
 
+      # @type var patterns: ::Array[[::String, ::String]]
       patterns = []
       pref_list.each do |pref|
         pref.cities.each do |city|
@@ -248,7 +254,8 @@ module JapaneseAddressParser
       # JS: firstLineEnd = data.indexOf('\n')（未検出は -1）; rest = data.slice(firstLineEnd + 1)
       first_line_end = data.index("\n") || -1
       rest = data[(first_line_end + 1)..].to_s
-      ::CSV.parse(rest, headers: true).filter_map do |row|
+      rows = _ = ::CSV.parse(rest, headers: true)
+      rows.filter_map do |row|
         point = point_from(row['lng'], row['lat'])
         if row.headers.include?('blk_num') # JS: 'blk_num' in line
           Data::SingleRsdt.new(blk_num: row['blk_num'], rsdt_num: row['rsdt_num'], rsdt_num2: row['rsdt_num2'], point:)
@@ -296,7 +303,7 @@ module JapaneseAddressParser
       x_cho = target_town_name.scan(/.町/) # JS: match(/.町/g)
       return false if x_cho.empty?
 
-      !JapaneseNumeral.find_kanji_numbers(x_cho[0]).empty?
+      !JapaneseNumeral.find_kanji_numbers(x_cho[0].to_s).empty?
     end
 
     # JS: getTownRegexPatterns 内の machiAzaName(town).replace(...) チェーン（toRegexPattern へ渡す前段）。
@@ -314,6 +321,7 @@ module JapaneseAddressParser
     # JS: getTownRegexPatterns 内の数字パターン展開コールバック。
     def expand_town_number(match)
       suffix = /(丁目?|番(町|丁)|条|軒|線|(の|ノ)町|地割|号)/
+      # @type var patterns: ::Array[::String]
       patterns = []
       patterns << match.sub(suffix, '') # 漢数字（接尾辞を除く）
 

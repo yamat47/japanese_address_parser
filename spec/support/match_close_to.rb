@@ -33,7 +33,7 @@ module MatchCloseToHelper
   def close?(actual, expected, decimals)
     return false unless actual.is_a?(::Numeric) && expected.is_a?(::Numeric)
 
-    (actual - expected).abs <= (0.5 * (10**-decimals))
+    (actual - expected).abs <= ((10**-decimals) * 0.5)
   end
 
   # 不一致キーの説明文配列を返す（空なら一致）。

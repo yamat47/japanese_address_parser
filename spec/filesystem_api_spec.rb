@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
+require 'fileutils'
+require 'japanese_address_parser'
+require 'japanese_address_parser/cache_regexes'
 # Port of test/main/filesystem-api.test.ts。CDN から tmpdir に落とし file:// で読む経路を検証する。
 # RSpec は 1 プロセス共有なので、Config 切替の前後で CacheRegexes.reset! してキャッシュを分離する
 # （JS は test ファイルごとに別プロセスでモジュール状態が新鮮になる。それに相当する）。
 
 require 'tmpdir'
-require 'fileutils'
-require 'japanese_address_parser'
-require 'japanese_address_parser/cache_regexes'
 require_relative 'support/match_close_to'
 
 ::RSpec.describe(::JapaneseAddressParser, :upstream_port) do

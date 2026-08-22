@@ -1,5 +1,3 @@
-# Interim signature for the v4.0.0 utility layer (M2).
-# The full RBS overhaul happens in M9.
 
 module JapaneseAddressParser
   module Dictionaries
@@ -15,7 +13,7 @@ module JapaneseAddressParser
       PATTERN_MAP: Hash[String, String]
       REGEXP: Regexp
 
-      def self.call: (String regex_text) -> String
+      def self?.call: (String regex_text) -> String
     end
   end
 end

@@ -8,31 +8,32 @@ module JapaneseAddressParser
     # SingleCity — api/ja.json の cities 要素（政令市の場合は区で区切られる）。
     # `::Data.define`（先頭 `::` は名前空間 JapaneseAddressParser::Data 内で
     # トップレベル定数 ::Data を指すために必須）。
-    SingleCity =
-      ::Data.define(:code, :county, :county_k, :county_r, :city, :city_k, :city_r, :ward, :ward_k, :ward_r, :point) do
-        # JS: cityName(city) => `${city.county || ''}${city.city}${city.ward || ''}`
-        # nil の補間は Ruby では空文字になるため `|| ''` 相当。
-        def city_name
-          "#{county}#{city}#{ward}"
-        end
-
-        # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
-        def self.from_json(hash)
-          new(
-            code: hash['code'],
-            county: hash['county'],
-            county_k: hash['county_k'],
-            county_r: hash['county_r'],
-            city: hash['city'],
-            city_k: hash['city_k'],
-            city_r: hash['city_r'],
-            ward: hash['ward'],
-            ward_k: hash['ward_k'],
-            ward_r: hash['ward_r'],
-            point: hash['point']
-          )
-        end
-      end
+    SingleCity = ::Data.define(:code, :county, :county_k, :county_r, :city, :city_k, :city_r, :ward, :ward_k, :ward_r, :point)
     public_constant :SingleCity
+
+    class SingleCity
+      # JSON（パース済み Hash・文字列キー）から VO を生成する Ruby 独自ヘルパ。
+      def self.from_json(hash)
+        new(
+          code: hash['code'],
+          county: hash['county'],
+          county_k: hash['county_k'],
+          county_r: hash['county_r'],
+          city: hash['city'],
+          city_k: hash['city_k'],
+          city_r: hash['city_r'],
+          ward: hash['ward'],
+          ward_k: hash['ward_k'],
+          ward_r: hash['ward_r'],
+          point: hash['point']
+        )
+      end
+
+      # JS: cityName(city) => `${city.county || ''}${city.city}${city.ward || ''}`
+      # nil の補間は Ruby では空文字になるため `|| ''` 相当。
+      def city_name
+        "#{county}#{city}#{ward}"
+      end
+    end
   end
 end
