@@ -18,6 +18,12 @@ Change Log の形式は [Keep a Changelog](http://keepachangelog.com/) に従い
 
 ### Security
 
+## [4.0.2] - 2026-10-20
+
+### Changed
+
+- [#155](https://github.com/yamat47/japanese_address_parser/pull/155) Bump the bundler-dependencies group (3 updates)([@yamat47](https://github.com/yamat47))
+
 ## [4.0.1] - 2026-08-22
 
 ### Added
